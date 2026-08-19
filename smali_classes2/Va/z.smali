@@ -21,7 +21,7 @@
 
     sget-wide v1, LCf/b;->c:J
 
-    const-string v3, ") OR (contact_account_type not null) OR (dtend is null))"
+    const-string v3, ") OR (dtend is null))"
 
     invoke-static {v1, v2, v3, v0}, LU0/d;->j(JLjava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
 

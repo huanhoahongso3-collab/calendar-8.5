@@ -1089,7 +1089,7 @@
 
     const/4 v4, 0x0
 
-    const-string v5, "secTimeStamp DESC LIMIT 1"
+    const-string v5, "dtstart DESC LIMIT 1"
 
     invoke-static/range {v0 .. v5}, Lmb/s;->G(Landroid/content/ContentResolver;Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Lhk/l;
 

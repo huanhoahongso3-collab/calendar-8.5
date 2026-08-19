@@ -4095,10 +4095,13 @@
 
     move-result v0
 
+    if-ltz v0, :cond_no_sec_ts
+
     invoke-interface {v3, v0}, Landroid/database/Cursor;->getLong(I)J
 
     move-result-wide v7
 
+    :cond_no_sec_ts
     iput-wide v7, v2, LFg/m;->Z0:J
 
     const-string v0, "duration"
