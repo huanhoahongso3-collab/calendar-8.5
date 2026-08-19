@@ -534,110 +534,11 @@
 .end method
 
 .method public static k(Landroid/content/Context;)Z
-    .locals 5
+    .locals 0
 
-    const/4 v0, 0x0
-
-    if-nez p0, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    invoke-virtual {p0}, Landroid/content/Context;->getDisplay()Landroid/view/Display;
-
-    move-result-object v1
-
-    const-string v2, "getDisplay(...)"
-
-    invoke-static {v1, v2}, Lkotlin/jvm/internal/k;->d(Ljava/lang/Object;Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Landroid/view/Display;->getDisplayId()I
-
-    move-result v2
-
-    new-instance v3, Ljava/lang/StringBuilder;
-
-    const-string v4, "isDesktopWindowing called, displayId : "
-
-    invoke-direct {v3, v4}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v3, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v3}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    const-string v3, "DexHelper"
-
-    invoke-static {v3, v2}, LXd/d;->e(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-virtual {v1}, Landroid/view/Display;->getDisplayId()I
-
-    move-result v2
-
-    const/4 v3, -0x1
-
-    if-eq v2, v3, :cond_3
-
-    invoke-virtual {v1}, Landroid/view/Display;->getDisplayId()I
-
-    move-result v1
-
-    if-nez v1, :cond_1
-
-    goto :goto_0
-
-    :cond_1
-    const-string v1, "display"
-
-    invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
-
-    move-result-object p0
-
-    const-string v1, "null cannot be cast to non-null type android.hardware.display.DisplayManager"
-
-    invoke-static {p0, v1}, Lkotlin/jvm/internal/k;->c(Ljava/lang/Object;Ljava/lang/String;)V
-
-    check-cast p0, Landroid/hardware/display/DisplayManager;
-
-    invoke-virtual {p0}, Landroid/hardware/display/DisplayManager;->getDisplays()[Landroid/view/Display;
-
-    move-result-object p0
-
-    invoke-static {p0}, Lkotlin/jvm/internal/k;->h([Ljava/lang/Object;)Lkotlin/jvm/internal/a;
-
-    move-result-object p0
-
-    :cond_2
-    invoke-virtual {p0}, Lkotlin/jvm/internal/a;->hasNext()Z
-
-    move-result v1
-
-    if-eqz v1, :cond_3
-
-    invoke-virtual {p0}, Lkotlin/jvm/internal/a;->next()Ljava/lang/Object;
-
-    move-result-object v1
-
-    check-cast v1, Landroid/view/Display;
-
-    invoke-virtual {v1}, Landroid/view/Display;->getFlags()I
-
-    move-result v1
-
-    const/high16 v2, 0x20000
-
-    and-int/2addr v1, v2
-
-    if-eqz v1, :cond_2
-
-    const/4 p0, 0x1
+    const/4 p0, 0x0
 
     return p0
-
-    :cond_3
-    :goto_0
-    return v0
 .end method
 
 .method public static final l(Landroid/content/Context;)Z

@@ -1284,80 +1284,15 @@
 .end method
 
 .method public static R(Landroid/content/Context;)Ljava/lang/Integer;
-    .locals 6
-
-    invoke-virtual {p0}, Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
-
-    move-result-object v0
-
-    sget-object v1, Lhf/j;->a:Landroid/net/Uri;
-
-    const-string p0, "_id"
-
-    filled-new-array {p0}, [Ljava/lang/String;
-
-    move-result-object v2
-
-    const/4 v4, 0x0
-
-    const/4 v5, 0x0
-
-    const-string v3, "restored = 0 AND deleted = 0 AND eventTimezone is not null AND eventTimezone != \'\' AND NOT ((title is null OR title = \'\') AND account_type = \'com.google\' AND callingPackage != \'com.samsung.android.calendar\') AND NOT (eventStatus != 2 AND original_id is not null AND original_id > 0) AND account_type!=\'com.sds.mms.agent.emmpush\'"
-
-    invoke-virtual/range {v0 .. v5}, Landroid/content/ContentResolver;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
-
-    move-result-object p0
-
-    if-nez p0, :cond_0
+    .locals 1
 
     const/4 v0, 0x0
 
-    goto :goto_0
-
-    :cond_0
-    :try_start_0
-    invoke-interface {p0}, Landroid/database/Cursor;->getCount()I
-
-    move-result v0
-
-    :goto_0
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
-    :try_end_0
-    .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    if-eqz p0, :cond_1
-
-    invoke-interface {p0}, Landroid/database/Cursor;->close()V
-
-    :cond_1
     return-object v0
-
-    :catchall_0
-    move-exception v0
-
-    move-object v1, v0
-
-    if-eqz p0, :cond_2
-
-    :try_start_1
-    invoke-interface {p0}, Landroid/database/Cursor;->close()V
-    :try_end_1
-    .catchall {:try_start_1 .. :try_end_1} :catchall_1
-
-    goto :goto_1
-
-    :catchall_1
-    move-exception v0
-
-    move-object p0, v0
-
-    invoke-virtual {v1, p0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
-
-    :cond_2
-    :goto_1
-    throw v1
 .end method
 
 .method public static S(Landroid/content/Context;)LUj/d;

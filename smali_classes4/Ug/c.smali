@@ -832,11 +832,11 @@
     if-nez p4, :cond_3
 
     :cond_2
-    iget p1, p0, Landroid/app/Notification;->semFlags:I
+    nop
 
-    or-int/lit16 p1, p1, 0x100
+    nop
 
-    iput p1, p0, Landroid/app/Notification;->semFlags:I
+    nop
 
     :cond_3
     :goto_0
@@ -844,13 +844,7 @@
 .end method
 
 .method public static p(Landroid/app/Notification;)V
-    .locals 1
-
-    iget v0, p0, Landroid/app/Notification;->semFlags:I
-
-    or-int/lit16 v0, v0, 0x100
-
-    iput v0, p0, Landroid/app/Notification;->semFlags:I
+    .locals 0
 
     return-void
 .end method
@@ -1450,6 +1444,8 @@
     invoke-virtual {p0, v0}, Landroid/app/NotificationManager;->getNotificationChannel(Ljava/lang/String;)Landroid/app/NotificationChannel;
 
     move-result-object p0
+
+    if-eqz p0, :cond_3
 
     invoke-virtual {p0}, Landroid/app/NotificationChannel;->getImportance()I
 

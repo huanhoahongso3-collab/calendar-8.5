@@ -305,15 +305,19 @@
 
     if-eqz v2, :cond_7
 
-    invoke-virtual {p1}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+    nop
 
-    move-result-object v2
+    nop
 
-    invoke-virtual {v4, v2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+    nop
 
-    move-result v2
+    nop
 
-    if-eqz v2, :cond_7
+    nop
+
+    nop
+
+    nop
 
     invoke-virtual {p1, v7, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;J)Landroid/content/Intent;
 
