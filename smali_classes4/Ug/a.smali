@@ -45,13 +45,15 @@
 
     if-nez v1, :cond_1
 
-    const-string p0, "SamsungCalendarNoti"
+    nop
 
-    const-string p1, "soundUri is null"
+    nop
 
-    invoke-static {p0, p1}, LXd/d;->b(Ljava/lang/String;Ljava/lang/String;)V
+    nop
 
-    return-void
+    nop
+
+    goto :cond_1
 
     :cond_1
     new-instance v2, Landroid/app/NotificationChannel;
