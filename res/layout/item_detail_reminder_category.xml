@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/reminder_category_container" android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:paddingStart="@dimen/edit_card_common_content_padding_start" android:paddingEnd="@dimen/edit_card_common_content_text_button_padding_end">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="?seslLargeTouchAnimator">
+            <ImageView android:id="@id/reminder_category_icon" android:src="@drawable/reminder_00" android:tint="@null" android:importantForAccessibility="no" style="@style/EditCardIconStyle" />
+            <TextView android:textColor="@color/common_list_main_text_color" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/reminder_category_text" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/string_my_reminders" android:maxLines="1" android:layout_weight="1.0" android:contentDescription="@string/add_files" style="@style/EditEventTextFieldStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

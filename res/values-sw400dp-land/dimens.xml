@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calendar_tablet_full_screen_alarm_single_line_title_top_margin">21.0dip</dimen>
+    <dimen name="calendar_tablet_full_screen_alarm_snooze_bottom_margin">24.0dip</dimen>
+    <dimen name="today_widget_large_button_add_event_size">17.0dip</dimen>
+    <dimen name="today_widget_large_list_event_padding_top">7.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_bottom">8.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_top">3.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_bottom">10.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_end">5.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_top">4.0dip</dimen>
+    <dimen name="today_widget_large_month_today_box_radius">3.0dip</dimen>
+    <dimen name="today_widget_large_title_container_height">17.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">40.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">10.0dip</dimen>
+    <dimen name="today_widget_setting_large_header_text_size">12.0dip</dimen>
+    <dimen name="today_widget_setting_small_day_of_month_text_size">17.0dip</dimen>
+    <item type="dimen" name="today_widget_small_day_of_month_text_size">17.0</item>
+    <dimen name="widget_countdown_small_circle_size">32.0dip</dimen>
+</resources>

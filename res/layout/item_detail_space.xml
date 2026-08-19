@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/space_view_holder" android:background="@color/theme_color" android:layout_height="@dimen/edit_card_view_divider_button_height" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

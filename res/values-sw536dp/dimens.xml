@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_countdown_small_circle_size">36.0dip</dimen>
+    <item type="dimen" name="widget_permission_view_sub_title_text_size">10.5</item>
+    <item type="dimen" name="widget_permission_view_text_size">12.0</item>
+</resources>

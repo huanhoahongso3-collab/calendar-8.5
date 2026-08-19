@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="100" android:valueFrom="0" android:valueTo="0" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__879" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__880" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__881" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__882" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__883" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__884" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__885" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__886" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__887" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__888" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__889" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__890" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__891" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__892" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__893" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__894" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__895" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__896" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__897" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__898" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__899" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__900" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__901" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__902" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__903" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__904" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__905" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__906" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__907" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__908" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__909" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__910" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__911" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__912" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__913" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__914" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__915" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__916" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__917" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__918" android:duration="83" android:valueFrom="1" android:valueTo="0.1" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__919" android:duration="83" android:valueFrom="0.1" android:valueTo="1" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="100" android:valueFrom="0" android:valueTo="0" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="2100" android:valueFrom="0" android:valueTo="360" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="1316" android:valueFrom="360" android:valueTo="585.714" android:propertyName="rotation" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="100" android:valueFrom="0" android:valueTo="0" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="3416" android:valueFrom="200" android:valueTo="319.583" android:propertyName="translateX" />
+    </set>
+</set>

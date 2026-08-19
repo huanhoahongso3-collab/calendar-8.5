@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_widget_medium_preview_day_label_text_size">13.0dip</dimen>
+    <dimen name="widget_day_cover_month_day_header_text_size">16.0dip</dimen>
+    <dimen name="widget_month_preview_day_of_week_text_size_medium_view">7.0dip</dimen>
+    <dimen name="widget_today_cover_day_of_week_text">12.0dip</dimen>
+</resources>

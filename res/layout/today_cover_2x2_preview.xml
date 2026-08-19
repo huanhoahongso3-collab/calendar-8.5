@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/widget_today_cover_2x2_min_width" android:layout_height="@dimen/widget_today_cover_2x2_min_height">
+        <ImageView android:id="@id/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_cover_preview_bg" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/widget_today_cover_2x2_margin_horizontal">
+            <TextView android:textSize="@dimen/widget_today_cover_2x2_month_header_text_size" android:textColor="@color/widget_today_cover_2x2_month_header_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/widget_month_header_text" android:layout_width="wrap_content" android:layout_height="@dimen/widget_today_cover_2x2_month_header_text_height" android:layout_marginTop="@dimen/widget_today_cover_2x2_month_header_text_margin_top_5w" android:text="@string/month_may_on_month_widget" android:letterSpacing="0.0" style="@style/RobotoBoldFontStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/month_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.75dip">
+                <include android:theme="@style/WidgetTodayCoverSmallDayOfWeekPreview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek1Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek2Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek3Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek4Preview" layout="@layout/widget_today_cover_2x2_today_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek5Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/today_widget_container" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/today_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/today_widget_sub_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/today_widget_sub_container_margin_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_sub_container_margin_top" />
+        <include layout="@layout/widget_cover_month_header_view" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_marginStart="@dimen/widget_today_cover_padding_start">
+            <include layout="@layout/widget_cover_month_view" />
+            <LinearLayout android:orientation="vertical" android:id="@id/cover_widget_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_selected_day_event_list_margin_top" android:layout_marginStart="@dimen/widget_today_cover_right_side_margin_start">
+                <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/widget_cover_today_no_item" />
+                <ListView android:theme="@style/widgetListViewStyle" android:scrollbarThumbVertical="@drawable/scrollbar_widget_cover" android:scrollbarStyle="outsideInset" android:id="@id/today_event_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="@dimen/widget_today_cover_event_item_divider" android:paddingEnd="@dimen/widget_today_cover_margin_end" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="limit_to_large_font">true</bool>
+    <bool name="use_font_padding_for_header">true</bool>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/cover_detail_item_container_reminder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_detail_cover_item_margin_bottom" android:layout_marginStart="@dimen/widget_detail_cover_bottom_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/widget_detail_cover_item_min_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/cover_detail_item_image_reminder" android:layout_width="@dimen/widget_detail_cover_bottom_icon_size" android:layout_height="@dimen/widget_detail_cover_bottom_icon_size" android:tint="@color/widget_detail_cover_icon_tint_color" />
+    </FrameLayout>
+    <TextView android:id="@id/cover_detail_item_reminder_text" android:layout_marginEnd="@dimen/edit_card_task_reminder_date_time_text_margin" style="@style/DetailCoverWidgetReminderItemTextStyle" />
+    <View android:layout_gravity="center" android:id="@id/cover_detail_item_task_reminder_vertical_stroke" android:background="@color/edit_card_task_reminder_vertical_divider_color" android:visibility="gone" android:layout_width="@dimen/edit_card_task_reminder_date_time_divider_width" android:layout_height="@dimen/widget_detail_cover_item_min_height" />
+    <TextView android:id="@id/cover_detail_item_reminder_time_text" android:visibility="gone" android:layout_marginStart="@dimen/edit_card_task_reminder_date_time_text_margin" style="@style/DetailCoverWidgetReminderItemTextStyle" />
+</LinearLayout>

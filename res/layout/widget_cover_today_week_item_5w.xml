@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_cover_week" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_today_cover_day_of_month_item_margin_bottom" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/day_1st_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_1st_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_1st_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/day_2nd_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_2nd_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_2nd_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/day_3rd_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_3rd_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_3rd_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/day_4th_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_4th_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_4th_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/day_5th_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_5th_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_5th_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/day_6th_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_6th_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_6th_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/day_7th_container" style="@style/TodayCoverWidgetDateContainerStyle">
+        <TextView android:id="@id/day_7th_w" style="@style/TodayCoverWidgetDateTextStyle" />
+        <ImageView android:id="@id/day_7th_dot" style="@style/TodayCoverWidgetDateDotStyle" />
+    </LinearLayout>
+</LinearLayout>

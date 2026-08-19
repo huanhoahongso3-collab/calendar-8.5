@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">48.0dip</dimen>
+</resources>

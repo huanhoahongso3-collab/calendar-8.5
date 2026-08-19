@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/event_popup_background_radius" /> ` <solid android:color="@color/common_dropdown_list_background_color" />
+    <stroke android:width="@dimen/event_popup_out_background_stroke_width" android:color="@color/events_popup_background_stroke_color" />
+</shape>

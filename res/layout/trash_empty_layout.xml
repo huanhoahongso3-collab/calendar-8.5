@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:id="@id/empty_layout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/text_empty_margin_start_end" android:layout_marginEnd="@dimen/text_empty_margin_start_end">
+        <TextView android:textSize="@dimen/trash_empty_no_calendar_text_size" android:textColor="@color/common_no_item_text_color" android:gravity="center" android:id="@id/empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_events" />
+        <TextView android:textSize="@dimen/trash_empty_permanent_delete_text_size" android:textColor="@color/common_no_item_sub_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_trash_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/trash_empty_permanent_delete_text_margin_top" />
+    </LinearLayout>
+</com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/reminders_row" android:background="@drawable/common_list_item_background" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/edit_card_common_content_padding_start" android:paddingEnd="@dimen/edit_card_common_content_text_button_padding_end" android:stateListAnimator="?seslLargeTouchAnimator">
+        <ImageView android:id="@id/reminder_icon" android:src="@drawable/ic_calendar_add_alert" android:tint="@color/edit_card_icon_on_tint_color" android:contentDescription="@null" style="@style/EditCardIconStyle" />
+        <TextView android:textSize="@dimen/edit_card_common_label_text_size" android:textColor="@color/common_list_main_text_color_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/reminders_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:text="@string/alert" android:singleLine="false" android:paddingEnd="@dimen/edit_card_reminder_item_padding_end" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

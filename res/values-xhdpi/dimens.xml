@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sesl_list_divider_height">1.0px</dimen>
+    <dimen name="widget_month_week_number_divider">1.0px</dimen>
+    <dimen name="winset_list_separator_height">1.0px</dimen>
+    <dimen name="common_setting_bg_stroke">1.0px</dimen>
+    <dimen name="common_setting_divider_stroke">1.0px</dimen>
+    <dimen name="widget_month_week_divider_height">1.0px</dimen>
+</resources>

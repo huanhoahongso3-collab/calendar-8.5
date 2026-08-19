@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_card_common_content_padding_start" android:layout_marginEnd="@dimen/edit_card_common_content_text_button_padding_end">
+        <ImageView android:id="@id/eas_file_icon" android:src="@drawable/ic_calendar_add_attach" android:tint="@color/edit_card_icon_on_tint_color" style="@style/EditCardIconStyle" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/file_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

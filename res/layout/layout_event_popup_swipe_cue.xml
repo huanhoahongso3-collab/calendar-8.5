@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/left_arrow" android:layout_width="@dimen/event_popup_pager_cue_arrow_size" android:layout_height="@dimen/event_popup_pager_cue_arrow_size" android:alpha="0.0" android:layout_marginStart="@dimen/event_popup_pager_cue_one_minus_margin" android:backgroundTint="@color/event_popup_pager_cue_color" />
+    <View android:id="@id/right_arrow" android:layout_width="@dimen/event_popup_pager_cue_arrow_size" android:layout_height="@dimen/event_popup_pager_cue_arrow_size" android:alpha="0.0" android:layout_marginStart="@dimen/event_popup_pager_cue_one_plus_margin" android:backgroundTint="@color/event_popup_pager_cue_color" />
+</FrameLayout>

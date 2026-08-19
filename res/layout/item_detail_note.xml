@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_card_common_content_padding_start" android:layout_marginEnd="@dimen/edit_card_common_content_text_button_padding_end">
+        <ImageView android:id="@id/note_icon" android:src="@drawable/ic_calendar_add_memo" android:tint="@color/edit_card_icon_on_tint_color" style="@style/EditCardIconStyle" />
+        <com.samsung.android.libcalendar.platform.hypertext.LinkEditText android:textColorHint="@color/edit_input_hint_text_color" android:textColorLink="@color/edit_card_text_view_link_color" android:id="@id/note_text" android:paddingTop="@dimen/edit_card_common_content_margin_top_bottom" android:paddingBottom="@dimen/edit_card_common_content_margin_top_bottom" android:layout_width="0.0dip" android:minHeight="@dimen/edit_card_common_content_min_height" android:hint="@string/edit_event_label_notes" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="flagNoFullscreen" android:layout_marginEnd="@dimen/edit_card_common_text_button_padding" android:fontFeatureSettings="tnum" android:breakStrategy="simple" android:hyphenationFrequency="none" style="@style/EditEventTextFieldStyle" />
+    </LinearLayout>
+    <com.samsung.android.libcalendar.platform.hypertext.CallButtonView android:gravity="center_vertical" android:layout_gravity="end|top" android:id="@id/call_button_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:layout_marginEnd="@dimen/edit_card_common_content_text_button_padding_end" />
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

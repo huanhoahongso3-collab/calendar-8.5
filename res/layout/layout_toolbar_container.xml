@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.pendrawing.spen.SpenToolbar android:gravity="center" android:layout_gravity="center|bottom" android:orientation="horizontal" android:id="@id/pen_drawing_toolbar" android:background="@drawable/handwriting_toolbar_bg" android:paddingLeft="@dimen/pen_drawing_toolbar_layout_padding_horizontal" android:paddingTop="@dimen/pen_drawing_toolbar_layout_padding_vertical" android:paddingRight="@dimen/pen_drawing_toolbar_layout_padding_horizontal" android:paddingBottom="@dimen/pen_drawing_toolbar_layout_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pen_drawing_toolbar_layout_margin_bottom" android:elevation="@dimen/pen_drawing_toolbar_bg_elevation" />
+    <RelativeLayout android:id="@id/pen_drawing_setting_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

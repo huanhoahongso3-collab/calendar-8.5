@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="7.0dip" android:paddingBottom="@dimen/delete_popup_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/delete_popup_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:layout_gravity="center" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minHeight="22.0sp" />
+    <TextView android:textSize="@dimen/detail_popup_message_text_size" android:textColor="@color/common_dialog_main_text_color" android:layout_gravity="center" android:id="@id/message" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/RobotoRegularFontStyle" />
+</LinearLayout>

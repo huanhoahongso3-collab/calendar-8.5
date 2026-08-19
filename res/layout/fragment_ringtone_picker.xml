@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/ringtone_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout android:orientation="vertical" android:id="@id/ringtone_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@id/ringtone_picker_preference_content" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ringtone_picker_preference_margin_bottom" />
+                    <com.samsung.android.app.calendar.commonnotificationtype.view.ringtonepicker.RingtonePickerListView android:id="@id/ringtone_list" android:background="@color/common_window_background_color" android:focusable="false" android:clickable="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:nestedScrollingEnabled="false" />
+                </LinearLayout>
+            </com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>
+        </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

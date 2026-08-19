@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_month_medium_title_padding_bottom">5.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_top">7.0dip</dimen>
+    <dimen name="widget_month_medium_title_text_size">12.0dip</dimen>
+    <dimen name="widget_month_medium_today_size">13.0dip</dimen>
+</resources>

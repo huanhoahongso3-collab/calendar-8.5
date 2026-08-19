@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<samsung-appwidget-provider configureDisplay="sub_screen" display="sub_screen" parentComponent="com.samsung.android.calendar/com.android.calendar.widget.todaycover.TodayCoverWidgetProvider" privacyWidget="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

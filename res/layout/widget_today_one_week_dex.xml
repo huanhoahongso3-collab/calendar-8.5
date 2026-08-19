@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/widget_day_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_1st" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_2nd" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_3rd" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_4th" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_5th" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_6th" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_7th" style="@style/TodayWidgetDateTextDexStyle" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-map>
+    <color>
+        <match overlay="common_list_main_text_color">
+            <original>location_picker_search_list_icon_tint_color</original>
+        </match>
+        <match overlay="color_common_component">
+            <original>location_picker_search_delete_icon_tint_color</original>
+        </match>
+        <match overlay="common_list_divider_color">
+            <original>setting_switch_divider</original>
+        </match>
+        <match overlay="common_no_item_text_color">
+            <original>common_no_item_sub_text_color</original>
+        </match>
+        <match overlay="about_calendar_background_color">
+            <original>permission_notice_background_color</original>
+        </match>
+        <match overlay="common_dialog_single_choice_description_text_color">
+            <original>permission_notice_icon_color</original>
+        </match>
+        <match overlay="common_description_text_color">
+            <original>permission_notice_description_text_color</original>
+        </match>
+        <match overlay="common_views_sub_text_color">
+            <original>permission_notice_detail_text_color</original>
+        </match>
+        <match overlay="theme_text_color">
+            <original>permission_notice_default_text_color</original>
+        </match>
+        <match overlay="primary">
+            <original>widget_setting_change_button_text_color</original>
+        </match>
+        <match overlay="common_dialog_single_choice_description_text_color">
+            <original>permission_notice_description_dialog_text_color</original>
+            <original>permission_notice_detail_dialog_text_color</original>
+        </match>
+        <match overlay="common_master_switch_ripple_color">
+            <original>common_main_switch_ripple_color</original>
+        </match>
+        <match overlay="common_master_on_background_color">
+            <original>common_main_switch_on_background_color</original>
+        </match>
+        <match overlay="common_master_off_background_color">
+            <original>common_main_switch_off_background_color</original>
+        </match>
+        <match overlay="common_master_on_text_color">
+            <original>common_main_switch_on_text_color</original>
+        </match>
+        <match overlay="common_master_off_text_color">
+            <original>common_main_switch_off_text_color</original>
+        </match>
+        <match overlay="primary_dark">
+            <original>search_text_highlight_text_color</original>
+        </match>
+        <match overlay="common_text_input_hint_text_color">
+            <original>search_filter_recent_searches_text_color</original>
+        </match>
+        <match overlay="theme_text_color">
+            <original>agenda_list_header_text</original>
+        </match>
+        <match overlay="common_window_background_color">
+            <original>common_list_selected_background_color</original>
+        </match>
+        <match overlay="theme_color">
+            <original>trash_view_background_color</original>
+        </match>
+        <match overlay="theme_text_color">
+            <original>widget_select_calendar_dialog_item_color</original>
+        </match>
+        <match overlay="common_no_results_text_color">
+            <original>agenda_no_results_text_color</original>
+        </match>
+        <match overlay="common_list_main_text_color">
+            <original>search_filter_more_button_tint_color</original>
+        </match>
+        <match overlay="repeat_date_picker_button_background_checked_color">
+            <original>widget_setting_background_shape_selected_color</original>
+        </match>
+        <match overlay="search_history_item_background_color">
+            <original>widget_setting_background_shape_no_selected_color</original>
+        </match>
+        <match overlay="repeat_date_picker_text_color_checked">
+            <original>widget_setting_background_shape_select_check_color</original>
+        </match>
+        <match overlay="sesl_action_bar_background_color_light">
+            <original>high_light_text_button</original>
+        </match>
+        <match overlay="search_common_item_stroke_color">
+            <original>search_filter_more_button_stroke_color</original>
+        </match>
+        <match overlay="common_dropdown_list_background_color">
+            <original>search_bar_background_color</original>
+        </match>
+    </color>
+</resource-map>

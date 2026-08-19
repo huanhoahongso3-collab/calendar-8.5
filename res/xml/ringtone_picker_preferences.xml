@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.calendar.commonnotificationtype.view.ringtonepicker.IgnoreSoundPreference android:layout="@layout/layout_setting_switch_preference" android:title="@string/string_ignore_sound_settings_title" android:key="preferences_ringtone_picker_ignore_system_sound" android:summary="@string/string_ignore_sound_settings_summary_phone" />
+    <com.samsung.android.app.calendar.commonnotificationtype.view.ringtonepicker.InAppSwitchPreference android:layout="@layout/layout_setting_switch_preference" android:title="@string/string_vibrate_when_sound_plays" android:key="preferences_ringtone_picker_vibrate_when_ringing" />
+</androidx.preference.PreferenceScreen>

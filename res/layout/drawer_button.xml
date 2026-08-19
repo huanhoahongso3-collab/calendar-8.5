@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/open_drawer_container" android:layout_width="wrap_content" android:layout_height="@dimen/common_action_bar_ripple_height" android:layout_centerVertical="true" android:importantForAccessibility="no" android:paddingStart="@dimen/drawer_header_drawer_button_padding_start" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/open_drawer" android:background="@drawable/common_actionbar_button_ripple" android:layout_width="@dimen/common_action_bar_ripple_width" android:layout_height="@dimen/common_action_bar_ripple_height" android:src="@drawable/calendar_drawer_ic_drawer" android:scaleType="center" android:tint="@color/common_actionbar_menu_text_color" android:layout_centerVertical="true" android:contentDescription="@string/drawer_description_expand" android:tooltipText="@string/drawer_description_expand" />
+    <FrameLayout android:gravity="center" android:id="@id/open_drawer_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/open_drawer_badge_top_margin" android:layout_alignTop="@id/open_drawer" android:layout_marginEnd="@dimen/open_drawer_badge_end_margin" android:layout_alignEnd="@id/open_drawer">
+        <ImageView style="@style/NBadgeIconStyle" />
+    </FrameLayout>
+</RelativeLayout>

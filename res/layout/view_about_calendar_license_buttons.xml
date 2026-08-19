@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:theme="@style/Style.Button" android:id="@id/about_calendar_button_terms_conditions" android:visibility="gone" android:layout_marginBottom="@dimen/about_calendar_terms_conditions_button_margin_bottom" android:text="@string/legal_terms_of_conditions" style="@style/Style.Button.AboutCalendar" />
+    <androidx.appcompat.widget.AppCompatButton android:theme="@style/Style.Button" android:id="@id/about_calendar_button_privacy_policy" android:visibility="gone" android:layout_marginBottom="@dimen/about_calendar_terms_conditions_button_margin_bottom" android:text="@string/legal_privacy_policy" style="@style/Style.Button.AboutCalendar" />
+    <androidx.appcompat.widget.AppCompatButton android:theme="@style/Style.Button.Basic" android:id="@id/about_calendar_button_open_source" android:text="@string/open_source_licences" style="@style/Style.Button.AboutCalendar" />
+</LinearLayout>

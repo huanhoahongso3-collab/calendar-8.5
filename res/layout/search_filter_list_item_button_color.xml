@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/search_filter_list_item_button_container" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/search_filter_list_item_container_size" android:layout_height="@dimen/search_filter_list_item_container_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/search_filter_list_item_button" android:background="@drawable/common_actionbar_button_ripple" android:clickable="false" android:layout_width="@dimen/search_filter_list_item_container_size" android:layout_height="@dimen/search_filter_list_item_container_size" />
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/search_filter_list_item_button_inside" android:background="@drawable/common_actionbar_button_ripple" android:visibility="invisible" android:clickable="false" android:layout_width="@dimen/search_filter_list_item_container_size_inside" android:layout_height="@dimen/search_filter_list_item_container_size_inside" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/item_check_mark" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_done_selected_checkmark" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/match_phone_setting_container" android:layout_width="fill_parent" android:layout_height="@dimen/match_phone_setting_container_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/popup_view_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/color_option_text_text_size" android:ellipsize="end" android:id="@id/color_option_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/color_option_text_layout_width" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/color_option_check_mark" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_done_selected_checkmark_widget_colors_popup" android:layout_marginStart="@dimen/color_option_check_mark_margin_start" />
+</LinearLayout>

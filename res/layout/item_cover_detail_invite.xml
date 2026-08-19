@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/cover_detail_item_container_invite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_detail_cover_item_margin_bottom" android:layout_marginStart="@dimen/widget_detail_cover_bottom_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/widget_detail_cover_item_min_height">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/cover_detail_item_icon_invite" android:layout_width="@dimen/widget_detail_cover_bottom_icon_size" android:layout_height="@dimen/widget_detail_cover_bottom_icon_size" android:src="@drawable/ic_calendar_add_contact" android:tint="@color/widget_detail_cover_icon_tint_color" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/host_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_detail_cover_item_margin_bottom">
+            <TextView android:layout_width="fill_parent" android:layout_height="@dimen/widget_detail_cover_item_min_height" android:text="@string/view_event_host_label" style="@style/DetailCoverWidgetItemTextStyle" />
+            <TextView android:id="@id/host_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DetailCoverWidgetItemTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/invite_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="@dimen/widget_detail_cover_item_min_height" android:text="@string/detail_event_label_invitees" style="@style/DetailCoverWidgetItemTextStyle" />
+            <TextView android:id="@id/invite_view" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DetailCoverWidgetItemTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

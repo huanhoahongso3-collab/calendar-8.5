@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/loading_background_2x2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="42.0dip" android:layout_height="26.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_marginTop="8.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginTop="10.0dip" />
+</LinearLayout>

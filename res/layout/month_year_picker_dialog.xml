@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/month_picker_header_height">
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="start|center" android:id="@id/header_prev_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/month_picker_button_size" android:layout_height="@dimen/month_picker_button_size" android:src="@drawable/sesl_date_picker_prev" android:tint="@color/sesl_date_picker_button_tint_color_dark" android:contentDescription="@string/previous_year" android:layout_marginStart="@dimen/sesl_date_picker_calendar_view_margin" />
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/header_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/month_picker_title_text_size" android:textColor="@color/month_picker_header_text_color" android:id="@id/header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/header_spinner" android:layout_width="@dimen/sesl_date_picker_calendar_header_spinner_width" android:layout_height="@dimen/sesl_date_picker_calendar_header_spinner_height" android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/theme_text_color" />
+            </LinearLayout>
+            <ImageButton android:layout_gravity="end|center" android:id="@id/header_next_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/month_picker_button_size" android:layout_height="@dimen/month_picker_button_size" android:src="@drawable/sesl_date_picker_next" android:tint="@color/sesl_date_picker_button_tint_color_dark" android:contentDescription="@string/next_year" android:layout_marginEnd="@dimen/sesl_date_picker_calendar_view_margin" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/pager_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.libcalendar.datetimepicker.monthyearpicker.MonthPickerPager android:id="@id/month_picker_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.samsung.android.libcalendar.datetimepicker.monthyearpicker.YearPickerPager android:id="@id/year_picker_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

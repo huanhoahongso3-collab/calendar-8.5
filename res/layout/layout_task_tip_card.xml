@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/tip_card_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/tip_card" android:background="@color/task_tip_card_background" android:paddingTop="@dimen/update_card_margin_top" android:paddingBottom="@dimen/update_card_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/update_card_margin_start" android:paddingEnd="@dimen/update_card_margin_end">
+        <TextView android:textSize="@dimen/update_card_description_text_size" android:textColor="@color/update_card_text_color" android:ellipsize="end" android:id="@id/tip_card_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/update_card_description_text_bottom_margin" android:text="@string/task_reminder_dialog_popup_body" style="@style/RobotoRegularFontStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tip_card_description" android:layout_alignParentEnd="true">
+            <Button android:id="@id/tip_card_later_button" android:text="@string/button_not_now" style="@style/TipCardButtonStyle" />
+            <Button android:id="@id/tip_card_button" android:text="@string/update" style="@style/TipCardButtonStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

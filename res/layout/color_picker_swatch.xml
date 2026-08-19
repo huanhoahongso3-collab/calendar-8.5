@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/color_picker_check_mark" android:visibility="invisible" android:layout_width="@dimen/color_swatch_check_oval_size" android:layout_height="@dimen/color_swatch_check_oval_size" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/color_picker_swatch_container" android:focusable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/color_picker_swatch" android:layout_width="@dimen/color_swatch" android:layout_height="@dimen/color_swatch" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

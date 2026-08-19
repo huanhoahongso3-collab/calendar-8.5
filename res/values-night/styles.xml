@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.Button.Custom" parent="@style/Base.Widget.AppCompat.Button">
+        <item name="buttonCornerRadius">22.0dip</item>
+    </style>
+    <style name="CalendarTheme.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:colorControlNormal">@color/color_common_component</item>
+        <item name="android:colorControlActivated">@color/color_control_activated</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="DateView" parent="@style/Widget.AppCompat.DatePicker" />
+    <style name="DurationDatePickerViewStyle" parent="@style/Widget.AppCompat.DatePicker" />
+    <style name="Style.BottomNavigationView" parent="@style/Widget.Design.BottomNavigationView">
+        <item name="android:textAppearance">@style/RobotoRegularFontStyle</item>
+        <item name="android:background">@color/common_bottom_navigation_background_color</item>
+        <item name="android:elevation">0.0dip</item>
+        <item name="elevation">0.0dip</item>
+        <item name="itemIconTint">@color/bottom_navigation_icon_color</item>
+        <item name="itemTextColor">@color/bottom_navigation_text_color</item>
+    </style>
+    <style name="Style.BottomNavigationView.Floating.IconText" parent="@style/Widget.Design.BottomNavigationView.Floating.IconText">
+        <item name="android:textAppearance">@style/RobotoRegularFontStyle</item>
+        <item name="itemIconTint">@color/floating_bottom_navigation_icon_color</item>
+        <item name="itemTextColor">@color/floating_bottom_navigation_text_color</item>
+    </style>
+    <style name="Style.Button" parent="@style/Widget.AppCompat.Button" />
+    <style name="Style.Button.Custom" parent="@style/Base.Widget.AppCompat.Button.Custom" />
+    <style name="Style.CollapsingToolbar" parent="@style/Widget.Design.CollapsingToolbar">
+        <item name="background">@color/opentheme_actionbar_bg_color</item>
+    </style>
+    <style name="Style.Floating.CollapsingToolbar" parent="@style/Widget.Design.CollapsingToolbar" />
+    <style name="Style.PickerDialog.Date" parent="@style/Theme.AppCompat.PickerDialog">
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="Style.PopupMenu.Overflow" parent="@style/Widget.AppCompat.PopupMenu.Overflow" />
+    <style name="Style.ToolbarBackground" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="background">@color/opentheme_actionbar_bg_color</item>
+    </style>
+    <style name="Style.listSeparatorTextViewStyle" parent="@style/Widget.AppCompat.TextView.ListSeparator" />
+    <style name="TextAppearance.Calendar.Button.AboutCalendar" parent="@style/TextAppearance.AppCompat.Widget.Button">
+        <item name="android:textSize">@dimen/about_calendar_open_source_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/about_calendar_button_text_color</item>
+        <item name="android:fontFamily">sec</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.SEP10.NoActionBar.Base" parent="@style/Theme.SEP10.NoActionBar">
+        <item name="android:navigationBarColor">@color/common_actionbar_navigate_bar_color</item>
+    </style>
+    <style name="Theme.SEP10.NoActionBar.Location.Base" parent="@style/Theme.SEP10.NoActionBar.Location">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="Theme.SEP10.NoActionBar.Base.Night" parent="@style/Theme.SEP10.NoActionBar.Night">
+        <item name="android:navigationBarColor">@color/common_actionbar_navigate_bar_color</item>
+    </style>
+</resources>

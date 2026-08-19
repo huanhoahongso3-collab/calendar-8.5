@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/widget_today_cover_circle_color" />
+    <size android:height="@dimen/widget_today_cover_today_mark_size_port_height" android:width="@dimen/widget_today_cover_today_mark_size_port_width" />
+    <corners android:radius="@dimen/today_widget_today_mark_radius_port" />
+</shape>

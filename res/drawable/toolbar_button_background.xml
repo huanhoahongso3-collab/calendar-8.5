@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_selected="true">
+        <androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/handwriting_toolbar_icon_unselected_ripple_color">
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/handwriting_toolbar_icon_selected_color" />
+                    <corners android:radius="20.0dip" />
+                </shape>
+            </item>
+        </androidx.appcompat.graphics.drawable.SeslRecoilDrawable>
+    </item>
+    <item android:state_selected="false">
+        <androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/handwriting_toolbar_icon_selected_ripple_color">
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/handwriting_toolbar_bg_color" />
+                </shape>
+            </item>
+        </androidx.appcompat.graphics.drawable.SeslRecoilDrawable>
+    </item>
+</selector>

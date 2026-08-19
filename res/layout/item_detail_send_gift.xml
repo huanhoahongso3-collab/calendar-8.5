@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/send_gift_container" android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/edit_card_common_content_padding_start" android:paddingEnd="@dimen/edit_card_common_content_text_button_padding_end" android:stateListAnimator="?seslLargeTouchAnimator">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/wallet_icon" android:importantForAccessibility="no" style="@style/BirthDayCardIconStyle" />
+        <TextView android:textSize="@dimen/edit_card_common_label_text_size" android:textColor="@color/common_list_main_text_color" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:text="@string/samsung_wallet" android:layout_weight="1.0" style="@style/RobotoRegularFontStyle" />
+        <androidx.appcompat.widget.AppCompatButton android:layout_gravity="end|center" android:id="@id/send_gift_button" android:text="@string/send_gift" style="@style/EditCardButtonStyle" />
+    </LinearLayout>
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.datetimepicker.monthyearpicker.YearPickerGridView android:layout_gravity="center_horizontal" android:id="@id/picker_grid_view" android:paddingTop="@dimen/month_picker_recycler_view_vertical_padding" android:paddingBottom="@dimen/month_picker_recycler_view_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="none" android:paddingStart="@dimen/month_picker_recycler_view_horizontal_padding" android:paddingEnd="@dimen/month_picker_recycler_view_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

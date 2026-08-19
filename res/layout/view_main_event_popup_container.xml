@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/popup_single_page" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="260.0dip" android:minHeight="326.0dip" />
+    <com.samsung.android.app.calendar.view.timeline.main.TimelineDragSuperPaneView android:id="@id/timeline_dragpane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.samsung.android.app.calendar.view.month.dragdrop.DragSuperPaneView android:id="@id/list_dragpane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

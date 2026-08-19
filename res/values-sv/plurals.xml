@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">Ytterligare %d andra händelser</item>
+        <item quantity="one">Ytterligare en annan händelse</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">Ytterligare %d uppgifter</item>
+        <item quantity="one">Ytterligare en uppgift</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d händelser</item>
+        <item quantity="one">1 händelse</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d uppgifter</item>
+        <item quantity="one">1 uppgift</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Startar om %d min</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Startar om %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d dagar innan klockan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d dag innan klockan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Det går inte att radera %d skrivskyddade objekt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att radera %d skrivskyddat objekt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Vill du ta bort %d händelser permanent?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du ta bort %d händelse permanent?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Radera %d händelser, inklusive en återkommande?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Radera %d händelse, inklusive en återkommande?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Radera %d objekt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Radera %d objekt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Det går inte att lägga till fler än %d bilagor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att lägga till fler än %d bilaga.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d objekt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d objekt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Borttaget från %1$s %2$s. Den här händelsen tas bort permanent om %3$d dagar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Borttaget från %1$s %2$s. Den här händelsen tas bort permanent om %3$d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d dagar till radering</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag till radering</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d dubbletthändelser</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dubbletthändelse</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Snooza i %d minuter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Snooza i %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Det går inte att ställa in fler än %d aviseringar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att ställa in fler än %d avisering.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Det går inte att ange fler än %d tecken.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att ange fler än %d tecken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Det går inte att ange fler än %d tecken.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att ange fler än %d tecken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Var %d dag</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gång om dagen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Var %d timme</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gång i timmen</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Med %d minuters mellanrum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Med %d minuts mellanrum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Var %d månad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d månad</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Var %d vecka</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gång i veckan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Var %d år</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d år</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Det går inte att välja fler än %d objekt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att välja fler än %d objekt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d händelser till</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d händelse till</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Bilagor (%,d objekt)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bilagor (%,d objekt)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Vill du flytta en händelse till papperskorgen och radera %d andra objekt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta en händelse till papperskorgen och radera %d annat objekt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Vill du flytta en händelse till papperskorgen och radera %d påminnelser?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta en händelse till papperskorgen och radera %d påminnelse?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Vill du flytta en påminnelse till papperskorgen och radera %d händelser?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta en påminnelse till papperskorgen och radera %d händelse?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Vill du flytta en påminnelse till papperskorgen och radera %d andra objekt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta en påminnelse till papperskorgen och radera %d annat objekt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Vill du flytta en påminnelse till papperskorgen och radera %d uppgifter?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta en påminnelse till papperskorgen och radera %d uppgift?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Vill du flytta %d händelser till papperskorgen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d händelse till papperskorgen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Vill du flytta %d händelser till papperskorgen och radera en påminnelse?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d händelse till papperskorgen och radera en påminnelse?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Vill du flytta %d objekt till papperskorgen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d objekt till papperskorgen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Vill du flytta %d objekt till papperskorgen och radera en uppgift?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d objekt till papperskorgen och radera en uppgift?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Vill du flytta %d påminnelser till papperskorgen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d påminnelse till papperskorgen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Vill du flytta %d påminnelser till papperskorgen och radera en händelse?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d påminnelse till papperskorgen och radera en händelse?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Vill du flytta %d påminnelser till papperskorgen och radera en uppgift?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du flytta %d påminnelse till papperskorgen och radera en uppgift?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d heldagshändelser</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d heldagshändelse</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d heldagsevent som inleds %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d heldagsevent som inleds %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d heldagspåminnelser som inleds %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d heldagspåminnelse som inleds %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d heldagsuppgifter som inleds %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d heldagsuppgift som inleds %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d schemalagda event klockan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d schemalagt event klockan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d schemalagda påminnelser klockan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d schemalagd påminnelse klockan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d schemalagda uppgifter klockan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d schemalagd uppgift klockan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mile</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d personer inbjudna</item>
+        <item quantity="one">%d person inbjuden</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d dagar före</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag före</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d timmar före</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d timme före</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d minuter före</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut före</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d dagar framåt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag framåt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d timmar framåt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d timme framåt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minuter framåt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut framåt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d månader framåt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d månad framåt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d veckor framåt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vecka framåt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d år framåt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d år framåt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Titeln har kortats till en längd som stöds för evenemangstitlar (%,d tecken).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Titeln har kortats till en längd som stöds för evenemangstitlar (%,d tecken).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d veckor före</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vecka före</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Det går inte att visa fler än %d färger.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att visa fler än %d färg.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Denna %1$s upprepas var %2$d dag.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång om dagen.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Denna %1$s upprepas var %2$d timme.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas varje %2$d timme.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Denna %1$s upprepas var %2$d minut.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas varje %2$d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Denna %1$s upprepas var %2$dmånad den sista dagen i månaden.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång i månaden den sista dagen i månaden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Denna %1$s upprepas var %2$d månad den sista %3$s i månaden.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång i månaden den sista %3$s i månaden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Denna %1$s upprepas var %2$d månad den %3$s dagen i månaden.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång i månaden den %3$s dagen i månaden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Denna %1$s upprepas var %2$d månad den %3$s %4$s i månaden.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång i månaden den %3$s %4$s i månaden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Denna %1$s upprepas var %2$d vecka på %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång i veckan på %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Denna %1$s upprepas var %2$d år den sista dagen i %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång om året den sista dagen i %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Denna %1$s upprepas var %2$d år den sista %3$s i %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång om året den sista %3$s i %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Denna %1$s upprepas var %2$d år den %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång om året den %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Denna %1$s upprepas var %2$d år %3$s %4$s i %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Denna %1$s upprepas %2$d gång om året %3$s %4$s i %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Totalt %d gånger</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Totalt %d gång</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Delas med %d personer</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Delas med %d person</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Du har händelsen %1$s den %2$s samt %3$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har händelsen %1$s den %2$s samt %3$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Du har %1$d händelser den %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har %1$d händelse den %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Du har händelsen %1$s i dag samt %2$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har händelsen %1$s i dag samt %2$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Du har %d händelser i dag.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har %d händelse i dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Du har händelsen %1$s i morgon samt %2$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har händelsen %1$s i morgon samt %2$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Du har %d händelser i morgon.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har %d händelse i morgon.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Du har händelsen %1$s den %2$s kl. %3$s samt %4$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har händelsen %1$s den %2$s kl. %3$s samt %4$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Du har en händelse %1$s kl. %2$s samt %3$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har en händelse %1$s kl. %2$s samt %3$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Du har händelsen %1$s i dag kl. %2$s samt %3$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har händelsen %1$s i dag kl. %2$s samt %3$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Du har en händelse kl. %1$s samt %2$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har en händelse kl. %1$s samt %2$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Du har händelsen %1$s i morgon %2$s samt %3$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har händelsen %1$s i morgon %2$s samt %3$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Du har en händelse i morgon kl. %1$s samt %2$d händelser till.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har en händelse i morgon kl. %1$s samt %2$d händelse till.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d minuter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plus %d minuter</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plus %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s startar om %2$d timmar</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s startar om %2$d timme</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s börjar om 1 timme och %2$d minuter.</item>
+        <item quantity="one">%s börjar om 1 timme och 1 minut.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s startar om %2$d minuter.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s startar om %2$d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">De tas bort från klistermärkesfacket.</item>
+        <item quantity="one">Det tas bort från klistermärkesfacket.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Ta bort %d klistermärkesgrupper?</item>
+        <item quantity="one">Ta bort en klistermärkesgrupp?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Visa %d händelser till</item>
+        <item quantity="one">Visa %d händelse till</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d veckor innan klockan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d vecka innan klockan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">dagar</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">dagar sedan</item>
+        <item quantity="one">dag sedan</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">dagar kvar</item>
+        <item quantity="one">dag kvar</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s och %2$d till</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s och %2$d till</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d event kvar</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d event kvar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

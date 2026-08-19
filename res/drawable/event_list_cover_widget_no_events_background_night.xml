@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/list_widget_cover_background_event_item_radius" />
+    <solid android:color="@color/list_widget_cover_no_events_background_night" />
+</shape>

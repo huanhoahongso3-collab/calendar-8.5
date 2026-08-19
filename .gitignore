@@ -1,0 +1,10 @@
+# Local signing keys and signature files
+debug.keystore
+*.idsig
+
+# Generated APK outputs
+*.apk
+
+# Common local build folders
+build/
+dist/

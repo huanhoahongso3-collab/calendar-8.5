@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/date_time_text_container" android:paddingTop="@dimen/edit_date_padding_top_bottom_for_detail" android:paddingBottom="@dimen/edit_date_padding_top_bottom_for_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/all_day_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/date_time_extra_padding_top" android:layout_width="fill_parent" android:layout_height="@dimen/edit_card_date_time_container_margin_top" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="start" android:layout_gravity="center" android:orientation="vertical" android:id="@id/start_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/start_date" android:stateListAnimator="?seslLargeTouchAnimator" style="@style/EditCardDateTimeStyle" />
+            <TextView android:id="@id/start_time" android:layout_marginTop="@dimen/edit_date_time_margin_top" android:stateListAnimator="?seslLargeTouchAnimator" style="@style/EditCardDateTimeStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/date_arrow_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/date_arrow" android:layout_width="@dimen/edit_date_arrow_image_width" android:layout_height="@dimen/edit_date_arrow_image_width" android:src="@drawable/ic_calendar_add_date_arrow" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/end_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/end_date" android:stateListAnimator="?seslLargeTouchAnimator" style="@style/EditCardDateTimeStyle" />
+            <TextView android:id="@id/end_time" android:layout_marginTop="@dimen/edit_date_time_margin_top" android:stateListAnimator="?seslLargeTouchAnimator" style="@style/EditCardDateTimeStyle" />
+        </LinearLayout>
+        <View android:id="@id/date_time_extra_padding_end" android:layout_width="@dimen/edit_date_time_start_end_padding" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/date_time_extra_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/edit_card_date_time_container_margin_bottom" />
+</LinearLayout>

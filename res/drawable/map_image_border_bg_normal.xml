@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/edit_card_location_image_background_radius" />
+    <stroke android:width="@dimen/edit_card_location_image_background_stroke" android:color="@color/edit_card_location_image_background_stroke_color" />
+    <padding android:left="@dimen/edit_card_location_map_image_border_padding" android:top="@dimen/edit_card_location_map_image_border_padding" android:right="@dimen/edit_card_location_map_image_border_padding" android:bottom="@dimen/edit_card_location_map_image_border_padding" />
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/sticker_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stickers_icon_button" android:tint="@color/sticker_picker_empty_icon_tint_color" />
+            <TextView android:textSize="@dimen/sticker_picker_content_no_sticker_text_size" android:textColor="@color/sticker_picker_empty_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sticker_picker_content_text_view_margin_top" android:text="@string/sticker_no_stickers" android:maxLines="1" android:paddingStart="@dimen/sticker_picker_content_text_view_padding" android:paddingEnd="@dimen/sticker_picker_content_text_view_padding" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </ScrollView>
+    <com.samsung.android.app.calendar.view.detail.StickerHoverRecyclerView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center" android:id="@id/sticker_recycler_view" android:paddingBottom="@dimen/sticker_picker_content_bottom_padding" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbarFadeDuration="@integer/sticker_picker_scrollbar_fade_duration" android:paddingStart="@dimen/sticker_picker_content_padding_start_end" android:paddingEnd="@dimen/sticker_picker_content_padding_start_end" app:spanCount="@integer/sticker_picker_num_columns" />
+</LinearLayout>

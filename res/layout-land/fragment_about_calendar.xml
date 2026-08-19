@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/app_info_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="0.5">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:orientation="vertical" android:id="@id/top_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/view_about_calendar_calendar_info" />
+            </LinearLayout>
+            <include layout="@layout/view_about_calendar_update_button" />
+            <View android:orientation="vertical" android:id="@id/middle_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/license_button_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <include layout="@layout/view_about_calendar_license_buttons" />
+    </LinearLayout>
+</LinearLayout>

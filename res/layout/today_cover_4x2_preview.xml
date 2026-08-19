@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="@dimen/widget_today_cover_4x2_min_width" android:layout_height="@dimen/widget_today_cover_2x2_min_height">
+        <ImageView android:id="@id/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_cover_preview_bg" android:contentDescription="@null" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/widget_today_cover_4x2_margin_horizontal">
+            <LinearLayout android:orientation="vertical" android:id="@id/month_grid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_4x2_month_grid_margin_top" android:layout_weight="1.0">
+                <include android:theme="@style/WidgetTodayCoverSmallDayOfWeekPreview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek1Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek2Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek3Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek4Preview" layout="@layout/widget_today_cover_2x2_today_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverSmallWeek5Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/widget_today_cover_4x2_list_event_margin_start">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_today_cover_4x2_month_header_text_margin_top">
+                    <TextView android:textSize="@dimen/widget_today_cover_4x2_month_header_text_size" android:textColor="@color/widget_today_cover_2x2_month_header_text_color" android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/may_21" android:layout_weight="1.0" style="@style/RobotoBoldFontStyle" />
+                    <FrameLayout android:background="@drawable/widget_today_cover_4x2_icon_bg" android:layout_width="@dimen/widget_today_cover_4x2_icon_size" android:layout_height="@dimen/widget_today_cover_4x2_icon_size" android:backgroundTint="@color/widget_today_cover_4x2_add_button_bg_color">
+                        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/month_widget_ic_add" android:tint="@color/widget_today_cover_4x2_icon_color" />
+                    </FrameLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_today_cover_4x2_header_margin_bottom">
+                    <include android:theme="@style/WidgetTodayCoverMediumEventItemPreview.Event1" layout="@layout/today_cover_4x2_event_item_preview" />
+                    <include android:theme="@style/WidgetTodayCoverMediumEventItemPreview.Event2" layout="@layout/today_cover_4x2_event_item_preview" />
+                    <include android:theme="@style/WidgetTodayCoverMediumEventItemPreview.Event3" layout="@layout/today_cover_4x2_event_item_preview" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

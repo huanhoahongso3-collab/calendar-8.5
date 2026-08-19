@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/item_container" android:background="@drawable/recoil_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/winset_list_item_top_padding" android:paddingBottom="@dimen/winset_list_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/repeat_list_single_choice_item_padding_start" android:stateListAnimator="?seslLargeTouchAnimator">
+        <CheckBox android:gravity="center" android:id="@id/alert_item_check_box" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioButton android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/alert_item_radio_button" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/edit_card_common_list_single_choice_item_padding_start" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+    <View android:id="@id/item_divider" android:layout_marginStart="@dimen/repeat_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

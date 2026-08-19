@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:fadingMode="fade_out">
+        <targets>
+            <target android:targetId="@id/attendee_item" />
+            <target android:excludeId="@id/event_card_participants_main_container" />
+        </targets>
+    </fade>
+</transitionSet>

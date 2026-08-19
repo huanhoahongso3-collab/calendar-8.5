@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/today_widget_large_item_height" android:layout_marginBottom="@dimen/today_widget_large_item_divider_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/today_widget_large_item_event_color_width" android:layout_height="@dimen/today_widget_large_item_event_color_height" android:src="@drawable/event_color" android:tint="?colorItem" android:importantForAccessibility="no" />
+    <TextView android:text="?eventTitle" android:singleLine="true" android:layout_marginStart="@dimen/today_widget_large_item_event_color_margin_end" style="@style/WidgetTodayPreviewEventTitle" />
+</LinearLayout>

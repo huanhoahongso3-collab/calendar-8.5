@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/tw_ic_ab_back_mtr" android:maxWidth="24.0dip" android:maxHeight="24.0dip" android:tint="@color/crossapp_webview_title_button_color" />
+    </item>
+</selector>

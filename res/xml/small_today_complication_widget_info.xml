@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:initialLayout="@layout/initial_small_today_complication_widget" android:previewLayout="@layout/small_today_complication_widget_preview" android:targetCellWidth="1" android:targetCellHeight="1" app:configureLockScreen="com.samsung.android.app.calendar.widget.BriefTodayConfigureActivity" app:targetHost="lock_and_aod|cover" app:widgetSize="tiny" app:widgetStyle="monotone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

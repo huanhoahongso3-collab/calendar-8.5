@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ampm_text_size">8.0sp</dimen>
+    <dimen name="timeline_current_appm_text_size">5.0sp</dimen>
+    <dimen name="week_hour_width">32.0dip</dimen>
+</resources>

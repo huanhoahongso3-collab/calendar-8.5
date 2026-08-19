@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/widget_setting_scrollbar_margin_top" android:bottom="@dimen/widget_setting_scrollbar_margin_bottom" android:end="@dimen/widget_setting_scrollbar_margin_end">
+        <shape>
+            <solid android:color="@color/widget_setting_scrollbar_color" />
+            <corners android:radius="@dimen/widget_setting_scrollbar_border_radius" />
+            <size android:width="@dimen/widget_setting_scrollbar_width" />
+        </shape>
+    </item>
+</layer-list>

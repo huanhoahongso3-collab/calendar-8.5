@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:gravity="center_vertical" android:id="@id/timezone_list_empty_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.125" />
+        <TextView android:textSize="@dimen/empty_list_icon_text_size" android:textColor="@color/common_no_results_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/timezone_list_no_results" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/no_result" android:layout_weight="0.75" style="@style/RobotoRegularFontStyle" />
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.125" />
+    </LinearLayout>
+</com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>

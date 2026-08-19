@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_setting_large_header_text_size">14.599976dip</dimen>
+    <dimen name="widget_today_cover_4x2_date_text_size">10.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_no_event_margin_end">8.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_no_event_margin_top">12.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_no_event_text_size">10.5dip</dimen>
+    <dimen name="widget_today_cover_day_of_week_text">9.0dip</dimen>
+    <dimen name="widget_today_cover_day_text">12.0dip</dimen>
+</resources>

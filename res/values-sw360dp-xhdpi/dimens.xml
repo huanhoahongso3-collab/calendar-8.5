@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_card_separator_height">1.0px</dimen>
+    <dimen name="timeline_event_gap">0.5dip</dimen>
+    <dimen name="timeline_grid_line_inner_width">2.0px</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.samsung.android.app.reminder.commonimageviewer.ui.view.ImagePager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/dex_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/move_to_left" android:background="@drawable/detail_dex_image_view_button_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_icon_previous" android:tint="@color/color_white" android:layout_centerVertical="true" android:contentDescription="@string/detail_view_image_previous" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+            <ImageButton android:id="@id/move_to_right" android:background="@drawable/detail_dex_image_view_button_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/button_icon_next" android:tint="@color/color_white" android:layout_centerVertical="true" android:contentDescription="@string/detail_view_image_next" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+            <ImageButton android:id="@id/zoom_in" android:background="@drawable/detail_dex_image_view_zoom_button_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/zoom_in" android:layout_above="@id/zoom_out" android:contentDescription="@string/detail_view_image_zoom_in" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+            <ImageButton android:id="@id/zoom_out" android:background="@drawable/detail_dex_image_view_zoom_button_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/zoom_out" android:layout_alignParentBottom="true" android:contentDescription="@string/detail_view_image_zoom_out" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

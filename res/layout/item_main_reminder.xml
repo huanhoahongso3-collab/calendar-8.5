@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/event_list_container" android:background="?selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/list_items" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/month_event_list_time_text_size" android:textColor="@color/common_list_main_text_color" android:gravity="center_horizontal" android:id="@id/reminder_time_text" android:layout_width="@dimen/reminder_list_item_time_text_width" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:importantForAccessibility="no" android:paddingVertical="@dimen/event_list_start_time_vertical_padding" style="@style/RobotoMediumFontStyle" />
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/reminder_checkbox" android:focusable="true" android:clickable="true" android:layout_width="@dimen/reminder_list_icon_size" android:layout_height="@dimen/reminder_list_icon_size" android:button="@drawable/reminder_checkbox_selector" />
+            <TextView android:textSize="@dimen/event_popup_view_list_first_line_text_size" android:textColor="@color/common_list_main_text_color" android:ellipsize="end" android:gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/month_event_list_location_text_size" android:textColor="@color/common_list_secondary_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/sub_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:layout_marginStart="@dimen/reminder_list_item_time_text_width" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+</LinearLayout>

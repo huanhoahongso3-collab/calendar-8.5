@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_large_preview_day_of_week_text_size">7.5dip</dimen>
+</resources>

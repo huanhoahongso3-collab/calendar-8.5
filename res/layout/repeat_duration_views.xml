@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/duration_container_continuously" style="@style/DurationItemContainerStyle">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="?seslLargeTouchAnimator">
+            <RadioButton android:id="@id/radio_button_continuously" style="@style/DurationItemButtonStyle" />
+            <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/repeat_duration_title_continuously" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeat_duration_forever" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/edit_card_common_list_single_choice_item_padding_start" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_marginStart="@dimen/repeat_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+    <LinearLayout android:id="@id/duration_container_end_count" style="@style/DurationItemContainerStyle">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="?seslLargeTouchAnimator">
+            <RadioButton android:id="@id/radio_button_end_count" style="@style/DurationItemButtonStyle" />
+            <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/repeat_duration_title_end_count_pre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeat_duration_specific_number" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/edit_card_common_list_single_choice_item_padding_start" style="@style/RobotoRegularFontStyle" />
+            <com.samsung.android.libcalendar.picker.repeat.view.viewholder.RepeatListEditText android:id="@id/repeat_duration_end_count_edit_text" android:visibility="gone" android:text="10" android:maxLines="1" android:maxLength="3" android:inputType="number" android:privateImeOptions="inputType=YearDateTime_edittext" android:layout_marginStart="@dimen/edit_card_common_list_single_choice_item_padding_start" android:layout_marginEnd="@dimen/repeat_duration_end_count_padding_end" style="@style/RepeatEditText_Style" />
+            <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/repeat_duration_title_end_count_post" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_marginStart="@dimen/repeat_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:id="@id/duration_container_end_date" style="@style/DurationItemContainerStyle">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="?seslLargeTouchAnimator">
+                <RadioButton android:id="@id/radio_button_end_date" style="@style/DurationItemButtonStyle" />
+                <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/repeat_duration_title_end_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recurrence_end_date_label" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/edit_card_common_list_single_choice_item_padding_start" style="@style/RobotoRegularFontStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <androidx.picker.widget.SeslDatePicker android:theme="@style/DurationDatePickerTheme" android:layout_gravity="center" android:id="@id/duration_date_Picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/repeat_duration_end_date_picker_margin_bottom" android:startYear="1902" />
+    </LinearLayout>
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

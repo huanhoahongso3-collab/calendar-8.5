@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/loading_background_1x1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/today_widget_small_padding_start" android:paddingEnd="@dimen/today_widget_small_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/day_of_month_text" android:background="@drawable/skeleton_circle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:includeFontPadding="false" android:importantForAccessibility="no" />
+    <Space android:id="@id/day_of_month_margin_end" android:layout_width="@dimen/today_widget_small_day_of_month_margin_end" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" android:gravity="center_vertical">
+        <FrameLayout android:id="@id/month_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Skeleton.CombineText.Display.Small" />
+        <FrameLayout android:id="@id/day_of_week_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Skeleton.CombineText.Display.Small" />
+    </LinearLayout>
+</LinearLayout>

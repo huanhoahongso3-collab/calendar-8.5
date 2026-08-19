@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_day_container" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_preview_one_week_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_1st" android:text="?day1" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_2nd" android:text="?day2" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_3rd" android:text="?day3" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_4th" android:text="?day4" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_5th" android:text="?day5" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_6th" android:text="?day6" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/day_7th" android:text="?day7" style="@style/TodayCoverPreviewWidgetDateTextStyle" />
+    </FrameLayout>
+</LinearLayout>

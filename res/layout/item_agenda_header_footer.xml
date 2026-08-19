@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/header_footer_container" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/agenda_list_period_text_size" android:textColor="@color/common_list_secondary_text_color" android:gravity="center" android:id="@id/header_footer_period_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/agenda_header_footer_top_space" android:backgroundTint="@color/transparent_white" style="@style/RobotoRegularFontStyle" />
+    <View android:id="@id/bottom_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/agenda_header_footer_bottom_space" />
+</LinearLayout>

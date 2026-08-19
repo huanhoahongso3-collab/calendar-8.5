@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/detail_app_bar_group">
+        <item android:icon="@drawable/calendar_bottom_bar_ic_copy" android:id="@id/detail_app_bar_menu_copy" android:title="@string/event_info_menu_duplicate" android:contentDescription="@string/event_info_menu_duplicate" app:showAsAction="always" app:tooltipText="@string/event_info_menu_duplicate" />
+        <item android:icon="@drawable/calendar_bottom_bar_ic_edit" android:id="@id/detail_app_bar_menu_edit" android:title="@string/edit" android:contentDescription="@string/edit" app:showAsAction="always" app:tooltipText="@string/edit" />
+        <item android:icon="@drawable/calendar_bottom_bar_ic_share" android:id="@id/detail_app_bar_menu_share" android:title="@string/share" android:contentDescription="@string/share" app:showAsAction="always" app:tooltipText="@string/share" />
+        <item android:icon="@drawable/calendar_bottom_bar_ic_restore" android:id="@id/detail_app_bar_menu_restore" android:title="@string/restore" android:contentDescription="@string/restore" app:showAsAction="always" app:tooltipText="@string/restore" />
+        <item android:icon="@drawable/calendar_bottom_bar_ic_delete" android:id="@id/detail_app_bar_menu_delete" android:title="@string/delete" android:contentDescription="@string/delete" app:showAsAction="always" app:tooltipText="@string/delete" />
+        <item android:id="@id/detail_app_bar_menu_add_countdown" android:title="@string/widget_add_countdown_widget_label" android:contentDescription="@string/widget_add_countdown_widget_label" app:showAsAction="never" app:tooltipText="@string/widget_add_countdown_widget_label" />
+    </group>
+</menu>

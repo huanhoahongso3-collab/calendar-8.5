@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/search_filter_list_item_button_container" android:visibility="gone" android:clickable="true" android:clipChildren="false" android:layout_width="@dimen/search_filter_list_item_container_size" android:layout_height="@dimen/search_filter_list_item_container_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/search_filter_list_item_button" android:background="@drawable/common_actionbar_button_ripple" android:padding="@dimen/search_filter_list_sticker_item_padding" android:clickable="false" android:layout_width="@dimen/search_filter_list_item_container_size" android:layout_height="@dimen/search_filter_list_item_container_size" android:scaleType="fitCenter" />
+</RelativeLayout>

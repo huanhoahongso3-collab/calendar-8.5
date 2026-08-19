@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginBottom="@dimen/today_widget_large_list_event_padding_top">
+        <FrameLayout android:layout_gravity="start|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginEnd="29.0dip" style="@style/Skeleton.TextBlockText.Single.Title.Large" />
+        <FrameLayout android:layout_gravity="end|center" android:layout_width="@dimen/today_widget_large_button_add_event_size" android:layout_height="@dimen/today_widget_large_button_add_event_size" style="@style/Skeleton.TextBlockText.Single.Title.Large" />
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="14.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginTop="17.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginTop="17.0dip" />
+</LinearLayout>

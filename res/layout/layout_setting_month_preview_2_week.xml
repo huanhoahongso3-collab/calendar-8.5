@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="SettingPreview" android:background="@drawable/common_list_item_background" android:paddingTop="@dimen/settings_calendar_style_preview_week_2_padding_top" android:paddingBottom="@dimen/settings_calendar_style_preview_week_2_padding_bottom" android:focusable="false" android:focusableInTouchMode="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/settings_calendar_style_preview_week_2_container_height" android:contentDescription="@string/preferences_calendar_style_preview_image" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.calendar.view.settings.MonthPreview android:id="@id/setting_preview_2_weeks" android:layout_width="fill_parent" android:layout_height="@dimen/settings_calendar_style_preview_week_2_height" android:minWidth="@dimen/settings_calendar_style_preview_week_width" app:showDateHeader="false" app:weekCount="2" />
+</LinearLayout>

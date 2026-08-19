@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/sesl_color_picker_seekbar_cursor_inner_size" android:width="@dimen/sesl_color_picker_seekbar_cursor_outer_size" android:viewportWidth="20.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="3.0">
+        <path android:fillColor="@color/sesl_color_picker_seekbar_cursor_background_color" android:pathData="M0,7C0,3.134 3.134,0 7,0C10.866,0 14,3.134 14,7C14,10.866 10.866,14 7,14C3.134,14 0,10.866 0,7Z" />
+    </group>
+</vector>

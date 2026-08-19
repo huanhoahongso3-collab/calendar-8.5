@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/RobotoMediumFontStyle" android:textSize="33.0sp" android:textColor="@color/handwriting_zoom_toast_text_color" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/zoom_text_view" android:background="@drawable/shape_zoom_toast_background" android:paddingTop="14.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="170.0dip" android:minHeight="68.0dip" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:id="@id/calendar_selector_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_detail_cover_item_margin_bottom" android:layout_marginStart="@dimen/widget_detail_cover_bottom_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/widget_detail_cover_item_min_height">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/widget_detail_cover_bottom_icon_size" android:layout_height="@dimen/widget_detail_cover_bottom_icon_size">
+            <ImageView android:id="@id/calendar_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_calendar_add_account" android:tint="@color/widget_detail_cover_icon_tint_color" />
+            <ImageView android:layout_gravity="end|bottom" android:id="@id/calendars_color" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/edit_event_account_image" />
+        </FrameLayout>
+    </FrameLayout>
+    <TextView android:id="@id/calendars_selected_item" android:maxLines="1" android:textDirection="locale" style="@style/DetailCoverWidgetItemTextStyle" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/account_member_icon" android:layout_width="@dimen/edit_card_account_sync_error_icon_size" android:layout_height="@dimen/edit_card_account_sync_error_icon_size" android:src="@drawable/ic_calendar_ic_host" android:tint="@color/edit_card_group_calendar_color" android:contentDescription="@string/shared_calendar" android:layout_marginEnd="@dimen/edit_card_account_sync_error_icon_margin_end" />
+</LinearLayout>

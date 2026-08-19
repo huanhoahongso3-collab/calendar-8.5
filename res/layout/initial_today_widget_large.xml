@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="horizontal" android:background="@drawable/loading_background_2x2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:paddingStart="@dimen/today_widget_large_month_padding_start" android:paddingEnd="@dimen/today_widget_large_list_view_container_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/today_widget_large_month_padding_top" android:layout_weight="1.0" android:layout_marginEnd="@dimen/today_widget_large_month_padding_end" layout="@layout/initial_today_widget_large_month" />
+    <include android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/today_widget_large_list_view_container_padding_top" android:layout_weight="1.0" layout="@layout/initial_today_widget_large_event" />
+</LinearLayout>

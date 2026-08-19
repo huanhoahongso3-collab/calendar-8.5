@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/winset_list_divider_left_right_margins" android:right="@dimen/winset_list_divider_left_right_margins">
+        <shape>
+            <solid android:color="@color/opentheme_divider_color" />
+            <size android:height="@dimen/winset_list_separator_height" />
+        </shape>
+    </item>
+</layer-list>

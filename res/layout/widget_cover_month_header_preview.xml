@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cover_widget_header_container" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_month_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cover_go_today_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/widget_today_cover_toggle_padding_end" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="end|bottom" android:orientation="vertical" android:layout_width="@dimen/widget_today_cover_icon_container_size" android:layout_height="@dimen/widget_cover_icon_container_size" android:layout_marginBottom="5.0dip">
+            <Button android:textSize="@dimen/widget_today_cover_month_header_go_today_text_size" android:textColor="@color/widget_today_cover_preview_icon_tint_color" android:gravity="center" android:id="@id/cover_go_today" android:background="@drawable/calendar_ic_today" android:focusable="false" android:clickable="false" android:layout_width="@dimen/widget_today_cover_preview_icon_size" android:layout_height="@dimen/widget_today_cover_preview_icon_size" android:scaleType="center" android:text="@string/number_24" android:contentDescription="@string/go_to_today" android:backgroundTint="@color/widget_today_cover_preview_icon_tint_color" style="@style/RobotoMediumFontStyle" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/cover_widget_toggle_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/cover_go_today_container">
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/cover_widget_toggle" android:focusable="false" android:clickable="false" android:layout_width="@dimen/widget_cover_icon_container_size" android:layout_height="@dimen/widget_cover_icon_container_size" android:layout_marginBottom="5.0dip" android:src="@drawable/calendar_cover_ic_agenda" android:scaleType="center" android:tint="@color/widget_today_cover_preview_icon_tint_color" android:contentDescription="@null" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/cover_widget_quick_add_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" android:layout_toStartOf="@id/cover_widget_toggle_container">
+        <ImageView android:layout_gravity="end|bottom" android:id="@id/cover_widget_quick_add" android:focusable="false" android:clickable="false" android:layout_width="@dimen/widget_cover_icon_container_size" android:layout_height="@dimen/widget_cover_icon_container_size" android:layout_marginBottom="5.0dip" android:src="@drawable/month_widget_ic_add" android:scaleType="center" android:tint="@color/widget_today_cover_preview_icon_tint_color" android:contentDescription="@null" />
+    </FrameLayout>
+</RelativeLayout>

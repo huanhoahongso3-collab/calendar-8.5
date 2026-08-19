@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d imeacht eile</item>
+        <item quantity="one">+1 imeacht eile</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d tasc eile</item>
+        <item quantity="one">+1 tasc eile</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d imeacht</item>
+        <item quantity="one">1 imeacht</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d tasc</item>
+        <item quantity="one">1 tasc</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Le tosú: %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Le tosú: %d nóiméad</item>
+        <item quantity="two">Le tosú: %d nóiméad</item>
+        <item quantity="few">Le tosú: %d nóiméad</item>
+        <item quantity="many">Le tosú: %d nóiméad</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d lá roimhe ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d lá roimhe ag %2$s</item>
+        <item quantity="two">%1$d lá roimhe ag %2$s</item>
+        <item quantity="few">%1$d lá roimhe ag %2$s</item>
+        <item quantity="many">%1$d lá roimhe ag %2$s</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Ní féidir %d mír atá inléite amháin a scriosadh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir %d mhír atá inléite amháin a scriosadh.</item>
+        <item quantity="two">Ní féidir %d mhír atá inléite amháin a scriosadh.</item>
+        <item quantity="few">Ní féidir %d mhír atá inléite amháin a scriosadh.</item>
+        <item quantity="many">Ní féidir %d mír atá inléite amháin a scriosadh.</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Scrios go buan %d imeacht?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios go buan %d imeacht?</item>
+        <item quantity="two">Scrios go buan %d imeacht?</item>
+        <item quantity="few">Scrios go buan %d imeacht?</item>
+        <item quantity="many">Scrios go buan %d n-imeacht?</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Scrios %d imeacht, 1 imeacht athfhillteach freisin?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d imeacht, 1 imeacht athfhillteach freisin?</item>
+        <item quantity="two">Scrios %d imeacht, 1 imeacht athfhillteach freisin?</item>
+        <item quantity="few">Scrios %d imeacht, 1 imeacht athfhillteach freisin?</item>
+        <item quantity="many">Scrios %d n-imeacht, 1 imeacht athfhillteach freisin?</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Scrios %d mír?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d mhír?</item>
+        <item quantity="two">Scrios %d mhír?</item>
+        <item quantity="few">Scrios %d mhír?</item>
+        <item quantity="many">Scrios %d mír?</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Ní féidir níos mó ná %d ceangaltán a chur leis.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d cheangaltán a chur leis.</item>
+        <item quantity="two">Ní féidir níos mó ná %d cheangaltán a chur leis.</item>
+        <item quantity="few">Ní féidir níos mó ná %d cheangaltán a chur leis.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gceangaltán a chur leis.</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d mír</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhír</item>
+        <item quantity="two">%d mhír</item>
+        <item quantity="few">%d mhír</item>
+        <item quantity="many">%d mír</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Scriosta ó %1$s ar an %2$s. %3$d lá go dtí go scriosfar an t-imeacht seo go buan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scriosta ó %1$s ar an %2$s. %3$d lá go dtí go scriosfar an t-imeacht seo go buan.</item>
+        <item quantity="two">Scriosta ó %1$s ar an %2$s. %3$d lá go dtí go scriosfar an t-imeacht seo go buan.</item>
+        <item quantity="few">Scriosta ó %1$s ar an %2$s. %3$d lá go dtí go scriosfar an t-imeacht seo go buan.</item>
+        <item quantity="many">Scriosta ó %1$s ar an %2$s. %3$d lá go dtí go scriosfar an t-imeacht seo go buan.</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d lá go dtí scriosadh</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá go dtí scriosadh</item>
+        <item quantity="two">%d lá go dtí scriosadh</item>
+        <item quantity="few">%d lá go dtí scriosadh</item>
+        <item quantity="many">%d lá go dtí scriosadh</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d imeacht dúblach</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imeacht dúblach</item>
+        <item quantity="two">%d imeacht dhúblacha</item>
+        <item quantity="few">%d imeacht dhúblacha</item>
+        <item quantity="many">%d n-imeacht dhúblacha</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Suan %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Suan %d nóiméad</item>
+        <item quantity="two">Suan %d nóiméad</item>
+        <item quantity="few">Suan %d nóiméad</item>
+        <item quantity="many">Suan %d nóiméad</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Ní féidir níos mó ná %d foláireamh a shocrú.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d fholáireamh a shocrú.</item>
+        <item quantity="two">Ní féidir níos mó ná %d fholáireamh a shocrú.</item>
+        <item quantity="few">Ní féidir níos mó ná %d fholáireamh a shocrú.</item>
+        <item quantity="many">Ní féidir níos mó ná %d bhfoláireamh a shocrú.</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Gach %d lá</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gach %d lá</item>
+        <item quantity="two">Gach %d lá</item>
+        <item quantity="few">Gach %d lá</item>
+        <item quantity="many">Gach %d lá</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Gach %d uair an chloig</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gach %d uair an chloig</item>
+        <item quantity="two">Gach %d uair an chloig</item>
+        <item quantity="few">Gach %d uair an chloig</item>
+        <item quantity="many">Gach %d n-uair an chloig</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Gach %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gach %d nóiméad</item>
+        <item quantity="two">Gach %d nóiméad</item>
+        <item quantity="few">Gach %d nóiméad</item>
+        <item quantity="many">Gach %d nóiméad</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Gach %d mí</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gach %d mhí</item>
+        <item quantity="two">Gach %d mhí</item>
+        <item quantity="few">Gach %d mhí</item>
+        <item quantity="many">Gach %d mí</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Gach %d seachtain</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gach %d seachtain</item>
+        <item quantity="two">Gach %d sheachtain</item>
+        <item quantity="few">Gach %d seachtaine</item>
+        <item quantity="many">Gach %d seachtaine</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Gach %d bliain</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gach %d bhliain</item>
+        <item quantity="two">Gach %d bhliain</item>
+        <item quantity="few">Gach %d bliana</item>
+        <item quantity="many">Gach %d mbliana</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Ní féidir níos mó ná %d mír a roghnú.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d mhír a roghnú.</item>
+        <item quantity="two">Ní féidir níos mó ná %d mhír a roghnú.</item>
+        <item quantity="few">Ní féidir níos mó ná %d mhír a roghnú.</item>
+        <item quantity="many">Ní féidir níos mó ná %d mír a roghnú.</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d imeacht eile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imeacht eile</item>
+        <item quantity="two">%d imeacht eile</item>
+        <item quantity="few">%d imeacht eile</item>
+        <item quantity="many">%d n-imeacht eile</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Ceangaltáin (%,d mír)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ceangaltáin (%,d mhír)</item>
+        <item quantity="two">Ceangaltáin (%,d mhír)</item>
+        <item quantity="few">Ceangaltáin (%,d mhír)</item>
+        <item quantity="many">Ceangaltáin (%,d mír)</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Bog 1 imeacht chuig an mBruscar agus scrios %d mír eile?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog 1 imeacht chuig an mBruscar agus scrios %d mhír eile?</item>
+        <item quantity="two">Bog 1 imeacht chuig an mBruscar agus scrios %d mhír eile?</item>
+        <item quantity="few">Bog 1 imeacht chuig an mBruscar agus scrios %d mhír eile?</item>
+        <item quantity="many">Bog 1 imeacht chuig an mBruscar agus scrios %d mír eile?</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Bog 1 imeacht chuig an mBruscar agus scrios %d meabhrúchán?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog 1 imeacht chuig an mBruscar agus scrios %d mheabhrúchán?</item>
+        <item quantity="two">Bog 1 imeacht chuig an mBruscar agus scrios %d mheabhrúchán?</item>
+        <item quantity="few">Bog 1 imeacht chuig an mBruscar agus scrios %d mheabhrúchán?</item>
+        <item quantity="many">Bog 1 imeacht chuig an mBruscar agus scrios %d meabhrúchán?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d imeacht?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d imeacht?</item>
+        <item quantity="two">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d imeacht?</item>
+        <item quantity="few">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d imeacht?</item>
+        <item quantity="many">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d n-imeacht?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d mír eile?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d mhír eile?</item>
+        <item quantity="two">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d mhír eile?</item>
+        <item quantity="few">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d mhír eile?</item>
+        <item quantity="many">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d mír eile?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d tasc?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d tasc?</item>
+        <item quantity="two">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d thasc?</item>
+        <item quantity="few">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d thasc?</item>
+        <item quantity="many">Bog 1 mheabhrúchán chuig an mBruscar agus scrios %d dtasc?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Bog %d imeacht chuig an mBruscar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d imeacht chuig an mBruscar?</item>
+        <item quantity="two">Bog %d imeacht chuig an mBruscar?</item>
+        <item quantity="few">Bog %d imeacht chuig an mBruscar?</item>
+        <item quantity="many">Bog %d n-imeacht chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Bog %d imeacht chuig an mBruscar agus scrios 1 mheabhrúchán?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d imeacht chuig an mBruscar agus scrios 1 mheabhrúchán?</item>
+        <item quantity="two">Bog %d imeacht chuig an mBruscar agus scrios 1 mheabhrúchán?</item>
+        <item quantity="few">Bog %d imeacht chuig an mBruscar agus scrios 1 mheabhrúchán?</item>
+        <item quantity="many">Bog %d n-imeacht chuig an mBruscar agus scrios 1 mheabhrúchán?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Bog %d mír chuig an mBruscar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d mhír chuig an mBruscar?</item>
+        <item quantity="two">Bog %d mhír chuig an mBruscar?</item>
+        <item quantity="few">Bog %d mhír chuig an mBruscar?</item>
+        <item quantity="many">Bog %d mír chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Bog %d mír chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d mhír chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="two">Bog %d mhír chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="few">Bog %d mhír chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="many">Bog %d mír chuig an mBruscar agus scrios 1 tasc?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Bog %d meabhrúchán chuig an mBruscar?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d mheabhrúchán chuig an mBruscar?</item>
+        <item quantity="two">Bog %d mheabhrúchán chuig an mBruscar?</item>
+        <item quantity="few">Bog %d mheabhrúchán chuig an mBruscar?</item>
+        <item quantity="many">Bog %d meabhrúchán chuig an mBruscar?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Bog %d meabhrúchán chuig an mBruscar agus scrios 1 imeacht?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d mheabhrúchán chuig an mBruscar agus scrios 1 imeacht?</item>
+        <item quantity="two">Bog %d mheabhrúchán chuig an mBruscar agus scrios 1 imeacht?</item>
+        <item quantity="few">Bog %d mheabhrúchán chuig an mBruscar agus scrios 1 imeacht?</item>
+        <item quantity="many">Bog %d meabhrúchán chuig an mBruscar agus scrios 1 imeacht?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Bog %d meabhrúchán chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bog %d mheabhrúchán chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="two">Bog %d mheabhrúchán chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="few">Bog %d mheabhrúchán chuig an mBruscar agus scrios 1 tasc?</item>
+        <item quantity="many">Bog %d meabhrúchán chuig an mBruscar agus scrios 1 tasc?</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d imeacht lae</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imeacht lae</item>
+        <item quantity="two">%d imeacht lae</item>
+        <item quantity="few">%d imeacht lae</item>
+        <item quantity="many">%d n-imeacht lae</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d imeacht lae ag tosú ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d imeacht lae ag tosú ag %2$s</item>
+        <item quantity="two">%1$d imeacht lae ag tosú ag %2$s</item>
+        <item quantity="few">%1$d imeacht lae ag tosú ag %2$s</item>
+        <item quantity="many">%1$d n-imeacht lae ag tosú ag %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d meabhrúchán lae ag tosú ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d mheabhrúchán lae ag tosú ag %2$s</item>
+        <item quantity="two">%1$d mheabhrúchán lae ag tosú ag %2$s</item>
+        <item quantity="few">%1$d mheabhrúchán lae ag tosú ag %2$s</item>
+        <item quantity="many">%1$d meabhrúchán lae ag tosú ag %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d tasc lae ag tosú ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tasc lae ag tosú ag %2$s</item>
+        <item quantity="two">%1$d thasc lae ag tosú ag %2$s</item>
+        <item quantity="few">%1$d thasc lae ag tosú ag %2$s</item>
+        <item quantity="many">%1$d dtasc lae ag tosú ag %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d imeacht sceidealaithe ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d imeacht sceidealaithe ag %2$s</item>
+        <item quantity="two">%1$d imeacht sceidealaithe ag %2$s</item>
+        <item quantity="few">%1$d imeacht sceidealaithe ag %2$s</item>
+        <item quantity="many">%1$d n-imeacht sceidealaithe ag %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d meabhrúchán sceidealaithe ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d mheabhrúchán sceidealaithe ag %2$s</item>
+        <item quantity="two">%1$d mheabhrúchán sceidealaithe ag %2$s</item>
+        <item quantity="few">%1$d mheabhrúchán sceidealaithe ag %2$s</item>
+        <item quantity="many">%1$d meabhrúchán sceidealaithe ag %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d tasc sceidealaithe ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tasc sceidealaithe ag %2$s</item>
+        <item quantity="two">%1$d thasc sceidealaithe ag %2$s</item>
+        <item quantity="few">%1$d thasc sceidealaithe ag %2$s</item>
+        <item quantity="many">%1$d dtasc sceidealaithe ag %2$s</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d míle</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhíle</item>
+        <item quantity="two">%d mhíle</item>
+        <item quantity="few">%d mhíle</item>
+        <item quantity="many">%d míle</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d duine dar tugadh cuireadh</item>
+        <item quantity="one">%d duine dar tugadh cuireadh</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d lá roimhe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá roimhe</item>
+        <item quantity="two">%d lá roimhe</item>
+        <item quantity="few">%d lá roimhe</item>
+        <item quantity="many">%d lá roimhe</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d uair an chloig roimhe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uair an chloig roimhe</item>
+        <item quantity="two">%d uair an chloig roimhe</item>
+        <item quantity="few">%d uair an chloig roimhe</item>
+        <item quantity="many">%d n-uair an chloig roimhe</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d nóiméad roimhe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad roimhe</item>
+        <item quantity="two">%d nóiméad roimhe</item>
+        <item quantity="few">%d nóiméad roimhe</item>
+        <item quantity="many">%d nóiméad roimhe</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">I gceann %d lá</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d lae</item>
+        <item quantity="two">I gceann %d lá</item>
+        <item quantity="few">I gceann %d lá</item>
+        <item quantity="many">I gceann %d lá</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">I gceann %d uair an chloig</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d uair an chloig</item>
+        <item quantity="two">I gceann %d uair an chloig</item>
+        <item quantity="few">I gceann %d uair an chloig</item>
+        <item quantity="many">I gceann %d n-uair an chloig</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">I gceann %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d nóiméid</item>
+        <item quantity="two">I gceann %d nóiméad</item>
+        <item quantity="few">I gceann %d nóiméad</item>
+        <item quantity="many">I gceann %d nóiméad</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">I gceann %d mí</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d mhíosa</item>
+        <item quantity="two">I gceann %d mhí</item>
+        <item quantity="few">I gceann %d mhí</item>
+        <item quantity="many">I gceann %d mí</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">I gceann %d seachtain</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d seachtaine</item>
+        <item quantity="two">I gceann %d sheachtain</item>
+        <item quantity="few">I gceann %d seachtaine</item>
+        <item quantity="many">I gceann %d seachtaine</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">I gceann %d bliain</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I gceann %d bhliana</item>
+        <item quantity="two">I gceann %d bhliain</item>
+        <item quantity="few">I gceann %d bliana</item>
+        <item quantity="many">I gceann %d mbliana</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Teideal gearrtha chuig fad dá bhfuil tacú ann le haghaidh teidil imeachta (%,d carachtar).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teideal gearrtha chuig fad dá bhfuil tacú ann le haghaidh teidil imeachta (%,d charachtar).</item>
+        <item quantity="two">Teideal gearrtha chuig fad dá bhfuil tacú ann le haghaidh teidil imeachta (%,d charachtar).</item>
+        <item quantity="few">Teideal gearrtha chuig fad dá bhfuil tacú ann le haghaidh teidil imeachta (%,d charachtar).</item>
+        <item quantity="many">Teideal gearrtha chuig fad dá bhfuil tacú ann le haghaidh teidil imeachta (%,d gcarachtar).</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d seachtain roimhe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seachtain roimhe</item>
+        <item quantity="two">%d sheachtain roimhe</item>
+        <item quantity="few">%d seachtaine roimhe</item>
+        <item quantity="many">%d seachtaine roimhe</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ní féidir níos mó ná %d dath a thaispeáint.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d dath a thaispeáint.</item>
+        <item quantity="two">Ní féidir níos mó ná %d dhath a thaispeáint.</item>
+        <item quantity="few">Ní féidir níos mó ná %d dhath a thaispeáint.</item>
+        <item quantity="many">Ní féidir níos mó ná %d ndath a thaispeáint.</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d lá.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d lá.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d lá.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d lá.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d lá.</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d uair an chloig.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d uair an chloig.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d uair an chloig.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d uair an chloig.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d n-uair an chloig.</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d nóiméad.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d nóiméad.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d nóiméad.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d nóiméad.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d nóiméad.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d mí ar an lá deireanach den mhí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d mhí ar an lá deireanach den mhí.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d mhí ar an lá deireanach den mhí.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d mhí ar an lá deireanach den mhí.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mí ar an lá deireanach den mhí.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d mí ar an %3$s deireanach den mhí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s deireanach den mhí.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s deireanach den mhí.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s deireanach den mhí.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mí ar an %3$s deireanach den mhí.</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d mí ar an %3$s lá den mhí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s lá den mhí.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s lá den mhí.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s lá den mhí.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mí ar an %3$s lá den mhí.</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d mí ar an %3$s %4$s den mhí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s %4$s den mhí.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s %4$s den mhí.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d mhí ar an %3$s %4$s den mhí.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mí ar an %3$s %4$s den mhí.</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d seachtain ar an %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d seachtain ar an %3$s.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d sheachtain ar an %3$s.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d seachtaine ar an %3$s.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d seachtaine ar an %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d bliain ar an lá deireanach de %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d bhliain ar an lá deireanach de %3$s.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d bhliain ar an lá deireanach de %3$s.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d bliana ar an lá deireanach de %3$s.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mbliana ar an lá deireanach de %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d bliain ar an %3$s deireanach de %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d bhliain ar an %3$s deireanach de %4$s.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d bhliain ar an %3$s deireanach de %4$s.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d bliana ar an %3$s deireanach de %4$s.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mbliana ar an %3$s deireanach de %4$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d bliain ar an %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d bhliain ar an %4$s %3$s.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d bhliain ar an %4$s %3$s.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d bliana ar an %4$s %3$s.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mbliana ar an %4$s %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Athdhéanfar an %1$s seo gach %2$d bliain ar an %3$s %4$s de %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Athdhéanfar an %1$s seo gach %2$d bhliain ar an %3$s %4$s de %5$s.</item>
+        <item quantity="two">Athdhéanfar an %1$s seo gach %2$d bhliain ar an %3$s %4$s de %5$s.</item>
+        <item quantity="few">Athdhéanfar an %1$s seo gach %2$d bliana ar an %3$s %4$s de %5$s.</item>
+        <item quantity="many">Athdhéanfar an %1$s seo gach %2$d mbliana ar an %3$s %4$s de %5$s.</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Faoi %d san iomlán</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Faoi %d san iomlán</item>
+        <item quantity="two">Faoi %d san iomlán</item>
+        <item quantity="few">Faoi %d san iomlán</item>
+        <item quantity="many">Faoi %d san iomlán</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Comhroinnte le %d duine</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Comhroinnte le %d duine</item>
+        <item quantity="two">Comhroinnte le %d dhuine</item>
+        <item quantity="few">Comhroinnte le %d dhuine</item>
+        <item quantity="many">Comhroinnte le %d nduine</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Beidh imeacht darb ainm %1$s agat an %2$s mar aon le %3$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh imeacht darb ainm %1$s agat an %2$s mar aon le %3$d imeacht eile.</item>
+        <item quantity="two">Beidh imeacht darb ainm %1$s agat an %2$s mar aon le %3$d imeacht eile.</item>
+        <item quantity="few">Beidh imeacht darb ainm %1$s agat an %2$s mar aon le %3$d imeacht eile.</item>
+        <item quantity="many">Beidh imeacht darb ainm %1$s agat an %2$s mar aon le %3$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Beidh %1$d imeacht agat an %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh %1$d imeacht agat an %2$s.</item>
+        <item quantity="two">Beidh %1$d imeacht agat an %2$s.</item>
+        <item quantity="few">Beidh %1$d imeacht agat an %2$s.</item>
+        <item quantity="many">Beidh %1$d n-imeacht agat an %2$s.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Beidh imeacht darb ainm %1$s agat inniu mar aon le %2$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh imeacht darb ainm %1$s agat inniu mar aon le %2$d imeacht eile.</item>
+        <item quantity="two">Beidh imeacht darb ainm %1$s agat inniu mar aon le %2$d imeacht eile.</item>
+        <item quantity="few">Beidh imeacht darb ainm %1$s agat inniu mar aon le %2$d imeacht eile.</item>
+        <item quantity="many">Beidh imeacht darb ainm %1$s agat inniu mar aon le %2$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Beidh %d imeacht agat inniu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh %d imeacht agat inniu.</item>
+        <item quantity="two">Beidh %d imeacht agat inniu.</item>
+        <item quantity="few">Beidh %d imeacht agat inniu.</item>
+        <item quantity="many">Beidh %d n-imeacht agat inniu.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Beidh imeacht darb ainm %1$s agat amárach mar aon le %2$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh imeacht darb ainm %1$s agat amárach mar aon le %2$d imeacht eile.</item>
+        <item quantity="two">Beidh imeacht darb ainm %1$s agat amárach mar aon le %2$d imeacht eile.</item>
+        <item quantity="few">Beidh imeacht darb ainm %1$s agat amárach mar aon le %2$d imeacht eile.</item>
+        <item quantity="many">Beidh imeacht darb ainm %1$s agat amárach mar aon le %2$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Beidh %d imeacht agat amárach.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh %d imeacht agat amárach.</item>
+        <item quantity="two">Beidh %d imeacht agat amárach.</item>
+        <item quantity="few">Beidh %d imeacht agat amárach.</item>
+        <item quantity="many">Beidh %d n-imeacht agat amárach.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Tá imeacht darb ainm %1$s agat ar an %2$s ag %3$s, mar aon le %4$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá imeacht darb ainm %1$s agat ar an %2$s ag %3$s, mar aon le %4$d imeacht eile.</item>
+        <item quantity="two">Tá imeacht darb ainm %1$s agat ar an %2$s ag %3$s, mar aon le %4$d imeacht eile.</item>
+        <item quantity="few">Tá imeacht darb ainm %1$s agat ar an %2$s ag %3$s, mar aon le %4$d imeacht eile.</item>
+        <item quantity="many">Tá imeacht darb ainm %1$s agat ar an %2$s ag %3$s, mar aon le %4$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Tá imeacht agat ar an %1$s ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá imeacht agat ar an %1$s ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="two">Tá imeacht agat ar an %1$s ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="few">Tá imeacht agat ar an %1$s ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="many">Tá imeacht agat ar an %1$s ag %2$s, mar aon le %3$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Tá imeacht darb ainm %1$s agat inniu ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá imeacht darb ainm %1$s agat inniu ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="two">Tá imeacht darb ainm %1$s agat inniu ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="few">Tá imeacht darb ainm %1$s agat inniu ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="many">Tá imeacht darb ainm %1$s agat inniu ag %2$s, mar aon le %3$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Tá imeacht agat inniu ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá imeacht agat inniu ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="two">Tá imeacht agat inniu ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="few">Tá imeacht agat inniu ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="many">Tá imeacht agat inniu ag %1$s, mar aon le %2$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Tá imeacht darb ainm %1$s agat amárach ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá imeacht darb ainm %1$s agat amárach ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="two">Tá imeacht darb ainm %1$s agat amárach ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="few">Tá imeacht darb ainm %1$s agat amárach ag %2$s, mar aon le %3$d imeacht eile.</item>
+        <item quantity="many">Tá imeacht darb ainm %1$s agat amárach ag %2$s, mar aon le %3$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Tá imeacht agat amárach ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá imeacht agat amárach ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="two">Tá imeacht agat amárach ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="few">Tá imeacht agat amárach ag %1$s, mar aon le %2$d imeacht eile.</item>
+        <item quantity="many">Tá imeacht agat amárach ag %1$s, mar aon le %2$d n-imeacht eile.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Lúide %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lúide %d nóiméad</item>
+        <item quantity="two">Lúide %d nóiméad</item>
+        <item quantity="few">Lúide %d nóiméad</item>
+        <item quantity="many">Lúide %d nóiméad</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Móide %d nóiméad</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Móide %d nóiméad</item>
+        <item quantity="two">Móide %d nóiméad</item>
+        <item quantity="few">Móide %d nóiméad</item>
+        <item quantity="many">Móide %d nóiméad</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">Tosóidh %1$s: %2$d uair an chloig</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tosóidh %1$s: %2$d uair an chloig</item>
+        <item quantity="two">Tosóidh %1$s: %2$d uair an chloig</item>
+        <item quantity="few">Tosóidh %1$s: %2$d uair an chloig</item>
+        <item quantity="many">Tosóidh %1$s: %2$d n-uair an chloig</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">Tá %1$s le tosú i gceann 1 uair an chloig %2$d nóiméad.</item>
+        <item quantity="one">Tá %s le tosú i gceann 1 uair an chloig 1 nóiméad.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">Tá %1$s le tosú i gceann %2$d nóiméad.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá %1$s le tosú i gceann %2$d nóiméid.</item>
+        <item quantity="two">Tá %1$s le tosú i gceann %2$d nóiméad.</item>
+        <item quantity="few">Tá %1$s le tosú i gceann %2$d nóiméad.</item>
+        <item quantity="many">Tá %1$s le tosú i gceann %2$d nóiméad.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Bainfear ón tráidire greamán iad.</item>
+        <item quantity="one">Bainfear ón tráidire greamán é.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Scrios %d tacar greamán?</item>
+        <item quantity="one">Scrios 1 tacar greamán?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Amharc ar %d imeacht eile</item>
+        <item quantity="one">Amharc ar %d imeacht eile</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d seachtain roimhe ag %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d seachtain roimhe ag %2$s</item>
+        <item quantity="two">%1$d sheachtain roimhe ag %2$s</item>
+        <item quantity="few">%1$d seachtaine roimhe ag %2$s</item>
+        <item quantity="many">%1$d seachtaine roimhe ag %2$s</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">lá</item>
+        <item quantity="one">lá</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">lá ó shin</item>
+        <item quantity="one">lá ó shin</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">lá fágtha</item>
+        <item quantity="one">lá fágtha</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s agus %2$d eile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s agus %2$d eile</item>
+        <item quantity="two">%1$s agus %2$d eile</item>
+        <item quantity="few">%1$s agus %2$d eile</item>
+        <item quantity="many">%1$s agus %2$d eile</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d imeacht fágtha</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d imeacht fágtha</item>
+        <item quantity="two">%d imeacht fágtha</item>
+        <item quantity="few">%d imeacht fágtha</item>
+        <item quantity="many">%d n-imeacht fágtha</item>
+    </plurals>
+</resources>

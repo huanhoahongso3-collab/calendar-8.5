@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/alert_custom_item_top_margin" />
+    <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="horizontal" android:id="@id/custom_alert_item_container" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/winset_list_item_top_padding" android:paddingBottom="@dimen/winset_list_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/repeat_list_single_choice_item_padding_start">
+            <CheckBox android:gravity="center" android:id="@id/alert_item_check_box" android:background="@null" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <RadioButton android:gravity="center" android:id="@id/alert_item_radio_button" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/edit_card_common_list_single_choice_item_padding_start" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/custom_container" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/alert_picker_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.libcalendar.picker.repeat.view.common.RepeatPicker android:id="@id/alert_custom_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" app:dividerMargin="@dimen/repeat_picker_divider_margin" app:pickerMargin="@dimen/repeat_picker_margin_horizontal" />
+            <androidx.picker.widget.SeslTimePicker android:theme="@style/TimePickerTheme" android:id="@id/alert_time_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/container_margin_horizontal" android:layout_marginVertical="@dimen/repeat_picker_padding_vertical" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/alert_type_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/alert_type_header_min_height">
+                <TextView android:textSize="@dimen/alert_Type_header_text_size" android:textColor="@color/common_text_input_hint_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/select_reminder_alert_type" android:layout_marginStart="24.0dip" style="@style/RobotoMediumFontStyle" />
+                <View android:layout_gravity="center" android:background="@drawable/alert_dot_divider" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layerType="software" android:layout_marginHorizontal="@dimen/alert_type_header_margin_start" />
+            </LinearLayout>
+            <ListView android:layout_gravity="center_horizontal" android:id="@id/alert_method_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/item_divider" android:layout_marginStart="@dimen/repeat_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+    </LinearLayout>
+</LinearLayout>

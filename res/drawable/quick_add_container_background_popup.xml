@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/quick_add_gradient_size">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient android:startColor="@color/quick_add_container_gradation_start_color" android:endColor="@color/quick_add_container_gradation_color_popup" android:angle="270.0" />
+        </shape>
+    </item>
+    <item android:top="@dimen/quick_add_gradient_size" android:bottom="2.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/quick_add_container_gradation_color_popup" />
+            <corners android:bottomLeftRadius="26.0dip" android:bottomRightRadius="26.0dip" />
+        </shape>
+    </item>
+</layer-list>

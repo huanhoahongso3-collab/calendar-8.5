@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/full_screen_alarm_dismiss_size" android:width="@dimen/full_screen_alarm_dismiss_size">
+        <shape android:shape="oval">
+            <stroke android:width="4.0dip" android:color="#1a000000" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/full_screen_alarm_dismiss_inner_size" android:width="@dimen/full_screen_alarm_dismiss_inner_size">
+        <shape android:shape="oval">
+            <solid android:color="@color/full_screen_alarm_dismiss_background" />
+        </shape>
+    </item>
+</layer-list>

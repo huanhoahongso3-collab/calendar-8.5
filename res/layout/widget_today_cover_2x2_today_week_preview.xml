@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/widget_today_cover_2x2_sunday_text_color" android:text="?day1" style="@style/WidgetTodayCoverSmallDateText" />
+    <TextView android:textColor="@color/widget_today_cover_2x2_today_text_color" android:background="@drawable/widget_today_cover_2x2_today_mark" android:text="?day2" style="@style/WidgetTodayCoverSmallDateText" />
+    <TextView android:textColor="@color/widget_today_cover_2x2_date_text_color" android:text="?day3" android:alpha="0.9" style="@style/WidgetTodayCoverSmallDateText" />
+    <TextView android:textColor="@color/widget_today_cover_2x2_date_text_color" android:text="?day4" android:alpha="0.9" style="@style/WidgetTodayCoverSmallDateText" />
+    <TextView android:textColor="@color/widget_today_cover_2x2_date_text_color" android:text="?day5" android:alpha="0.9" style="@style/WidgetTodayCoverSmallDateText" />
+    <TextView android:textColor="@color/widget_today_cover_2x2_date_text_color" android:text="?day6" android:alpha="0.9" style="@style/WidgetTodayCoverSmallDateText" />
+    <TextView android:textColor="@color/widget_today_cover_2x2_date_text_color" android:text="?day7" android:alpha="0.9" style="@style/WidgetTodayCoverSmallDateText" />
+</LinearLayout>

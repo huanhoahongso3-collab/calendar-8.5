@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/widget_preview_outside_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/widget_list_task_header" android:background="@android:color/transparent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_widget_header_add_button_margin_top" android:layout_marginEnd="@dimen/list_widget_header_add_button_margin_end">
+        <TextView android:textSize="@dimen/list_widget_day_label_text_size" android:textColor="@color/widget_preview_text_color" android:layout_gravity="center_vertical" android:id="@id/date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/may_21" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/list_widget_medium_day_item_padding_start" style="@style/RobotoMediumFontStyle" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <ImageView android:layout_gravity="center" android:id="@id/widget_list_new_event_bg" android:layout_width="@dimen/today_widget_large_button_add_event_size" android:layout_height="@dimen/today_widget_large_button_add_event_size" android:src="@drawable/widget_icon_bg_shape_preview" android:scaleType="fitXY" />
+            <ImageButton android:id="@id/widget_list_new_event" android:src="@drawable/calendar_btn_add" android:tint="@color/widget_preview_add_icon_color" style="@style/WidgetListPreviewHeaderEndImageButtonStyle" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/widget_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_marginStart="@dimen/list_widget_medium_item_margin_start" android:layout_marginEnd="@dimen/list_widget_medium_item_margin_end">
+        <include android:theme="@style/CalendarListWidgetLabelStyle.Preview1" layout="@layout/widget_list_medium_preview_event_item" />
+        <include layout="@layout/widget_list_preview_line" />
+        <include android:theme="@style/CalendarListWidgetLabelStyle.Preview2" layout="@layout/widget_list_medium_preview_event_item" />
+        <include layout="@layout/widget_list_preview_line" />
+        <include android:theme="@style/CalendarListWidgetLabelStyle.Preview3" layout="@layout/widget_list_medium_preview_event_item" />
+    </LinearLayout>
+</LinearLayout>

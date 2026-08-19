@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">samsungapps.com</domain>
+        <domain includeSubdomains="true">galaxyappstore.com</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">samsungcal.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="@raw/star_samsungcal_com_cert" />
+            <certificates src="@raw/aws_samsungcal_com_cert" />
+        </trust-anchors>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end" android:id="@id/settings_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:importantForAccessibility="no" android:paddingEnd="@dimen/drawer_setting_icon_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center_vertical" android:id="@id/settings" android:background="@drawable/common_actionbar_button_ripple" android:layout_width="@dimen/common_action_bar_ripple_width" android:layout_height="@dimen/common_action_bar_ripple_height" android:src="@drawable/calendar_drawer_ic_setting" android:tint="@color/drawer_setting_icon_tint_color" android:contentDescription="@string/preferences_title" />
+    <FrameLayout android:gravity="center" android:layout_gravity="end|top" android:id="@id/settings_icon_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/drawer_setting_icon_n_badge_top_margin" android:layout_marginEnd="@dimen/drawer_setting_icon_n_badge_margin_end">
+        <ImageView style="@style/NBadgeIconStyle" />
+    </FrameLayout>
+</FrameLayout>

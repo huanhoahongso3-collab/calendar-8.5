@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:initialLayout="@layout/initial_big_upcoming_brief_widget" android:previewLayout="@layout/big_brief_widget_preview" android:targetCellWidth="2" android:targetCellHeight="1" app:configureLockScreen="com.samsung.android.app.calendar.widget.BigBriefUpcomingConfigureActivity" app:targetHost="lock_and_aod|cover" app:widgetSize="small" app:widgetStyle="monotone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

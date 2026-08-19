@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d ta boshqa hodisa</item>
+        <item quantity="one">+1 ta boshqa hodisa</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d ta boshqa topshiriq</item>
+        <item quantity="one">+1 ta boshqa topishiriq</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d hodisa</item>
+        <item quantity="one">1 hodisa</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%dta topshiriq</item>
+        <item quantity="one">1ta topshiriq</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">%d daq boshlanadi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d daq boshlanadi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d kun oldin %2$s da</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d kun oldin %2$s da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Faqat o‘qish mumkin bo‘lgan %d ta element o‘chirilmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Faqat o‘qish mumkin bo‘lgan %d ta element o‘chirilmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">%d ta hodisa butunlay o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta hodisa butunlay o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">%d ta hodisa, jmldn, 1 ta takroriy o‘chirilsinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta hodisa, jmldn, 1 ta takroriy o‘chirilsinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d ta element o‘chirilsinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta element o‘chirilsinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">%d tadan ortiq biriktirma qo‘shib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq biriktirma qo‘shib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d ta element</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta element</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%1$s’dan %2$s da o‘chirib tashlandi. %3$d kundan keyin bu hodisa butunlay o‘chirib tashlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s’dan %2$s da o‘chirib tashlandi. %3$d kundan keyin bu hodisa butunlay o‘chirib tashlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d kundan keyin o‘chirib tashlanadi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kundan keyin o‘chirib tashlanadi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d ta dublikat hodisa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta dublikat hodisa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d daqiqa kechiktirish</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d daqiqa kechiktirish</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">%d tadan ortiq signalni o‘rnatib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq signalni o‘rnatib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">%d tadan ortiq belgini kiritib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq belgi kiritib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">%d tadan ortiq belgini kiritib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq belgi kiritib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Har %d kunda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Har %d kunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Har %d soatda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Har %d soatda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Har %d daqiqada</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Har %d daqiqada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Har %d oyda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Har %d oyda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Har %d haftada</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Har %d haftada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Har %d yilda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Har %d yilda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">%d tadan ortiq elementni tanlab bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq elementni tanlab bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">Yana %d ta hodisa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yana %d ta hodisa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Biriktirmalar (%,d ta element)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Biriktirmalar (%,d ta element)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">1 ta hodisa Savatga ko‘chirilib, yana %d ta element o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ta hodisa Savatga ko‘chirilib, yana %d ta element o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">1 ta hodisa Savatga ko‘chirilib, %d ta eslatma o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ta hodisa Savatga ko‘chirilib, %d ta eslatma o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">1 ta eslatma Savatga ko‘chirilib, %d ta hodisa o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ta eslatma Savatga ko‘chirilib, %d ta hodisa o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">1 ta eslatma Savatga ko‘chirilib, yana %d ta element o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ta eslatma Savatga ko‘chirilib, yana %d ta element o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">1 ta eslatma Savatga ko‘chirilib, %d ta topshiriq o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ta eslatma Savatga ko‘chirilib, %d ta topshiriq o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d ta hodisa Savatga ko‘chirilsinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta hodisa Savatga ko‘chirilsinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">%d ta hodisa Savatga ko‘chirilib, 1 ta eslatma o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta hodisa Savatga ko‘chirilib, 1 ta eslatma o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d ta element Savatga ko‘chirilsinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta element Savatga ko‘chirilsinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">%d ta element Savatga ko‘chirilib, 1 ta topshiriq o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta element Savatga ko‘chirilib, 1 ta topshiriq o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d ta eslatma Chiqitdonga olinsinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta eslatma Chiqitdonga olinsinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">%d ta eslatma Savatga ko‘chirilib, 1 ta hodisa o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta eslatma Savatga ko‘chirilib, 1 ta hodisa o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">%d ta eslatma Savatga ko‘chirilib, 1 ta topshiriq o‘chirib tashlansinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta eslatma Savatga ko‘chirilib, 1 ta topshiriq o‘chirib tashlansinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d ta kun davomidagi hodisa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta kun davomidagi hodisa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d ta kun davomidagi hodisa soat %2$s da boshlanadi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ta kun davomidagi hodisa soat %2$s da boshlanadi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d ta kun davomidagi eslatma soat %2$s da boshlanadi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ta kun davomidagi eslatma soat %2$s da boshlanadi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d ta kun davomidagi topshiriq soat %2$s da boshlanadi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ta kun davomidagi topshiriq soat %2$s da boshlanadi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d ta hodisa soat %2$s ga rejalashtirilgan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ta hodisa soat %2$s ga rejalashtirilgan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d ta eslatma soat %2$s ga rejalashtirilgan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ta eslatma soat %2$s ga rejalashtirilgan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d ta topshiriq soat %2$s ga rejalashtirilgan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ta topshiriq soat %2$s ga rejalashtirilgan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d kishi taklif qilindi</item>
+        <item quantity="one">%d kishi taklif qilindi</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d kun oldin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kun oldin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d soat oldin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soat oldin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d daqiqa oldin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d daqiqa oldin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">Hozirdan boshlab %d kun</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hozirdan boshlab %d kun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">Hozirdan boshlab %d soat</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hozirdan boshlab %d soat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">Hozirdan boshlab %d daqiqa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hozirdan boshlab %d daqiqa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">Hozirdan boshlab %d oy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hozirdan boshlab %d oy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">Hozirdan boshlab %d hafta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hozirdan boshlab %d hafta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">Hozirdan boshlab %d yil</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hozirdan boshlab %d yil</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Sarlavha hodisa sarlavhalari uchun qo‘llab-quvvatlanadigan uzunlikka qisqartirildi (%,d ta belgi).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sarlavha hodisa sarlavhalari uchun qo‘llab-quvvatlanadigan uzunlikka qisqartirildi (%,d ta belgi).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d hafta oldin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hafta oldin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d tadan ortiq rang ko‘rsatib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq rangni ko‘rsatib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Bu %1$s har %2$d kunda takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d kunda takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Bu %1$s har %2$d soatda takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d soatda takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Bu %1$s har %2$d daqiqada takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d daqiqada takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Bu %1$s har %2$d oyda oyning oxirgi kunida takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d oyda oyning oxirgi kunida takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Bu %1$s har %2$d oyda oyning oxirgi %3$s da takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d oyda oyning oxirgi %3$s da takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Bu %1$s har %2$d oyda oyning %3$s kunida takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d oyda oyning %3$s kunida takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Bu %1$s har %2$d oyda oyning %3$s %4$s kunida takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d oyda oyning %3$s %4$s kunida takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Bu %1$s har %2$d hafta %3$s da takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d hafta %3$s da takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Bu %1$s har %2$d yilda %3$s ning oxirgi kunida takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d yilda %3$s ning oxirgi kunida takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Bu %1$s har %2$d yilda %4$s da %3$s oxirgi kunida takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d yilda %4$s da %3$s oxirgi kunida takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Bu %1$s har %2$d yil %3$s %4$s da takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d yil %3$s %4$s da takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Bu %1$s har %2$d yilda %5$s ning %3$s %4$s kunida takrorlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu %1$s har %2$d yilda %5$s ning %3$s %4$s kunida takrorlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d jami vaqt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jami vaqt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">%d kishi bilan ulashildi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kishi bilan ulashildi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%2$s da sizda %1$s deb nomlangan va yana %3$d ta hodisa bor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s da sizda %1$s deb nomlangan va yana %3$d ta hodisa bor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%2$s da %1$d ta hodisa bor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s da %1$d ta hodisa bor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Bugun sizda %1$s deb nomlangan va yana %2$d ta hodisa bor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bugun sizda %1$s deb nomlangan va yana %2$d ta hodisa bor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Bugun %d ta hodisa bor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bugun %d ta hodisa bor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Ertaga sizda %1$s deb nomlangan va yana %2$d ta hodisa bor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ertaga sizda %1$s deb nomlangan va yana %2$d ta hodisa bor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Ertaga %d ta hodisa bor.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ertaga %d ta hodisa bor.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">%2$s kuni soat %3$s da %1$s deb nomlangan va yana %4$d ta hodisa mavjud.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s kuni soat %3$s da %1$s deb nomlangan va yana %4$d ta hodisa mavjud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="zero">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="one">You have an event on %1$s at %2$s plus %3$d other event.</item>
+        <item quantity="two">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="few">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="many">You have an event on %1$s at %2$s plus %3$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Bugun soat %2$s da %1$s deb nomlangan va yana %3$d ta hodisa mavjud.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bugun soat %2$s da %1$s deb nomlangan va yana %3$d ta hodisa mavjud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event today at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event today at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Ertaga soat %2$s da %1$s deb nomlangan va yana %3$d ta hodisa mavjud.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ertaga soat %2$s da %1$s deb nomlangan va yana %3$d ta hodisa mavjud.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event tomorrow at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event tomorrow at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d daqiqa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d daqiqa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plyus %d daqiqa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plyus %d daqiqa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s %2$d st keyin boshlanadi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d st keyin boshlanadi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s 1 soat va %2$d daqiqadan so‘ng boshlanadi.</item>
+        <item quantity="one">%s 1 soat va 1 daqiqadan so‘ng boshlanadi.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s %2$d daqiqadan keyin boshlanadi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d daqiqadan keyin boshlanadi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Ular stikerlar treyidan olib tashlanadi.</item>
+        <item quantity="one">U stikerlar treyidan olib tashlanadi.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">%d ta stiker to‘plami o‘chirilsinmi?</item>
+        <item quantity="one">1 ta stiker to‘plami o‘chirilsinmi?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Yana %d ta hodisa ko‘r</item>
+        <item quantity="one">Yana %d ta hodisa ko‘r</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d hafta oldin %2$s da</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d hafta oldin %2$s da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">kun</item>
+        <item quantity="one">kun</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">kun avval</item>
+        <item quantity="one">kun avval</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">kun qoldi</item>
+        <item quantity="one">kun qoldi</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s va yana %2$d ta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s va yana %2$d ta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d hodisa qoldi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hodisa qoldi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

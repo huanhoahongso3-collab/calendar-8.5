@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="all_day_week_max_collapse_count">3</integer>
+    <integer name="emoji_sticker_picker_num_columns">12</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="participant_scheudle_cell_num">7</integer>
+    <item type="integer" name="reminder_tablet_540_full_screen_alarm_vertical_bias">0.15</item>
+    <integer name="sesl_glance_combine_body_small_2nd_text__visibility">8</integer>
+    <integer name="sesl_glance_combine_body_tiny_2nd_text_visibility">8</integer>
+    <integer name="sticker_picker_num_columns">8</integer>
+    <integer name="sticker_picker_top_sticker_num_columns">6</integer>
+    <integer name="timeline_max_column_num_day">5</integer>
+</resources>

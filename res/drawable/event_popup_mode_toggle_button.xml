@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/atList" android:state_activated="true">
+        <bitmap android:src="@drawable/listview_to_timeline_ic_01" />
+    </item>
+    <item android:id="@id/atTimeline">
+        <bitmap android:src="@drawable/timeline_to_listview_ic_01" />
+    </item>
+    <transition android:toId="@id/atTimeline" android:fromId="@id/atList">
+        <animation-list>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_01" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_02" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_03" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_04" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_05" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_06" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_07" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_08" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_09" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_10" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_11" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_12" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_13" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_14" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_15" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_16" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_17" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_18" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_19" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_20" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_21" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_22" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_23" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_24" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_25" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_26" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_27" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_28" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_29" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_30" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_31" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_32" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_33" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/listview_to_timeline_ic_34" />
+            </item>
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/atList" android:fromId="@id/atTimeline">
+        <animation-list>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_01" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_02" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_03" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_04" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_05" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_06" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_07" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_08" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_09" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_10" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_11" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_12" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_13" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_14" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_15" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_16" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_17" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_18" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_19" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_20" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_21" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_22" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_23" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_24" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_25" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_26" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_27" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_28" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_29" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_30" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_31" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_32" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_33" />
+            </item>
+            <item android:duration="17">
+                <bitmap android:src="@drawable/timeline_to_listview_ic_34" />
+            </item>
+        </animation-list>
+    </transition>
+</animated-selector>

@@ -1,0 +1,214 @@
+// Copyright 2024 Copyright 2024 The OS Migration Authors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+edition = "2023";
+
+package os_migration_data_types.v1;
+
+import "export_failure.proto";
+import "file_content.proto";
+import "accounts.proto";
+
+option java_multiple_files = true;
+
+message Calendar {
+  // Stable across multiple migrations
+  string id = 1;
+  CalendarType type = 2;
+  string title = 3;
+  // The source object : the account to which this calendar belongs.
+  // Source: Account -> Account proto is required
+  Account source = 4;
+  bool subscribed = 5;
+  string color = 6;
+  // Whether calendar’s properties can be edited or deleted
+  bool immutable = 7;
+}
+
+enum CalendarType {
+  CALENDAR_TYPE_UNSPECIFIED = 0;
+  CALENDAR_TYPE_LOCAL = 1;
+  CALENDAR_TYPE_CAL_DAV = 2;
+  CALENDAR_TYPE_EXCHANGE = 3;
+  CALENDAR_TYPE_SUBSCRIPTION = 4;
+  CALENDAR_TYPE_BIRTHDAY = 5;
+}
+
+message CalendarEvent {
+  // Stable across multiple migrations
+  string id = 1;
+  string calendar_id = 2;
+  string title = 3;
+  string location = 4;
+  int64 creation_date_millis_since_epoch = 5;
+  int64 last_modified_date_millis_since_epoch = 6;
+  string time_zone = 7;
+  string url = 8;
+  string notes = 9;
+  repeated CalendarParticipant participants = 10;
+  repeated CalendarAlarm alarms = 11;
+  CalendarRecurrenceRule recurrence_rule = 12;
+  bool all_day = 13;
+  CalendarEventAvailability event_availability = 14;
+  int64 start_date_millis_since_epoch = 15;
+  int64 end_date_millis_since_epoch = 16;
+  // The original occurrence date of an event if it is part of a recurring
+  // series.
+  int64 occurrence_date_millis_since_epoch = 17;
+  CalendarParticipant organizer = 18;
+  CalendarEventStatus status = 19;
+}
+
+message CalendarParticipant {
+  // Can be their email
+  string id = 1;
+  string name = 2;
+  CalendarParticipantRole participant_role = 3;
+  CalendarParticipantStatus participant_status = 4;
+  CalendarParticipantType participant_type = 5;
+}
+
+enum CalendarParticipantRole {
+  CALENDAR_PARTICIPANT_ROLE_UNSPECIFIED = 0;
+  CALENDAR_PARTICIPANT_ROLE_REQUIRED = 1;
+  CALENDAR_PARTICIPANT_ROLE_OPTIONAL = 2;
+  // Represents organizer
+  CALENDAR_PARTICIPANT_ROLE_CHAIR = 3;
+  // Represents that the participant is not actively involved in the event
+  CALENDAR_PARTICIPANT_ROLE_NON_PARTICIPANT = 4;
+}
+
+enum CalendarParticipantStatus {
+  CALENDAR_PARTICIPANT_STATUS_UNSPECIFIED = 0;
+  CALENDAR_PARTICIPANT_STATUS_PENDING = 1;
+  CALENDAR_PARTICIPANT_STATUS_ACCEPTED = 2;
+  CALENDAR_PARTICIPANT_STATUS_DECLINED = 3;
+  CALENDAR_PARTICIPANT_STATUS_TENTATIVE = 4;
+  CALENDAR_PARTICIPANT_STATUS_DELEGATED = 5;
+  CALENDAR_PARTICIPANT_STATUS_COMPLETED = 6;
+  CALENDAR_PARTICIPANT_STATUS_IN_PROCESS = 7;
+}
+
+enum CalendarParticipantType {
+  CALENDAR_PARTICIPANT_TYPE_UNSPECIFIED = 0;
+  CALENDAR_PARTICIPANT_TYPE_PERSON = 1;
+  CALENDAR_PARTICIPANT_TYPE_ROOM = 2;
+  CALENDAR_PARTICIPANT_TYPE_RESOURCE = 3;
+  CALENDAR_PARTICIPANT_TYPE_GROUP = 4;
+}
+
+message CalendarAlarm {
+  int64 absolute_date_millis_since_epoch = 1;
+  // The offset from the start of an event, at which the alarm fires.
+  double relative_offset = 2;
+}
+
+message CalendarRecurrenceRule {
+  string recurrence_rule_id = 1;
+  // The frequency for recurrence rules.
+  CalendarRecurrenceFrequency recurrence_frequency = 2;
+  CalendarRecurrenceEnd recurrence_end = 3;
+  uint64 interval = 4;
+  /* Indicates which day of the week the recurrence rule treats as the first day
+   * of the week. Values of 1 to 7 correspond to Sunday through Saturday. A
+   * value of 0 indicates that this property is not set for the recurrence rule.
+   */
+  CalendarDay first_day_of_the_week = 5;
+  repeated CalendarRecurrenceDayOfWeek days_of_the_week = 6;
+  repeated int32 days_of_the_month = 7;
+  repeated int32 days_of_the_year = 8;
+  repeated int32 weeks_number = 9;
+  repeated int32 months_of_the_year = 10;
+  /* An array of ordinal numbers that filters which recurrences to include in
+   * the recurrence rule’s frequency. For example, a yearly recurrence rule that
+   * has a days_of_the_week value that specifies Monday through Friday, and a
+   * set_positions array containing 2 and -1, occurs only on the second weekday
+   * and last weekday of every year. Values can be from 1 to 366 and from -1 to
+   * -366. Negative values indicate counting backwards from the  end of the
+   * recurrence rule’s frequency (week, month, or year). */
+  repeated int32 set_positions = 11;
+}
+
+enum CalendarRecurrenceFrequency {
+  CALENDAR_RECURRENCE_FREQUENCY_UNSPECIFIED = 0;
+  CALENDAR_RECURRENCE_FREQUENCY_DAILY = 1;
+  CALENDAR_RECURRENCE_FREQUENCY_WEEKLY = 2;
+  CALENDAR_RECURRENCE_FREQUENCY_MONTHLY = 3;
+  CALENDAR_RECURRENCE_FREQUENCY_YEARLY = 4;
+}
+
+message CalendarRecurrenceEnd {
+  int64 end_date_millis_since_epoch = 1;
+  int64 occurrence_count = 2;
+}
+
+message CalendarRecurrenceDayOfWeek {
+  CalendarDay day_of_the_week = 1;
+  /* Valid values for weekNumber portion are (+/-)1-53, where a negative value
+   * indicates a value from the end of the range. For example, in a yearly event
+   * -1 means last week of the year. -1 in a Monthly recurrence indicates the
+   * last week of the month. */
+  int32 week_number = 2;
+}
+
+enum CalendarDay {
+  CALENDAR_DAY_UNSPECIFIED = 0;
+  CALENDAR_DAY_NOTSET = 1;
+  CALENDAR_DAY_SUNDAY = 2;
+  CALENDAR_DAY_MONDAY = 3;
+  CALENDAR_DAY_TUESDAY = 4;
+  CALENDAR_DAY_WEDNESDAY = 5;
+  CALENDAR_DAY_THURSDAY = 6;
+  CALENDAR_DAY_FRIDAY = 7;
+  CALENDAR_DAY_SATURDAY = 8;
+}
+
+enum CalendarEventAvailability {
+  CALENDAR_EVENT_AVAILABILITY_UNSPECIFIED = 0;
+  CALENDAR_EVENT_AVAILABILITY_NOT_SUPPORTED = 1;
+  CALENDAR_EVENT_AVAILABILITY_BUSY = 2;
+  CALENDAR_EVENT_AVAILABILITY_FREE = 3;
+  CALENDAR_EVENT_AVAILABILITY_TENTATIVE = 4;
+  CALENDAR_EVENT_AVAILABILITY_UNAVAILABLE = 5;
+}
+
+enum CalendarEventStatus {
+  CALENDAR_EVENT_STATUS_UNSPECIFIED = 0;
+  CALENDAR_EVENT_STATUS_NONE = 1;
+  CALENDAR_EVENT_STATUS_CONFIRMED = 2;
+  CALENDAR_EVENT_STATUS_TENTATIVE = 3;
+  CALENDAR_EVENT_STATUS_CANCELED = 4;
+}
+
+message CalendarAttachment {
+  string id = 1;
+  string event_id = 2;
+  string mime_type = 3;
+  string file_name = 4;
+  uint64 file_size = 5;
+  string url = 6;
+
+  FileContentIdentifier content_identifier = 7;
+  ExportFailure export_failure = 8;
+}
+
+message CalendarArray {
+  repeated Calendar calendars = 1;
+  ExportFailureSummary export_failure_summary = 2;
+}
+
+message CalendarEventArray {
+  repeated CalendarEvent events = 1;
+  ExportFailureSummary export_failure_summary = 2;
+}

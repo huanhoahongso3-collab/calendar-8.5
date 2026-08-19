@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:id="@id/reminder_title_container" android:minHeight="@dimen/edit_card_title_container_min_height" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_card_task_title_container_start_margin" android:layout_marginEnd="@dimen/edit_card_common_content_padding_end">
+        <com.samsung.android.libcalendar.platform.hypertext.LinkAutoCompleteTextView android:textSize="@dimen/edit_card_title_text_size" android:id="@id/reminder_title_textview" android:paddingBottom="@dimen/edit_card_title_container_padding_bottom" android:focusable="true" android:nextFocusRight="@id/task_color_button" android:layout_width="0.0dip" android:minHeight="@dimen/edit_card_title_min_height" android:hint="@string/label_title" android:maxLength="1000" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="flagNoFullscreen" android:layout_marginStart="@dimen/edit_card_task_title_margin_start" android:transitionName="edit_title" android:fontFeatureSettings="tnum" style="@style/EditEventTitleTextFieldStyle" />
+    </LinearLayout>
+</LinearLayout>

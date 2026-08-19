@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:orientation="vertical" android:id="@id/top_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/view_about_calendar_calendar_info" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <include layout="@layout/view_about_calendar_update_button" />
+        </LinearLayout>
+        <View android:orientation="vertical" android:id="@id/middle_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/license_button_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/view_about_calendar_license_buttons" />
+        <View android:orientation="vertical" android:id="@id/bottom_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

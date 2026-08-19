@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/agenda_cover_widget_no_item_container" android:background="@android:color/transparent" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_toggle_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/today_widget_no_item_text_size" android:textColor="@color/list_widget_cover_day_label_text_color" android:id="@id/agenda_cover_no_event_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_cover_view_date_margin_top" android:layout_marginBottom="@dimen/empty_cover_view_date_margin_bottom" android:layout_marginStart="@dimen/empty_cover_view_date_margin_start" style="@style/RobotoMediumFontStyle" />
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/list_widget_cover_height_item_layout">
+        <ImageView android:id="@id/widget_background_no_events" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/event_list_cover_widget_no_events_background" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/today_widget_no_item_text_size" android:textColor="@color/list_widget_cover_no_events_text_color" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_events_today_widget" style="@style/RobotoRegularFontStyle" />
+            <TextView android:textSize="@dimen/today_widget_no_item_text_size" android:textColor="@color/list_widget_cover_no_events_text_color" android:ellipsize="end" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enjoy_your_day" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">Altri %d eventi</item>
+        <item quantity="one">1 altro evento</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">Altre %d attività in più</item>
+        <item quantity="one">1 altra attività in più</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d eventi</item>
+        <item quantity="one">1 evento</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d attività</item>
+        <item quantity="one">1 attività</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Inizia tra %d minuti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Inizia tra %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d giorni prima alle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d giorno prima alle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Impossibile eliminare %d elementi di sola lettura.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile eliminare %d elemento di sola lettura.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Eliminare definitivamente %d eventi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminare definitivamente %d evento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Eliminare %d eventi, incluso 1 evento ricorrente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminare %d evento, incluso 1 evento ricorrente?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Eliminare %d elementi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminare %d elemento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Impossibile aggiungere più di %d allegati.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile aggiungere più di %d allegato.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d elementi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elemento</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Eliminato da %1$s il %2$s. %3$d giorni all’eliminazione definitiva dell’evento.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eliminato da %1$s il %2$s. %3$d giorno all’eliminazione definitiva dell’evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d giorni all’eliminazione</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d giorno all’eliminazione</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d eventi duplicati</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d evento duplicato</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Rinvia di %d minuti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Rinvia di %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Impossibile impostare più di %d avvisi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile impostare più di %d avviso.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Impossibile inserire più di %d caratteri.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile inserire più di %d carattere.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Impossibile inserire più di %d caratteri.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile inserire più di %d carattere.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Ogni %d giorni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ogni %d giorno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Ogni %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ogni %d ora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Ogni %d minuti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ogni %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Ogni %d mesi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ogni %d mese</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Ogni %d settimane</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ogni %d settimana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Ogni %d anni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ogni %d anno</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Impossibile selezionare più di %d elementi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile selezionare più di %d elemento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">Altri %d eventi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d altro evento</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Allegati (%,d elementi)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Allegati (%,d elemento)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Spostare 1 evento nel Cestino ed eliminare altri %d elementi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare 1 evento nel Cestino ed eliminare %d altro elemento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Spostare 1 evento nel Cestino ed eliminare %d promemoria?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare 1 evento nel Cestino ed eliminare %d promemoria?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Spostare 1 promemoria nel Cestino ed eliminare %d eventi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare 1 promemoria nel Cestino ed eliminare %d evento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Spostare 1 promemoria nel Cestino ed eliminare altri %d elementi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare 1 promemoria nel Cestino ed eliminare %d altro elemento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Spostare 1 promemoria nel Cestino ed eliminare %d attività?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare 1 promemoria nel Cestino ed eliminare %d attività?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Spostare %d eventi nel Cestino?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d evento nel Cestino?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Spostare %d eventi nel Cestino ed eliminare 1 promemoria?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d evento nel Cestino ed eliminare 1 promemoria?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Spostare %d elementi nel Cestino?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d elemento nel Cestino?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Spostare %d elementi nel Cestino ed eliminare 1 attività?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d elemento nel Cestino ed eliminare 1 attività?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Spostare %d promemoria nel Cestino?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d promemoria nel Cestino?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Spostare %d promemoria nel Cestino ed eliminare 1 evento?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d promemoria nel Cestino ed eliminare 1 evento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Spostare %d promemoria nel Cestino ed eliminare 1 attività?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Spostare %d promemoria nel Cestino ed eliminare 1 attività?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d eventi giornalieri</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d evento giornaliero</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d eventi giornalieri a partire dalle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d evento giornaliero a partire dalle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d promemoria giornalieri a partire dalle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d promemoria giornaliero a partire dalle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d attività giornaliere a partire dalle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d attività giornaliera a partire dalle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d eventi programmati alle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d evento programmato alle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d promemoria programmati alle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d promemoria programmato alle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d attività programmate alle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d attività programmata alle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d persone invitate</item>
+        <item quantity="one">%d persona invitata</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d giorni prima</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d giorno prima</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d ore prima</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ora prima</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d minuti prima</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto prima</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d giorni da adesso</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d giorno da adesso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d ore da adesso</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ora da adesso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minuti da adesso</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto da adesso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d mesi da adesso</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mese da adesso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d settimane da adesso</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d settimana da adesso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d anni da adesso</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d anno da adesso</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Titolo accorciato alla lunghezza supportata per i titoli di eventi (%,d caratteri).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Titolo accorciato alla lunghezza supportata per i titoli di eventi (%,d carattere).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d settimane prima</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d settimana prima</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Impossibile visualizzare più di %d colori.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossibile visualizzare più di %d colore.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">%1$s si ripete ogni %2$d giorni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s si ripete ogni %2$d giorno.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">%1$s si ripete ogni %2$d ore.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s si ripete ogni ora.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">%1$s si ripete ogni %2$d minuti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s si ripete ogni minuto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d mesi, l’ultimo giorno del mese.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d mese, l’ultimo giorno del mese.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d mesi, l’ultimo %3$s del mese.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d mese, l’ultimo %3$s del mese.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d mesi, il %3$s giorno del mese.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d mese, il %3$s giorno del mese.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d mesi, il %3$s %4$s del mese.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d mese, il %3$s %4$s del mese.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d settimane di %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d settimana di %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d anni, l’ultimo giorno di %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d anno, l’ultimo giorno di %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d anni, l’ultimo %3$s di %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d anno, l’ultimo %3$s di %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d anni il %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d anno il %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Questo %1$s si ripete ogni %2$d anni, il %3$s %4$s di %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Questo %1$s si ripete ogni %2$d anno, il %3$s %4$s di %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d volte in totale</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d volta in totale</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Condiviso con %d persone</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Condiviso con %d persona</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">È presente un evento denominato %1$s per il giorno %2$s più altri %3$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente un evento denominato %1$s per il giorno %2$s più %3$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Sono presenti %1$d eventi per il giorno %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente %1$d evento per il giorno %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">È presente un evento denominato %1$s per oggi più altri %2$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente un evento denominato %1$s per oggi più %2$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Sono presenti %d eventi per oggi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente %d evento per oggi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">È presente un evento denominato %1$s per domani più altri %2$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente un evento denominato %1$s per domani più %2$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Sono presenti %d eventi per domani.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente %d evento per domani.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">È presente un evento denominato %1$s il giorno %2$s alle ore %3$s più altri %4$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente un evento denominato %1$s il giorno %2$s alle ore %3$s più %4$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Avete un evento il giorno %1$s alle ore %2$s più altri %3$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avete un evento il giorno %1$s alle ore %2$s più %3$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">È presente un evento denominato %1$s oggi alle ore %2$s più altri %3$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente un evento denominato %1$s oggi alle ore %2$s più %3$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Avete un evento oggi alle ore %1$s più altri %2$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avete un evento oggi alle ore %1$s più %2$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">È presente un evento denominato %1$s domani alle ore %2$s più altri %3$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">È presente un evento denominato %1$s domani alle ore %2$s più %3$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Avete un evento domani alle ore %1$s più altri %2$d eventi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Avete un evento domani alle ore %1$s più %2$d altro evento.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Meno %d minuti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Meno %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Più %d minuti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Più %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s inizia tra %2$d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s inizia tra %2$d ora</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s inizia tra 1 ora e %2$d minuti.</item>
+        <item quantity="one">%s inizia tra 1 ora e 1 minuto.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s inizia tra %2$d minuti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s inizia tra %2$d minuto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Verranno rimossi dalla barra degli adesivi.</item>
+        <item quantity="one">Verrà rimosso dalla barra degli adesivi.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Eliminare %d set di adesivi?</item>
+        <item quantity="one">Eliminare 1 set di adesivi?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Visualizza altri %d eventi</item>
+        <item quantity="one">Visualizza %d altro evento</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d settimane prima alle %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d settimana prima alle %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">giorni</item>
+        <item quantity="one">giorno</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">giorni fa</item>
+        <item quantity="one">giorno fa</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">giorni rimanenti</item>
+        <item quantity="one">giorno rimanente</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s e altri %2$d dispositivi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s e %2$d altro dispositivo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d eventi rimasti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d evento rimasto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

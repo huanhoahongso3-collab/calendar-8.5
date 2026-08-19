@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:id="@id/on" android:drawable="@drawable/select_all_checkbox_on" />
+    <item android:id="@id/off" android:drawable="@drawable/select_all_checkbox_off" />
+    <transition android:toId="@id/on" android:fromId="@id/off">
+        <animation-list>
+            <item android:duration="50" android:drawable="@drawable/select_all_checkbox_off" />
+            <item android:duration="220" android:drawable="@drawable/select_all_checkbox_on" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/off" android:fromId="@id/on">
+        <animation-list>
+            <item android:duration="220" android:drawable="@drawable/select_all_checkbox_on" />
+            <item android:duration="50" android:drawable="@drawable/select_all_checkbox_off" />
+        </animation-list>
+    </transition>
+</animated-selector>

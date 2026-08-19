@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/preferences_category_privacy" android:key="preferences_privacy_category">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/preferences_show_place_names" android:key="preferences_show_place_names" />
+        <androidx.preference.Preference android:title="@string/preferences_permissions" android:key="preferences_permissions" />
+        <com.samsung.android.app.calendar.view.settings.CustomizationServicePreference android:layout="@layout/layout_setting_customization_service_preference" android:title="@string/customization_service_settings_title" android:key="preferences_customization_service" />
+    </androidx.preference.PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/day_cover_container" android:padding="@dimen/widget_day_cover_padding_all" android:layout_width="fill_parent" android:layout_height="@dimen/widget_day_cover_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/widget_day_cover_day_info_area_width" android:layout_height="fill_parent" android:paddingVertical="@dimen/widget_day_cover_day_info_area_padding_vertical">
+        <TextView android:textSize="@dimen/widget_day_cover_month_text_size" android:textColor="@color/widget_day_cover_day_text_color" android:id="@id/day_cover_month_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/RobotoMediumFontStyle" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/widget_day_cover_day_number_text_size" android:textColor="@color/widget_day_cover_day_text_color" android:gravity="bottom" android:id="@id/day_cover_day_number" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="-10.0dip" style="@style/RobotoRegularFontStyle" />
+            <TextView android:textSize="@dimen/widget_day_cover_day_text_size" android:textColor="@color/widget_day_cover_sub_text_color" android:gravity="bottom" android:id="@id/day_cover_day_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/widget_day_cover_day_text_margin_start" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/day_cover_month_container" android:paddingTop="@dimen/widget_day_cover_month_container_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

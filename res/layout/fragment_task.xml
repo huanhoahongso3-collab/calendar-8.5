@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:expanded="false">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:supportActionModeOverLay="false" app:title="@string/task" style="@style/Style.CollapsingToolbar">
+                <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:background="@android:color/transparent" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="horizontal" android:id="@id/task_list_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/common_list_container_max_width">
+                <include layout="@layout/layout_task_tip_card" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/task_list" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:nestedScrollingEnabled="true" app:layout_anchor="@id/task_list_container" app:layout_anchorGravity="center" />
+                <ViewStub android:id="@id/empty_layout" android:layout="@layout/trash_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/floating_bottom_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_bottom_navigation_view_bottom_margin">
+            <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/task_bottom_navigation" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoRegularFontStyle" app:itemTextAppearanceInactive="@style/RobotoRegularFontStyle" app:menu="@menu/task_bottom_bar" style="@style/Style.BottomNavigationView.Floating.IconText" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+            <com.samsung.android.app.calendar.view.calendarheader.NoActionMenuViewToolBar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:clipToOutline="false" app:background="@android:color/transparent" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

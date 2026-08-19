@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SEP10.ActionBar.Detail" parent="@style/Theme.SEP10.NoActionBar.Base">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="iconifiedByDefault">false</item>
+    </style>
+    <style name="WidgetSettingBackgroundShapeLayoutStyle">
+        <item name="android:layout_gravity">center</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <solid android:color="@color/transparent_black" />
+                    <size android:height="@dimen/drawer_divider_dot_height" android:width="@dimen/drawer_divider_dot_width_include_margin" />
+                </shape>
+            </item>
+            <item android:left="0.0dip" android:top="0.0dip" android:right="@dimen/drawer_divider_dot_margin" android:bottom="0.0dip">
+                <shape android:shape="oval">
+                    <solid android:color="@color/drawer_divider" />
+                    <size android:height="@dimen/drawer_divider_dot_height" android:width="@dimen/drawer_divider_dot_width" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

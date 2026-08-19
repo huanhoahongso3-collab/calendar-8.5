@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d egyéb esemény</item>
+        <item quantity="one">+1 egyéb esemény</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d feladat</item>
+        <item quantity="one">+1 feladat</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d esemény</item>
+        <item quantity="one">1 esemény</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d feladat</item>
+        <item quantity="one">1 feladat</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">%d perc múlva kezdődik</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perc múlva kezdődik</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d nappal előtte %2$s időpontban</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d nappal előtte %2$s időpontban</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">%d írásvédett elem nem törölhető.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d írásvédett elem nem törölhető.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Véglegesen töröl %d eseményt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Véglegesen töröl %d eseményt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Töröl %d eseményt, köztük 1 ismétlődő eseményt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Töröl %d eseményt, köztük 1 ismétlődő eseményt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Töröl %d elemet?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Töröl %d elemet?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Legfeljebb %d mellékletet lehet hozzáadni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d mellékletet lehet hozzáadni.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d elem</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%2$s dátummal törölve innen: %1$s. Az esemény %3$d nap múlva véglegesen törlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s dátummal törölve innen: %1$s. Az esemény %3$d nap múlva véglegesen törlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d nap a törlésig</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nap a törlésig</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d ismétlődő esemény</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ismétlődő esemény</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d perccel elhalasztva</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perccel elhalasztva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Legfeljebb %d jelzést lehet beállítani.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d jelzést lehet beállítani.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">%d naponta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d naponta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">%d óránként</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d óránként</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">%d percenként</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d percenként</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">%d havonta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d havonta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">%d hetente</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hetente</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">%d évente</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d évente</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Legfeljebb %d elemet lehet kiválasztani.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d elemet lehet kiválasztani.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d további esemény</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d további esemény</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Mellékletek (%,d elem)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mellékletek (%,d elem)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Áthelyez 1 eseményt a Kukába, és töröl %d további elemet?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez 1 eseményt a Kukába, és töröl %d további elemet?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Áthelyez 1 eseményt a Kukába, és töröl %d emlékeztetőt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez 1 eseményt a Kukába, és töröl %d emlékeztetőt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Áthelyez 1 emlékeztetőt a Kukába, és töröl %d eseményt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez 1 emlékeztetőt a Kukába, és töröl %d eseményt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Áthelyez 1 emlékeztetőt a Kukába, és töröl %d másik elemet?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez 1 emlékeztetőt a Kukába, és töröl %d másik elemet?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Áthelyez 1 emlékeztetőt a Kukába, és töröl %d feladatot?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez 1 emlékeztetőt a Kukába, és töröl %d feladatot?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Áthelyez %d eseményt a Kukába?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d eseményt a Kukába?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Áthelyez %d eseményt a Kukába, és töröl 1 emlékeztetőt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d eseményt a Kukába, és töröl 1 emlékeztetőt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Áthelyez %d elemet a Kukába?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d elemet a Kukába?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Áthelyez %d elemet a Kukába, és töröl 1 feladatot?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d elemet a Kukába, és töröl 1 feladatot?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Áthelyez %d emlékeztetőt a Kukába?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d emlékeztetőt a Kukába?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Áthelyez %d emlékeztetőt a Kukába, és töröl 1 eseményt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d emlékeztetőt a Kukába, és töröl 1 eseményt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Áthelyez %d emlékeztetőt a Kukába, és töröl 1 feladatot?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Áthelyez %d emlékeztetőt a Kukába, és töröl 1 feladatot?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d egész napos esemény</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d egész napos esemény</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d egész napos esemény, kezdési időpontja %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d egész napos esemény, kezdési időpontja %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d egész napos emlékeztető, kezdési időpont: %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d egész napos emlékeztető, kezdési időpontja %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d egész napos feladat, kezdési időpont: %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d egész napos feladat, kezdési időpont: %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d ütemezett esemény ekkor: %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ütemezett esemény ekkor: %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d ütemezett emlékeztető ekkor: %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ütemezett emlékeztető ekkor: %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d ütemezett feladat ekkor: %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ütemezett feladat ekkor: %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mérföld</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mérföld</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d meghívott</item>
+        <item quantity="one">%d meghívott</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d nappal előtte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nappal előtte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d órával előtte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d órával előtte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d perccel előtte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perccel előtte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">Mostantól számítva %d nap</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mostantól számítva %d nap</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">Mostantól számítva %d óra</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mostantól számítva %d óra</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">Mostantól számítva %d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mostantól számítva %d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">Mostantól számítva %d hónap</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mostantól számítva %d hónap</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">Mostantól számítva %d hét</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mostantól számítva %d hét</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">Mostantól számítva %d év</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mostantól számítva %d év</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">A cím lerövidítve az eseménycímek támogatott hosszúságára (%,d karakterre).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A cím lerövidítve az eseménycímek támogatott hosszúságára (%,d karakterre).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d héttel előtte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d héttel előtte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Legfeljebb %d szín jeleníthető meg.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d szín jeleníthető meg.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Az %1$s %2$d naponta ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d naponta ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Ez az %1$s %2$d óránként ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ez az %1$s %2$d óránként ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Ez az %1$s %2$d percenként ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ez az %1$s %2$d percenként ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Az %1$s %2$d havonta, a hónap utolsó napján ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d havonta, a hónap utolsó napján ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Az %1$s %2$d havonta, a hónap utolsó %3$si napján ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d havonta, a hónap utolsó %3$si napján ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Az %1$s %2$d havonta, a hónap %3$s napján ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d havonta, a hónap %3$s napján ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Az %1$s %2$d havonta, a hónap %3$s %4$si napján ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d havonta, a hónap %3$s %4$si napján ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Az %1$s %2$d hetente, %3$si napon ismétlődni fog.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d hetente, %3$si napon ismétlődni fog.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Az %1$s %2$d évente ismétlődni fog %3$s utolsó napján.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d évente ismétlődni fog %3$s utolsó napján.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Az %1$s %2$d évente ismétlődni fog %4$s utolsó %3$si napján.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d évente ismétlődni fog %4$s utolsó %3$si napján.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Az %1$s %2$d évente ismétlődni fog %3$s %4$s napján.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d évente ismétlődni fog %3$s %4$s napján.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Az %1$s %2$d évente ismétlődni fog %5$s %3$s %4$si napján.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az %1$s %2$d évente ismétlődni fog %5$s %3$s %4$si napján.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d – teljes idő</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d – teljes idő</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">%d emberrel megosztva</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d emberrel megosztva</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%2$s dátummal lesz egy %1$s nevű eseménye, valamint %3$d további eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s dátummal lesz egy %1$s nevű eseménye, valamint %3$d további eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%2$s dátummal lesz %1$d eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s dátummal lesz egy %1$d nevű eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Ma lesz egy %1$s nevű eseménye, valamint %2$d további eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ma lesz egy %1$s nevű eseménye, valamint %2$d további eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Ma %d eseménye lesz.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ma %d eseménye lesz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Holnap lesz egy %1$s nevű eseménye, valamint %2$d további eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Holnap lesz egy %1$s nevű eseménye, valamint %2$d további eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Holnap %d eseménye lesz.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Holnap %d eseménye lesz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">%2$s napon %3$s-kor lesz egy %1$s nevű eseménye, és lesz %4$d további eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s napon %3$s-kor lesz egy %1$s nevű eseménye, és lesz %4$d további eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">%1$s dátummal %2$s időpontban lesz egy eseménye, plusz van további %3$d eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s dátummal %2$s időpontban lesz egy eseménye, plusz van további %3$d eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Ma %2$s-kor lesz egy %1$s nevű eseménye, és lesz %3$d további eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ma %2$s-kor lesz egy %1$s nevű eseménye, és lesz %3$d további eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Ma %1$s-kor lesz egy eseménye, plusz van további %2$d eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ma %1$s-kor lesz egy eseménye, plusz van további %2$d eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Holnap %2$s-kor lesz egy %1$s nevű eseménye, és lesz %3$d további eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Holnap %2$s-kor lesz egy %1$s nevű eseménye, és lesz %3$d további eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Holnap %1$s-kor lesz egy eseménye, plusz van további %2$d eseménye.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Holnap %1$s-kor lesz egy eseménye, plusz van további %2$d eseménye.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Mínusz %d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mínusz %d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plusz %d perc</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plusz %d perc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">A(z) %1$s %2$d óra múlva kezdődik</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A(z) %1$s %2$d óra múlva kezdődik</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">A(z) %1$s 1 óra %2$d perc múlva kezdődik.</item>
+        <item quantity="one">A(z) %s 1 óra 1 perc múlva kezdődik.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">A(z) %1$s %2$d perc múlva kezdődik.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A(z) %1$s %2$d perc múlva kezdődik.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Törlődni fognak a címkék tálcájáról.</item>
+        <item quantity="one">Törlődni fog a címkék tálcájáról.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Töröl %d matricakészletet?</item>
+        <item quantity="one">Töröl 1 matricakészletet?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Még %d esemény megtek.</item>
+        <item quantity="one">Még %d esemény megtek.</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d héttel előtte %2$s időpontban</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d héttel előtte %2$s időpontban</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">nap</item>
+        <item quantity="one">nap</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">napja</item>
+        <item quantity="one">napja</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">nap múlva</item>
+        <item quantity="one">nap múlva</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s és %2$d további</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s és %2$d további</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d esemény maradt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d esemény maradt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

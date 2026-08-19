@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/background" android:background="@drawable/timeline_more_popup_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/title_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/event_popup_view_title_height">
+            <com.samsung.android.app.calendar.view.month.eventpopup.PopupDateView android:id="@id/date_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/event_popup_view_date_view_start_margin" android:layout_marginEnd="@dimen/event_popup_view_date_view_start_margin" />
+        </FrameLayout>
+        <View android:background="@color/events_popup_view_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/event_popup_separator_width" android:layout_marginBottom="@dimen/event_popup_view_divider_margin_top_bottom" android:layout_marginStart="@dimen/event_popup_view_horizontal_padding" android:layout_marginEnd="@dimen/event_popup_view_horizontal_padding" />
+        <FrameLayout android:id="@id/mode_part" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

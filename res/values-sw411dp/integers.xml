@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="wallet_cover_dismiss_guideline_bottom">0.314</item>
+    <item type="integer" name="wallet_cover_dismiss_guideline_end">0.516</item>
+    <integer name="widget_countdown_medium_title_max_line">2</integer>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_widget_cover_day_label_padding_start" android:paddingEnd="@dimen/list_widget_cover_event_item_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_widget_cover_day_label_text_size" android:id="@id/date_cover" android:visibility="visible" android:layout_marginTop="@dimen/list_widget_cover_day_label_text_padding_top" android:layout_marginBottom="@dimen/list_widget_cover_day_label_text_padding_bottom" android:layoutDirection="ltr" android:layout_marginStart="2.0dip" style="@style/ListWidgetDateTextStyle" />
+</LinearLayout>

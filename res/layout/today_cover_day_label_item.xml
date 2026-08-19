@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/widget_today_cover_day_label_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/widget_today_cover_title_day_text" android:textColor="@color/widget_today_cover_text_color" android:gravity="center" android:id="@id/day_text" android:layout_width="wrap_content" android:layout_height="@dimen/widget_today_cover_day_label_height" android:includeFontPadding="false" style="@style/RobotoRegularFontStyle" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="end|bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_marginStart="3.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip">
+            <ImageView android:id="@id/today_sticker" android:visibility="gone" android:layout_width="@dimen/widget_today_cover_day_icon_size" android:layout_height="@dimen/widget_today_cover_day_icon_size" android:scaleType="fitCenter" />
+            <ImageView android:id="@id/today_second_sticker" android:visibility="gone" android:layout_width="@dimen/widget_today_cover_day_icon_size" android:layout_height="@dimen/widget_today_cover_day_icon_size" android:scaleType="fitCenter" android:layout_marginStart="3.0dip" />
+        </LinearLayout>
+        <TextView android:textColor="@color/widget_today_cover_week_day_text_color" android:layout_gravity="start|bottom" android:id="@id/week_day_text" android:layout_width="wrap_content" android:layout_height="@dimen/widget_today_cover_title_week_day_height" android:layout_marginBottom="4.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/widget_today_cover_title_week_day_text_min_size" android:autoSizeMaxTextSize="@dimen/widget_today_cover_title_week_day_text_max_size" style="@style/RobotoMediumFontStyle" />
+    </LinearLayout>
+</LinearLayout>

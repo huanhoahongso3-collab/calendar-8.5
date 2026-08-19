@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+beste %d gertaera</item>
+        <item quantity="one">+beste 1 gertaera</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">Beste %d ataza</item>
+        <item quantity="one">Beste ataza bat</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d gertaera</item>
+        <item quantity="one">Gertaera 1</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d ataza</item>
+        <item quantity="one">Ataza 1</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Hasiera: %d min barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hasiera: %d min barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d egun lehenago (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d egun lehenago (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Ez dira ezabatu irakurtzekoak soilik diren %d elementu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ez da ezabatu irakurtzekoa soilik den %d elementu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">%d gertaera betiko ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera betiko ezabatu nahi duzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">%d gertaera ezabatu, 1 gertaera errepikari barne?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera ezabatu, 1 gertaera errepikari barne?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d elementu ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementu ezabatu nahi duzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Gehienez ere %d eranskin gehi daitezke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gehienez ere %d eranskin gehi daiteke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d elementu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%1$s aplikaziotik ezabatu da (%2$s). %3$d egun barru ezabatuko da gertaera betiko.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s aplikaziotik ezabatu da (%2$s). %3$d egun barru ezabatuko da gertaera betiko.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d egun ezabatu arte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d egun ezabatu arte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d gertaera bikoiztu daude</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera bikoiztu dago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Atzeratu %d min</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atzeratu %d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Gehienez ere %d alerta ezar daitezke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gehienez ere %d alerta ezar daiteke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Gehienez ere %d karaktere idatz daitezke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gehienez ere %d karaktere idatz daiteke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Gehienez ere %d karaktere idatz daitezke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gehienez ere %d karaktere idatz daiteke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">%d egunez behin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d egunez behin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">%d orduz behin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d orduz behin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">%d minutuan behin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minutuan behin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">%d hilabetez behin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hilabetez behin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">%d astez behin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d astez behin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">%d urtez behin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d urtez behin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Gehienez ere %d elementu hauta daitezke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gehienez ere %d elementu hauta daiteke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d gertaera gehiago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera gehiago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Eranskinak (%,d elementu)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eranskinak (%,d elementu)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">1 gertaera Zakarrontzia atalera eraman eta beste %d elementu ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 gertaera Zakarrontzia atalera eraman eta beste %d elementu ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">1 gertaera Zakarrontzia atalera eraman eta %d abisu ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 gertaera Zakarrontzia atalera eraman eta %d abisu ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">1 abisu Zakarrontzia atalera eraman eta %d gertaera ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 abisu Zakarrontzia atalera eraman eta %d gertaera ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">1 abisu Zakarrontzia atalera eraman, eta beste %d elementu ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 abisu Zakarrontzia atalera eraman, eta beste %d elementu ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">1 abisu Zakarrontzia atalera eraman eta %d ataza ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 abisu Zakarrontzia atalera eraman eta %d ataza ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d gertaera Zakarrontzia atalera eraman nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera Zakarrontzia atalera eraman nahi duzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">%d gertaera Zakarrontzia atalera eraman eta 1 abisu ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera Zakarrontzia atalera eraman eta 1 abisu ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d elementu Zakarrontzia atalera eraman nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementu Zakarrontzia atalera eraman nahi duzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">%d elementu Zakarrontzia atalera eraman eta 1 ataza ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d elementu Zakarrontzia atalera eraman eta 1 ataza ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d abisu Zakarrontzia atalera eraman?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d abisu Zakarrontzia atalera eraman?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">%d abisu Zakarrontzia atalera eraman eta 1 gertaera ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d abisu Zakarrontzia atalera eraman eta 1 gertaera ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">%d abisu Zakarrontzia atalera eraman eta 1 ataza ezabatu nahi dituzu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d abisu Zakarrontzia atalera eraman eta 1 ataza ezabatu nahi dituzu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">Egun osoko %d gertaera</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egun osoko %d gertaera</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">Egun osoko %1$d gertaera, hasiera ordua %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egun osoko %1$d gertaera, hasiera ordua %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">Egun osoko %1$d abisu, hasiera ordua %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egun osoko %1$d abisu, hasiera ordua %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">Egun osoko %1$d ataza, hasiera ordua %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Egun osoko %1$d ataza, hasiera ordua %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">Antolatutako %1$d gertaera, %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Antolatutako %1$d gertaera, %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">Antolatutako %1$d abisu, %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Antolatutako %1$d abisu, %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">Antolatutako %1$d ataza, %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Antolatutako %1$d ataza, %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d gonbidatu</item>
+        <item quantity="one">%d gonbidatu</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d egun lehenago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d egun lehenago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d ordu lehenago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ordu lehenago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d min lehenago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min lehenago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d egun barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d egun barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d ordu barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ordu barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minutu barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minutu barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d hilabete barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hilabete barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d aste barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aste barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d urte barru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d urte barru</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Gertaeraren izenburuen onartutako luzerara (%,d karaktere) laburtu da izenburua.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gertaeraren izenburuen onartutako luzerara (%,d karaktere) laburtu da izenburua.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d aste lehenago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aste lehenago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Gehienez ere %d kolore erakuts daitezke.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gehienez ere %d kolore erakuts daiteke.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">%2$d egunez behin errepikatuko da %1$s hau.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d egunez behin errepikatuko da %1$s hau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">%2$d orduz behin errepikatuko da %1$s hau.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d orduz behin errepikatuko da %1$s hau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">%1$s minutuz behin errepikatuko da %2$d hau.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s minutuz behin errepikatuko da %2$d hau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko azken eguna).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko azken eguna).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko azken %3$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko azken %3$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko %3$s. eguna).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko %3$s. eguna).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko %3$s. %4$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d hilabetez behin errepikatuko da %1$s hau (hilabeteko %3$s. %4$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">%2$d astez behin errepikatuko da %1$s hau (%3$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d astez behin errepikatuko da %1$s hau (%3$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">%2$d urtez behin errepikatuko da %1$s hau (%3$sren azken eguna).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d urtez behin errepikatuko da %1$s hau (%3$sren azken eguna).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">%2$d urtez behin errepikatuko da %1$s hau (%4$sren azken %3$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d urtez behin errepikatuko da %1$s hau (%4$sren azken %3$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">%2$d urtez behin errepikatuko da %1$s hau (%3$s %4$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d urtez behin errepikatuko da %1$s hau (%3$s %4$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">%2$d urtez behin errepikatuko da %1$s hau (%5$sren %3$s. %4$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d urtez behin errepikatuko da %1$s hau (%5$sren %3$s. %4$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Guztira, %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Guztira, %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">%d pertsonarekin partekatu da</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pertsonarekin partekatu da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%1$s izeneko gertaera bat duzu (%2$s), eta beste %3$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s izeneko gertaera bat duzu (%2$s), eta beste %3$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%1$d gertaera dituzu (%2$s).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d gertaera duzu (%2$s).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">%1$s izeneko gertaera bat duzu gaur, eta beste %2$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s izeneko gertaera bat duzu gaur, eta beste %2$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">%d gertaera dituzu gaur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera duzu gaur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">%1$s izeneko gertaera bat duzu bihar, eta beste %2$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s izeneko gertaera bat duzu bihar, eta beste %2$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">%d gertaera dituzu bihar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gertaera duzu bihar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">%1$s izeneko gertaera bat duzu (%2$s, %3$s), eta beste %4$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s izeneko gertaera bat duzu (%2$s, %3$s), eta beste %4$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Gertaera bat duzu (%1$s, %2$s) eta beste %3$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gertaera bat duzu (%1$s, %2$s) eta beste %3$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">%1$s izeneko gertaera bat duzu gaur (%2$s), eta beste %3$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s izeneko gertaera bat duzu gaur (%2$s), eta beste %3$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Gertaera bat duzu gaur (%1$s) eta beste %2$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gertaera bat duzu gaur (%1$s) eta beste %2$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">%1$s izeneko gertaera bat duzu bihar (%2$s), eta beste %3$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s izeneko gertaera bat duzu bihar (%2$s), eta beste %3$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Gertaera bat duzu bihar (%1$s) eta beste %2$d gertaera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gertaera bat duzu bihar (%1$s) eta beste %2$d gertaera.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d minutu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d minutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plus %d minutu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plus %d minutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s %2$d ordu barru hasiko da</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d ordu barru hasiko da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s 1 ordu eta %2$d minutu barru hasiko da.</item>
+        <item quantity="one">%s 1 ordu eta 1 minutu barru hasiko da.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s %2$d minutu barru hasiko da.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d minutu barru hasiko da.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Sticker erretilutik kenduko dira.</item>
+        <item quantity="one">Sticker erretilutik kenduko da.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">%d sticker sorta ezabatu nahi dituzu?</item>
+        <item quantity="one">1 sticker sorta ezabatu nahi duzu?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Ikusi beste %d gertaera</item>
+        <item quantity="one">Ikusi beste %d gertaera</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d aste lehenago (%2$s)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d aste lehenago (%2$s)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">egun</item>
+        <item quantity="one">egun</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">egun lehenago</item>
+        <item quantity="one">egun lehenago</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">egun falta dira</item>
+        <item quantity="one">egun falta da</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s eta beste %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s eta beste %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d gert. falta dira</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gert. falta da</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

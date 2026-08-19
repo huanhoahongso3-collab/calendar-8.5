@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/help_description_text" android:background="@color/theme_color" android:paddingBottom="@dimen/settings_description_bottom_padding" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/default_calendar_description" android:paddingStart="@dimen/settings_description_horizontal_padding" android:paddingEnd="@dimen/settings_description_horizontal_padding" style="@style/CalendarLabsDescriptionText" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/select_default_calendar_list" android:background="@color/common_dropdown_list_background_color" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+    <TextView android:id="@id/calendars_title_text" android:background="@color/theme_color" android:paddingTop="13.0dip" android:paddingBottom="5.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calendars" android:paddingHorizontal="@dimen/settings_description_horizontal_padding" style="@style/DefaultCalendarSubjectStyle" />
+    <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:id="@id/calendars_list_container" android:background="@color/common_dropdown_list_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/calendars_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:overScrollMode="never" android:nestedScrollingEnabled="false" />
+    </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+    <View android:id="@id/dummy_view" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <View android:id="@id/dummy_space" android:background="@color/theme_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/common_navigation_bar_height" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/group_name_color_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/group_name_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/edit_shared_calendar_bottom_margin" android:layout_marginHorizontal="@dimen/winset_list_horizontal_padding" app:errorTextAppearance="@style/EditDialogErrorMessageStyle">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_name_edit_text_margin_top" android:layout_marginBottom="@dimen/group_name_edit_text_margin_bottom">
+            <EditText android:textSize="@dimen/group_name_edit_text_size" android:id="@id/group_name_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="@integer/create_shared_calendar_max_length" android:inputType="textMultiLine" android:privateImeOptions="disableEmoticonInput=true;disableSticker=true;disableGifKeyboard=true" android:imeOptions="actionDone|flagNoExtractUi" android:layout_marginStart="-10.0dip" />
+        </FrameLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_shared_calendar_color_text_min_height" android:layout_marginHorizontal="@dimen/winset_list_horizontal_padding">
+        <TextView android:textSize="@dimen/winset_list_subheader_text_size" android:textColor="@color/opentheme_sub_header_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_filter_header_colors" style="@style/RobotoMediumFontStyle" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/group_calendar_dash_line" android:layout_weight="1.0" android:layout_marginStart="@dimen/group_calendar_stroke_margin_start" app:tint="@color/edit_shared_calendar_dash_line_color" />
+    </LinearLayout>
+    <View android:id="@id/member_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <com.samsung.android.libcalendar.platform.colorpicker.ColorPickerPalette android:gravity="center" android:layout_gravity="center" android:id="@id/group_calendar_color_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_shared_calendar_color_palette_margin_top" android:layout_marginBottom="@dimen/edit_shared_calendar_color_palette_margin_bottom" />
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

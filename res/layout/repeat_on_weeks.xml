@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/repeat_on_weeks_container" android:paddingTop="@dimen/repeat_sub_option_container_padding_vertical" android:paddingBottom="@dimen/repeat_on_weeks_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/day_picker_toggle_buttons_container_height" android:layout_marginHorizontal="@dimen/repeat_on_weeks_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

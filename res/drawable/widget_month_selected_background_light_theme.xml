@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="5.0dip" />
+    <stroke android:width="@dimen/widget_month_select_mark_stroke" android:color="@color/widget_month_selected_marker_stroke_color_light_theme" />
+</shape>

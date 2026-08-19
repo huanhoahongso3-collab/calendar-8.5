@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout android:gravity="center_vertical" android:id="@id/root_container" android:background="@drawable/recoil_list_item_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/color_square_background" android:background="@drawable/event_list_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/data_container" android:paddingTop="@dimen/winset_list_item_top_padding" android:paddingBottom="@dimen/winset_list_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_list_item_start_end_padding" android:paddingEnd="@dimen/winset_list_item_start_end_padding">
+        <FrameLayout android:id="@id/color_square_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/title" android:layout_alignBottom="@id/title" android:layout_marginEnd="@dimen/day_event_list_item_event_color_box_margin_end" android:layout_alignParentStart="true">
+            <View android:layout_gravity="center_vertical" android:id="@id/color_square_bar" android:background="@drawable/event_list_color_bar_background" android:layout_width="@dimen/ics_event_list_color_bar_width" android:layout_height="@dimen/ics_event_list_color_bar_height" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_main_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toEndOf="@id/color_square_frame" style="@style/RobotoRegularFontStyle" />
+        <TextView android:textSize="@dimen/winset_list_item_two_lines_text_size" android:textColor="@color/common_list_secondary_text_color" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/title" android:layout_alignStart="@id/title" style="@style/RobotoMediumFontStyle" />
+    </RelativeLayout>
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/widget_preview_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/widget_month_preview_header" android:layout_width="fill_parent" android:layout_height="@dimen/widget_month_header_height" android:layout_marginStart="@dimen/widget_month_preview_header_margin_start_end" android:layout_marginEnd="@dimen/widget_month_preview_header_margin_start_end">
+        <LinearLayout android:id="@id/end_button_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@id/new_event" android:src="@drawable/month_widget_ic_add" android:contentDescription="@null" style="@style/WidgetPreviewHeaderEndImageButtonStyle" />
+            <FrameLayout android:id="@id/go_today" android:layout_marginStart="@dimen/widget_preview_header_end_btn_margin_start" style="@style/WidgetPreviewHeaderEndImageButtonStyle">
+                <Button android:textSize="@dimen/widget_month_preview_today_text_size" android:textColor="@color/widget_preview_button_color" android:gravity="center" android:layout_gravity="center" android:background="@drawable/calendar_ic_today" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/number_21" android:backgroundTint="@color/widget_preview_button_color" style="@style/RobotoMediumFontStyle" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toStartOf="@id/end_button_container" android:layout_alignParentStart="true">
+            <ImageButton android:id="@id/left_move_month_button_container" android:src="@drawable/calendar_widget_ic_previous" android:contentDescription="@null" style="@style/WidgetPreviewHeaderImageButtonStyle" />
+            <TextView android:textSize="@dimen/widget_month_preview_label_text_size" android:textStyle="bold" android:textColor="@color/widget_preview_button_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/month_may_on_month_widget" android:textAllCaps="true" android:layout_marginStart="@dimen/widget_preview_header_btn_margin_start" style="@style/WidgetPreviewLabel" />
+            <ImageButton android:id="@id/right_move_month_button_container" android:src="@drawable/calendar_widget_ic_next" android:contentDescription="@null" android:layout_marginStart="@dimen/widget_preview_header_btn_margin_start" style="@style/WidgetPreviewHeaderImageButtonStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/month_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_month_preview_month_margin_bottom" android:layout_marginStart="@dimen/widget_month_preview_month_margin_start_end" android:layout_marginEnd="@dimen/widget_month_preview_month_margin_start_end">
+        <include layout="@layout/widget_month_preview_day_of_week" />
+        <include layout="@layout/widget_month_preview_week_1st" />
+        <include layout="@layout/widget_month_preview_week_2nd" />
+        <include layout="@layout/widget_month_preview_week_3rd" />
+        <include layout="@layout/widget_month_preview_week_4th" />
+        <include layout="@layout/widget_month_preview_week_5th" />
+    </LinearLayout>
+</LinearLayout>

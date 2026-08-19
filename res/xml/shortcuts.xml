@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/shortcut_tasks_add_event" android:enabled="true" android:shortcutId="create_event" android:shortcutShortLabel="@string/create_event_shortcut" android:shortcutLongLabel="@string/create_event_shortcut">
+        <categories android:name="android.shortcut.conversation" />
+        <intent android:targetPackage="com.samsung.android.calendar" android:action="com.sec.android.calendar.ADD_EVENT" android:targetClass="com.samsung.android.app.calendar.activity.DetailProxyActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/shortcut_tasks_search" android:enabled="true" android:shortcutId="search_event_task" android:shortcutShortLabel="@string/search_event_shortcut" android:shortcutLongLabel="@string/search_event_shortcut">
+        <categories android:name="android.shortcut.conversation" />
+        <intent android:targetPackage="com.samsung.android.calendar" android:action="com.sec.android.calendar.SEARCH_EVENT" android:targetClass="com.samsung.android.app.calendar.activity.LaunchSearchActivity" />
+    </shortcut>
+</shortcuts>

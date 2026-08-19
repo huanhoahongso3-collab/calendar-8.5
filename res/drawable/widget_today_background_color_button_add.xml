@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/widget_preview_add_button_bg_color" />
+    <size android:height="@dimen/today_widget_large_button_add_event_size" android:width="@dimen/today_widget_large_button_add_event_size" />
+    <corners android:radius="@dimen/today_widget_large_button_add_event_radius" />
+</shape>

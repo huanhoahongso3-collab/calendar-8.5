@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_layout" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:soundEffectsEnabled="false" android:accessibilityHeading="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/group_space" android:layout_width="fill_parent" android:layout_height="@dimen/select_account_dialog_header_space" />
+    <TextView android:textSize="@dimen/winset_list_subheader_text_size" android:textColor="@color/common_text_input_hint_text_color" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/account_group_title" android:paddingTop="@dimen/select_account_dialog_header_padding_top" android:paddingBottom="@dimen/select_account_dialog_header_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/winset_list_subheader_start_padding" android:paddingEnd="@dimen/winset_list_subheader_start_padding" style="@style/RobotoMediumFontStyle" />
+</LinearLayout>

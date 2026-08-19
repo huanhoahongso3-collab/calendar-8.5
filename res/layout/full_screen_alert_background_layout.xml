@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_custom_background" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/string_background_alert_preview_image"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.libcalendar.libnotificataion.background.BackgroundBlurView android:id="@id/gradient_background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/custom_background_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@color/alert_gradient_background_foreground_color" android:scaleType="centerCrop" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

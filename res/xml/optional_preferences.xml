@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/preferences_category_optional" android:key="preferences_optional_category">
+        <com.samsung.android.app.calendar.view.settings.WeekStartDayPreference android:title="@string/preferences_week_start_day_title" android:key="preferences_week_start_day" />
+        <com.samsung.android.app.calendar.view.settings.alternatecalendar.AlternateCalendarSettingsListPreference android:entries="@array/preferences_alternate_calendar_labels" android:title="@string/preferences_alternate_calendar" android:key="preferences_alternate_calendar" android:entryValues="@array/preferences_alternate_calendar_values" />
+        <com.samsung.android.app.calendar.view.settings.IslamCorrectionValuePreference android:title="@string/preferences_islarmic_adjustment" android:key="preferences_islam_correction" />
+        <com.samsung.android.app.calendar.view.settings.ShowWeekNumberPreference android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_show_week_num_title" android:key="preferences_show_week_num" />
+        <com.samsung.android.app.calendar.view.settings.WeatherPreference android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_weather" android:key="preferences_weather" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_show_completed_reminders_title" android:key="preferences_show_completed_reminders" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_hide_declined_title" android:key="preferences_hide_declined" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_hide_past_events" android:key="preferences_hide_past_events" android:summary="@string/preferences_hide_past_events_description" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

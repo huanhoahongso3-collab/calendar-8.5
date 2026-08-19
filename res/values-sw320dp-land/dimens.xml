@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_picker_container_landscape_margin_top">12.0dip</dimen>
+    <dimen name="dialog_message_margin_bottom">12.0dip</dimen>
+    <dimen name="dialog_message_margin_top">2.0dip</dimen>
+    <dimen name="dialog_title_margin_top">12.0dip</dimen>
+    <item type="dimen" name="sesl_glance_combine_primary_small_circle_padding">@dimen/circle_padding_34</item>
+    <dimen name="sesl_glance_combine_primary_small_circle_size">34.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">48.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">13.0dip</dimen>
+    <dimen name="widget_countdown_medium_padding_bottom">4.0dip</dimen>
+    <dimen name="widget_countdown_medium_padding_top">4.0dip</dimen>
+    <dimen name="widget_countdown_medium_sticker_size">22.0dip</dimen>
+    <dimen name="widget_countdown_preview_2x2_event_date_text_size">11.0dip</dimen>
+    <dimen name="widget_countdown_preview_2x2_title_text_size">15.0dip</dimen>
+</resources>

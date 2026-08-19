@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_text_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/agenda_empty_view_no_result_text_size" android:textColor="@color/agenda_no_results_text_color" android:gravity="center" android:id="@id/empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/agenda_empty_view_no_result_margin_bottom" android:text="@string/no_result" style="@style/RobotoRegularFontStyle" />
+</LinearLayout>

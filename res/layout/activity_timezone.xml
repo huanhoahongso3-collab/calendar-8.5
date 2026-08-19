@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_common_extended_dummy_toolbar" />
+    <FrameLayout android:id="@id/fragment_extended_toolbar_content" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <androidx.indexscroll.widget.SeslIndexScrollView android:layout_gravity="center" android:id="@id/timezone_index_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/timezone_index_scroll_margin_bottom" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/common_horizontal_space" />
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/Style.Toolbar" android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:importantForAccessibility="no" app:background="@android:color/transparent" app:layout_collapseMode="pin" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/floating_bottom_layout" android:paddingBottom="@dimen/common_bottom_bar_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:showFloatingItemBackground="false">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SearchView android:id="@id/timezone_search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapSentences" android:voiceSearchMode="showVoiceSearchButton|launchRecognizer" app:iconifiedByDefault="false" app:queryHint="@string/search_hint_time_zone" style="@style/Base.Widget.AppCompat.SearchView.Bottom" />
+        </LinearLayout>
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

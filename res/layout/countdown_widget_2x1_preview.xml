@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/countdown_2x1_bg_preview_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/widget_countdown_preview_2x1_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/widget_countdown_preview_2x1_title_text_size" android:textColor="@color/widget_countdown_preview_text_color" android:ellipsize="end" android:id="@id/widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/my_birthday" android:maxLines="1" style="@style/RobotoMediumFontStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/widget_countdown_preview_2x1_label_text_size" android:textColor="@color/widget_countdown_preview_text_color" android:id="@id/widget_count_day_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/number_19" style="@style/RobotoMediumFontStyle" />
+        <TextView android:textSize="@dimen/widget_countdown_preview_2x1_label_text_size" android:textColor="@color/widget_countdown_preview_text_color" android:ellipsize="end" android:id="@id/widget_count_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_countdown_preview_count_label" android:maxLines="1" android:layout_marginStart="5.0dip" style="@style/RobotoMediumFontStyle" />
+    </LinearLayout>
+</LinearLayout>

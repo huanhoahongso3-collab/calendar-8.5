@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cards>
+    <card-provider cardId="99999902" templateId="MULTI_TEMPLATE" />
+    <card-provider cardId="99999930" templateId="MINI_BASIC" />
+</cards>

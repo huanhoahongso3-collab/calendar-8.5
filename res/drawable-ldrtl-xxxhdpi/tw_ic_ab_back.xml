@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate android:paddingLeft="5.0dip" android:paddingRight="16.0dip" android:maxWidth="24.0dip" android:maxHeight="24.0dip" android:fromDegrees="180.0" android:toDegrees="180.0" android:pivotX="50.0%" android:pivotY="50.0%">
+            <bitmap android:src="@drawable/tw_ic_ab_back_mtr" android:tint="@color/crossapp_webview_title_button_color" />
+        </rotate>
+    </item>
+</selector>

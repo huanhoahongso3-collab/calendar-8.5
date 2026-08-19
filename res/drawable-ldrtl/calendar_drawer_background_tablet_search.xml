@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetRight="@dimen/sesl_sliding_pane_drawer_start_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <corners android:topRightRadius="@dimen/sesl_sliding_pane_drawer_corner_radius" android:bottomRightRadius="@dimen/sesl_sliding_pane_drawer_corner_radius" />
+        <solid android:color="@color/drawer_background_color_tablet_search" />
+    </shape>
+</inset>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_widget_icon_size">20.0dip</dimen>
+    <dimen name="list_widget_tiny_icon_size_large">33.0dip</dimen>
+    <dimen name="list_widget_title_text_size">11.0dip</dimen>
+    <dimen name="today_widget_large_button_add_event_size">18.0dip</dimen>
+    <dimen name="today_widget_large_list_event_padding_top">6.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_bottom">10.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_end">9.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_top">6.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_bottom">12.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_start">9.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_top">8.0dip</dimen>
+    <dimen name="today_widget_large_month_today_box_radius">4.0dip</dimen>
+    <dimen name="today_widget_large_preview_date_text_size">9.5dip</dimen>
+    <dimen name="today_widget_large_preview_day_of_week_text_size">8.5dip</dimen>
+    <dimen name="today_widget_large_title_container_height">18.0dip</dimen>
+    <dimen name="today_widget_medium_preview_monotone_day_of_month_text_size">42.5dip</dimen>
+    <dimen name="today_widget_medium_preview_monotone_day_of_week_text_size">10.5dip</dimen>
+    <dimen name="today_widget_medium_preview_monotone_today_event_text_size">10.5dip</dimen>
+    <dimen name="today_widget_medium_preview_monotone_year_and_month_text_size">12.5dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">40.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">11.0dip</dimen>
+    <dimen name="today_widget_padding_margin_start_end_land">28.0dip</dimen>
+    <dimen name="today_widget_setting_small_day_of_month_text_size">17.0dip</dimen>
+    <item type="dimen" name="today_widget_small_day_of_month_text_size">17.0</item>
+    <dimen name="widget_countdown_large_day_count_margin_bottom">5.0dip</dimen>
+    <dimen name="widget_countdown_large_padding_top">5.0dip</dimen>
+    <dimen name="widget_countdown_medium_circle_size">28.0dip</dimen>
+    <dimen name="widget_countdown_medium_padding_bottom">2.0dip</dimen>
+    <dimen name="widget_countdown_medium_padding_top">2.0dip</dimen>
+    <dimen name="widget_countdown_medium_sticker_size">20.0dip</dimen>
+    <dimen name="widget_countdown_preview_2x2_event_date_text_size">11.0dip</dimen>
+    <dimen name="widget_countdown_preview_2x2_title_text_size">15.0dip</dimen>
+    <dimen name="widget_countdown_small_circle_size">30.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_bottom">2.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_top">3.0dip</dimen>
+    <dimen name="widget_month_medium_today_size">13.0dip</dimen>
+    <dimen name="widget_month_preview_day_of_week_text_size_medium_view">11.0dip</dimen>
+    <dimen name="widget_permission_view_large_widget_margin_bottom">12.0dip</dimen>
+    <dimen name="widget_permission_view_large_widget_margin_top">8.0dip</dimen>
+    <dimen name="widget_permission_view_medium_widget_margin_bottom">5.0dip</dimen>
+    <dimen name="widget_permission_view_medium_widget_margin_top">4.0dip</dimen>
+    <item type="dimen" name="widget_permission_view_sub_title_text_size">9.0</item>
+    <item type="dimen" name="widget_permission_view_text_size">11.0</item>
+</resources>

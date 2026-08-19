@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/prev_btn" android:src="@drawable/calendar_timeline_prev" android:contentDescription="@string/previous_day" android:layout_marginStart="@dimen/participant_schedule_prev_arrow_margin_start" android:layout_marginEnd="@dimen/participant_schedule_prev_arrow_margin_end" style="@style/ParticipantScheduleArrowStyle" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/title_left" android:paddingStart="0.0dip" android:paddingEnd="@dimen/participant_schedule_toolbar_text_padding" style="@style/ParticipantScheduleTitleTextStyle" />
+        <TextView android:id="@id/title_right" style="@style/ParticipantScheduleTitleTextStyle" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/next_btn" android:src="@drawable/calendar_timeline_next" android:contentDescription="@string/next_day" android:layout_marginStart="@dimen/participant_schedule_next_arrow_margin_start" android:layout_marginEnd="@dimen/participant_schedule_next_arrow_margin_end" style="@style/ParticipantScheduleArrowStyle" />
+</LinearLayout>

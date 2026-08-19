@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="canvas_stripe_cover_alert_bottom_margin">26.214996dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_content_area_padding_bottom">10.699982dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_content_area_padding_top">19.25998dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_content_area_width">428.0dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_control_area_width">325.27344dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_snooze_complete_button_max_width">96.29999dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_top_margin">42.799988dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_width">81.31998dip</dimen>
+    <dimen name="pebble_se_stripe_cover_alert_width">114.48999dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_button_height">38.51999dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_button_margin_top_bottom">33.169983dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_complete_button_margin_end">16.049988dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_content_area_padding_bottom">25.679993dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_content_area_padding_top">27.819977dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_content_area_width">445.1172dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_control_area_width">338.1172dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_dismiss_circle_margin_end">9.639984dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_icon_size">42.799988dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_margin_bottom">20.299988dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_margin_end">13.909973dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_margin_top">43.799988dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_snooze_button_margin_end">12.839996dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_snooze_complete_button_max_width">104.859985dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_toast_area_width">761.83594dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_toast_text_margin_right">13.909973dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_toast_text_size">16.049988dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_width">104.859985dip</dimen>
+    <dimen name="stripe_cover_alert_dismiss_padding">11.769989dip</dimen>
+    <dimen name="stripe_cover_alert_dismiss_size">101.649994dip</dimen>
+    <dimen name="stripe_cover_alert_dismiss_width_height">42.799988dip</dimen>
+</resources>

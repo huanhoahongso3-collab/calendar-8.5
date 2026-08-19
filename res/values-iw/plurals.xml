@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+ %d אירועים נוספים</item>
+        <item quantity="one">+ אירוע אחד נוסף</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+ %d משימות</item>
+        <item quantity="one">+ משימה אחת</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d אירועים</item>
+        <item quantity="one">אירוע אחד</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d משימות</item>
+        <item quantity="one">משימה אחת</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">מתחיל בעוד %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">מתחיל בעוד דקה %d</item>
+        <item quantity="two">מתחיל בעוד %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">מתחיל בעוד %d דקות</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d ימים לפני בשעה %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יום %1$d לפני בשעה %2$s</item>
+        <item quantity="two">%1$d ימים לפני בשעה %2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d ימים לפני בשעה %2$s</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">לא ניתן למחוק %d פריטים לקריאה בלבד.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן למחוק %d פריט לקריאה בלבד.</item>
+        <item quantity="two">לא ניתן למחוק %d פריטים לקריאה בלבד.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן למחוק %d פריטים לקריאה בלבד.</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">האם למחוק %d אירועים לצמיתות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק אירוע %d לצמיתות?</item>
+        <item quantity="two">האם למחוק %d אירועים לצמיתות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d אירועים לצמיתות?</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">האם למחוק %d אירועים, כולל אירוע חוזר אחד?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק אירוע אחד (%d), כולל אירוע חוזר אחד?</item>
+        <item quantity="two">האם למחוק %d אירועים, כולל אירוע חוזר אחד?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d אירועים, כולל אירוע חוזר אחד?</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">האם למחוק %d פריטים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d פריט?</item>
+        <item quantity="two">האם למחוק %d פריטים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d פריטים?</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">ניתן להוסיף לכל היותר %d קבצים מצורפים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להוסיף לכל היותר קובץ מצורף %d.</item>
+        <item quantity="two">ניתן להוסיף לכל היותר %d קבצים מצורפים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להוסיף לכל היותר %d קבצים מצורפים.</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d פריטים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פריט %d</item>
+        <item quantity="two">%d פריטים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d פריטים</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">נמחק מ-%1$s בתאריך %2$s. %3$d ימים לפני שהאירוע יימחק לצמיתות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נמחקו מתוך %1$s בתאריך %2$s. יום %3$d לפני שהאירוע יימחק לצמיתות.</item>
+        <item quantity="two">נמחק מ-%1$s בתאריך %2$s. %3$d ימים לפני שהאירוע יימחק לצמיתות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נמחק מ-%1$s בתאריך %2$s. %3$d ימים לפני שהאירוע יימחק לצמיתות.</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d ימים עד למחיקה</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יום %d עד למחיקה</item>
+        <item quantity="two">%d ימים עד למחיקה</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימים עד למחיקה</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d אירועים כפולים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d אירוע כפול</item>
+        <item quantity="two">%d אירועים כפולים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אירועים כפולים</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">נודניק: %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נודניק דקה %d</item>
+        <item quantity="two">נודניק: %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נודניק: %d דקות</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">לא ניתן להגדיר יותר מ-%d התראות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להגדיר יותר מהתראה %d.</item>
+        <item quantity="two">לא ניתן להגדיר יותר מ-%d התראות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להגדיר יותר מ-%d התראות.</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להזין לכל היותר %d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להזין לכל היותר %d תווים.</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">כל %d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כל יום %d</item>
+        <item quantity="two">כל %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כל %d ימים</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">כל %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כל שעה %d</item>
+        <item quantity="two">כל %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כל %d שעות</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">כל %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כל %d דקה</item>
+        <item quantity="two">כל %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כל %d דקות</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">כל %d חודשים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בכל חודש %d</item>
+        <item quantity="two">כל %d חודשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כל %d חודשים</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">כל %d שבועות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כל %d שבוע</item>
+        <item quantity="two">כל %d שבועות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כל %d שבועות</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">כל %d שנים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בכל שנה %d</item>
+        <item quantity="two">כל %d שנים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כל %d שנים</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">ניתן לבחור לכל היותר %d פריטים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן לבחור לכל היותר %d פריט.</item>
+        <item quantity="two">ניתן לבחור לכל היותר %d פריטים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן לבחור לכל היותר %d פריטים.</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">‎+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">עוד %d אירועים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עוד אירוע %d</item>
+        <item quantity="two">עוד %d אירועים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עוד %d אירועים</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">קבצים מצורפים (%,d פריטים)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">קבצים מצורפים (פריט %,d)</item>
+        <item quantity="two">קבצים מצורפים (%,d פריטים)</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">קבצים מצורפים (%,d פריטים)</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">להעביר אירוע אחד לסל המיחזור ולמחוק עוד %d פריטים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר אירוע אחד לסל המיחזור ולמחוק עוד פריט אחד (%d)?</item>
+        <item quantity="two">להעביר אירוע אחד לסל המיחזור ולמחוק עוד %d פריטים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר אירוע אחד לסל המיחזור ולמחוק עוד %d פריטים?</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">להעביר אירוע אחד לסל המיחזור ולמחוק %d תזכורות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר אירוע אחד לסל המיחזור ולמחוק תזכורת אחת (%d)?</item>
+        <item quantity="two">להעביר אירוע אחד לסל המיחזור ולמחוק %d תזכורות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר אירוע אחד לסל המיחזור ולמחוק %d תזכורות?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">להעביר תזכורת אחת לסל המיחזור ולמחוק %d אירועים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר תזכורת אחת לסל המיחזור ולמחוק אירוע אחד (%d)?</item>
+        <item quantity="two">להעביר תזכורת אחת לסל המיחזור ולמחוק %d אירועים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר תזכורת אחת לסל המיחזור ולמחוק %d אירועים?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">האם להעביר תזכורת אחת לסל המיחזור ולמחוק %d פריטים אחרים?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר תזכורת אחת לסל המיחזור ולמחוק עוד פריט אחד (%d)?</item>
+        <item quantity="two">האם להעביר תזכורת אחת לסל המיחזור ולמחוק %d פריטים אחרים?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר תזכורת אחת לסל המיחזור ולמחוק %d פריטים אחרים?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">להעביר תזכורת אחת לסל המיחזור ולמחוק %d משימות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר תזכורת אחת לסל המיחזור ולמחוק משימה אחת (%d)?</item>
+        <item quantity="two">להעביר תזכורת אחת לסל המיחזור ולמחוק %d משימות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר תזכורת אחת לסל המיחזור ולמחוק %d משימות?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">האם להעביר %d אירועים אל סל המיחזור?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר אירוע %d אל סל המיחזור?</item>
+        <item quantity="two">האם להעביר %d אירועים אל סל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d אירועים אל סל המיחזור?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">להעביר %d אירועים לסל המיחזור ולמחוק תזכורת אחת?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר אירוע אחד (%d) לסל המיחזור ולמחוק תזכורת אחת?</item>
+        <item quantity="two">להעביר %d אירועים לסל המיחזור ולמחוק תזכורת אחת?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d אירועים לסל המיחזור ולמחוק תזכורת אחת?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">האם להעביר %d פריטים אל סל המיחזור?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר %d פריט אל סל המיחזור?</item>
+        <item quantity="two">האם להעביר %d פריטים אל סל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d פריטים אל סל המיחזור?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">להעביר %d פריטים לסל המיחזור ולמחוק משימה אחת?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר פריט אחד (%d) לסל המיחזור ולמחוק משימה אחת?</item>
+        <item quantity="two">להעביר %d פריטים לסל המיחזור ולמחוק משימה אחת?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d פריטים לסל המיחזור ולמחוק משימה אחת?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">האם להעביר %d תזכורות אל סל המיחזור?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם להעביר תזכורת %d אל סל המיחזור?</item>
+        <item quantity="two">האם להעביר %d תזכורות אל סל המיחזור?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם להעביר %d תזכורות אל סל המיחזור?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">להעביר %d תזכורות לסל המיחזור ולמחוק אירוע אחד?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר תזכורת (%d) לסל המיחזור ולמחוק אירוע אחד?</item>
+        <item quantity="two">להעביר %d תזכורות לסל המיחזור ולמחוק אירוע אחד?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d תזכורות לסל המיחזור ולמחוק אירוע אחד?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">להעביר %d תזכורות לסל המיחזור ולמחוק משימה אחת?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">להעביר תזכורת אחת (%d) לסל המיחזור ולמחוק משימה אחת?</item>
+        <item quantity="two">להעביר %d תזכורות לסל המיחזור ולמחוק משימה אחת?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">להעביר %d תזכורות לסל המיחזור ולמחוק משימה אחת?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d אירועים של יום שלם</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">‏‏אירוע %d של יום שלם</item>
+        <item quantity="two">%d אירועים של יום שלם</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אירועים של יום שלם</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d אירועים של יום שלם מתחילים ב-%2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d אירוע של יום שלם המתחיל ב-%2$s</item>
+        <item quantity="two">%1$d אירועים של יום שלם מתחילים ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d אירועים של יום שלם מתחילים ב-%2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d תזכורות של יום שלם מתחילות ב-%2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d תזכורת של יום שלם מתחילה ב-%2$s</item>
+        <item quantity="two">%1$d תזכורות של יום שלם מתחילות ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d תזכורות של יום שלם מתחילות ב-%2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d משימות של יום שלם מתחילות ב-%2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d משימה של יום שלם מתחילה ב-%2$s</item>
+        <item quantity="two">%1$d משימות של יום שלם מתחילות ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d משימות של יום שלם מתחילות ב-%2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d אירועים מתוכננים ב-%2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d אירוע מתוכנן ב-%2$s</item>
+        <item quantity="two">%1$d אירועים מתוכננים ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d אירועים מתוכננים ב-%2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d תזכורות מתוזמנות ב-%2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d תזכורת מתוזמנת ב-%2$s</item>
+        <item quantity="two">%1$d תזכורות מתוזמנות ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d תזכורות מתוזמנות ב-%2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d משימות מתוכננות ב-%2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d משימה מתוכננת ב-%2$s</item>
+        <item quantity="two">%1$d משימות מתוכננות ב-%2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d משימות מתוכננות ב-%2$s</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d מייל</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d מייל</item>
+        <item quantity="two">%d מייל</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d מייל</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d אנשים הוזמנו</item>
+        <item quantity="one">אדם %d הוזמן</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d ימים לפני</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יום אחד (%d) לפני</item>
+        <item quantity="two">%d ימים לפני</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימים לפני</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d שעות לפני</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שעה אחת (%d) לפני</item>
+        <item quantity="two">%d שעות לפני</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שעות לפני</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d דקות לפני</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">דקה אחת (%d) לפני</item>
+        <item quantity="two">%d דקות לפני</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d דקות לפני</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">בעוד %d ימים מעכשיו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d יום מעכשיו</item>
+        <item quantity="two">בעוד %d ימים מעכשיו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d ימים מעכשיו</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">בעוד %d שעות מעכשיו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d שעה מעכשיו</item>
+        <item quantity="two">בעוד %d שעות מעכשיו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d שעות מעכשיו</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">בעוד %d דקות מעכשיו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d דקה מעכשיו</item>
+        <item quantity="two">בעוד %d דקות מעכשיו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d דקות מעכשיו</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">בעוד %d חודשים מעכשיו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d חודש מעכשיו</item>
+        <item quantity="two">בעוד %d חודשים מעכשיו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d חודשים מעכשיו</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">בעוד %d שבועות מעכשיו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d שבוע מעכשיו</item>
+        <item quantity="two">בעוד %d שבועות מעכשיו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d שבועות מעכשיו</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">בעוד %d שנים מעכשיו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בעוד %d שנה מעכשיו</item>
+        <item quantity="two">בעוד %d שנים מעכשיו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">בעוד %d שנים מעכשיו</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">כותרת קוצרה לאורך הנתמך של כותרות אירועים (%,d תווים).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">כותרת קוצרה לאורך הנתמך של כותרות אירועים (תו %,d).</item>
+        <item quantity="two">כותרת קוצרה לאורך הנתמך של כותרות אירועים (%,d תווים).</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">כותרת קוצרה לאורך הנתמך של כותרות אירועים (%,d תווים).</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d שבועות לפני</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שבוע אחד (%d) לפני</item>
+        <item quantity="two">%d שבועות לפני</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שבועות לפני</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">ניתן להציג לכל היותר %d צבעים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ניתן להציג לכל היותר %d צבע.</item>
+        <item quantity="two">ניתן להציג לכל היותר %d צבעים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ניתן להציג לכל היותר %d צבעים.</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">התזכורת עבור %1$s תחזור על עצמה כל %2$d ימים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התזכורת עבור %1$s תחזור על עצמה כל יום %2$d.</item>
+        <item quantity="two">התזכורת עבור %1$s תחזור על עצמה כל %2$d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התזכורת עבור %1$s תחזור על עצמה כל %2$d ימים.</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">התזכורת עבור %1$s תחזור על עצמה כל %2$d שעות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התזכורת עבור %1$s תחזור על עצמה כל שעה %2$d.</item>
+        <item quantity="two">התזכורת עבור %1$s תחזור על עצמה כל %2$d שעות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התזכורת עבור %1$s תחזור על עצמה כל %2$d שעות.</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">התזכורת עבור %1$s תחזור על עצמה כל %2$d דקות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התזכורת עבור %1$s תחזור על עצמה כל דקה %2$d.</item>
+        <item quantity="two">התזכורת עבור %1$s תחזור על עצמה כל %2$d דקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התזכורת עבור %1$s תחזור על עצמה כל %2$d דקות.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d חודשים, ביום האחרון בחודש.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי חודש %2$d, ביום האחרון של החודש.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d חודשים, ביום האחרון בחודש.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d חודשים, ביום האחרון בחודש.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d חודשים, ב%3$s האחרון בחודש.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי חודש %2$d, ב%3$s האחרון בחודש.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d חודשים, ב%3$s האחרון בחודש.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d חודשים, ב%3$s האחרון בחודש.</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d חודשים, ביום ה%3$s בחודש.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי חודש %2$d, ביום ה%3$s של החודש.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d חודשים, ביום ה-%3$s בחודש.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d חודשים, ביום ה%3$s בחודש.</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d חודשים ב%4$s ה%3$s בחודש.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי חודש %2$d, ב%4$s ה%3$s בחודש.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d חודשים ב%4$s ה%3$s בחודש.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d חודשים ב%4$s ה%3$s בחודש.</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d שבועות ב%3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי שבוע %2$d ב%3$s.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d שבועות ב%3$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d שבועות ב%3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d שנים, ביום האחרון של %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי שנה %2$d, ביום האחרון של %3$s.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d שנים, ביום האחרון של %3$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d שנים, ביום האחרון של %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d שנים, ב%3$s האחרון של %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי שנה %2$d, ב%3$s האחרון של %4$s.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d שנים, ב%3$s האחרון של %4$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d שנים, ב%3$s האחרון של %4$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d שנים, ב-%4$s ב%3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי שנה %2$d, ב-%4$s ב%3$s.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d שנים, ב-%4$s ב%3$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d שנים, ב-%4$s ב%3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">%1$s יחזור על עצמו מדי %2$d שנים ב%4$s ה%3$s של %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s יחזור על עצמו מדי שנה %2$d ב%4$s ה%3$s של %5$s.</item>
+        <item quantity="two">%1$s יחזור על עצמו מדי %2$d שנים ב%4$s ה%3$s של %5$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s יחזור על עצמו מדי %2$d שנים ב%4$s ה%3$s של %5$s.</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d זמנים כוללים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d זמן כולל</item>
+        <item quantity="two">%d זמנים כוללים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d זמנים כוללים</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">שותף עם %d אנשים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שותף עם אדם %d</item>
+        <item quantity="two">שותף עם %d אנשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שותף עם %d אנשים</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">יש לך אירוע שנקרא %1$s ב-%2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא %1$s ב-%2$s ועוד אירוע %3$d נוסף.</item>
+        <item quantity="two">יש לך אירוע שנקרא %1$s ב-%2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע שנקרא %1$s ב-%2$s ועוד %3$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">יש לך %1$d אירועים ב-%2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע %1$d ב-%2$s.</item>
+        <item quantity="two">יש לך %1$d אירועים ב-%2$s.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך %1$d אירועים ב-%2$s.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">‏‫יש לך אירוע שנקרא %1$s היום ועוד %2$d אירועים נוספים.‬</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא %1$s היום ועוד אירוע %2$d נוסף.</item>
+        <item quantity="two">‏‫יש לך אירוע שנקרא %1$s היום ועוד %2$d אירועים נוספים.‬</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">‏‫יש לך אירוע שנקרא %1$s היום ועוד %2$d אירועים נוספים.‬</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">יש לך %d אירועים היום.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע %d היום.</item>
+        <item quantity="two">יש לך %d אירועים היום.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך %d אירועים היום.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">יש לך אירוע שנקרא %1$s מחר ועוד %2$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא %1$s מחר ועוד אירוע %2$d נוסף.</item>
+        <item quantity="two">יש לך אירוע שנקרא %1$s מחר ועוד %2$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע שנקרא %1$s מחר ועוד %2$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">יש לך %d אירועים מחר.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע %d מחר.</item>
+        <item quantity="two">יש לך %d אירועים מחר.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך %d אירועים מחר.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">יש לך אירוע שנקרא %1$s ב-%2$s ב-%3$s ועוד %4$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא %1$s ב-%2$s ב-%3$s ועוד אירוע %4$d נוסף.</item>
+        <item quantity="two">יש לך אירוע שנקרא %1$s ב-%2$s ב-%3$s ועוד %4$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע שנקרא %1$s ב-%2$s ב-%3$s ועוד %4$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">יש לך אירוע ב-%1$s בשעה %2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא ב-%1$s בשעה %2$s ועוד %3$d אירוע נוסף.</item>
+        <item quantity="two">יש לך אירוע ב-%1$s בשעה %2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע ב-%1$s בשעה %2$s ועוד %3$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">יש לך אירוע שנקרא %1$s היום ב-%2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא %1$s היום ב-%2$s ועוד אירוע %3$d נוסף.</item>
+        <item quantity="two">יש לך אירוע שנקרא %1$s היום ב-%2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע שנקרא %1$s היום ב-%2$s ועוד %3$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">יש לך אירוע היום בשעה %1$s ועוד %2$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע היום בשעה %1$s ועוד %2$d אירוע נוסף.</item>
+        <item quantity="two">יש לך אירוע היום בשעה %1$s ועוד %2$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע היום בשעה %1$s ועוד %2$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">יש לך אירוע שנקרא %1$s מחר ב-%2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע שנקרא %1$s מחר ב-%2$s ועוד אירוע %3$d נוסף.</item>
+        <item quantity="two">יש לך אירוע שנקרא %1$s מחר ב-%2$s ועוד %3$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע שנקרא %1$s מחר ב-%2$s ועוד %3$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">יש לך אירוע מחר בשעה %1$s ועוד %2$d אירועים נוספים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">יש לך אירוע מחר בשעה %1$s ועוד %2$d אירוע נוסף.</item>
+        <item quantity="two">יש לך אירוע מחר בשעה %1$s ועוד %2$d אירועים נוספים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">יש לך אירוע מחר בשעה %1$s ועוד %2$d אירועים נוספים.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">פחות %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">פחות דקה %d</item>
+        <item quantity="two">פחות %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">פחות %d דקות</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">עוד %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">עוד דקה %d</item>
+        <item quantity="two">עוד %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">עוד %d דקות</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">תחילת %1$s צפויה בעוד %2$d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תחילת %1$s צפויה בעוד %2$d שעה</item>
+        <item quantity="two">תחילת %1$s צפויה בעוד %2$d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">תחילת %1$s צפויה בעוד %2$d שעות</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">תחילת %1$s צפויה בעוד שעה אחת ו-%2$d דקות.</item>
+        <item quantity="one">תחילת %s צפויה בעוד שעה ודקה.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">תחילת %1$s צפויה בעוד %2$d דקות.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">תחילת %1$s צפויה בעוד %2$d דקה.</item>
+        <item quantity="two">תחילת %1$s צפויה בעוד %2$d דקות.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">תחילת %1$s צפויה בעוד %2$d דקות.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">הן יוסרו ממגש המדבקות.</item>
+        <item quantity="one">הפריט יוסר ממגש המדבקות.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">האם למחוק %d סדרות של מדבקות?</item>
+        <item quantity="one">האם למחוק סדרת מדבקות אחת?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">הצג %d אירועים נוספים</item>
+        <item quantity="one">הצג עוד אירוע %d</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d שבועות לפני בשעה %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שבוע %1$d לפני בשעה %2$s</item>
+        <item quantity="two">%1$d שבועות לפני בשעה %2$s</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$d שבועות לפני בשעה %2$s</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">ימים</item>
+        <item quantity="one">יום</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">ימים</item>
+        <item quantity="one">יום</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">ימים נותרו</item>
+        <item quantity="one">יום נותר</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s ו-%2$d נוספים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ו-%2$d נוסף</item>
+        <item quantity="two">%1$s ו-%2$d נוספים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d נוספים</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d אירועים נותרו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">אירוע %d נותר</item>
+        <item quantity="two">%d אירועים נותרו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d אירועים נותרו</item>
+    </plurals>
+</resources>

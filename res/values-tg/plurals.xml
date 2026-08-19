@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d рӯйдодҳои дигар</item>
+        <item quantity="one">+1 рӯйдоди дигар</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d вазифаҳои дигар</item>
+        <item quantity="one">+1 вазифаи дигар</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d ҳодисаҳо</item>
+        <item quantity="one">1 ҳодиса</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d вазифа</item>
+        <item quantity="one">1 вазифа</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Оғоз баъди %d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Оғоз баъди %d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d рӯз пеш соати %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d рӯз пеш соати %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Нест кардани %d ҷузъи танҳо барои хониш ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Нест кардани %d ҷузъи танҳо барои хониш ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">%d рӯйдодро бебозгашт нест кунем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдодро бебозгашт нест кунем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">%d рӯйдод, аз ҷумла 1 рӯйдоди ткрршвндро нест к-м?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдод, аз ҷумла 1 рӯйдоди ткрршвндро нест к-м?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d ҷузъро нест кунем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъро нест кунем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Илова кардани зиёда аз %d замима ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Илова кардани зиёда аз %d замима ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d ҷузъ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Рӯзи %2$s аз %1$s нест карда шуд. То бебозгашт нест шудани ин рӯйдод %3$d рӯз мондааст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Рӯзи %2$s аз %1$s нест карда шуд. То бебозгашт нест шудани ин рӯйдод %3$d рӯз мондааст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d рӯз то несткунӣ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯз то несткунӣ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d рӯйдоди такрорӣ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдоди такрорӣ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d дақиқа монондан</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа монондан</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Беш аз %d ҳушдор танзим кардан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Беш аз %d ҳушдор танзим кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Аз %d аломат зиёдтар дохил кардан мумкин нест.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Аз %d аломат зиёдтар дохил кардан мумкин нест.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d аломат дохил кардан мумкин нест.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Ҳар %d рӯз</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳар %d рӯз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Ҳар %d соат</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳар %d соат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Ҳар %d дақиқа</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳар %d дақиқа</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Ҳар %d моҳ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳар %d моҳ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Ҳар %d ҳафта</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳар %d ҳафта</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Ҳар %d сол</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳар %d сол</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Интихоб кардани зиёда аз %d ҷузъ ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d ҷузъ интихоб кардан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d рӯйдоди дигар</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдоди дигар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Замимаҳо (%,d ҷузъ)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Замимаҳо (%,d ҷузъ)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">1 рӯйдодро ба Сабад кӯчонда, %d ҷузъи дигарро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 рӯйдодро ба Сабад кӯчонда, %d ҷузъи дигарро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">1 рӯйдодро ба Сабад кӯчонда, %d ёдрасро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 рӯйдодро ба Сабад кӯчонда, %d ёдрасро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">1 ёдрасро ба Сабад кӯчонда, %d рӯйдодро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ёдрасро ба Сабад кӯчонда, %d рӯйдодро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">1 ёдрасро ба Сабад кӯчонда, %d ҷузъи дигарро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ёдрасро ба Сабад кӯчонда, %d ҷузъи дигарро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">1 ёдрасро ба Сабад кӯчонда, %d вазифаро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ёдрасро ба Сабад кӯчонда, %d вазифаро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d рӯйдодро ба Сабад кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдодро ба Сабад кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">%d рӯйдодро ба Сабад кӯчонда, 1 ёдрасро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдодро ба Сабад кӯчонда, 1 ёдрасро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d ҷузъро ба Сабад кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъро ба Сабад кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">%d ҷузъро ба Сабад кӯчонда, 1 вазифаро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҷузъро ба Сабад кӯчонда, 1 вазифаро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d ёдрасро ба Сабад кӯчонем?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ёдрасро ба Сабад кӯчонем?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">%d ёдрасро ба Сабад кӯчонда, 1 рӯйдодро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ёдрасро ба Сабад кӯчонда, 1 рӯйдодро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">%d ёдрасро ба Сабад кӯчонда, 1 вазифаро нест кунам?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ёдрасро ба Сабад кӯчонда, 1 вазифаро нест кунам?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d рӯйдоди тамоми рӯз</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдоди тамоми рӯз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d рӯйдоди тамоми рӯз соати %2$s оғоз меёбад</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d рӯйдоди тамоми рӯз соати %2$s оғоз меёбад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d ёдраси тамоми рӯз соати %2$s оғоз меёбад</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ёдраси тамоми рӯз соати %2$s оғоз меёбад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d вазифаи тамоми рӯз соати %2$s оғоз меёбад</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d вазифаи тамоми рӯз соати %2$s оғоз меёбад</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d рӯйдоди ба нақша гирифташуда соати %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d рӯйдоди ба нақша гирифташуда соати %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d ёдраси ба нақша гирифташуда соати %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ёдраси ба нақша гирифташуда соати %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d вазифаи ба нақша гирифташуда соати %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d вазифаи ба нақша гирифташуда соати %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d мил</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d мил</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d нафар даъват карда шуд</item>
+        <item quantity="one">%d нафар даъват карда шуд</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d рӯз пеш</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯз пеш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d соат пеш</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат пеш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d дақиқа пеш</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа пеш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d рӯз аз ҳозир</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯз аз ҳозир</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d соат аз ҳозир</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d соат аз ҳозир</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d дақиқа аз ҳозир</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа аз ҳозир</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d моҳ аз ҳозир</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d моҳ аз ҳозир</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d ҳафта аз ҳозир</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҳафта аз ҳозир</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d сол аз ҳозир</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d сол аз ҳозир</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Унвон то дарозии дастгирӣ мешудаи унвонҳои рӯйдодҳо кӯтоҳ карда шуд (%,d аломат).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Унвон то дарозии дастгирӣ мешудаи унвонҳои рӯйдодҳо кӯтоҳ карда шуд (%,d аломат).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d ҳафта пеш</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ҳафта пеш</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Зиёда аз %d ранг нишон додан ғайриимкон аст.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Зиёда аз %d ранг нишон додан ғайриимкон аст.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Ин %1$s ҳар %2$d рӯз такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d рӯз такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Ин %1$s ҳар %2$d соат такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d соат такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Ин %1$s ҳар %2$d дақиқа такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d дақиқа такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Ин %1$s ҳар %2$d моҳ дар охирин рӯзи моҳ такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d моҳ дар охирин рӯзи моҳ такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Ин %1$s ҳар %2$d моҳ дар охирин рӯзи %3$s-и моҳ такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d моҳ дар охирин рӯзи %3$s-и моҳ такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Ин %1$s ҳар %2$d моҳ рӯзи %3$s-и моҳ такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d моҳ рӯзи %3$s-и моҳ такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Ин %1$s ҳар %2$d моҳ рӯзи %4$s-и %3$s-и моҳ такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d моҳ рӯзи %4$s-и %3$s-и моҳ такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Ин %1$s ҳар %2$d ҳафта рӯзи %3$s такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d ҳафта рӯзи %3$s такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Ин %1$s ҳар %2$d сол охирин рӯзи %3$s такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d сол охирин рӯзи %3$s такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Ин %1$s ҳар %2$d сол охирин %3$s-и моҳи %4$s такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d сол охирин %3$s-и моҳи %4$s такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Ин %1$s ҳар %2$d сол %4$s-и %3$s такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d сол %4$s-и %3$s такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Ин %1$s ҳар %2$d сол %3$s %4$s-и моҳи %5$s такрор мешавад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ин %1$s ҳар %2$d сол %3$s %4$s-и моҳи %5$s такрор мешавад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Ҳамагӣ %d бор</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ҳамагӣ %d бор</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Бо %d нафар мубодила карда шуд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Бо %d нафар мубодила карда шуд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Шумо рӯзи %2$s рӯйдоде бо номи %1$s ва %3$d рӯйдоди дигар доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо рӯзи %2$s рӯйдоде бо номи %1$s ва %3$d рӯйдоди дигар доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Шумо рӯзи %2$s %1$d рӯйдод доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо рӯзи %2$s %1$d рӯйдод доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Шумо имрӯз рӯйдоде бо номи %1$s ва %2$d рӯйдоди дигар доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо имрӯз рӯйдоде бо номи %1$s ва %2$d рӯйдоди дигар доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Шумо имрӯз %d рӯйдод доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо имрӯз %d рӯйдод доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Шумо фардо рӯйдоде бо номи %1$s ва %2$d рӯйдоди дигар доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо фардо рӯйдоде бо номи %1$s ва %2$d рӯйдоди дигар доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Шумо фардо %d рӯйдод доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо фардо %d рӯйдод доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Шумо рӯзи %2$s соати %3$s рӯйдоде бо номи %1$s ва %4$d рӯйдоди дигар доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо рӯзи %2$s соати %3$s рӯйдоде бо номи %1$s ва %4$d рӯйдоди дигар доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="zero">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="one">You have an event on %1$s at %2$s plus %3$d other event.</item>
+        <item quantity="two">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="few">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="many">You have an event on %1$s at %2$s plus %3$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Шумо имрӯз соати %2$s рӯйдоде бо номи %1$s ва %3$d рӯйдоди дигар доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо имрӯз соати %2$s рӯйдоде бо номи %1$s ва %3$d рӯйдоди дигар доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event today at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event today at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Шумо фардо соати %2$s рӯйдоде бо номи %1$s ва %3$d рӯйдоди дигар доред.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Шумо фардо соати %2$s рӯйдоде бо номи %1$s ва %3$d рӯйдоди дигар доред.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event tomorrow at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event tomorrow at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">%d дақиқа камтар</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа камтар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">%d дақиқа бештар</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дақиқа бештар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s баъди %2$d соат оғоз м-д</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s баъди %2$d соат оғоз м-д</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s баъди 1 соат ва %2$d дақиқа оғоз меёбад.</item>
+        <item quantity="one">%s баъди 1 соат 1 дақиқа оғоз меёбад.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s баъди %2$d дақиқа оғоз меёбад.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s баъди %2$d дақиқа оғоз меёбад.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Онҳо аз лавҳаи стикерҳо нест карда мешаванд.</item>
+        <item quantity="one">Он аз лавҳаи стикерҳо нест карда мешавад.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">%d маҷмуи стикерҳоро нест кунем?</item>
+        <item quantity="one">1 маҷмуи стикерҳоро нест кунем?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">%d рӯйдоди дигар дидан</item>
+        <item quantity="one">%d рӯйдоди дигар дидан</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d ҳафта пеш соати %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ҳафта пеш соати %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">рӯз</item>
+        <item quantity="one">рӯз</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">рӯз пеш</item>
+        <item quantity="one">рӯз пеш</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">рӯз монд</item>
+        <item quantity="one">рӯз монд</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s ва %2$d дастгоҳи дигар</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ва %2$d дастгоҳи дигар</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d рӯйдод монд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d рӯйдод монд</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

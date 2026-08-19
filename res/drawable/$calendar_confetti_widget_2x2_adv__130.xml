@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__131" android:duration="216" android:pathData="M -374.007,2125.827 C75.66,2091.494 411.993,1909.827 411.993,1909.827" android:propertyXName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__132" android:duration="2450" android:pathData="M 411.993,1909.827 C411.993,1909.827 663.993,2312.827 523.993,2977.827" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__133" android:duration="216" android:pathData="M -374.007,2125.827 C75.66,2091.494 411.993,1909.827 411.993,1909.827" android:propertyYName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__134" android:duration="2450" android:pathData="M 411.993,1909.827 C411.993,1909.827 663.993,2312.827 523.993,2977.827" android:propertyYName="translateY" />
+    </set>
+</set>

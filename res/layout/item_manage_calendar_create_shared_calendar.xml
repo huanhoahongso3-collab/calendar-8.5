@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/create_shared_calendar_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/common_list_item_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/divider" android:layout_marginStart="@dimen/account_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/winset_list_item_top_padding" android:paddingBottom="@dimen/winset_list_item_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/winset_list_item_min_height" android:paddingStart="@dimen/winset_list_item_start_end_padding" android:paddingEnd="@dimen/winset_list_item_start_end_padding">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/account_list_item_width" android:layout_height="@dimen/account_list_item_width" android:src="@drawable/calendar_alert_add" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/account_list_item_account_text_size_main" android:textColor="@color/drawer_switcher_text_color_default" android:gravity="center_vertical" android:id="@id/create_shared_calendar_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_shared_calendar" android:textDirection="locale" android:layout_marginStart="@dimen/account_list_item_account_text_margin_start" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+</LinearLayout>

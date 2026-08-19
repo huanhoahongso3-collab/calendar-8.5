@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/agenda_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:expanded="false">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:supportActionModeOverLay="false" app:title="@string/search" style="@style/Style.CollapsingToolbar">
+                <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:background="@android:color/transparent" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/agenda_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="horizontal" android:id="@id/agenda_recycler_view_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <View android:id="@id/margin_start" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+                <RelativeLayout android:id="@id/agenda_recycler_view_inner_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.samsung.android.app.calendar.view.sync.CalendarSwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.samsung.android.app.calendar.view.agenda.AgendaRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/agenda_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" />
+                    </com.samsung.android.app.calendar.view.sync.CalendarSwipeRefreshLayout>
+                    <com.samsung.android.app.calendar.view.agenda.SearchFilterRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/agenda_search_filter_recycler_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:importantForAccessibility="no" />
+                </RelativeLayout>
+                <View android:id="@id/margin_end" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+            <ProgressBar android:id="@id/loading_progress_share" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+        </RelativeLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/floating_bottom_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_bottom_navigation_view_bottom_margin">
+            <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/agenda_search_bottom_navigation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoRegularFontStyle" app:itemTextAppearanceInactive="@style/RobotoRegularFontStyle" app:menu="@menu/agenda_search_bottom" style="@style/Style.BottomNavigationView.Floating.IconText" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+            <com.samsung.android.app.calendar.view.calendarheader.NoActionMenuViewToolBar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:clipToOutline="false" app:background="@android:color/transparent">
+                <LinearLayout android:gravity="center" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/add_event_container" android:visibility="gone" android:layout_width="@dimen/agenda_add_event_button_size" android:layout_height="@dimen/agenda_add_event_button_size" android:layout_marginStart="@dimen/agenda_add_event_icon_margin_start_end" android:layout_marginEnd="@dimen/agenda_add_event_icon_margin_start_end">
+                    <ImageView android:id="@id/add_event_btn" android:background="@drawable/main_actionbar_button_ripple" android:layout_width="@dimen/agenda_add_event_icon_size" android:layout_height="@dimen/agenda_add_event_icon_size" android:src="@drawable/add_create_new" android:tint="@color/common_list_main_text_color" android:contentDescription="@string/create_event" />
+                </LinearLayout>
+            </com.samsung.android.app.calendar.view.calendarheader.NoActionMenuViewToolBar>
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+        <include layout="@layout/view_agenda_search_bar" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

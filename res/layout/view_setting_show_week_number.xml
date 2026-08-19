@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/show_week_number_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/calendar_labs_description_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/show_week_number_height_margin" android:paddingStart="@dimen/settings_description_horizontal_padding" android:paddingEnd="@dimen/settings_description_horizontal_padding">
+            <TextView android:id="@id/help_description_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preferences_show_week_number_description" style="@style/CalendarLabsDescriptionText" />
+        </LinearLayout>
+        <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/show_week_number_container" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/show_week_number_height_margin" android:layout_marginBottom="@dimen/show_week_number_height_margin">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/show_week_number_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+        </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+    </LinearLayout>
+</ScrollView>

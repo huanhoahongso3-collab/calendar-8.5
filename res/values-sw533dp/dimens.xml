@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_large_button_add_event_size">19.0dip</dimen>
+    <dimen name="today_widget_large_list_event_padding_top">10.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_bottom">12.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_end">12.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_top">8.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_end">7.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_start">12.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_top">10.0dip</dimen>
+    <dimen name="today_widget_large_month_today_box_radius">5.0dip</dimen>
+    <dimen name="today_widget_large_preview_date_text_size">11.0dip</dimen>
+    <dimen name="today_widget_large_preview_day_of_week_text_size">9.5dip</dimen>
+    <dimen name="today_widget_large_title_container_height">19.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">48.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">13.0dip</dimen>
+    <dimen name="today_widget_setting_large_header_text_size">13.0dip</dimen>
+    <dimen name="today_widget_setting_small_day_of_month_text_size">20.0dip</dimen>
+    <item type="dimen" name="today_widget_small_day_of_month_text_size">20.0</item>
+    <dimen name="widget_month_medium_title_padding_bottom">2.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_top">3.0dip</dimen>
+    <dimen name="widget_month_medium_today_size">12.0dip</dimen>
+</resources>

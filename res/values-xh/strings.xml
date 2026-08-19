@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alert_connect_to_first_phone_number">Multiple phone numbers saved for event. First phone number will be called.</string>
+    <string name="alert_content_hidden">Isiqulatho sifihliwe</string>
+    <string name="alert_snoozed">I-%s (isnuzile)</string>
+    <string name="all_day">Imini yonke</string>
+    <string name="app_label">Calendar</string>
+    <string name="button">Iqhosha</string>
+    <string name="china_provider_label">Chinese holiday</string>
+    <string name="date_lunar_calendar">I-Lun</string>
+    <string name="date_solar_calendar">I-Sol</string>
+    <string name="detail_view">Iinkcukacha</string>
+    <string name="discard_label">Yiyekise</string>
+    <string name="dismiss">Khupha</string>
+    <string name="edit_event_end_short">Phelisa</string>
+    <string name="edit_event_start_short">Qalisa</string>
+    <string name="failed">Ayiphumelelanga</string>
+    <string name="local_account_name">My tasks</string>
+    <string name="my_calendar">My calendar</string>
+    <string name="notification_channel_general_notification">General notifications</string>
+    <string name="parse_error">Impazamo yofakelo lwepasile</string>
+    <string name="permission_read_filter">Read Chinese holiday events</string>
+    <string name="permission_read_filter_desc">This app can read all Chinese holiday events stored on your device.</string>
+    <string name="permission_write_filter">Add, remove, and modify Chinese holiday events</string>
+    <string name="permission_write_filter_desc">This app can add, remove, and modify Chinese holiday events.</string>
+    <string name="save_label">Kugqityiwe</string>
+    <string name="snooze_label">Snuza</string>
+    <string name="unable_to_execute_file_size_is_zero">Ayikwazi ukwenza. Ubukhulu befayile ngu-0 KB.</string>
+    <string name="vcal_importing">Kufakelwa okuvela ngaphandle…</string>
+    <string name="webviewlibrary_add_shortcut_to_homescreen">Add shortcut on home screen</string>
+    <string name="webviewlibrary_add_to_bookmark">Ongeza kwiiBhukmaki</string>
+    <string name="webviewlibrary_close_web_view">Close web view</string>
+    <string name="webviewlibrary_loading">Kufakwa iinkcukacha…</string>
+    <string name="webviewlibrary_loading_page">Loading webpage</string>
+    <string name="webviewlibrary_more">More</string>
+    <string name="webviewlibrary_no_network_connection_data_roaming_disabled">No network connection. Data roaming disabled.</string>
+    <string name="webviewlibrary_no_network_connection_mobile_data_turned_off">No network connection. Mobile data turned off.</string>
+    <string name="webviewlibrary_open_in_browser">Open in browser</string>
+    <string name="webviewlibrary_share">Yabelana</string>
+    <string name="webviewlibrary_starting_download">Iqalisa ukukhuphela…</string>
+    <string name="webviewlibrary_unable_to_connect_to_mobile_networks_while_flight_mode_enabled">Unable to connect to mobile networks while Flight mode enabled.</string>
+    <string name="webviewlibrary_wifi_connection_required_and_try_again">Kufuneka uqhagamshelo lwe-Wi-Fi. Qhagamshela kwinethiwekhi ye-Wi-Fi uzame kwakhona.</string>
+</resources>

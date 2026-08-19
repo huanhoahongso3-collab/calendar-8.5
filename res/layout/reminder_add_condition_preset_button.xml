@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/preset_condition_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/add_viewholder_preset_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/preset_condition_text" style="@style/AddViewConditionPresetButtonTextStyle" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/preset_setting_icon_layout" android:visibility="gone" android:layout_width="@dimen/add_condition_preset_setting_icon_background_size" android:layout_height="@dimen/add_condition_preset_setting_icon_background_size" android:importantForAccessibility="no">
+        <ImageView android:id="@id/preset_setting_icon" android:layout_width="@dimen/add_condition_preset_setting_icon_size" android:layout_height="@dimen/add_condition_preset_setting_icon_size" android:src="@drawable/preset_list_setting_icon" android:layout_marginHorizontal="@dimen/add_condition_preset_setting_icon_margin" android:layout_marginVertical="@dimen/add_condition_preset_setting_icon_margin" />
+    </LinearLayout>
+</FrameLayout>

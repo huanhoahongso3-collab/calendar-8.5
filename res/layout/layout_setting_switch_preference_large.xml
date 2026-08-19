@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/SwitchPreference"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/preference_content" android:layout_width="wrap_content" android:paddingEnd="?android:listPreferredItemPaddingEnd" style="@style/SwitchPreferenceDescription">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" app:layout_constraintStart_toStartOf="@android:id/title" app:layout_constraintTop_toBottomOf="@android:id/title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:layout_gravity="end|center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_marginBottom="18.0dip" style="@style/SwitchPreferenceSwitchFrame" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/preferences_general_title">
+        <androidx.preference.ListPreference android:key="preferences_month_views" android:defaultValue="@string/preferences_month_view_default" />
+        <androidx.preference.ListPreference android:key="preferences_week_start_day" android:defaultValue="@string/preferences_week_start_day_default" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_hide_declined" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_hide_past_events" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_show_completed_reminders" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_hide_contacts_events" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_home_tz_enabled" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_highlight_event_background" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_show_event_title_in_2_lines" android:defaultValue="true" />
+        <androidx.preference.ListPreference android:key="preferences_today_tz" android:defaultValue="@string/preferences_today_tz_default" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_show_week_num" android:defaultValue="false" />
+        <androidx.preference.ListPreference android:key="preferences_default_reminder" android:defaultValue="@string/preferences_default_reminder_default" />
+        <androidx.preference.ListPreference android:key="preferences_default_reminder_allday" android:defaultValue="@string/preferences_default_reminder_allday_default" />
+        <androidx.preference.ListPreference android:key="preferences_default_reminder_contact_birthday" android:defaultValue="@string/preferences_default_reminder_contact_birthday_default" />
+        <androidx.preference.ListPreference android:key="preferences_default_weekend" android:defaultValue="satsun" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_weather" android:defaultValue="false" />
+        <androidx.preference.ListPreference android:key="preferences_dark_mode" android:defaultValue="@string/preferences_dark_mode_default" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_labs_event_recommendation" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_labs_time_place_recommendation" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_labs_scale_writing_to_calendar_size" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_dismiss_alerts_from_all_devices" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_remove_times_from_event_titles" android:defaultValue="true" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_ringtone_picker_ignore_system_sound" android:defaultValue="false" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_ringtone_picker_vibrate_when_ringing" android:defaultValue="false" />
+        <androidx.preference.ListPreference android:key="preferences_islam_correction" android:defaultValue="0" />
+        <androidx.preference.ListPreference android:key="preferences_event_color" android:defaultValue="1" />
+        <androidx.preference.SeekBarPreference android:key="preferences_notification_type_value" android:defaultValue="@integer/default_value_notification_type" />
+        <androidx.preference.SeekBarPreference android:key="preferences_ringtone_picker_ringtone_volume" android:defaultValue="@integer/default_value_ringtone_volume" />
+        <androidx.preference.SeekBarPreference android:key="preferences_alert_background" android:defaultValue="@integer/default_value_alert_background_index" />
+        <androidx.preference.SeekBarPreference android:key="popup_view_status" android:defaultValue="@integer/default_value_popup_view_state" />
+        <androidx.preference.SeekBarPreference android:key="preferences_settings_default_calendar" android:defaultValue="@integer/default_value_calendars" />
+        <androidx.preference.SwitchPreferenceCompat android:key="preferences_always_show_lunar_dates" android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

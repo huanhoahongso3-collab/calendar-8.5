@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/today_widget_no_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/today_cover_day_label_item" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_today_cover_no_item_container_margin_top" android:layout_marginStart="3.0dip">
+        <TextView android:textSize="@dimen/widget_today_cover_no_item_text_size" android:ellipsize="end" android:id="@id/today_widget_no_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_events_today_widget" style="@style/RobotoRegularFontStyle" />
+        <TextView android:textSize="@dimen/widget_today_cover_no_item_text_size" android:ellipsize="end" android:id="@id/today_widget_no_item_sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enjoy_your_day" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+</LinearLayout>

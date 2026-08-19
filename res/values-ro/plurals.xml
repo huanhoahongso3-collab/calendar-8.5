@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d alte evenimente</item>
+        <item quantity="one">+1 alt eveniment</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d alte activități</item>
+        <item quantity="one">+1 altă activitate</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d evenimente</item>
+        <item quantity="one">1 eveniment</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d activități</item>
+        <item quantity="one">O sarcină</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Începe peste %d min.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Începe peste %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Începe peste %d min.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">Cu %1$d zile înainte la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cu %1$d zi înainte la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cu %1$d zile înainte la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Nu se pot șterge %d elemente doar în citire.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate șterge %d element doar în citire.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot șterge %d elemente doar în citire.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Ștergeți definitiv %d evenimente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți definitiv %d eveniment?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți definitiv %d evenimente?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Ștergeți %d evenimente, incl. 1 even. repetitiv?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d eveniment, incl. 1 even. repetitiv?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d evenimente, incl. 1 even. repetitiv?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Ștergeți %d elemente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d element?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d elemente?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Nu se pot adăuga mai mult de %d atașamente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate adăuga mai mult de %d atașament.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot adăuga mai mult de %d atașamente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d elemente</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d element</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d elemente</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">S-a șters din %1$s la %2$s. %3$d zile până la ștergerea definitivă a acestui eveniment.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a șters din %1$s la %2$s. %3$d zi până la ștergerea definitivă a acestui eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-a șters din %1$s la %2$s. %3$d zile până la ștergerea definitivă a acestui eveniment.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d zile până la ștergere</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi până la ștergere</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile până la ștergere</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d evenimente duplicat</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d eveniment duplicat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d evenimente duplicat</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Amânare %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Amânare %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Amânare %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Nu se pot seta mai mult de %d alerte.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate seta mai mult de o alertă.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot seta mai mult de %d alerte.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">La fiecare %d zile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În fiecare zi (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">La fiecare %d zile</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">La fiecare %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În fiecare oră (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">La fiecare %d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">La fiecare %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">La fiecare %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">La fiecare %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">La fiecare %d luni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În fiecare lună (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">La fiecare %d luni</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">La fiecare %d săptămâni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În fiecare săptămână (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">La fiecare %d săptămâni</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">La fiecare %d ani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">În fiecare an (%d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">La fiecare %d ani</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Nu se pot selecta mai mult de %d elemente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate selecta mai mult de %d element.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot selecta mai mult de %d elemente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">Încă %d evenimente</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Încă %d eveniment</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Încă %d evenimente</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Atașări (%,d elemente)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Atașări (%,d element)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Atașări (%,d elemente)</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Mutați 1 eveniment în Coșul de gunoi și ștergeți încă %d elemente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați 1 eveniment în Coșul de gunoi și ștergeți încă %d element?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați 1 eveniment în Coșul de gunoi și ștergeți încă %d elemente?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Mutați 1 eveniment în Coșul de gunoi și ștergeți %d mementouri?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați 1 eveniment în Coșul de gunoi și ștergeți %d memento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați 1 eveniment în Coșul de gunoi și ștergeți %d mementouri?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Mutați 1 memento în Coșul de gunoi și ștergeți %d evenimente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați 1 memento în Coșul de gunoi și ștergeți %d eveniment?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați 1 memento în Coșul de gunoi și ștergeți %d evenimente?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Mutați 1 memento în Coșul de gunoi și ștergeți încă %d elemente?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați 1 memento în Coșul de gunoi și ștergeți încă %d element?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați 1 memento în Coșul de gunoi și ștergeți încă %d elemente?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Mutați 1 memento în Coșul de gunoi și ștergeți %d activități?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați 1 memento în Coșul de gunoi și ștergeți %d activitate?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați 1 memento în Coșul de gunoi și ștergeți %d activități?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Mutați %d evenimente în Coșul de gunoi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d eveniment în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d evenimente în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Mutați %d evenimente în Coșul de gunoi și ștergeți 1 memento?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d eveniment în Coșul de gunoi și ștergeți 1 memento?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d evenimente în Coșul de gunoi și ștergeți 1 memento?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Mutați %d elemente în Coșul de gunoi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d element în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d elemente în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Mutați %d elemente în Coșul de gunoi și ștergeți 1 activitate?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d element în Coșul de gunoi și ștergeți 1 activitate?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d elemente în Coșul de gunoi și ștergeți 1 activitate?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Mutați %d mementouri în Coșul de gunoi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d memento în Coșul de gunoi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d mementouri în Coșul de gunoi?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Mutați %d mementouri în Coșul de gunoi și ștergeți 1 eveniment?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d memento în Coșul de gunoi și ștergeți 1 eveniment?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d mementouri în Coșul de gunoi și ștergeți 1 eveniment?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Mutați %d mementouri în Coșul de gunoi și ștergeți 1 activitate?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mutați %d memento în Coșul de gunoi și ștergeți 1 activitate?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Mutați %d mementouri în Coșul de gunoi și ștergeți 1 activitate?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d evenimente de o zi întreagă</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d eveniment de o zi întreagă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d evenimente de o zi întreagă</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d evenimente care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d eveniment care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d evenimente care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d mementouri care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d memento care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d mementouri care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d activități care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d activitate care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d activități care durează o zi întreagă începând de la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d evenimente programate la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d eveniment programat la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d evenimente programate la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d mementouri programate la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d memento programat la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d mementouri programate la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d activități programate la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d activitate programată la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d activități programate la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mi</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d persoane invitate</item>
+        <item quantity="one">%d persoană invitată</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">Cu %d zile înainte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cu %d zi înainte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cu %d zile înainte</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">Cu %d ore înainte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cu %d oră înainte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cu %d ore înainte</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">Cu %d minute înainte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cu %d minut înainte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cu %d minute înainte</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d zile începând de acum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi începând de acum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile începând de acum</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d ore începând de acum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oră începând de acum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ore începând de acum</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minute începând de acum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut începând de acum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minute începând de acum</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d luni începând de acum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lună începând de acum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d luni începând de acum</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d săptămâni începând de acum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d săptămână începând de acum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d săptămâni începând de acum</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d ani începând de acum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d an începând de acum</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ani începând de acum</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Titlul a fost scurtat la lungimea acceptată pentru titluri de evenimente (%,d caractere).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Titlul a fost scurtat la lungimea acceptată pentru titluri de evenimente (%,d caracter).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Titlul a fost scurtat la lungimea acceptată pentru titluri de evenimente (%,d caractere).</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">Cu %d săptămâni înainte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cu %d săptămână înainte</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cu %d săptămâni înainte</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Nu se pot afișa mai mult de %d culori.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate afișa mai mult de %d culoare.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot afișa mai mult de %d culori.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d zile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare zi (%2$d).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d zile.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Acest %1$s se va repeta la fiecare %2$d ore.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acest %1$s se va repeta la fiecare oră (%2$d).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acest %1$s se va repeta la fiecare %2$d ore.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Acest %1$s se va repeta la fiecare %2$d minute.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acest %1$s se va repeta la fiecare minut (%2$d).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acest %1$s se va repeta la fiecare %2$d minute.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d luni, în ultima zi a lunii.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare lună (%2$d), în ultima zi a lunii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d luni, în ultima zi a lunii.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d luni, în ultima %3$s a lunii.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare lună (%2$d), în ultima %3$s a lunii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d luni, în ultima %3$s a lunii.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d luni, în ziua %3$s a lunii.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare lună (%2$d), în ziua %3$s a lunii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d luni, în ziua %3$s a lunii.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d luni, în %3$s %4$s a lunii.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare lună (%2$d), în %3$s %4$s a lunii.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d luni, în %3$s %4$s a lunii.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d săptămâni, în ziua de %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare săptămână (%2$d), în ziua de %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d săptămâni, în ziua de %3$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d ani, în ultima zi a lunii %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare an (%2$d), în ultima zi a lunii %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d ani, în ultima zi a lunii %3$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d ani, în ultima %3$s a lunii %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare an (%2$d), în ultima %3$s a lunii %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d ani, în ultima %3$s a lunii %4$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d ani, pe %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare an (%2$d), pe %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d ani, pe %4$s %3$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">%1$s se va repeta la fiecare %2$d ani, în %3$s %4$s a lunii %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se va repeta în fiecare an (%2$d), în %3$s %4$s a lunii %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se va repeta la fiecare %2$d ani, în %3$s %4$s a lunii %5$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">De %d ori în total</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d singură dată în total</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">De %d ori în total</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Partajare cu %d persoane</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Partajare cu %d persoană</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Partajare cu %d persoane</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Aveți un eveniment denumit %1$s pe %2$s și încă %3$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment denumit %1$s pe %2$s și încă %3$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment denumit %1$s pe %2$s și încă %3$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Aveți %1$d evenimente pe %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți %1$d eveniment pe %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți %1$d evenimente pe %2$s.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Aveți un eveniment denumit %1$s astăzi și încă %2$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment denumit %1$s astăzi și încă %2$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment denumit %1$s astăzi și încă %2$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Aveți %d evenimente astăzi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți %d eveniment astăzi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți %d evenimente astăzi.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Aveți un eveniment denumit %1$s mâine și încă %2$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment denumit %1$s mâine și încă %2$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment denumit %1$s mâine și încă %2$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Aveți %d evenimente mâine.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți %d eveniment mâine.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți %d evenimente mâine.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Aveți un eveniment denumit %1$s pe %2$s la %3$s și încă %4$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment denumit %1$s pe %2$s la %3$s și încă %4$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment denumit %1$s pe %2$s la %3$s și încă %4$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Aveți un eveniment pe %1$s la %2$s și încă %3$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment pe %1$s la %2$s și încă %3$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment pe %1$s la %2$s și încă %3$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Aveți un eveniment denumit %1$s astăzi la %2$s și încă %3$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment denumit %1$s astăzi la %2$s și încă %3$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment denumit %1$s astăzi la %2$s și încă %3$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Aveți un eveniment astăzi la %1$s și încă %2$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment astăzi la %1$s și încă %2$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment astăzi la %1$s și încă %2$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Aveți un eveniment denumit %1$s mâine la %2$s și încă %3$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment denumit %1$s mâine la %2$s și încă %3$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment denumit %1$s mâine la %2$s și încă %3$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Aveți un eveniment mâine la %1$s și încă %2$d evenimente.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aveți un eveniment mâine la %1$s și încă %2$d eveniment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aveți un eveniment mâine la %1$s și încă %2$d evenimente.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Minus %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plus %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plus %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Plus %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s începe peste %2$d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s începe peste %2$d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s începe peste %2$d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s începe peste 1 oră și %2$d minute.</item>
+        <item quantity="one">%s începe peste 1 oră și 1 minut.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s începe în %2$d minute.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s începe peste %2$d minut.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s începe în %2$d minute.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Acestea vor fi eliminate din bara de abțibilduri.</item>
+        <item quantity="one">Acesta va fi eliminat din bara de abțibilduri.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Ștergeți %d seturi de abțibilduri?</item>
+        <item quantity="one">Ștergeți 1 set de abțibilduri?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Viz. încă %d evenimente</item>
+        <item quantity="one">Viz. încă %d eveniment</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">Cu %1$d săptămâni înainte la %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cu %1$d săptămână înainte la %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cu %1$d săptămâni înainte la %2$s</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">zile</item>
+        <item quantity="one">zi</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">zile în urmă</item>
+        <item quantity="one">zi în urmă</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">zile rămase</item>
+        <item quantity="one">zi rămasă</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s și încă %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s și încă %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s și încă %2$d</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d even. rămase</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d even. rămas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d even. rămase</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

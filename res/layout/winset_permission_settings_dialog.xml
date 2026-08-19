@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="@dimen/winset_dialog_permission_body_top_padding" android:paddingBottom="@dimen/winset_dialog_permission_body_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/winset_dialog_permission_body_start_padding" android:paddingEnd="@dimen/winset_dialog_permission_body_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/RobotoRegularFontStyle" android:textSize="@dimen/winset_dialog_permission_body_message_text_size" android:textColor="@color/common_dialog_body_text_color" android:id="@id/body_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/winset_dialog_permission_body_message_bottom_padding" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/permission_listview" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="10.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+</ScrollView>

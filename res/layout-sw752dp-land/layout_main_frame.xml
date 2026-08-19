@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.calendar.view.common.MainFrameContainerView android:id="@id/main_frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/main_frame_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <com.samsung.android.app.calendar.view.TwoPaneLayout android:orientation="horizontal" android:id="@id/main_split_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.samsung.android.app.calendar.view.sync.CalendarSwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:id="@id/main_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@id/main_pane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </com.samsung.android.app.calendar.view.sync.CalendarSwipeRefreshLayout>
+            <com.samsung.android.app.calendar.view.sidepane.SplitBarView android:id="@id/split_bar" android:background="@android:color/transparent" android:focusable="false" android:layout_width="@dimen/split_bar_width" android:layout_height="fill_parent" android:translationZ="1.0dip" />
+            <com.samsung.android.app.calendar.view.SidePaneViewImpl android:id="@id/side_pane" android:visibility="gone" android:layout_width="@dimen/supporting_pane_minimum_width" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/main_frame_padding_horizontal">
+                <TextView android:textSize="@dimen/day_and_detail_no_selected_event_text_size" android:textColor="@color/day_and_detail_no_selected_event_text_color" android:layout_gravity="center" android:id="@id/no_event_text_pane" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_event_selected" android:textAlignment="center" style="@style/RobotoRegularFontStyle" />
+                <FrameLayout android:id="@id/side_detail_pane" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <com.samsung.android.app.calendar.view.sidepane.SidePaneListViewImpl android:id="@id/event_list_pane" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.samsung.android.app.calendar.view.SidePaneViewImpl>
+        </com.samsung.android.app.calendar.view.TwoPaneLayout>
+        <com.samsung.android.app.calendar.view.quickadd.SwipeTouchLayout android:layout_gravity="bottom" android:id="@id/swipe_touch_layout" android:background="@color/transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/quick_add_area_height_with_margin" />
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="center|bottom" android:id="@id/quick_add_floating_bottom_layout_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/quick_add_edit_text_height" android:layout_marginBottom="@dimen/quick_add_edit_text_bottom_margin" app:showFloatingItemBackground="false">
+            <FrameLayout android:layout_gravity="center|bottom" android:id="@id/quick_add_background_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/quick_add_edit_text_height" android:paddingHorizontal="@dimen/floating_action_button_margin_horizontal_multi_window">
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/quick_add_animation_top_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <include layout="@layout/view_main_quick_add" />
+                </FrameLayout>
+            </FrameLayout>
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+    </FrameLayout>
+</com.samsung.android.app.calendar.view.common.MainFrameContainerView>

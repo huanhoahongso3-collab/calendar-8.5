@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/day_label_line" android:layout_width="fill_parent" android:layout_height="@dimen/list_widget_day_label_line_height" android:src="@color/widget_preview_divider_color" android:layout_weight="1.0" />
+</FrameLayout>

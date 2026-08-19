@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/select_account_dialog_body_padding_start" android:paddingEnd="@dimen/select_account_dialog_body_padding_end" android:stateListAnimator="?seslLargeTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:gravity="center" android:id="@id/account_item_checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="0.75" android:scaleY="0.75" android:importantForAccessibility="no" />
+    <TextView android:textSize="@dimen/account_list_item_account_text_size_main" android:textColor="@color/common_dialog_main_text_color" android:ellipsize="end" android:id="@id/account_title" android:paddingTop="@dimen/select_account_dialog_body_padding_top_bottom" android:paddingBottom="@dimen/select_account_dialog_body_padding_top_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textIsSelectable="false" android:textDirection="locale" android:layout_marginStart="@dimen/winset_single_choice_dialog_radio_button_margin_end" style="@style/RobotoRegularFontStyle" />
+    <ImageView android:id="@id/group_account_icon" android:src="@drawable/ic_calendar_ic_host" style="@style/GroupCalendarIconStyle" />
+</LinearLayout>

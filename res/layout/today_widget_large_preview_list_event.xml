@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/today_widget_large_list_event_padding_top" android:weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:theme="@style/WidgetTodayPreviewEventItem.Item1" layout="@layout/today_widget_large_preview_event_item_all_day" />
+    <FrameLayout android:background="@color/widget_today_large_list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/today_widget_large_item_divider_height" android:layout_marginBottom="@dimen/today_widget_large_item_divider_margin_bottom" />
+    <include android:theme="@style/WidgetTodayPreviewEventItem.Item2" layout="@layout/today_widget_large_preview_event_item" />
+    <FrameLayout android:background="@color/widget_today_large_list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/today_widget_large_item_divider_height" android:layout_marginBottom="@dimen/today_widget_large_item_divider_margin_bottom" />
+    <include android:theme="@style/WidgetTodayPreviewEventItem.Item3" layout="@layout/today_widget_large_preview_event_item" />
+</LinearLayout>

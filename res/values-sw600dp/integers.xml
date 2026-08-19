@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="emoji_sticker_picker_num_columns">12</integer>
+    <integer name="emoji_sticker_picker_num_columns_fold">10</integer>
+    <integer name="sticker_picker_num_columns">8</integer>
+    <integer name="sticker_picker_num_columns_fold">8</integer>
+    <integer name="timeline_max_column_num_day">8</integer>
+    <integer name="widget_month_default_height">4</integer>
+    <item type="integer" name="widget_setting_layout_bottom_container_percent">0.62</item>
+    <item type="integer" name="widget_setting_preview_container_percent">0.38</item>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_card_repeat_spinner_text_padding_start">18.0dip</dimen>
+    <item type="dimen" name="sesl_glance_combine_primary_small_circle_padding">@dimen/circle_padding_40</item>
+    <dimen name="sesl_glance_combine_primary_small_circle_size">40.0dip</dimen>
+    <dimen name="sesl_glance_combine_primary_with_text_tiny_icon_size">20.0dip</dimen>
+    <item type="dimen" name="today_brief_widget_big_day_of_week_text_size">11.0</item>
+    <item type="dimen" name="today_brief_widget_big_month_text_size">12.0</item>
+    <dimen name="today_widget_big_complication_preview_second_line_text_size">11.0dip</dimen>
+    <dimen name="today_widget_big_complication_preview_text_size">12.0dip</dimen>
+    <dimen name="today_widget_large_list_event_padding_top">9.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_bottom">9.0dip</dimen>
+    <dimen name="today_widget_large_list_view_container_padding_top">12.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_bottom">15.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_end">6.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_start">11.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_top">15.0dip</dimen>
+    <dimen name="today_widget_medium_preview_today_event_text_size">12.0dip</dimen>
+    <dimen name="today_widget_medium_preview_year_and_month_text_size">15.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">45.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">12.0dip</dimen>
+    <dimen name="today_widget_padding_top_bottom_land_six_week">2.0dip</dimen>
+    <dimen name="today_widget_small_preview_day_of_week_text_size">12.0dip</dimen>
+    <dimen name="today_widget_small_preview_month_text_size">12.0dip</dimen>
+    <dimen name="weather_settings_message_padding_bottom">25.0dip</dimen>
+</resources>

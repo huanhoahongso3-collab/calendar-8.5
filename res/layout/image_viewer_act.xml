@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/image_viewer_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/image_viewer_contentFrame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:applyFloatingItemBackgroundBlur="true" app:showFloatingItemBackground="false">
+        <androidx.appcompat.widget.Toolbar android:id="@id/image_viewer_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:background="@android:color/transparent" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/bottom_menu_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_gravity="center|bottom" android:id="@id/go_to_website_btn" android:background="@drawable/go_to_website_button_background" android:paddingLeft="@dimen/go_to_web_button_left_right_padding" android:paddingTop="@dimen/go_to_web_button_top_bottom_padding" android:paddingRight="@dimen/go_to_web_button_left_right_padding" android:paddingBottom="@dimen/go_to_web_button_top_bottom_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="@style/NewSec400FontStyle" android:textSize="12.0sp" android:textColor="@color/color_white_opacity_100" android:gravity="center" android:layout_gravity="center" android:id="@id/image_bottom_go_to_website" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_image_go_to_website" />
+        </FrameLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:id="@id/floating_bottom_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center|bottom" android:id="@id/bottom_bar" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemIconTint="@color/opentheme_bottom_tab_icon_tint_color" app:itemTextColor="@color/opentheme_bottom_tab_text_color" app:menu="@menu/menu_list_image_viewer" style="@style/Widget.Design.Light.BottomNavigationView.Floating.IconText" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+    </LinearLayout>
+</RelativeLayout>

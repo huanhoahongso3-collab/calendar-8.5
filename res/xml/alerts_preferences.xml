@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/preferences_category_alerts" android:key="preferences_alerts_category">
+        <androidx.preference.Preference android:title="@string/preferences_notification_type" android:key="preferences_notification_type_settings" android:summary="@string/preferences_notification_type_medium" />
+        <com.samsung.android.app.calendar.view.settings.AlertBackgroundPreference android:layout="@layout/layout_setting_alert_background_preference" android:key="preferences_notification_alert_background" android:summary="@string/preferences_alerts_background_description" />
+        <androidx.preference.Preference android:title="@string/preferences_default_reminder_title" android:key="preferences_default_reminder_category" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_dismiss_alerts_from_all_devices" android:key="preferences_dismiss_alerts_from_all_devices" android:summary="@string/preferences_dismiss_alerts_from_all_devices_description" />
+        <com.samsung.android.app.calendar.view.settings.SmartThingsAlertPreference android:layout="@layout/layout_setting_smartthings_alert_preference" android:title="@string/preferences_alerts_on_smart_devices" android:key="preferences_alert_smartthings" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

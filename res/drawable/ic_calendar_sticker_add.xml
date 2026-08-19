@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M10.3297,16L10.3297,4.5455" android:strokeColor="@color/top_sticker_more_button_color" android:strokeWidth="1.8" android:strokeLineCap="round" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M4.5455,10.2727L16,10.2727" android:strokeColor="@color/top_sticker_more_button_color" android:strokeWidth="1.8" android:strokeLineCap="round" android:fillType="evenOdd" />
+</vector>

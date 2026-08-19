@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<style>
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+</style>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kakao Map</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">-->
+</head>
+
+<body>
+<div id="map" style="width:100%;height:100%;"></div>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=a21a8fff8b6dd276b02930b859e4ed7b"></script>
+<script>
+    window.onload = function() {
+        window.android.onReady();
+    };
+
+    var mapContainer = document.getElementById('map');
+    var mapOption = {
+        center: new kakao.maps.LatLng(0, 0),
+        level: 5,
+        disableDoubleClickZoom: true
+    };
+    var map = new kakao.maps.Map(mapContainer, mapOption);
+
+    var center = map.getCenter();
+    screen.orientation.addEventListener('change', function(event) {
+        let mapCenter = center; // Save the latest center coordinates
+        console.log('Orientation Changed, Current Center: ' + mapCenter.getLat() + ',  ' + mapCenter.getLng());
+        setTimeout(() => {
+            map.relayout();
+            map.setCenter(mapCenter);
+        }, 10);
+    });
+
+    kakao.maps.event.addListener(map, 'click', function(mouseEvent) {
+        var latlng = mouseEvent.latLng;
+        console.log('Clicked: ' + latlng.getLat() + ',  ' + latlng.getLng());
+        sendMessage('Clicked: ' + latlng.getLat() + ',  ' + latlng.getLng());
+        window.android.onClick(latlng.getLat(), latlng.getLng());
+    });
+
+    kakao.maps.event.addListener(map, 'center_changed', function() {
+        center = map.getCenter();
+        console.log('Center Changed: ' + center.getLat() + ',  ' + center.getLng());
+        sendMessage('Center Changed: ' + center.getLat() + ',  ' + center.getLng());
+        window.android.onCameraPosition(center.getLat(), center.getLng());
+    });
+
+    kakao.maps.event.addListener(map, 'drag', function(event) {
+        center = map.getCenter();
+        console.log('Dragged: ' + center.getLat() + ',  ' + center.getLng());
+        sendMessage('Dragged: ' + center.getLat() + ',  ' + center.getLng());
+    });
+
+    kakao.maps.event.addListener(map, 'zoom_changed', function() {
+        center = map.getCenter();
+        let level = map.getLevel();
+        console.log('Zoom Changed: ' + level);
+        sendMessage('Zoom Changed: ' + level);
+        window.android.onZoomChanged(level);
+    });
+
+    var marker = new kakao.maps.Marker();
+    var circle = new kakao.maps.Circle();
+
+    function update(lat, lng, zoomLevel, radius, color, strokeWeight, circleOpacity) {
+        console.log('Update [' + lat + ' /  ' + lng + '] Level: ' + zoomLevel + ' Radius: ' + radius + ' Color: ' + color + ' Opacity: ' + circleOpacity);
+        sendMessage('Update Marker: ' + lat + ',  ' + lng);
+        let moveLatLon = new kakao.maps.LatLng(lat, lng);
+        marker.setMap(map);
+        marker.setPosition(moveLatLon);
+        map.setCenter(moveLatLon);
+        map.setLevel(zoomLevel);
+        sendMessage('Update Circle: ' + lat + ',  ' + lng);
+        circle.setMap(map);
+        circle.setPosition(new kakao.maps.LatLng(lat, lng));
+        circle.setOptions({
+            radius: radius,
+            strokeWeight: strokeWeight,
+            strokeColor: color,
+            strokeOpacity: 1,
+            fillColor: color,
+            fillOpacity: circleOpacity
+        });
+    }
+
+    function updateMarker(lat, lng) {
+        sendMessage('Update Marker: ' + lat + ',  ' + lng);
+        console.log('Update Marker: ' + lat + ' / ' + lng);
+        marker.setMap(map);
+        marker.setPosition(new kakao.maps.LatLng(lat, lng));
+    }
+
+    function updateCustomMarker(lat, lng) {
+        sendMessage('Update Marker: ' + lat + ',  ' + lng);
+        var imageSrc = 'http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png',
+            imageSize = new kakao.maps.Size(64, 69), // Size of marker image
+            imageOption = {
+                offset: new kakao.maps.Point(27, 69)
+            }; // Option of marker image. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+        marker.setMap(map);
+        marker.setImage(new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption));
+        marker.setPosition(new kakao.maps.LatLng(lat, lng));
+    }
+
+    function updateCircle(lat, lng, radius, color, strokeWeight, circleOpacity) {
+        sendMessage('Update Circle: ' + lat + ',  ' + lng);
+        console.log('Radius: ' + radius + ' Color: ' + color + ' Weight: ' + strokeWeight + ' Opacity: ' + circleOpacity);
+        circle.setMap(map);
+        circle.setPosition(new kakao.maps.LatLng(lat, lng));
+        circle.setOptions({
+            radius: radius,
+            strokeWeight: strokeWeight,
+            strokeColor: color,
+            strokeOpacity: 1,
+            fillColor: color,
+            fillOpacity: circleOpacity
+        });
+    }
+
+    function setZoom(lat, lng, zoomLevel) {
+        console.log('Set Zoom: ' + zoomLevel + ' Coordinates' + lat + ' / ' + lng);
+        map.setLevel(zoomLevel, {
+            anchor: new kakao.maps.LatLng(lat, lng),
+            animate: true
+        });
+    }
+
+    function setCamera(lat, lng) {
+        let moveLatLon = new kakao.maps.LatLng(lat, lng);
+        console.log('Set Camera: ' + lat + ' / ' + lng);
+        map.relayout();
+        map.setCenter(moveLatLon);
+    }
+
+    function animateCamera(lat, lng) {
+        let moveLatLon = new kakao.maps.LatLng(lat, lng);
+        console.log('Animate Camera: ' + lat + ' / ' + lng);
+        map.relayout();
+        map.panTo(moveLatLon);
+    }
+
+    function getCameraPosition() {
+        let center = map.getCenter();
+        console.log('Get CameraPosition: ' + center.getLat() + ',  ' + center.getLng());
+        window.android.onCameraPosition(center.getLat(), center.getLng());
+    }
+
+    function sendMessage(msg) {
+        window.android.sendMessage('(Web Map) ' + msg);
+    }
+    </script>
+</body>
+
+</html>

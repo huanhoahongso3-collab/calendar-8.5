@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">အပေါင်း +%d အခြား ဖြစ်ရပ်</item>
+        <item quantity="one">အပေါင်း +၁ အခြား ဖြစ်ရပ်</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">အခြား လုပ်ငန်းများ +%d ခု</item>
+        <item quantity="one">အခြား လုပ်ငန်း +၁ ခု</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">အဖြစ်အပျက် %d ခု</item>
+        <item quantity="one">လှုပ်ရှားမှု ၁ ခု</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">တာဝန် %d ခု</item>
+        <item quantity="one">တာဝန် ၁ ခု</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">%d မိနစ် အကြာမှာ စတင်မည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%2$s မတိုင်မီ %1$d ရက်အလို</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">ဖတ်ရန်သီးသန့် %d ခုကို ဖျက်၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">ပွဲစဉ် %d ခုကို အပြီး ဖျက်ပစ်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">ထပ်တလဲလဲ ဖြစ်စဉ် ၁ ခုအပါအဝင် ဖြစ်စဉ် %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">ပူးတွဲဖိုင် %d ခုထက်ပိုပြီး ထည့်၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">အိုင်တမ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%2$s တွင် %1$s မှ ဖျက်ထားသည်။ ဤပွဲစဉ်ကို အပြီးတိုင် ဖျက်မပစ်မီ %3$d ရက်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">မဖျက်မီ %d ရက်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">ပုံတူပွဲအစီအစဉ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d မိနစ် တစ်ရေးမှိန်းမည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">သတိပေးချက် %d ခုထက်ပိုပြီး သတ်မှတ်၍ မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">အက္ခရာ %d လုံးထက် ပိုပြီး ထည့်သွင်း၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">အက္ခရာ %d လုံးထက် ပိုပြီး ထည့်သွင်း၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">%d ရက်တစ်ကြိမ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">%d နာရီတစ်ကြိမ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">%d မိနစ်တိုင်း</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">%d လတစ်ကြိမ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">%d ပတ်တစ်ကြိမ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">%d နှစ်တစ်ကြိမ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">အိုင်တမ် %d ခုထက် ပို၍ရွေး၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">နောက်ထပ် ဖြစ်စဉ် %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">ပူးတွဲပါရှိချက်များ (ပစ္စည်း %,d ခု)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">ဖြစ်ရပ် ၁ ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး အခြား အိုက်တမ် %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">ဖြစ်ရပ် ၁ ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး သတိပေးချက် %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">သတိပေးချက် ၁ ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး ဖြစ်ရပ် %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">အသိပေးချက် ၁ ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး အခြား %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">သတိပေးချက် ၁ ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး လုပ်ငန်း %d ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">ဖြစ်စဉ် %d ခုကို အမှိုက်ပုံးထဲသို့ ရွှေ့မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">ဖြစ်ရပ် %d ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး သတိပေးချက် ၁ ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">အိုင်တမ် %d ခုကို အမှိုက်ပုံးသို့ ရွှေ့မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">အိုက်တမ် %d ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး လုပ်ငန်း ၁ ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">သတိပေးချက် %d ခုကို အမှိုက်ပုံး ထဲသို့ ရွှေ့မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">သတိပေးချက် %d ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး ဖြစ်ရပ် ၁ ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">သတိပေးချက် %d ခုကို အမှိုက်ပုံးထဲ ထည့်ပြီး လုပ်ငန်း ၁ ခုကို ဖျက်မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">တနေကုန်အဖြစ်အပျက်များ %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%2$s တွင် စတင်မည့် တစ်နေ့လုံးဖြစ်စဉ် %1$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%2$s တွင် စတင်မည့် တစ်နေ့လုံးသတိပေးချက် %1$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%2$s တွင် စတင်မည့် တစ်နေ့လုံးလုပ်ဆောင်ချက် %1$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%2$s တွင် စီစဉ်ထားသည့် ဖြစ်စဉ် %1$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%2$s တွင် စီစဉ်ထားသည့် သတိပေးချက် %1$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%2$s တွင် စီစဉ်ထားသည့် လုပ်ဆောင်ချက် %1$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d မိုင်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">လူ %d ဦးကို ဖိတ်ခေါ်ပြီးပြီ</item>
+        <item quantity="one">လူ %d ဦးကို ဖိတ်ခေါ်ပြီးပြီ</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d ရက် လိုသေးသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d နာရီ လိုသေးသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d မိနစ် လိုသေးသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">ယခုမှစ၍ %d ရက်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">ယခုမှစ၍ %d နာရီ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">ယခုမှစ၍ %d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">ယခုမှစ၍ %d လ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">ယခုမှစ၍ %d ပတ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">ယခုမှစ၍ %d နှစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">ခေါင်းစဉ်ကို ဖြစ်ရပ် ခေါင်းစဉ်များအတွက် လက်ခံသော အရှည်အထိ အတိုချုံ့ထားသည် (စာလုံးရေ %,d လုံး)။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d ပတ် လိုသေးသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">အရောင် %d ခုထက် ပိုပြ၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">ဤ %1$s သည် %2$d ရက်တစ်ကြိမ် ပြန်ကျော့ပါမည်။</item>
+        <item quantity="zero">NA</item>
+        <item quantity="one">NA</item>
+        <item quantity="two">NA</item>
+        <item quantity="few">NA</item>
+        <item quantity="many">NA</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">ဤ %1$s သည် %2$d နာရီတစ်ကြိမ် ပြန်ကျော့ပါမည်။</item>
+        <item quantity="zero">NA</item>
+        <item quantity="one">NA</item>
+        <item quantity="two">NA</item>
+        <item quantity="few">NA</item>
+        <item quantity="many">NA</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">ဤ %1$s သည် %2$d မိနစ်တစ်ကြိမ် ပြန်ကျော့ပါမည်။</item>
+        <item quantity="zero">NA</item>
+        <item quantity="one">NA</item>
+        <item quantity="two">NA</item>
+        <item quantity="few">NA</item>
+        <item quantity="many">NA</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">ဤ %1$s သည် %2$d လတစ်ကြိမ်အဖြစ် လတစ်လ၏ နောက်ဆုံးရက်တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">ဤ %1$s သည် %2$d လတစ်ကြိမ်အဖြစ် လတစ်လ၏ နောက်ဆုံး %3$s ရက်တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">ဤ %1$s သည် %2$d လတစ်ကြိမ်အဖြစ် လတစ်လ၏ %3$s ရက်တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">ဤ %1$s သည် %2$d လတစ်ကြိမ်အဖြစ် လတစ်လ၏ %3$s %4$s တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">ဤ %1$s သည် %2$d ပတ်တစ်ကြိမ်အဖြစ် %3$s တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">ဤ %1$s သည် %2$d နှစ်တစ်ကြိမ်အဖြစ် %3$s ၏ နောက်ဆုံးရက်တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">ဤ %1$s သည် %2$d နှစ်တစ်ကြိမ်အဖြစ် %4$s အတွင်း နောက်ဆုံး %3$s တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">ဤ %1$s သည် %2$d နှစ်တစ်ကြိမ်အဖြစ် %3$s %4$s တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">ဤ %1$s သည် %2$d နှစ်တစ်ကြိမ်အဖြစ် %5$s ၏ %3$s %4$s တွင် ထပ်လုပ်ပါမည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">စုစုပေါင်း %d ကြိမ်</item>
+        <item quantity="zero">NA</item>
+        <item quantity="one">NA</item>
+        <item quantity="two">NA</item>
+        <item quantity="few">NA</item>
+        <item quantity="many">NA</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">လူ %d ဦးနှင့် မျှဝေထားသည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%2$s တွင် %1$s အစီအစဉ်နှင့် အခြား အစီအစဉ် %3$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%2$s တွင် အစီအစဉ် %1$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">ယနေ့ %1$s အစီအစဉ်နှင့် အခြား အစီအစဉ် %2$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">ယနေ့ အစီအစဉ် %d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">မနက်ဖြန် %1$s အစီအစဉ်နှင့် အခြား အစီအစဉ် %2$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">မနက်ဖြန်တွင် အစီအစဉ် %d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">%2$s %3$s တွင် %1$s အစီအစဉ်နှင့် အခြား အစီအစဉ် %4$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">သင့်တွင် အခြားဖြစ်စဉ် %3$d ခုအပြင် %2$s ၌ %1$s တွင် ဖြစ်စဉ်တစ်ခုရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">ယနေ့ %2$s တွင် %1$s အစီအစဉ်နှင့် အခြား အစီအစဉ် %3$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">သင့်တွင် ယနေ့ အခြားဖြစ်စဉ် %2$d ခုအပြင် %1$s တွင် ဖြစ်စဉ်တစ်ခုရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">မနက်ဖြန် %2$s တွင် %1$s အစီအစဉ်နှင့် အခြား အစီအစဉ် %3$d ခု သင့်တွင် ရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">သင့်တွင် မနက်ဖြန် အခြားဖြစ်စဉ် %2$d ခု အပြင် %1$s တွင် ဖြစ်စဉ်တစ်ခုရှိသည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">အနုတ် %d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">အပေါင်း %d မိနစ်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s က %2$d နာရီအကြာမှာ စတင်မည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s သည် ၁ နာရီ %2$d မိနစ်တွင် စတင်ပါသည်။</item>
+        <item quantity="one">%s က ၁ နာရီ ၁ မိနစ်တွင် စတင်ပါသည်။</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s က %2$d မိနစ်အကြာမှာ စတင်မည်။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">၎င်းတို့ကို စတစ်ကာအခန်းထဲမှ ဖယ်ရှားလိုက်ပါမည်။</item>
+        <item quantity="one">၎င်းကို စတစ်ကာအခန်းထဲမှ ဖယ်ရှားပါမည်။</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">စတစ်ကာ %d စုံကို ဖျက်ပစ်မလား?</item>
+        <item quantity="one">စတစ်ကာ ၁ စုံကို ဖျက်ပစ်မလား?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">နောက်ထပ် ဖြစ်ရပ် %d ခုကို ကြည့်ရှုပါ</item>
+        <item quantity="one">နောက်ထပ် ဖြစ်ရပ် %d ခုကို ကြည့်ရှုပါ</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%2$s မတိုင်မီ %1$d ပတ်အလို</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">ရက်</item>
+        <item quantity="one">ရက်</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">ရက်က</item>
+        <item quantity="one">ရက်က</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">ရက်ကျန်</item>
+        <item quantity="one">ရက်ကျန်</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s နှင့် နောက်ထပ် %2$d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">ဖြစ်ရပ် %d ခု ကျန်သည်</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

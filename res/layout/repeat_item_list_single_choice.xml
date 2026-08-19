@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.libcalendar.picker.repeat.view.viewholder.RepeatListViewHolderLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="@dimen/repeat_list_single_choice_item_padding_start" android:paddingVertical="@dimen/repeat_list_item_padding_vertical">
+        <RadioButton android:gravity="center" android:id="@id/radio_button" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:choiceMode="singleChoice" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/repeat_list_item_text_container_min_height">
+            <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_title_pre_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:paddingStart="@dimen/edit_card_common_list_single_choice_item_padding_start" style="@style/RobotoRegularFontStyle" />
+            <com.samsung.android.libcalendar.picker.repeat.view.viewholder.RepeatListEditText android:textColor="@drawable/repeat_interval_text_selector" android:id="@id/item_title_repeat_interval" android:singleLine="true" android:inputType="datetime" android:imeOptions="actionDone" android:backgroundTint="@drawable/repeat_interval_text_selector" style="@style/RepeatEditText_Style" />
+            <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_title_post_interval" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </com.samsung.android.libcalendar.picker.repeat.view.viewholder.RepeatListViewHolderLinearLayout>
+    <RelativeLayout android:id="@id/repeat_sub_option_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:layout_marginStart="@dimen/repeat_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+</LinearLayout>

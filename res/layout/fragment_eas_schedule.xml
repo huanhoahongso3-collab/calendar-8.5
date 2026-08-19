@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_eas_schedule_controller" />
+    <View android:background="@color/participant_schedule_title_bottom_line_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="40.0dip" android:baselineAligned="false" android:layout_marginStart="@dimen/participant_schedule_event_status_margin_start" android:layout_marginEnd="@dimen/participant_schedule_event_status_margin_end">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:background="@drawable/participant_schedule_color_circle" android:layout_width="@dimen/participant_state_color_width" android:layout_height="@dimen/participant_state_color_height" android:layout_marginEnd="@dimen/participant_state_color_margin_right" />
+            <TextView android:textSize="@dimen/participant_state_text_size" android:textColor="@color/participant_schedule_status_text_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/free" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:id="@id/calendar_event_status_tentative" android:layout_width="@dimen/participant_state_color_width" android:layout_height="@dimen/participant_state_color_height" android:layout_marginEnd="@dimen/participant_state_color_margin_right" />
+            <TextView android:textSize="@dimen/participant_state_text_size" android:textColor="@color/participant_schedule_status_text_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/response_maybe" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:id="@id/calendar_event_status_busy" android:layout_width="@dimen/participant_state_color_width" android:layout_height="@dimen/participant_state_color_height" android:layout_marginEnd="@dimen/participant_state_color_margin_right" />
+            <TextView android:textSize="@dimen/participant_state_text_size" android:textColor="@color/participant_schedule_status_text_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/busy" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <View android:id="@id/calendar_event_status_out_of_office" android:layout_width="@dimen/participant_state_color_width" android:layout_height="@dimen/participant_state_color_height" android:layout_marginEnd="@dimen/participant_state_color_margin_right" />
+            <TextView android:textSize="@dimen/participant_state_text_size" android:textColor="@color/participant_schedule_status_text_color" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/out_of_office" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:foregroundGravity="fill_horizontal|top">
+        <ViewSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

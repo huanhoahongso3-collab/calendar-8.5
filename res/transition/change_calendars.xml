@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:fadingMode="fade_out" />
+    <changeBounds>
+        <targets>
+            <target android:excludeId="@id/title" />
+            <target android:excludeId="@id/event_color_container" />
+            <target android:excludeId="@id/ed_subject" />
+            <target android:excludeId="@id/start_container" />
+            <target android:excludeId="@id/start_date" />
+            <target android:excludeId="@id/start_time" />
+            <target android:excludeId="@id/end_container" />
+            <target android:excludeId="@id/end_date" />
+            <target android:excludeId="@id/end_time" />
+        </targets>
+    </changeBounds>
+    <fade android:fadingMode="fade_in" />
+</transitionSet>

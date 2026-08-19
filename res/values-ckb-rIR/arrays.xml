@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Cities">
+        <item>نیوەڕێ</item>
+        <item>هۆنۆلولو</item>
+        <item>هاوایی</item>
+        <item>ئەلاسکا</item>
+        <item>ئانکۆریج</item>
+        <item>سانفڕانسیسکۆ</item>
+        <item>ڤانکۆڤەر</item>
+        <item>سیاتێل</item>
+        <item>لۆس ئەنجلۆس</item>
+        <item>تیجوانا</item>
+        <item>کالگاری</item>
+        <item>فینیکس</item>
+        <item>مازاتلان</item>
+        <item>دێنڤەر</item>
+        <item>مەکسیکۆ سیتی</item>
+        <item>وینیپێگ</item>
+        <item>دیێگۆ گارسیا</item>
+        <item>داڵاس</item>
+        <item>شیکاگۆ</item>
+        <item>تۆرۆنتۆ</item>
+        <item>میامی</item>
+        <item>لیما</item>
+        <item>کیتۆ</item>
+        <item>واشنتن دی سی</item>
+        <item>ئۆتاوا</item>
+        <item>نیویۆرک</item>
+        <item>بۆگۆتا</item>
+        <item>سانتیاگۆ</item>
+        <item>لاباز</item>
+        <item>کاراکاس</item>
+        <item>بوینس ئایرێس</item>
+        <item>نیوفاوندلاند</item>
+        <item>سەینت جۆن</item>
+        <item>ساوپاولۆ</item>
+        <item>برازیلیا</item>
+        <item>ڕیۆ دی جانیرۆ</item>
+        <item>فێرناندۆ دی نۆرۆنها</item>
+        <item>ئازۆرس</item>
+        <item>لیسبۆن</item>
+        <item>کازابلانکا</item>
+        <item>دبلن</item>
+        <item>ڕیبات</item>
+        <item>مەدرید</item>
+        <item>سێتڵمێنت</item>
+        <item>لەندەن</item>
+        <item>کینگستۆن</item>
+        <item>بەرشەلۆنە</item>
+        <item>پاریس</item>
+        <item>ئەلجەزیرە</item>
+        <item>تونس</item>
+        <item>تەرابلوس</item>
+        <item>بەرلین</item>
+        <item>ڕۆما</item>
+        <item>پراگ</item>
+        <item>کینشاسا</item>
+        <item>ستۆکهۆڵم</item>
+        <item>براتیسلاڤا</item>
+        <item>کەیپ تاون</item>
+        <item>بوداپێست</item>
+        <item>وارشۆ</item>
+        <item>کالینینگراد</item>
+        <item>سۆفیا</item>
+        <item>ئەسینای پایتەخت</item>
+        <item>لڤیڤ</item>
+        <item>ھێڵسینکی</item>
+        <item>ڕیگا</item>
+        <item>تالین</item>
+        <item>بوخارێست</item>
+        <item>ڤیلنێس</item>
+        <item>لومبوباشی</item>
+        <item>مینسک</item>
+        <item>سانت پترسبۆرگ</item>
+        <item>ئەستەنبوڵ</item>
+        <item>کامچاتکا</item>
+        <item>جانتا</item>
+        <item>ئۆرشەلیم</item>
+        <item>مۆسکۆ</item>
+        <item>خارکیێڤ</item>
+        <item>نایرۆبی</item>
+        <item>جددە</item>
+        <item>ڤۆڵگۆگراد</item>
+        <item>یەریڤان</item>
+        <item>تفلیس</item>
+        <item>باکو</item>
+        <item>چیتا</item>
+        <item>سامارا</item>
+        <item>تاران</item>
+        <item>ئیژێڤسک</item>
+        <item>ئەبوزەبی</item>
+        <item>دوبەی</item>
+        <item>ئوفا</item>
+        <item>یەکاترینبۆرگ</item>
+        <item>چێلیابینسک</item>
+        <item>کاڕاچی</item>
+        <item>کابوڵ</item>
+        <item>تاشکەند</item>
+        <item>ئیسلام ئاباد</item>
+        <item>مومبای</item>
+        <item>ئۆمسک</item>
+        <item>ئەلماتی</item>
+        <item>بەنگالۆر</item>
+        <item>حەیدەراباد</item>
+        <item>نیودەلهی</item>
+        <item>کۆڵۆمبۆ</item>
+        <item>چێناى</item>
+        <item>نۆڤۆسیبیرسک</item>
+        <item>کاتماندۆ</item>
+        <item>نۆڤۆکوزنیتسک</item>
+        <item>کۆلکەتا</item>
+        <item>داکا</item>
+        <item>خود</item>
+        <item>کراسنۆیارسک</item>
+        <item>بانکۆک</item>
+        <item>کوالالامپور</item>
+        <item>سەنگافورە</item>
+        <item>ئیرکوتسک</item>
+        <item>پنۆم پێن</item>
+        <item>هانۆی</item>
+        <item>جاکارتا</item>
+        <item>ئولانباتار</item>
+        <item>هۆنگ کۆنگ</item>
+        <item>پێرس</item>
+        <item>پەکین</item>
+        <item>مانیلا</item>
+        <item>تایپەی</item>
+        <item>سیئۆل</item>
+        <item>ئامبۆن</item>
+        <item>ڤلادیڤۆستۆک</item>
+        <item>یاکوتسک</item>
+        <item>خەبارۆڤسک</item>
+        <item>ئەدلاید</item>
+        <item>تۆکیۆ</item>
+        <item>یوژنۆ-ساخالینسک</item>
+        <item>ھالیفاکس</item>
+        <item>گوام</item>
+        <item>کانبێرا</item>
+        <item>مەگادان</item>
+        <item>سیدنی</item>
+        <item>پێتڕۆپاڤلۆڤسک کاچاتسکی</item>
+        <item>تاراوا</item>
+        <item>ئۆکلاند</item>
+        <item>وێلینگتۆن</item>
+        <item>پاگۆ پاگۆ</item>
+        <item>دێنپاسار</item>
+        <item>بێرن</item>
+        <item>زیوریخ</item>
+        <item>قاهیرە</item>
+        <item>ئابیجان</item>
+        <item>ئاکرا</item>
+        <item>ئەدیس ئەبابا</item>
+        <item>ئامان</item>
+        <item>ئەمستردام</item>
+        <item>ئانادیر</item>
+        <item>ئەنقەرە</item>
+        <item>ئەنتاناناریڤۆ</item>
+        <item>ئەشگابات</item>
+        <item>ئەسمەرە</item>
+        <item>لێوار</item>
+        <item>ئاسونسیۆن</item>
+        <item>قۆڵ</item>
+        <item>بەغداد</item>
+        <item>بالتیمۆر</item>
+        <item>باماکۆ</item>
+        <item>بانگی</item>
+        <item>باری</item>
+        <item>باس باشترە.</item>
+        <item>بەیروت</item>
+        <item>بەلگراد</item>
+        <item>شاری بیلیز</item>
+        <item>بیشکێک</item>
+        <item>بیساو</item>
+        <item>بۆلۆنیا</item>
+        <item>بۆستن</item>
+        <item>بریجتاون</item>
+        <item>بریسبان</item>
+        <item>برۆکسل</item>
+        <item>دوورگەی کەناری</item>
+        <item>کاتانزارۆ</item>
+        <item>کاین</item>
+        <item>شارلۆت</item>
+        <item>کیشینۆ</item>
+        <item>کلیڤلاند</item>
+        <item>کۆڵۆمبۆس</item>
+        <item>کۆناکری</item>
+        <item>کۆپنهاگن</item>
+        <item>کۆرکی</item>
+        <item>کرۆتۆن</item>
+        <item>داکار</item>
+        <item>دیمەشق</item>
+        <item>دار اسلام</item>
+        <item>داروین</item>
+        <item>دیترۆیت</item>
+        <item>جیبۆتی</item>
+        <item>دۆحە</item>
+        <item>دووالا</item>
+        <item>دوو شەمە</item>
+        <item>دوورگەی جەژنی ئیستەر</item>
+        <item>ئەدینبۆرگ</item>
+        <item>ئێل پاسۆ</item>
+        <item>فلۆرانس</item>
+        <item>فۆرت دی فرانس</item>
+        <item>فریتاون</item>
+        <item>گابۆرۆن</item>
+        <item>دوورگەکانی گالاپاگۆس</item>
+        <item>جنێڤ</item>
+        <item>جێنەوا</item>
+        <item>جۆرج تاون</item>
+        <item>گریتڤیکن</item>
+        <item>گواتیمالا سیتی</item>
+        <item>گوستاڤیا</item>
+        <item>هامبۆرگ</item>
+        <item>هەرارێ</item>
+        <item>هاڤانا</item>
+        <item>هۆبارت</item>
+        <item>هیوستن</item>
+        <item>ئیندیاناپۆلیس</item>
+        <item>جۆهانسبێرگ</item>
+        <item>کامپالا</item>
+        <item>خەرتوم</item>
+        <item>کینگستۆن</item>
+        <item>کوێت سیتی</item>
+        <item>لاگۆس</item>
+        <item>لاس ڤێگاس</item>
+        <item>لیوبلیانا</item>
+        <item>هایکو</item>
+        <item>لویسڤیل</item>
+        <item>لواندا</item>
+        <item>لوساکا</item>
+        <item>لۆکسمبۆرگ</item>
+        <item>ماکاو</item>
+        <item>مالابۆ</item>
+        <item>نێر</item>
+        <item>ماناگوا</item>
+        <item>مەنامە</item>
+        <item>ماپوتو</item>
+        <item>ماریگۆت</item>
+        <item>مەککە</item>
+        <item>مێلبۆرن</item>
+        <item>مەمفیس</item>
+        <item>مێسینا</item>
+        <item>میلان</item>
+        <item>میلواکی</item>
+        <item>مۆگادیشۆ</item>
+        <item>مۆنرۆڤیا</item>
+        <item>مۆنتیڤیدیۆ</item>
+        <item>مۆنتریال</item>
+        <item>میونشن</item>
+        <item>مەسقەت</item>
+        <item>ناپۆلی</item>
+        <item>ناتەرز</item>
+        <item>"ن'دجامێنا"</item>
+        <item>نیامی</item>
+        <item>نواکشۆت</item>
+        <item>نەومیا</item>
+        <item>نوکوعەلۆفە</item>
+        <item>نووك</item>
+        <item>ئوساکا</item>
+        <item>ئۆاگادۆگۆ</item>
+        <item>پالێرمۆ</item>
+        <item>پەنەما سیتی</item>
+        <item>پاراماریبۆ</item>
+        <item>پێرم</item>
+        <item>فیلادلفیا</item>
+        <item>پۆدگۆریکا</item>
+        <item>پۆنتا دێلگادا</item>
+        <item>پۆرت لویس</item>
+        <item>پۆرت ئۆ پرینس</item>
+        <item>پۆرتلاند</item>
+        <item>پیۆنگ یانگ</item>
+        <item>یانگۆن</item>
+        <item>ڕێسیفی</item>
+        <item>ڕیکیاڤیک</item>
+        <item>ڕیاز</item>
+        <item>سانت دێنیس</item>
+        <item>سان ئەنتۆنیۆ</item>
+        <item>سان دیێگۆ</item>
+        <item>سان خۆسێ</item>
+        <item>سان خۆسێ</item>
+        <item>سان خوان</item>
+        <item>سان مارینۆ</item>
+        <item>سان سەلڤادۆر</item>
+        <item>سەنعا</item>
+        <item>سانتۆ دۆمینگۆ</item>
+        <item>شەنگەهای</item>
+        <item>شێنژێن</item>
+        <item>سکۆپجە</item>
+        <item>سەینت جۆن</item>
+        <item>سوڤا</item>
+        <item>تاهیتی</item>
+        <item>تێگوسیگالپا</item>
+        <item>شاری هۆچی مین</item>
+        <item>تیانجین</item>
+        <item>تۆرینۆ</item>
+        <item>ڤادوز</item>
+        <item>ڤالێتا</item>
+        <item>ڤێرۆنا</item>
+        <item>ڤیکتۆریا</item>
+        <item>ڤیەنا</item>
+        <item>یاموسۆکرو</item>
+        <item>یاوندە</item>
+        <item>زاگرێب</item>
+        <item>گوانگژۆ</item>
+        <item>کاردیف</item>
+        <item>ڕێجینا</item>
+        <item>شارلۆت ئامالی</item>
+        <item>ئەتلەنتا</item>
+        <item>مایۆت</item>
+        <item>سەینت پیێر و میکێلۆن</item>
+        <item>ئۆسلۆ</item>
+        <item>سرێدنکۆمیسک</item>
+        <item>سیڤێرۆ کوریڵسک</item>
+        <item>ووهان</item>
+        <item>چێنگدو</item>
+        <item>شیان</item>
+        <item>پۆرت مۆرێسبی</item>
+        <item>شاری داڤاو</item>
+        <item>چۆنگچینگ</item>
+        <item>شین یانگ</item>
+        <item>نانجینگ</item>
+        <item>هاربن</item>
+        <item>جەنان</item>
+        <item>ژێنگژۆ</item>
+        <item>کونمینگ</item>
+        <item>چانگچوون</item>
+        <item>فوژۆ</item>
+        <item>کوچین</item>
+        <item>مەکاسار</item>
+        <item>هەنگژۆو</item>
+        <item>چینگداو</item>
+        <item>نانیننگ</item>
+        <item>ئوروومقی</item>
+        <item>ناسۆ</item>
+        <item>نیکۆسیا</item>
+        <item>دیلی</item>
+        <item>ڕێگای شار</item>
+        <item>لومێ</item>
+        <item>ڕۆسیو</item>
+        <item>لیبرێڤیل</item>
+        <item>مارسێلیا</item>
+        <item>مەزرۆ</item>
+        <item>ماجورۆ</item>
+        <item>مۆناکۆ</item>
+        <item>بەندەری سری بیگوان</item>
+        <item>بەنجول</item>
+        <item>بوسان</item>
+        <item>بوجومبورا</item>
+        <item>برازاڤێڵ</item>
+        <item>ڤیێنتیان</item>
+        <item>ویندھۆک</item>
+        <item>سەرایڤۆ</item>
+        <item>سایپان</item>
+        <item>ساو تۆمە</item>
+        <item>سەنت جۆرج</item>
+        <item>ستانلی</item>
+        <item>عەدەن</item>
+        <item>ئاپیا</item>
+        <item>ئەندۆرا لاڤاڵ</item>
+        <item>شێر</item>
+        <item>ویلمستاد</item>
+        <item>مباپێ</item>
+        <item>کاستریس</item>
+        <item>کۆرۆر</item>
+        <item>کانکۆن</item>
+        <item>کیگالی</item>
+        <item>کینگستۆن</item>
+        <item>تەلئەبیب</item>
+        <item>تۆرشاڤن</item>
+        <item>تیرانا</item>
+        <item>تیمفو</item>
+        <item>پۆرتۆ نۆڤۆ</item>
+        <item>پریا</item>
+        <item>فرانکفۆرت</item>
+        <item>پریستینا</item>
+        <item>هامیلتۆن</item>
+        <item>هۆنیارا</item>
+        <item>کوبا</item>
+    </string-array>
+    <string-array name="Countries">
+        <item>ئەفغانستان</item>
+        <item>جەزائیر</item>
+        <item>ساموا</item>
+        <item>ئەنتیگوا و باربۆدا</item>
+        <item>ئەرجەنتین</item>
+        <item>ئەرمینیا</item>
+        <item>ئوستڕالیا</item>
+        <item>ئازڕبایجان</item>
+        <item>بەنگلادیش</item>
+        <item>کۆماری باشکۆرتستان</item>
+        <item>بێلاڕوس</item>
+        <item>بۆلیڤیا</item>
+        <item>بەڕازیل</item>
+        <item>بولگاریا</item>
+        <item>کەمبۆدیا</item>
+        <item>کەنەدا</item>
+        <item>شیلی</item>
+        <item>چین</item>
+        <item>کۆڵۆمبیا</item>
+        <item>کۆماری چیک</item>
+        <item>کۆماری کۆنگۆ</item>
+        <item>ئیکوادۆر</item>
+        <item>ئیستۆنیا</item>
+        <item>فینلاند</item>
+        <item>فەڕەنسا</item>
+        <item>جۆرجیا</item>
+        <item>ئەڵمانیا</item>
+        <item>یۆنان</item>
+        <item>هەنگاریا</item>
+        <item>India</item>
+        <item>ئەندەنوسیا</item>
+        <item>ئێران</item>
+        <item>ئێرلەندا</item>
+        <item>ئیسرائیل</item>
+        <item>ئیتاڵیا</item>
+        <item>ژاپۆن</item>
+        <item>کازاخستان</item>
+        <item>کینیا</item>
+        <item>کیریباتی</item>
+        <item>لاتڤیا</item>
+        <item>لیتوانیا</item>
+        <item>مالیزیا</item>
+        <item>مەکسیک</item>
+        <item>مەنگۆلیا</item>
+        <item>مەغریب</item>
+        <item>نیپاڵ</item>
+        <item>نیوزلەندا</item>
+        <item>پاکستان</item>
+        <item>پیرۆ</item>
+        <item>فلیپین</item>
+        <item>پۆڵەندا</item>
+        <item>پورتوگال</item>
+        <item>نەخشە</item>
+        <item>کۆریای باشوور</item>
+        <item>کۆماری سەنگافورە</item>
+        <item>لیبیا</item>
+        <item>ڕۆمانیا</item>
+        <item>ڕووسیا</item>
+        <item>سعودیە</item>
+        <item>سلۆڤاکیا</item>
+        <item>ئەفریقای باشوور</item>
+        <item>ئیسپانیا</item>
+        <item>سریلانکا</item>
+        <item>سوید</item>
+        <item>تایوان</item>
+        <item>تایلەند</item>
+        <item>تونس</item>
+        <item>تورکیا</item>
+        <item>ئیماڕات</item>
+        <item>ئینگلتەرا</item>
+        <item>ئۆکرانیا</item>
+        <item>ویلایەتە یەکگرتووەکانی ئەمریکا</item>
+        <item>ئۆزبەکستان</item>
+        <item>فەنزوێلا</item>
+        <item>ڤێتنام</item>
+        <item>‏GB دوورگەکانی ڤێرجینیا</item>
+        <item>سویسرا</item>
+        <item>میسر</item>
+        <item>کەناری عاج</item>
+        <item>غانا</item>
+        <item>ئەسیوپیا</item>
+        <item>ئوردن</item>
+        <item>هۆڵەندا</item>
+        <item>ماداگاسکار</item>
+        <item>تورکمانستان</item>
+        <item>ئەریتریا</item>
+        <item>پاراگوای</item>
+        <item>عێراق</item>
+        <item>دارایی</item>
+        <item>کۆماری ئەفریقای ناوەڕاست</item>
+        <item>گوادلۆپ</item>
+        <item>لوبنان</item>
+        <item>سربیا</item>
+        <item>بەلیز</item>
+        <item>قرغیزستان</item>
+        <item>گینیا-بیساو</item>
+        <item>باڕبادۆس</item>
+        <item>بەلجیکا</item>
+        <item>گینیای فەڕەنسی</item>
+        <item>مۆڵدۆڤا</item>
+        <item>گینیا</item>
+        <item>دانیمارک</item>
+        <item>سەنیگال</item>
+        <item>سوریا</item>
+        <item>تانزانیا</item>
+        <item>جیبۆتی</item>
+        <item>قەتەڕ</item>
+        <item>کامیرۆن</item>
+        <item>تاجیکستان</item>
+        <item>سکۆتلەندا</item>
+        <item>مارتینیک</item>
+        <item>سیرالیۆن</item>
+        <item>بۆتسوانا</item>
+        <item>گویانا</item>
+        <item>باشووری جۆرجیا</item>
+        <item>گواتیمالا</item>
+        <item>سانت بارتێلمی</item>
+        <item>زیمبابوی</item>
+        <item>کوبا</item>
+        <item>ئۆگاندا</item>
+        <item>سودان</item>
+        <item>جامایکا</item>
+        <item>کوەیت</item>
+        <item>نەیجیریا</item>
+        <item>ئەنگۆلا</item>
+        <item>زامبیا</item>
+        <item>لۆکسمبۆرگ</item>
+        <item>گینیا ئیکواتۆریال</item>
+        <item>ماڵدیڤ</item>
+        <item>نیکاراگوا</item>
+        <item>بەحرەین</item>
+        <item>مۆزەمبیق</item>
+        <item>سانت مارتن</item>
+        <item>سۆماڵ</item>
+        <item>لیبێریا</item>
+        <item>ئۆرۆگوای</item>
+        <item>عومان</item>
+        <item>چاد</item>
+        <item>نیجەر</item>
+        <item>مۆریتانیا</item>
+        <item>نیو کالیدۆنیا</item>
+        <item>تۆنگا</item>
+        <item>گرینلاند</item>
+        <item>بورکینا فاسۆ</item>
+        <item>پەنەما</item>
+        <item>سورینام</item>
+        <item>مۆنتینیگرۆ</item>
+        <item>مۆریس</item>
+        <item>ھایتی</item>
+        <item>کۆماری گەلی دیموکراتی کۆریا</item>
+        <item>میانمار</item>
+        <item>ئایسلەندا</item>
+        <item>دوورگەی ڕیونیون</item>
+        <item>کۆستاریکا</item>
+        <item>پورتوگال</item>
+        <item>ئەلسەلڤادۆر</item>
+        <item>یەمەن</item>
+        <item>کۆماری دۆمینیکانی</item>
+        <item>مەقدۆنیا</item>
+        <item>فیجی</item>
+        <item>پۆلینیزیای فەرەنسی</item>
+        <item>هندۆراس</item>
+        <item>لیختنشتاین</item>
+        <item>ماڵتا</item>
+        <item>سیشێڵ</item>
+        <item>نەمسا</item>
+        <item>کرواتیا</item>
+        <item>وێڵز</item>
+        <item>ڤێرگن ئەمریکایە.</item>
+        <item>سلۆڤینیا</item>
+        <item>سان مارینۆ</item>
+        <item>نەرویج</item>
+        <item>پاپوای نیوگینیا</item>
+        <item>باهاماسەکان</item>
+        <item>قوبرس</item>
+        <item>تیمۆری ڕۆژهەڵات</item>
+        <item>تۆگۆ</item>
+        <item>دۆمینیکا</item>
+        <item>گابۆن</item>
+        <item>لێسۆتۆ</item>
+        <item>دوورگەکانی مارشاڵ</item>
+        <item>مۆناکۆ</item>
+        <item>برونێی</item>
+        <item>گامبیا</item>
+        <item>بوڕوندی</item>
+        <item>کۆماری دیموکڕاتیی کۆنگۆ</item>
+        <item>لائۆس</item>
+        <item>نامیبیا</item>
+        <item>بۆسنیا و هەرزەگۆڤینا</item>
+        <item>سایپان</item>
+        <item>ساو تۆمێ و پرینسیپی</item>
+        <item>گرانادا</item>
+        <item>دوورگەکانی فۆکلاند</item>
+        <item>ساموای ئەمریکی</item>
+        <item>ئەندۆرا</item>
+        <item>کۆماری سەحرا</item>
+        <item>کوراساو</item>
+        <item>ئێسواتینی</item>
+        <item>سانت لوسیا</item>
+        <item>پالاو</item>
+        <item>ڕواندا</item>
+        <item>سەینت ڤینسێنت و گرێنادینەکان</item>
+        <item>دوورگەی فارۆ</item>
+        <item>ئەلبانیا</item>
+        <item>بۆتان</item>
+        <item>بێنین</item>
+        <item>کەیپ ڤێردێ</item>
+        <item>کۆسۆڤۆ</item>
+        <item>بەرمودا</item>
+        <item>دوورگەکانی سۆلۆمۆن</item>
+        <item></item>
+    </string-array>
+    <string-array name="availability">
+        <item>سەرقاڵ</item>
+        <item>بەخۆڕایی</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>بە شێوەیەکی بنەڕەتی ناوخۆیی</item>
+        <item>شەممە</item>
+        <item>یەکشەممە</item>
+        <item>دووشەممە</item>
+    </string-array>
+    <string-array name="status">
+        <item>بەخۆڕایی</item>
+        <item>لەوانەیە</item>
+        <item>سەرقاڵ</item>
+        <item>لە دەرەوەی ئۆفیس</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>دوورگەکانی مارشاڵ</item>
+        <item>دوورگەی میدوەی</item>
+        <item>هاوایی</item>
+        <item>ئەلاسکا</item>
+        <item>کاتی زەریای هێمن</item>
+        <item>تیجوانا</item>
+        <item>ئەریزۆنا</item>
+        <item>چیواوا</item>
+        <item>کاتی چیا</item>
+        <item>ئەمریکای ناوەڕاست</item>
+        <item>کاتی ناوەندی</item>
+        <item>مەکسیکۆسیتی</item>
+        <item>ساسکاچوان</item>
+        <item>بۆگۆتا</item>
+        <item>ناوچەی کاتی ڕۆژھەڵاتی ئەمریکا</item>
+        <item>فەنزوێلا</item>
+        <item>کاتەکانی ئەتڵەسی (باربادۆس)</item>
+        <item>ماناوس</item>
+        <item>سانتیاگۆ</item>
+        <item>کاتەکانی ئەتڵەسی (کەنەدا)</item>
+        <item>نیوفاوندلاند</item>
+        <item>بەڕازیلیا</item>
+        <item>بوینس ئایرێس</item>
+        <item>گرینلاند</item>
+        <item>مۆنتیڤیدیۆ</item>
+        <item>گریتڤیکن</item>
+        <item>ئازۆرس</item>
+        <item>دوورگەکانی کەیپ ڤێردێ</item>
+        <item>کازابلانکا</item>
+        <item>لەندەن، دبلین</item>
+        <item>ئەمستردام، بەرلین</item>
+        <item>بەلگراد</item>
+        <item>برۆکسل</item>
+        <item>بلازوج، سارایێڤۆ </item>
+        <item>ویندھۆک</item>
+        <item>کاتی ڕۆژاوای ئەفریقا</item>
+        <item>عەمان، ئوردون</item>
+        <item>ئەتینا، ئەستەنبوڵ</item>
+        <item>بەیروت، لوبنان</item>
+        <item>قاهیرە</item>
+        <item>ھێڵسینکی</item>
+        <item>ئۆرشەلیم</item>
+        <item>مینسک</item>
+        <item>هەرارێ</item>
+        <item>بەغداد</item>
+        <item>مۆسکۆ</item>
+        <item>کوەیت</item>
+        <item>نایرۆبی</item>
+        <item>تاران</item>
+        <item>باکو</item>
+        <item>تفلیس</item>
+        <item>یەریڤان</item>
+        <item>دوبەی</item>
+        <item>کابوڵ</item>
+        <item>ئیسلام ئاباد، کەراچی</item>
+        <item>ئۆرالسک</item>
+        <item>یەکاترینبۆرگ</item>
+        <item>کۆلکەتا</item>
+        <item>سریلانکا</item>
+        <item>کاتماندۆ</item>
+        <item>لێوار</item>
+        <item>یانگۆن</item>
+        <item>کراسنۆیارسک</item>
+        <item>بانکۆک</item>
+        <item>پەکین</item>
+        <item>هۆنگ کۆنگ</item>
+        <item>ئیرکوتسک</item>
+        <item>کوالالامپور</item>
+        <item>پێرس</item>
+        <item>تایپەی</item>
+        <item>سیئۆل</item>
+        <item>تۆکیۆ، ئۆساکا</item>
+        <item>یاکوتسک</item>
+        <item>ئەدلاید</item>
+        <item>داروین</item>
+        <item>بریسبان</item>
+        <item>هۆبارت</item>
+        <item>کانبێرا، سیدنی</item>
+        <item>ڤلادیڤۆستۆک</item>
+        <item>گوام</item>
+        <item>مەگادان</item>
+        <item>ئۆکلاند</item>
+        <item>فیجی</item>
+        <item>تۆنگا</item>
+        <item>سەنگافورە</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>بینینی پێشوەختە</item>
+        <item>تایبەت</item>
+        <item>گشتی</item>
+    </string-array>
+</resources>

@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d sauran aukuwa</item>
+        <item quantity="one">+ sauran aukuwa 1</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+ wasu ɗawainiya %d</item>
+        <item quantity="one">+ wani ɗawainiya 1</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d hidima</item>
+        <item quantity="one">Aukuwa 1</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d ɗawainiya</item>
+        <item quantity="one">Aiki 1</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Fara a mintuna %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fara a minti %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d ranaku kafin a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d rana kafin a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">An kasa share %d karanta-kawai abubuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An kasa share %d karanta-kawai abu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Goge aukuwa %d dindindin?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge aukuwa %d dindindin?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Goge %d aukuwa, tare da aukuwa 1 mai gudana?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge aukuwa %d, wanda ya ƙunshi aukuwa 1 da ya sake faruwa?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Goge %d abubuwa?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge %d abu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Ba za a iya kara fiye da saƙo %d ba.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya kara fiye da %d haɗi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d abubuwa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d abu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Goge daga %1$s akan %2$s. %3$d ranaku har lokacin da aka goge wannan aukuwa har abada.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Goge daga %1$s akan %2$s. %3$d rana har lokacin da aka goge wannan aukuwa har abada.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">Kwanaki %d har zuwa sharewa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kwana %d har zuwa sharewa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d maimaicin aukuwa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d maimaicin abun da ke faruwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Shirun mintuna %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Shirun minti %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Ba za a iya saita fiye da faɗakarwa %d ba.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya saita fiye da faɗakarwa %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Ba za a iya shigar da fiye da harrufa %d ba.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya shigar da fiye da harafi %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Ba za a iya shigar da fiye da harrufa %d ba.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya shigar da fiye da harafi %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Kowane kwanaki %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kowane kwana %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">"Kowani %d sa'o'i"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Kowani %d sa'a"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Kowani %d mintoci</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kowani %d minti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Kowani %d watanni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kowani %d wata</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Kowani %d makonni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kowani %d mako</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Kowani %d shekaru</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kowani %d shekara</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Ba za a iya zaɓa fiye da aubuwa %d ba.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Baza a iya zaɓan fiye da abu %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d karin aukuwa da yawa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d karin aukuwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Abun da aka haɗa (%,d abubuwa)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Abun da aka haɗa (%,d abu)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Matsar da aukuwa guda 1 zuwa Shara sannan ka goge wasu abubuwa %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da aukuwa guda 1 zuwa Shara sannan ka goge wasu abu %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Matsar da aukuwa guda 1 zuwa Shara sannan ka goge tunatarwa %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da hidima 1 zuwa Sharar kuma a goge tunatarwa %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Matsar da tunatarwa guda 1 zuwa Shara sannan ka goge aukuwa %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da tuntarwa 1 zuwa Sharar kuma a goge hidima %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Matsar da tunatarwa guda 1 zuwa Shara sannan ka goge wasu abubuwa %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da reminder guda 1 zuwa Shara sannan ka goge wasu abu %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Matsar da tunatarwa guda 1 zuwa Shara sannan ka goge ɗawainiya %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da tunatarwa 1 zuwa Sharar kuma a goge aiki %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Matsar %d da aukuwa zuwa Shara?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da %d aukuwa zuwa Shara?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Matsar %d da aukuwa zuwa Shara sannan ka goge tunatarwa guda 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da hidiman %d zuwa Sharar kuma a goge tunatarwa 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Matsar da abubuwa %d zuwa Shara?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A matsar da abu %d zuwa Shara?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Matsar da abubuwa %d zuwa Shara sannan ka goge ɗawainiya guda 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da abu %d zuwa Shara sannan ka goge ɗawainiya guda 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Matsar %d da tunatarwa zuwa Shara?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar %d da tunatarwa zuwa ga Shara?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Matsar da tunatarwa %d zuwa Shara sannan ka goge aukuwa guda 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da tuntarwa %d zuwa Sharar kuma a goge hidima 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Matsar da tunatarwa %d zuwa Shara sannan ka goge ɗawainiya guda 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Matsar da tunatarwa %d zuwa Sharar kuma a goge aiki 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d aukuwa da yawa na rana-guda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aukuwa na rana-guda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d duk-rana da tarorraki zai fara a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d duk-rana da taron zai fara a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d duk-rana da tunatarwa da yawa zai fara a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d duk-rana da tunatarwa zai fara a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d duk-rana da ayyuka zai fara a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d duk-rana da aiki zai fara a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d tarorraki da aka shirya a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d taron da aka shirya a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d tunatarwar da yawa da aka tsara a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tunatarwar tsarawa a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d ayyukan da aka tsara a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d aikin da aka tsara a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">%d mi</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">%d mi</item>
+        <item quantity="few">%d mi</item>
+        <item quantity="many">%d mi</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d mutanen da kuka gayyata</item>
+        <item quantity="one">%d mutumin da kuka gayyata</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">Kwanaki %d kafin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kwana kafin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">Awanni %d kafin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d awa kafin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">Mintuna %d kafin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minti kafin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d ranaku daga yanzu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d rana daga yanzu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">"%d sa'oi daga yanzu"</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%d sa'a daga yanzu"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d mintoci daga yanzu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minti daga yanzu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d watanni daga yanzu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d wata daga yanzu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d satikai daga yanzu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sati daga yanzu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d shekaru daga yanzu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d shekara daga yanzu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">An gajeranta taken don taimaka wa tsawon take masu yawa na hidimomi masu aukuwa (%,d haruffa).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">An gajeranta taken don taimaka wa tsawon take masu yawa na hidimomi masu aukuwa (%,d harafi).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">Makonni %d kafin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mako kafin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ba za a iya nunawa fiye da kaloli %d ba.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ba za a iya nunawa fiye da kala %d ba.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani kwanaki %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani kwana %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">"Wannan %1$s zai sake maimaitawa kowani %2$d sa'o'i."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Wannan %1$s zai sake maimaitawa kowani %2$d sa'a."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d mintoci.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d minti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d watanni a karshen rana wata.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d wata a karshen rana wata.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d watanni a karshen %3$s wata.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d wata a karshen %3$s wata.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d watanni akan %3$s rana da ke cikin wata.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d wata akan %3$s rana wata.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d watanni akan %3$s %4$s na wannan wata.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d wata akan %3$s %4$s na wannan wata.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d makonni a %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d mako a %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d shekaru a rana karshe na %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d shekara a rana karshe na %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d shekaru a karshen %3$s a %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d shekara a karshen %3$s a %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d shekaru a %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d shekara a %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Wannan %1$s zai sake maimaitawa kowani %2$d shekaru akan %3$s %4$s na %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wannan %1$s zai sake maimaitawa kowani %2$d shekara akan %3$s %4$s na %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d jimilan lokuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jimilan lokaci</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Raba da %d mutanen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Raba da %d mutumin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Kana da aukuwa wanda ake kira %1$s akan %2$s kari %3$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa wanda ake kira %1$s akan %2$s kari %3$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Ka samu %1$d aukuwa a %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ka samu %1$d aukuwa a %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Kana da aukuwa wanda ake kira %1$s yau a karin %2$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa wanda ake kira %1$s yau a karin %2$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Ka samu %d aukuwa yau.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ka samu %d aukuwa yau.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Kana da aukuwa wanda ake kira %1$s gobe kari %2$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa wanda ake kira %1$s gobe kari %2$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Ka samu %d aukuwa gobe.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ka samu %d aukuwa gobe.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Kana da aukuwa wanda ake kira %1$s akan %2$s a %3$s kari %4$d wasu aukuwa da yawa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa wanda ake kira %1$s akan %2$s a %3$s kari %4$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Kana da aukuwa akan %1$s a %2$s kari %3$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa akan %1$s a %2$s kari %3$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Kana da aukuwa wanda ake kira %1$s yau a %2$s kari %3$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa wanda ake kira %1$s yau a %2$s kari %3$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Kana da aukuwa yau a %1$s kari %2$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa yau a %1$s kari %2$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Kana da aukuwa wanda ake kira %1$s gobe a %2$s kari %3$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa wanda ake kira %1$s gobe a %2$s kari %3$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Kana da aukuwa gobe a %1$s kari %2$d wasu aukuwa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kana da aukuwa gobe a %1$s kari %2$d wani aukuwa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Ragin mintuna %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ragin minti %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Ƙarin mintuna %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ƙarin minti %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s ya fara a awanni %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ya fara a awac%2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s na farawa a cikin awa 1 da %2$d mintuna.</item>
+        <item quantity="one">%s na farawa ne a cikin awa 1 da minti 1.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s ya fara a mintuna %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ya fara a minti %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Za a cire su daga mazubin sitikar.</item>
+        <item quantity="one">Za a cire shi daga mazubin sitikar.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">A goge saitin sitika na %d?</item>
+        <item quantity="one">A goge saitin sitika 1?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Duba %d karin taro</item>
+        <item quantity="one">Duba %d karin taro</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d makonni kafin a %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d mako kafin a %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">kwanaki</item>
+        <item quantity="one">kwana</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">ranakun da suka wuce</item>
+        <item quantity="one">ranar da ta wuce</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">kwanakin da suka rage</item>
+        <item quantity="one">kwanan da ya rage</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s da %2$d kari</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s da %2$d kari</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d taron da suka rage</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taron da ya rage</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,63 @@
+.class public final LS/s;
+.super LN4/j;
+.source "SourceFile"
+
+
+# static fields
+.field public static final d:LS/s;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 4
+
+    new-instance v0, LS/s;
+
+    const/4 v1, 0x2
+
+    const/4 v2, 0x1
+
+    const/4 v3, 0x0
+
+    invoke-direct {v0, v3, v1, v2}, LN4/j;-><init>(III)V
+
+    sput-object v0, LS/s;->d:LS/s;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c(LS/J;Landroidx/compose/runtime/c;Landroidx/compose/runtime/y0;LHb/l;LS/I;)V
+    .locals 0
+
+    const/4 p0, 0x1
+
+    invoke-virtual {p1, p0}, LS/J;->c(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Landroidx/compose/runtime/v0;
+
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p2}, LS/J;->c(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/compose/runtime/a;
+
+    invoke-virtual {p3}, Landroidx/compose/runtime/y0;->d()V
+
+    invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-virtual {p0, p1}, Landroidx/compose/runtime/v0;->c(Landroidx/compose/runtime/a;)I
+
+    move-result p1
+
+    invoke-virtual {p3, p0, p1}, Landroidx/compose/runtime/y0;->z(Landroidx/compose/runtime/v0;I)V
+
+    invoke-virtual {p3}, Landroidx/compose/runtime/y0;->k()V
+
+    return-void
+.end method

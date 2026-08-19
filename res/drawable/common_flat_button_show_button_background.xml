@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/common_button_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:insetLeft="@dimen/edit_card_common_text_button_show_button_inset_start_end" android:insetRight="@dimen/edit_card_common_text_button_show_button_inset_start_end" android:insetTop="@dimen/edit_card_common_text_button_show_button_inset_top_bottom" android:insetBottom="@dimen/edit_card_common_text_button_show_button_inset_top_bottom">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/show_button_background_radius" />
+                <solid android:color="@color/primary_dark" />
+            </shape>
+        </inset>
+    </item>
+</ripple>

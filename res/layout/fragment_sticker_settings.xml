@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_common_toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sticker_setting_recyclerview" android:background="@color/common_window_background_color" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/sticker_setting_bottom_navigation" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/icon_action_bar_height" app:menu="@menu/sticker_setting_menu" style="@style/Style.BottomNavigationView" />
+</LinearLayout>

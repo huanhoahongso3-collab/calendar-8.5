@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/sync_image_view" android:background="@drawable/calendar_drawer_ic_others" android:layout_width="@dimen/account_list_sync_card_icon_size" android:layout_height="@dimen/account_list_sync_card_icon_size" android:layout_marginEnd="@dimen/account_list_sync_card_icon_margin_end" />
+    <TextView android:textSize="@dimen/account_list_sync_card_title_account_text_size" android:textColor="@color/common_list_main_text_color" android:id="@id/sync_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+</LinearLayout>

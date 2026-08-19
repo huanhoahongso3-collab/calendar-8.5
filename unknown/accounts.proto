@@ -1,0 +1,86 @@
+// Copyright 2024 Copyright 2024 The OS Migration Authors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+edition = "2023";
+
+package os_migration_data_types.v1;
+
+import "export_failure.proto";
+
+option java_multiple_files = true;
+
+// Represents a single user account.
+message Account {
+  // The type of the account.
+  AccountType type = 1;
+
+  // The account name, typically the full email address.
+  string name = 2;
+}
+
+// The account type, differentiating between iOS and Android.
+message AccountType {
+  // Predefined account types as they exist on iOS.
+  enum IOSAccountType {
+    IOS_ACCOUNT_TYPE_UNKNOWN_UNSPECIFIED = 0;
+    IOS_ACCOUNT_TYPE_APPLE = 1;
+    IOS_ACCOUNT_TYPE_GOOGLE = 2;
+    IOS_ACCOUNT_TYPE_YAHOO = 3;
+    IOS_ACCOUNT_TYPE_AOL = 4;
+    IOS_ACCOUNT_TYPE_EXCHANGE = 5;
+    IOS_ACCOUNT_TYPE_NET_EASE163 = 6;
+    IOS_ACCOUNT_TYPE_NET_EASE126 = 7;
+    IOS_ACCOUNT_TYPE_QQ = 8;
+    IOS_ACCOUNT_TYPE_IMAP = 9;
+    IOS_ACCOUNT_TYPE_POP = 10;
+    IOS_ACCOUNT_TYPE_CAL_DAV = 11;
+    IOS_ACCOUNT_TYPE_CARD_DAV = 12;
+    IOS_ACCOUNT_TYPE_LDAP = 13;
+    IOS_ACCOUNT_TYPE_HOTMAIL = 14;
+  }
+
+  // Specifies the account type, which can be either a predefined iOS type
+  // or a string representing the Android account type. Only one of these
+  // fields will be set.
+  oneof account_type {
+    // When exported from the iOS side, the account type can only be one of the preset
+    // types of IOSType.
+    IOSAccountType ios_account_type = 1;
+
+    // When exported from the Android side, the account type is obtained using
+    // https://developer.android.com/reference/android/accounts/AccountManager#getAccounts()
+    // This function retrieves all accounts known to the Android AccountManager visible
+    // to the caller.
+    //
+    // E.g. the extensive list of account types from Gmail on Android:
+    // - "com.google"
+    // - "com.google.android.gm.exchange"
+    // - "com.google.android.gm.exchange.lite"
+    // - "com.google.android.gm.legacyimap"
+    // - "com.google.android.gm.legacyimap.lite"
+    // - "com.google.android.gm.pop3"
+    // - "com.google.android.gm.pop3.lite"
+    //
+    // Note: Android clients have the capability to add custom accounts and account
+    // types. To view all publicly visible account types on an Android device,
+    // query the AccountManager using the getAccounts() function.
+    string android_account_type = 2;
+  }
+}
+
+// Represents an array of user accounts.
+message AccountArray {
+  repeated Account accounts = 1;
+  ExportFailureSummary export_failure_summary = 2;
+}

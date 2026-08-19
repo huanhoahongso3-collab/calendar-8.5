@@ -1,0 +1,105 @@
+.class public final LK/l;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic a:I
+
+
+# direct methods
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    iput p1, p0, LK/l;->a:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(J)F
+    .locals 0
+
+    iget p0, p0, LK/l;->a:I
+
+    packed-switch p0, :pswitch_data_0
+
+    invoke-static {p1, p2}, Li0/c;->c(J)F
+
+    move-result p0
+
+    return p0
+
+    :pswitch_0
+    invoke-static {p1, p2}, Li0/c;->d(J)F
+
+    move-result p0
+
+    return p0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final b(J)F
+    .locals 0
+
+    iget p0, p0, LK/l;->a:I
+
+    packed-switch p0, :pswitch_data_0
+
+    invoke-static {p1, p2}, Li0/c;->d(J)F
+
+    move-result p0
+
+    return p0
+
+    :pswitch_0
+    invoke-static {p1, p2}, Li0/c;->c(J)F
+
+    move-result p0
+
+    return p0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final c(FF)J
+    .locals 0
+
+    iget p0, p0, LK/l;->a:I
+
+    packed-switch p0, :pswitch_data_0
+
+    invoke-static {p2, p1}, Lcom/google/android/gms/internal/auth/l;->k(FF)J
+
+    move-result-wide p0
+
+    return-wide p0
+
+    :pswitch_0
+    invoke-static {p1, p2}, Lcom/google/android/gms/internal/auth/l;->k(FF)J
+
+    move-result-wide p0
+
+    return-wide p0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

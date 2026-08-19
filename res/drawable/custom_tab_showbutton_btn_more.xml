@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/crossapp_webview_item_background_borderless_material" />
+    <item android:width="@dimen/custom_tab_showbutton_btn_more_width" android:top="@dimen/custom_tab_showbutton_btn_top_padding" android:bottom="@dimen/custom_tab_showbutton_btn_bottom_padding">
+        <shape android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <stroke android:width="2.0px" android:color="@color/custom_tab_button_showbutton_stroke_color" />
+            <solid android:color="@color/custom_tab_button_showbutton_solid_color" />
+        </shape>
+    </item>
+</layer-list>

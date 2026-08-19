@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/preferences_category_more" android:key="preferences_more_category">
+        <com.samsung.android.app.calendar.view.settings.BadgePreference android:layout="@layout/layout_setting_badge_preference" android:title="@string/manage_calendars" android:key="preferences_manage_calendars" />
+        <androidx.preference.Preference android:title="@string/default_calendar" android:key="preferences_settings_default_calendar" android:summary="@string/last_modified" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_lock_timezone_title" android:key="preferences_home_tz_enabled" android:summary="@string/preferences_lock_timezone_descrip" />
+        <com.samsung.android.app.calendar.view.settings.HomeTimezonePreference android:entries="@array/timezone_labels" android:title="@string/timezone_label" android:key="preferences_home_tz" android:dependency="preferences_home_tz_enabled" android:dialogTitle="@string/timezone_label" android:entryValues="@array/timezone_values" />
+        <com.samsung.android.app.calendar.view.settings.TodayTimezonePreference android:title="@string/preferences_today_timezone_title" android:key="preferences_today_tz" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/menu_trash" android:key="preferences_trash_enabled" android:summary="@string/menu_trash_description" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_title_remove_times_from_event_titles" android:key="preferences_remove_times_from_event_titles" android:summary="@string/preferences_description_remove_times_from_event_titles" />
+        <androidx.preference.Preference android:title="@string/preferences_labs" android:key="preferences_labs" />
+        <androidx.preference.Preference android:title="@string/cross_profile_calendar_menu" android:key="preferences_cross_profile_calendar" />
+        <com.samsung.android.app.calendar.view.settings.holiday.HolidaySwitchPreference android:layout="@layout/layout_setting_switch_preference" android:title="@string/china_holiday_update_settings" android:key="preferences_china_holiday_auto_update_settings" android:summary="@string/china_holiday_update_settings_summary" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/provide_location_information_preference" android:key="preferences_china_provide_location_information_settings" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

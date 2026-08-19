@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/theme_color" android:paddingBottom="@dimen/account_list_sync_card_divider_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/invitation_item_background" android:paddingTop="@dimen/account_list_sync_card_divider_margin_bottom" android:paddingBottom="@dimen/account_list_sync_card_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/account_list_sync_card_margin_horizontal">
+        <TextView android:textSize="@dimen/account_list_sync_card_title_text_size" android:textColor="@color/common_dialog_main_text_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/sync_calendars_announcement" style="@style/RobotoRegularFontStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/account_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/account_list_sync_card_account_margin_vertical" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/response_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/not_now" android:text="@string/button_not_now" android:textAlignment="viewEnd" android:layout_marginEnd="@dimen/account_list_sync_card_button_margin_end" app:layout_constraintEnd_toStartOf="@id/turn_on" app:layout_constraintTop_toTopOf="parent" style="@style/SyncResponseTextStyle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/turn_on" android:text="@string/turn_on" android:textAlignment="viewEnd" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SyncResponseTextStyle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

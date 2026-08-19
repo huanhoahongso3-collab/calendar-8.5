@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/event_list_top_divider" android:background="@color/month_event_list_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/monthlist_top_divider_height" android:layout_marginTop="@dimen/monthlist_margin_top" />
+    <com.samsung.android.app.calendar.view.eventlist.EventListViewPager android:id="@id/event_list_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" />
+</merge>

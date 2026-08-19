@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_spinner_dropdown_text_main_padding_end">2.0dip</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/monthlist_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.calendar.view.common.EventListHeaderView android:id="@id/list_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/event_list_header_container_margin_start" android:paddingHorizontal="@dimen/monthlist_item_padding_horizontal" />
+    <com.samsung.android.app.calendar.view.eventlist.EventListRecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/event_list_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:paddingStart="@dimen/event_popup_list_item_padding_start" android:paddingEnd="@dimen/event_popup_list_item_padding_end" />
+    <include layout="@layout/layout_month_list_no_events_or_tasks" />
+    <include layout="@layout/layout_empty_event_and_put_sticker" />
+</LinearLayout>

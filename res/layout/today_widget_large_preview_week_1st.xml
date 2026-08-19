@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView style="@style/WidgetTodayPreviewDateText" />
+    <TextView style="@style/WidgetTodayPreviewDateText" />
+    <TextView style="@style/WidgetTodayPreviewDateText" />
+    <TextView android:textColor="@color/widget_today_preview_normal_day_color" android:text="@string/number_1" style="@style/WidgetTodayPreviewDateText" />
+    <TextView android:textColor="@color/widget_today_preview_normal_day_color" android:text="@string/number_2" style="@style/WidgetTodayPreviewDateText" />
+    <TextView android:textColor="@color/widget_today_preview_normal_day_color" android:text="@string/number_3" style="@style/WidgetTodayPreviewDateText" />
+    <TextView android:textColor="@color/widget_today_preview_normal_day_color" android:text="@string/number_4" style="@style/WidgetTodayPreviewDateText" />
+</LinearLayout>

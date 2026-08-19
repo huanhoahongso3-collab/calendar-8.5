@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_large_button_add_event_size">19.0dip</dimen>
+    <dimen name="today_widget_large_month_padding_top">6.0dip</dimen>
+    <dimen name="today_widget_large_title_container_height">19.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">44.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">11.0dip</dimen>
+    <dimen name="today_widget_setting_large_header_text_size">12.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_bottom">2.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_top">3.0dip</dimen>
+    <dimen name="widget_month_medium_title_text_size">11.0dip</dimen>
+    <dimen name="widget_month_medium_today_size">13.0dip</dimen>
+    <dimen name="widget_month_preview_day_of_week_text_size_medium_view">8.0dip</dimen>
+</resources>

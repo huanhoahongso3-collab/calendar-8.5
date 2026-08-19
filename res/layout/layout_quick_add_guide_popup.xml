@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="start|bottom" android:id="@id/quick_add_guide_container" android:padding="0.0dip" android:layout_width="500.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/guide_background" android:background="@drawable/guided_tour_bubble_bg" android:padding="0.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:backgroundTint="@color/handwriting_tipcard_bg_color" />
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/guide_content" android:paddingTop="@dimen/quick_add_guide_text_vertical_margin_vertical" android:paddingBottom="@dimen/quick_add_guide_text_vertical_margin_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/quick_add_guide_text_start_margin" android:paddingEnd="@dimen/quick_add_guide_text_end_margin">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/handwriting_tipcard_text_color" android:id="@id/guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_add_guide_popup_text" style="RobotoRegularFontStyle" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/handwriting_tipcard_text_color" android:layout_gravity="end|bottom" android:id="@id/guide_settings" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_add_guide_text_vertical_margin_vertical" android:text="@string/menu_preferences" style="@style/RobotoBoldFontStyle" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</FrameLayout>

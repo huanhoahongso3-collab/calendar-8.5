@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <targets>
+        <target android:excludeId="@id/location_text_container" />
+    </targets>
+    <fade android:fadingMode="fade_out" />
+    <changeBounds android:startDelay="200" />
+    <transitionSet android:transitionOrdering="together">
+        <fade android:fadingMode="fade_in" />
+        <transition app:disappearedScale="0.9" class="com.samsung.android.app.calendar.transition.Scale" />
+    </transitionSet>
+</transitionSet>

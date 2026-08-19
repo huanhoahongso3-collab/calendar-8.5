@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/widget_preview_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/widget_month_large_padding_horizontal_preview"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/widget_month_medium_title_text_size" android:textColor="@color/widget_month_preview_normal_day_color" android:gravity="center" android:paddingTop="@dimen/widget_month_medium_title_padding_top" android:paddingBottom="@dimen/widget_month_medium_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/month_may_on_month_widget" style="@style/RobotoMediumFontStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_month_preview_month_margin_bottom" android:paddingHorizontal="@dimen/widget_month_medium_padding_horizontal">
+            <include layout="@layout/widget_month_preview_day_of_week_medium" />
+            <include layout="@layout/widget_month_preview_week_1st_medium_view" />
+            <include layout="@layout/widget_month_preview_week_2nd_medium_view" />
+            <include layout="@layout/widget_month_preview_week_3rd_medium_view" />
+            <include layout="@layout/widget_month_preview_week_4th_medium_view" />
+            <include layout="@layout/widget_month_preview_week_5th_medium_view" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/widget_month_medium_title_text_size" android:textColor="@color/widget_month_preview_normal_day_color" android:gravity="center" android:paddingTop="@dimen/widget_month_medium_title_padding_top" android:paddingBottom="@dimen/widget_month_medium_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/month_jun" style="@style/RobotoMediumFontStyle" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/widget_month_preview_month_margin_bottom" android:paddingHorizontal="@dimen/widget_month_medium_padding_horizontal">
+            <include layout="@layout/widget_month_preview_day_of_week_medium" />
+            <include layout="@layout/widget_month_preview_week_1st_medium_view_next_month" />
+            <include layout="@layout/widget_month_preview_week_2nd_medium_view_next_month" />
+            <include layout="@layout/widget_month_preview_week_3rd_medium_view_next_month" />
+            <include layout="@layout/widget_month_preview_week_4th_medium_view_next_month" />
+            <include layout="@layout/widget_month_preview_week_5th_medium_view_next_month" />
+            <include layout="@layout/widget_month_preview_week_6th_medium_view_next_month" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

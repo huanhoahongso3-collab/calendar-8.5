@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="canvas_stripe_cover_alert_bottom_margin">23.029999dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_content_area_padding_bottom">9.399994dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_content_area_padding_top">16.919983dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_content_area_width">376.0dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_control_area_width">285.7578dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_snooze_complete_button_max_width">84.599976dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_top_margin">37.599976dip</dimen>
+    <dimen name="canvas_stripe_cover_alert_width">71.44dip</dimen>
+    <dimen name="pebble_se_stripe_cover_alert_width">100.57999dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_button_height">33.839996dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_button_margin_top_bottom">29.139984dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_complete_button_margin_end">14.099976dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_content_area_padding_bottom">22.559998dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_content_area_padding_top">24.439972dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_content_area_width">391.03906dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_control_area_width">297.0dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_dismiss_circle_margin_end">8.459991dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_icon_size">37.0dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_margin_bottom">17.859985dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_margin_end">12.219971dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_margin_top">38.539978dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_snooze_button_margin_end">11.279999dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_snooze_complete_button_max_width">92.119995dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_toast_area_width">669.27344dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_toast_text_margin_right">12.219971dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_toast_text_size">14.099976dip</dimen>
+    <dimen name="pebble_stripe_cover_alert_width">92.119995dip</dimen>
+    <dimen name="sesl_spinning_date_picker_date_spinner_text_size">21.0dip</dimen>
+    <dimen name="stripe_cover_alert_dismiss_padding">10.339996dip</dimen>
+    <dimen name="stripe_cover_alert_dismiss_size">89.29999dip</dimen>
+    <dimen name="stripe_cover_alert_dismiss_width_height">37.599976dip</dimen>
+</resources>

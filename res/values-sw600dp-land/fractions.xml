@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="event_popup_view_pager_height_ratio">74.0%</fraction>
+    <fraction name="timeline_popup_view_width">46.800007%</fraction>
+</resources>

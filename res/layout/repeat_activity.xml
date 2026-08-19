@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/repeat_scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/repeat_content_container" android:paddingBottom="@dimen/repeat_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/repeat_description_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/repeat_description_text_min_height" android:layout_marginHorizontal="@dimen/repeat_description_text_margin_horizontal">
+                <TextView android:textSize="@dimen/repeat_description_text_size" android:textColor="@color/repeat_description_text_color" android:layout_gravity="center_vertical" android:id="@id/repeat_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" />
+            </FrameLayout>
+            <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout android:id="@id/repeat_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/repeat_container_margin_top">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/repeat_item_list" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+            </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout>
+            <LinearLayout android:id="@id/duration_sub_header_container" android:focusable="false" android:clickable="false" android:importantForAccessibility="auto" style="@style/WinsetListSubHeader">
+                <TextView android:id="@id/sub_header_text" android:text="@string/repeat_duration_title" android:accessibilityHeading="true" style="@style/WinsetListSubHeaderTextStyle" />
+            </LinearLayout>
+            <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout android:id="@id/repeat_duration_container" android:background="@drawable/common_selectable_list_item_background_round" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/repeat_duration_view" layout="@layout/repeat_duration_views" />
+            </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout>
+        </LinearLayout>
+    </com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>
+    <com.samsung.android.libcalendar.common.sesl.view.CustomFloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:seslShowToolbarItemBackground="false">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/Style.Toolbar" android:layout_gravity="bottom" android:id="@id/repeat_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:importantForAccessibility="no" app:background="@android:color/transparent" app:layout_collapseMode="pin" />
+    </com.samsung.android.libcalendar.common.sesl.view.CustomFloatingToolbarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

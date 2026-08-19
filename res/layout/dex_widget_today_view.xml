@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/today_widget_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/month_and_today"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/today_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/month_bg_shape" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:id="@id/today_widget_sub_container" android:paddingTop="@dimen/today_widget_padding_top_bottom_land" android:paddingBottom="@dimen/today_widget_padding_top_bottom_land" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/today_widget_padding_margin_start_end_land" android:paddingEnd="@dimen/today_widget_padding_margin_start_end_land">
+        <TextView android:textSize="@dimen/today_widget_header_text_size_land" android:textColor="@color/widget_label_text_color_light_theme" android:id="@id/header_month_text" android:paddingBottom="@dimen/today_widget_header_padding_bottom_land_dex" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/today_widget_header_padding_start_dex" style="@style/RobotoMediumFontStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/month_grid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/today_event_list" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/today_event_list_layout_margin_top_dex" android:layout_weight="2.0" android:layout_marginStart="@dimen/today_event_list_layout_margin_start_dex" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/trash_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/trash_bin_appbar_layout" android:background="@color/transparent_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="0.0dip" app:expanded="false" style="@style/Widget.Design.AppBarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@color/transparent_white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:expandedTitleTextAppearance="@style/NewSec600FontStyle" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:title="@string/menu_trash" style="@style/Style.CollapsingToolbar">
+                <View android:layout_gravity="bottom" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:background="@android:color/transparent" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <View android:id="@id/margin_start" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/trash_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_weight="1.0" app:layout_constraintWidth_max="@dimen/common_list_container_max_width">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycle_bin_list" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="0.0dip" android:layout_height="0.0dip" android:fastScrollEnabled="false" android:splitMotionEvents="false" android:nestedScrollingEnabled="true" app:layout_anchor="@id/trash_container" app:layout_anchorGravity="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/common_list_container_max_width" />
+                <ViewStub android:id="@id/empty_layout" android:layout="@layout/trash_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:id="@id/margin_end" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/floating_bottom_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_bottom_navigation_view_bottom_margin">
+            <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/trash_bottom_navigation" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoRegularFontStyle" app:itemTextAppearanceInactive="@style/RobotoRegularFontStyle" app:menu="@menu/trash_menu_bottom" style="@style/Style.BottomNavigationView.Floating.IconText" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+        <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/trash_bin_appbar_layout">
+            <com.samsung.android.app.calendar.view.calendarheader.NoActionMenuViewToolBar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:clipToOutline="false" app:background="@android:color/transparent" />
+        </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

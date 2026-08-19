@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <FrameLayout android:layout_gravity="end" android:background="@drawable/skeleton_bar" android:layout_width="50.0dip" android:layout_height="12.0dip" android:layout_marginTop="10.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+    <FrameLayout android:background="@drawable/skeleton_bar" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+    <FrameLayout android:layout_gravity="start" android:background="@drawable/skeleton_bar" android:layout_width="65.0dip" android:layout_height="12.0dip" android:layout_marginTop="8.0dip" />
+</LinearLayout>

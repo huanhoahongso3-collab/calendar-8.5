@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/view_common_toolbar" />
+    <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout android:id="@id/license_web_view_container" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

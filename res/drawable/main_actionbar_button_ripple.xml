@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/common_control_area_ripple_color" app:seslRecoilRadius="@dimen/common_action_bar_ripple_radius" xmlns:app="http://schemas.android.com/apk/res-auto" />

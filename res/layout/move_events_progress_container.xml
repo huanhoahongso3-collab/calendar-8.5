@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/move_events_progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:scrollIndicators="top|bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:id="@id/move_events_progress_indicator_container" android:layout_width="fill_parent" android:layout_height="@dimen/move_events_progress_indicator_size" android:layout_marginTop="@dimen/move_events_progress_indicator_margin_top">
+            <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/move_events_progress_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" app:indicatorColor="@color/primary" app:indicatorSize="@dimen/move_events_progress_indicator_size" app:trackColor="@color/location_seek_bar_background_color" app:trackCornerRadius="@dimen/common_action_button_ripple_radius" app:trackThickness="30.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/move_events_progress_done" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/move_events_done" />
+            <TextView android:textSize="@dimen/move_events_progress_text_size" android:textColor="@color/theme_text_color" android:layout_gravity="center" android:id="@id/move_events_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/list_item_main_text_size" android:textColor="@color/theme_text_color" android:layout_gravity="center" android:id="@id/move_events_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/move_events_progress_description_margin_top" android:text="@string/move_events_ing" android:textDirection="locale" android:textAlignment="center" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

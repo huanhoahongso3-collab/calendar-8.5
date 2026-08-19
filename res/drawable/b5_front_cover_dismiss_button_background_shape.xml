@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/b5_sub_screen_alert_dismiss_circle_size" android:width="@dimen/b5_sub_screen_alert_dismiss_circle_size">
+        <shape android:shape="oval">
+            <stroke android:width="4.0dip" android:color="#1a000000" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/b5_sub_screen_alert_dismiss_circle_inner_size" android:width="@dimen/b5_sub_screen_alert_dismiss_circle_inner_size">
+        <shape android:shape="oval">
+            <solid android:color="#fffafafa" />
+        </shape>
+    </item>
+</layer-list>

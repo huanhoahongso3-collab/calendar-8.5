@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.calendar.commonnotificationtype.view.notificationtype.NotificationTypeSelectPreference android:layout="@layout/layout_setting_notification_type_select_preference" android:key="preferences_notification_type_select" android:summary="@string/preferences_notification_type_weak_description" />
+    <androidx.preference.Preference android:layout="@layout/layout_setting_preference" android:title="@string/string_short_sound" android:key="string_ring_once_sound_settings" />
+    <androidx.preference.Preference android:layout="@layout/layout_setting_preference" android:title="@string/string_long_sound" android:key="string_keep_ringing_sound_settings" />
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/common_list_item_background" android:paddingTop="@dimen/winset_list_item_top_padding" android:paddingBottom="@dimen/winset_list_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/settings_alert_background_preference_min_height" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/alert_background_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:id="@id/alert_background_title" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preferences_alerts_background_title" />
+        <TextView android:textAppearance="?android:textAppearanceListItemSecondary" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_gravity="end|center" android:id="@id/alert_background_preview" android:layout_width="@dimen/settings_alert_background_preview_min_width" android:layout_height="@dimen/settings_alert_background_preview_max_height" android:layout_marginStart="@dimen/settings_alert_background_preview_start_margin" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="@dimen/settings_alert_background_preview_radius" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/alert_background_preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

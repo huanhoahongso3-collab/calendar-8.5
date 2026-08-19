@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_main_frame" />
+    <com.samsung.android.app.calendar.view.calendardrawer.DrawerViewContainer android:layout_gravity="start" android:id="@id/left_drawer" android:background="@drawable/calendar_drawer_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lazyInitialize="800" />
+</androidx.drawerlayout.widget.DrawerLayout>

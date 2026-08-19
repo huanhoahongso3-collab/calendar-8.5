@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actions>
+    <action intentName="sec.actions.intent.CREATE_EVENT" secDescription="@string/app_label" secIcon="@mipmap/ic_launcher_calendar" secTitle="@string/app_label">
+        <fulfillment urlTemplate="intent:#Intent;action=com.samsung.android.app.deepsky.CREATE_EVENT;package=com.samsung.android.app.calendar;S.title={title};S.startDate={startDate};S.endDate={endDate};S.allDay={allDay};S.attendee={attendee};S.location={location};end">
+            <parameter-mapping intentParameter="event.name" required="true" urlParameter="title" />
+            <parameter-mapping intentParameter="event.startDate" urlParameter="startDate" />
+            <parameter-mapping intentParameter="event.endDate" urlParameter="endDate" />
+            <parameter-mapping intentParameter="event.allDay" urlParameter="allDay" />
+            <parameter-mapping intentParameter="event.attendee.email" urlParameter="attendee" />
+            <parameter-mapping intentParameter="event.location" urlParameter="location" />
+        </fulfillment>
+    </action>
+</actions>

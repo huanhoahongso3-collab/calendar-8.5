@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView android:id="@id/anniversary_effect_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:tint="@android:color/transparent" app:lottie_autoPlay="true" app:lottie_colorFilter="@android:color/transparent" app:lottie_fileName="calendar_celebration_combined.json" app:lottie_loop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

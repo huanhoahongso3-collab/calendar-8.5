@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.calendar.view.calendardrawer.DrawerHeaderView android:id="@id/header_layout" android:paddingBottom="@dimen/drawer_header_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="@dimen/drawer_header_item_height" android:soundEffectsEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/drawer_icon_margin_start" layout="@layout/drawer_button" />
+    <include layout="@layout/settings_button" />
+</com.samsung.android.app.calendar.view.calendardrawer.DrawerHeaderView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/winset_list_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textColor="@color/common_list_main_text_color" android:id="@id/item_title" style="@style/Style.CheckedTextView" />
+    <View android:id="@id/divider" android:layout_marginStart="@dimen/account_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

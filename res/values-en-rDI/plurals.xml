@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">IDS_CLD_BODY_PLUSPD_OTHER_EVENTS %d</item>
+        <item quantity="one">IDS_CLD_BODY_PLUS1_OTHER_EVENT</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">IDS_CLD_BODY_PLUSPD_OTHER_TASKS %d</item>
+        <item quantity="one">IDS_CLD_BODY_PLUS1_OTHER_TASK</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">IDS_CLD_BODY_PD_EVENTS %d</item>
+        <item quantity="one">IDS_CLD_BODY_1_EVENT</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">IDS_CLD_BODY_PD_TASKS %d</item>
+        <item quantity="one">IDS_CLD_BODY_1_TASK</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">PLURAL_OTHER_SMSG_OPT_STARTS_IN_PD_MINS_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_SMSG_OPT_STARTS_IN_PD_MINS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_SMSG_OPT_STARTS_IN_PD_MINS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_SMSG_OPT_STARTS_IN_PD_MINS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_SMSG_OPT_STARTS_IN_PD_MINS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_SMSG_OPT_STARTS_IN_PD_MINS_ABB %d</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_P1SD_DAYS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_P1SD_DAYS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_P1SD_DAYS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_P1SD_DAYS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_P1SD_DAYS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_P1SD_DAYS_BEFORE_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_CANT_DELETE_PD_READ_ONLY_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_CANT_DELETE_PD_READ_ONLY_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_CANT_DELETE_PD_READ_ONLY_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_CANT_DELETE_PD_READ_ONLY_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_CANT_DELETE_PD_READ_ONLY_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_CANT_DELETE_PD_READ_ONLY_ITEMS %d</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_PERMANENTLY_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_PERMANENTLY_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_PERMANENTLY_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_PERMANENTLY_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_PERMANENTLY_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_PERMANENTLY_DELETE_PD_EVENTS_Q %d</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">PLURAL_OTHER_CLD_HEADER_DELETE_PD_EVENTS_INCLUDING_1_RECURRING_EVENT_Q_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_HEADER_DELETE_PD_EVENTS_INCLUDING_1_RECURRING_EVENT_Q_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_HEADER_DELETE_PD_EVENTS_INCLUDING_1_RECURRING_EVENT_Q_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_HEADER_DELETE_PD_EVENTS_INCLUDING_1_RECURRING_EVENT_Q_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_HEADER_DELETE_PD_EVENTS_INCLUDING_1_RECURRING_EVENT_Q_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_HEADER_DELETE_PD_EVENTS_INCLUDING_1_RECURRING_EVENT_Q_ABB %d</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">PLURAL_OTHER_KM_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_KM_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_KM_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_KM_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_KM_BODY_DELETE_PD_ITEMS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_KM_BODY_DELETE_PD_ITEMS_Q %d</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_CANT_ADD_MORE_THAN_PD_ATTACHMENTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_CANT_ADD_MORE_THAN_PD_ATTACHMENTS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_CANT_ADD_MORE_THAN_PD_ATTACHMENTS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_CANT_ADD_MORE_THAN_PD_ATTACHMENTS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_CANT_ADD_MORE_THAN_PD_ATTACHMENTS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_CANT_ADD_MORE_THAN_PD_ATTACHMENTS %d</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_PD_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_PD_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_PD_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_PD_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_PD_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_PD_ITEMS %d</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_DELETED_FROM_P1SS_ON_P2SS_P3SD_DAYS_UNTIL_THIS_EVENT_IS_DELETED_FOREVER %1$s %2$s %3$d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_DELETED_FROM_P1SS_ON_P2SS_P3SD_DAYS_UNTIL_THIS_EVENT_IS_DELETED_FOREVER %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_DELETED_FROM_P1SS_ON_P2SS_P3SD_DAYS_UNTIL_THIS_EVENT_IS_DELETED_FOREVER %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_DELETED_FROM_P1SS_ON_P2SS_P3SD_DAYS_UNTIL_THIS_EVENT_IS_DELETED_FOREVER %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_DELETED_FROM_P1SS_ON_P2SS_P3SD_DAYS_UNTIL_THIS_EVENT_IS_DELETED_FOREVER %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_DELETED_FROM_P1SS_ON_P2SS_P3SD_DAYS_UNTIL_THIS_EVENT_IS_DELETED_FOREVER %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_DAYS_UNTIL_DELETION %d</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_PD_DUPLICATE_EVENTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_PD_DUPLICATE_EVENTS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_PD_DUPLICATE_EVENTS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_PD_DUPLICATE_EVENTS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_PD_DUPLICATE_EVENTS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_PD_DUPLICATE_EVENTS %d</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">PLURAL_OTHER_CLOCK_BUTTON_SNOOZE_PD_MINS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLOCK_BUTTON_SNOOZE_PD_MINS %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_BUTTON_SNOOZE_PD_MINS %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_BUTTON_SNOOZE_PD_MINS %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_BUTTON_SNOOZE_PD_MINS %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_BUTTON_SNOOZE_PD_MINS %d</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">PLURAL_OTHER_REMINDER_TBBODY_CANT_SET_MORE_THAN_PD_ALERTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_TBBODY_CANT_SET_MORE_THAN_PD_ALERTS %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_TBBODY_CANT_SET_MORE_THAN_PD_ALERTS %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_TBBODY_CANT_SET_MORE_THAN_PD_ALERTS %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_TBBODY_CANT_SET_MORE_THAN_PD_ALERTS %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_TBBODY_CANT_SET_MORE_THAN_PD_ALERTS %d</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">PLURAL_OTHER_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">PLURAL_OTHER_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_TPOP_CANT_ENTER_MORE_THAN_PD_CHARACTERS_ABB %d</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">PLURAL_OTHER_REMINDER_TMBODY_EVERY_PD_DAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_TMBODY_EVERY_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_TMBODY_EVERY_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_TMBODY_EVERY_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_TMBODY_EVERY_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_TMBODY_EVERY_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">PLURAL_OTHER_REMINDER_TMBODY_EVERY_PD_HOURS %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_TMBODY_EVERY_PD_HOURS %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_TMBODY_EVERY_PD_HOURS %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_TMBODY_EVERY_PD_HOURS %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_TMBODY_EVERY_PD_HOURS %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_TMBODY_EVERY_PD_HOURS %d</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_EVERY_PD_MINUTES_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_EVERY_PD_MINUTES_ABB %d</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_EVERY_PD_MONTHS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_EVERY_PD_MONTHS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_EVERY_PD_MONTHS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_EVERY_PD_MONTHS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_EVERY_PD_MONTHS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_EVERY_PD_MONTHS %d</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">PLURAL_OTHER_REMINDER_TMBODY_EVERY_PD_WEEKS %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_TMBODY_EVERY_PD_WEEKS %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_TMBODY_EVERY_PD_WEEKS %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_TMBODY_EVERY_PD_WEEKS %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_TMBODY_EVERY_PD_WEEKS %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_TMBODY_EVERY_PD_WEEKS %d</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_EVERY_PD_YEARS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_EVERY_PD_YEARS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_EVERY_PD_YEARS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_EVERY_PD_YEARS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_EVERY_PD_YEARS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_EVERY_PD_YEARS %d</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">PLURAL_OTHER_CLD_TPOP_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TPOP_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_TPOP_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_TPOP_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_TPOP_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_TPOP_CANT_SELECT_MORE_THAN_PD_ITEMS %d</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">IDS_CAM_BODY_PLUS_PD %d</item>
+        <item quantity="one">IDS_CAM_OPT_PLUS_1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_PD_MORE_EVENTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_PD_MORE_EVENTS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_PD_MORE_EVENTS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_PD_MORE_EVENTS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_PD_MORE_EVENTS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_PD_MORE_EVENTS %d</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">PLURAL_OTHER_CLD_HEADER_ATTACHMENTS_HPCOMMAD_ITEMS</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_HEADER_ATTACHMENTS_HPCOMMAD_ITEMS</item>
+        <item quantity="one">PLURAL_ONE_CLD_HEADER_ATTACHMENTS_HPCOMMAD_ITEMS</item>
+        <item quantity="two">PLURAL_TWO_CLD_HEADER_ATTACHMENTS_HPCOMMAD_ITEMS</item>
+        <item quantity="few">PLURAL_FEW_CLD_HEADER_ATTACHMENTS_HPCOMMAD_ITEMS</item>
+        <item quantity="many">PLURAL_MANY_CLD_HEADER_ATTACHMENTS_HPCOMMAD_ITEMS</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_REMINDERS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_REMINDERS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_REMINDERS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_REMINDERS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_REMINDERS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_1_EVENT_TO_THE_TRASH_AND_DELETE_PD_REMINDERS_Q %d</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_EVENTS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_EVENTS_Q %d</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_OTHER_ITEMS_Q %d</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_TASKS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_TASKS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_TASKS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_TASKS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_TASKS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_1_REMINDER_TO_THE_TRASH_AND_DELETE_PD_TASKS_Q %d</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_AND_DELETE_1_REMINDER_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_AND_DELETE_1_REMINDER_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_AND_DELETE_1_REMINDER_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_AND_DELETE_1_REMINDER_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_AND_DELETE_1_REMINDER_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_PD_EVENTS_TO_THE_TRASH_AND_DELETE_1_REMINDER_Q %d</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_PD_ITEMS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">PLURAL_OTHER_REMINDER_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_Q %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_Q %d</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_EVENT_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_EVENT_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_EVENT_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_EVENT_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_EVENT_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_EVENT_Q %d</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_MOVE_PD_REMINDERS_TO_THE_TRASH_AND_DELETE_1_TASK_Q %d</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_PD_ALL_DAY_EVENTS %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_PD_ALL_DAY_EVENTS %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_PD_ALL_DAY_EVENTS %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_PD_ALL_DAY_EVENTS %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_PD_ALL_DAY_EVENTS %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_PD_ALL_DAY_EVENTS %d</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_P1SD_ALL_DAY_EVENTS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_P1SD_ALL_DAY_EVENTS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_P1SD_ALL_DAY_EVENTS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_P1SD_ALL_DAY_EVENTS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_P1SD_ALL_DAY_EVENTS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_P1SD_ALL_DAY_EVENTS_STARTING_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_P1SD_ALL_DAY_REMINDERS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_P1SD_ALL_DAY_REMINDERS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_P1SD_ALL_DAY_REMINDERS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_P1SD_ALL_DAY_REMINDERS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_P1SD_ALL_DAY_REMINDERS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_P1SD_ALL_DAY_REMINDERS_STARTING_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_P1SD_ALL_DAY_TASKS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_P1SD_ALL_DAY_TASKS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_P1SD_ALL_DAY_TASKS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_P1SD_ALL_DAY_TASKS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_P1SD_ALL_DAY_TASKS_STARTING_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_P1SD_ALL_DAY_TASKS_STARTING_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_P1SD_SCHEDULED_EVENTS_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_P1SD_SCHEDULED_EVENTS_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_P1SD_SCHEDULED_EVENTS_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_P1SD_SCHEDULED_EVENTS_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_P1SD_SCHEDULED_EVENTS_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_P1SD_SCHEDULED_EVENTS_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_P1SD_SCHEDULED_REMINDERS_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_P1SD_SCHEDULED_REMINDERS_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_P1SD_SCHEDULED_REMINDERS_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_P1SD_SCHEDULED_REMINDERS_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_P1SD_SCHEDULED_REMINDERS_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_P1SD_SCHEDULED_REMINDERS_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">PLURAL_OTHER_CLD_TBOPT_P1SD_SCHEDULED_TASKS_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TBOPT_P1SD_SCHEDULED_TASKS_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_TBOPT_P1SD_SCHEDULED_TASKS_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_TBOPT_P1SD_SCHEDULED_TASKS_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_TBOPT_P1SD_SCHEDULED_TASKS_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_TBOPT_P1SD_SCHEDULED_TASKS_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">PLURAL_OTHER_AW_OPT_PD_MI_US %d</item>
+        <item quantity="zero">PLURAL_ZERO_AW_OPT_PD_MI_US %d</item>
+        <item quantity="one">PLURAL_ONE_AW_OPT_PD_MI_US %d</item>
+        <item quantity="two">PLURAL_TWO_AW_OPT_PD_MI_US %d</item>
+        <item quantity="few">PLURAL_FEW_AW_OPT_PD_MI_US %d</item>
+        <item quantity="many">PLURAL_MANY_AW_OPT_PD_MI_US %d</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">DREAM_DAYL_HEADER_PD_PEOPLE_INVITED %d</item>
+        <item quantity="one">DREAM_DAYL_HEADER_PD_PERSON_INVITED %d</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_DAYS_BEFORE %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_DAYS_BEFORE %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_DAYS_BEFORE %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_DAYS_BEFORE %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_DAYS_BEFORE %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_DAYS_BEFORE %d</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_HOURS_BEFORE %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_HOURS_BEFORE %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_HOURS_BEFORE %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_HOURS_BEFORE %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_HOURS_BEFORE %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_HOURS_BEFORE %d</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_MINS_BEFORE %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_MINS_BEFORE %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_MINS_BEFORE %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_MINS_BEFORE %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_MINS_BEFORE %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_MINS_BEFORE %d</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_DAYS_FROM_NOW %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_DAYS_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_DAYS_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_DAYS_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_DAYS_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_DAYS_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_HOURS_FROM_NOW %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_HOURS_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_HOURS_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_HOURS_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_HOURS_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_HOURS_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_MINUTES_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_MINUTES_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_MONTHS_FROM_NOW %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_MONTHS_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_MONTHS_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_MONTHS_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_MONTHS_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_MONTHS_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_WEEKS_FROM_NOW %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_WEEKS_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_WEEKS_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_WEEKS_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_WEEKS_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_WEEKS_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_YEARS_FROM_NOW %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_YEARS_FROM_NOW %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_YEARS_FROM_NOW %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_YEARS_FROM_NOW %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_YEARS_FROM_NOW %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_YEARS_FROM_NOW %d</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">PLURAL_OTHER_REMINDER_BODY_TITLE_SHORTENED_TO_SUPPORTED_LENGTH_FOR_EVENT_TITLES_HPCOMMAD_CHARACTERS</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_BODY_TITLE_SHORTENED_TO_SUPPORTED_LENGTH_FOR_EVENT_TITLES_HPCOMMAD_CHARACTERS</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_BODY_TITLE_SHORTENED_TO_SUPPORTED_LENGTH_FOR_EVENT_TITLES_HPCOMMAD_CHARACTERS</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_BODY_TITLE_SHORTENED_TO_SUPPORTED_LENGTH_FOR_EVENT_TITLES_HPCOMMAD_CHARACTERS</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_BODY_TITLE_SHORTENED_TO_SUPPORTED_LENGTH_FOR_EVENT_TITLES_HPCOMMAD_CHARACTERS</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_BODY_TITLE_SHORTENED_TO_SUPPORTED_LENGTH_FOR_EVENT_TITLES_HPCOMMAD_CHARACTERS</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_PD_WEEKS_BEFORE %d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_PD_WEEKS_BEFORE %d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_PD_WEEKS_BEFORE %d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_PD_WEEKS_BEFORE %d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_PD_WEEKS_BEFORE %d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_PD_WEEKS_BEFORE %d</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">PLURAL_OTHER_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="zero">PLURAL_ZERO_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="one">PLURAL_ONE_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="two">PLURAL_TWO_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="few">PLURAL_FEW_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+        <item quantity="many">PLURAL_MANY_NOTES_TPOP_CANT_SHOW_MORE_THAN_PD_COLORS %d</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_DAYS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_DAYS %1$s %2$d</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">PLURAL_OTHER_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_HOURS_ABB %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_HOURS_ABB %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_HOURS_ABB %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_HOURS_ABB %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_HOURS_ABB %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_HOURS_ABB %1$s %2$d</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">PLURAL_OTHER_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MINUTES_ABB %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MINUTES_ABB %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MINUTES_ABB %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MINUTES_ABB %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MINUTES_ABB %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MINUTES_ABB %1$s %2$d</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_DAY_OF_THE_MONTH %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_DAY_OF_THE_MONTH %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_DAY_OF_THE_MONTH %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_DAY_OF_THE_MONTH %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_DAY_OF_THE_MONTH %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_DAY_OF_THE_MONTH %1$s %2$d</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_P3SS_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_P3SS_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_P3SS_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_P3SS_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_P3SS_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_LAST_P3SS_OF_THE_MONTH %1$s %2$d %3$s</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_DAY_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_DAY_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_DAY_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_DAY_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_DAY_OF_THE_MONTH %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_DAY_OF_THE_MONTH %1$s %2$d %3$s</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_P4SS_OF_THE_MONTH %1$s %2$d %3$s %4$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_P4SS_OF_THE_MONTH %1$s %2$d %3$s %4$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_P4SS_OF_THE_MONTH %1$s %2$d %3$s %4$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_P4SS_OF_THE_MONTH %1$s %2$d %3$s %4$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_P4SS_OF_THE_MONTH %1$s %2$d %3$s %4$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_MONTHS_ON_THE_P3SS_P4SS_OF_THE_MONTH %1$s %2$d %3$s %4$s</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_WEEKS_ON_P3SS %1$s %2$d %3$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_WEEKS_ON_P3SS %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_WEEKS_ON_P3SS %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_WEEKS_ON_P3SS %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_WEEKS_ON_P3SS %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_WEEKS_ON_P3SS %1$s %2$d %3$s</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_DAY_OF_P3SS %1$s %2$d %3$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_DAY_OF_P3SS %1$s %2$d %3$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_DAY_OF_P3SS %1$s %2$d %3$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_DAY_OF_P3SS %1$s %2$d %3$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_DAY_OF_P3SS %1$s %2$d %3$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_DAY_OF_P3SS %1$s %2$d %3$s</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_P3SS_IN_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_P3SS_IN_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_P3SS_IN_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_P3SS_IN_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_P3SS_IN_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_LAST_P3SS_IN_P4SS %1$s %2$d %3$s %4$s</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_P3SS_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_P3SS_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_P3SS_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_P3SS_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_P3SS_P4SS %1$s %2$d %3$s %4$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_P3SS_P4SS %1$s %2$d %3$s %4$s</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_P3SS_P4SS_OF_P5SS %1$s %2$d %3$s %4$s %5$s</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_P3SS_P4SS_OF_P5SS %1$s %2$d %3$s %4$s %5$s</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_P3SS_P4SS_OF_P5SS %1$s %2$d %3$s %4$s %5$s</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_P3SS_P4SS_OF_P5SS %1$s %2$d %3$s %4$s %5$s</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_P3SS_P4SS_OF_P5SS %1$s %2$d %3$s %4$s %5$s</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_THIS_P1SS_WILL_REPEAT_EVERY_P2SD_YEARS_ON_THE_P3SS_P4SS_OF_P5SS %1$s %2$d %3$s %4$s %5$s</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_PD_TIMES_TOTAL %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_PD_TIMES_TOTAL %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_PD_TIMES_TOTAL %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_PD_TIMES_TOTAL %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_PD_TIMES_TOTAL %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_PD_TIMES_TOTAL %d</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_SHARED_WITH_PD_PEOPLE %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_SHARED_WITH_PD_PEOPLE %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_SHARED_WITH_PD_PEOPLE %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_SHARED_WITH_PD_PEOPLE %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_SHARED_WITH_PD_PEOPLE %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_SHARED_WITH_PD_PEOPLE %d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_ON_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_ON_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_ON_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_ON_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_ON_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_ON_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_P1SD_EVENTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_P1SD_EVENTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_P1SD_EVENTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_P1SD_EVENTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_P1SD_EVENTS_ON_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_P1SD_EVENTS_ON_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_PD_EVENTS_TODAY %d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_PD_EVENTS_TODAY %d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_PD_EVENTS_TODAY %d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_PD_EVENTS_TODAY %d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_PD_EVENTS_TODAY %d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_PD_EVENTS_TODAY %d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TOMORROW_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TOMORROW_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TOMORROW_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TOMORROW_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TOMORROW_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TOMORROW_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_PD_EVENTS_TOMORROW %d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_PD_EVENTS_TOMORROW %d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_PD_EVENTS_TOMORROW %d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_PD_EVENTS_TOMORROW %d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_PD_EVENTS_TOMORROW %d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_PD_EVENTS_TOMORROW %d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_ON_P2SS_AT_P3SS_PLUS_P4SD_OTHER_EVENTS %1$s %2$s %3$s %4$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_ON_P2SS_AT_P3SS_PLUS_P4SD_OTHER_EVENTS %1$s %2$s %3$s %4$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_ON_P2SS_AT_P3SS_PLUS_P4SD_OTHER_EVENTS %1$s %2$s %3$s %4$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_ON_P2SS_AT_P3SS_PLUS_P4SD_OTHER_EVENTS %1$s %2$s %3$s %4$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_ON_P2SS_AT_P3SS_PLUS_P4SD_OTHER_EVENTS %1$s %2$s %3$s %4$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_ON_P2SS_AT_P3SS_PLUS_P4SD_OTHER_EVENTS %1$s %2$s %3$s %4$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_ON_P1SS_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_ON_P1SS_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_ON_P1SS_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_ON_P1SS_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_ON_P1SS_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_ON_P1SS_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_CALLED_P1SS_TODAY_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_TODAY_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_TODAY_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_TODAY_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_TODAY_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_TODAY_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_TODAY_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_TOMORROW_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_TOMORROW_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_TOMORROW_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_TOMORROW_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_TOMORROW_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENTS_CALLED_P1SS_TOMORROW_AT_P2SS_PLUS_P3SD_OTHER_EVENTS %1$s %2$s %3$d</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">PLURAL_OTHER_SAC_BODY_YOU_HAVE_AN_EVENT_TOMORROW_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_SAC_BODY_YOU_HAVE_AN_EVENT_TOMORROW_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_SAC_BODY_YOU_HAVE_AN_EVENT_TOMORROW_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_SAC_BODY_YOU_HAVE_AN_EVENT_TOMORROW_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_SAC_BODY_YOU_HAVE_AN_EVENT_TOMORROW_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_SAC_BODY_YOU_HAVE_AN_EVENT_TOMORROW_AT_P1SS_PLUS_P2SD_OTHER_EVENTS %1$s %2$d</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">PLURAL_OTHER_CLOCK_TBOPT_MINUS_PD_MINUTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLOCK_TBOPT_MINUS_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_TBOPT_MINUS_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_TBOPT_MINUS_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_TBOPT_MINUS_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_TBOPT_MINUS_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">PLURAL_OTHER_CLOCK_TBOPT_PLUS_PD_MINUTES %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLOCK_TBOPT_PLUS_PD_MINUTES %d</item>
+        <item quantity="one">PLURAL_ONE_CLOCK_TBOPT_PLUS_PD_MINUTES %d</item>
+        <item quantity="two">PLURAL_TWO_CLOCK_TBOPT_PLUS_PD_MINUTES %d</item>
+        <item quantity="few">PLURAL_FEW_CLOCK_TBOPT_PLUS_PD_MINUTES %d</item>
+        <item quantity="many">PLURAL_MANY_CLOCK_TBOPT_PLUS_PD_MINUTES %d</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">PLURAL_OTHER_CLD_TMBODY_P1SS_STARTS_IN_P2SD_HOURS %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_TMBODY_P1SS_STARTS_IN_P2SD_HOURS %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_CLD_TMBODY_P1SS_STARTS_IN_P2SD_HOURS %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_CLD_TMBODY_P1SS_STARTS_IN_P2SD_HOURS %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_CLD_TMBODY_P1SS_STARTS_IN_P2SD_HOURS %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_CLD_TMBODY_P1SS_STARTS_IN_P2SD_HOURS %1$s %2$d</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">DREAM_CLD_BODY_P1SS_STARTS_IN_1_HOUR_AND_P2SD_MINUTES %1$s %2$d</item>
+        <item quantity="one">DREAM_CLD_BODY_PS_STARTS_IN_1_HOUR_AND_1_MINUTE %s</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">PLURAL_OTHER_CLD_BODY_P1SS_STARTS_IN_P2SD_MINUTES %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_BODY_P1SS_STARTS_IN_P2SD_MINUTES %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_CLD_BODY_P1SS_STARTS_IN_P2SD_MINUTES %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_CLD_BODY_P1SS_STARTS_IN_P2SD_MINUTES %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_CLD_BODY_P1SS_STARTS_IN_P2SD_MINUTES %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_CLD_BODY_P1SS_STARTS_IN_P2SD_MINUTES %1$s %2$d</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">DREAM_STCKR_BODY_THEYLL_BE_REMOVED_FROM_THE_STICKER_TRAY</item>
+        <item quantity="one">DREAM_STCKR_BODY_ITLL_BE_REMOVED_FROM_THE_STICKER_TRAY</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">DREAM_STCKR_PHEADER_DELETE_PD_STICKER_SETS_Q %d</item>
+        <item quantity="one">DREAM_STCKR_PHEADER_DELETE_1_STICKER_SET_Q</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">DREAM_DAYL_BUTTON_VIEW_PD_MORE_EVENTS_23 %d</item>
+        <item quantity="one">DREAM_DAYL_BUTTON_VIEW_PD_MORE_EVENT_23 %d</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">PLURAL_OTHER_REMINDER_OPT_P1SD_WEEKS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="zero">PLURAL_ZERO_REMINDER_OPT_P1SD_WEEKS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="one">PLURAL_ONE_REMINDER_OPT_P1SD_WEEKS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="two">PLURAL_TWO_REMINDER_OPT_P1SD_WEEKS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="few">PLURAL_FEW_REMINDER_OPT_P1SD_WEEKS_BEFORE_AT_P2SS %1$d %2$s</item>
+        <item quantity="many">PLURAL_MANY_REMINDER_OPT_P1SD_WEEKS_BEFORE_AT_P2SS %1$d %2$s</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">DREAM_REMINDER_BODY_DAYS_LC_ABB2</item>
+        <item quantity="one">DREAM_REMINDER_BODY_DAY_LC</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">DREAM_CLD_BODY_DAYS_AGO_LC</item>
+        <item quantity="one">DREAM_CLD_BODY_DAY_AGO_LC</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">DREAM_CLD_BODY_DAYS_LEFT_LC</item>
+        <item quantity="one">DREAM_CLD_BODY_DAY_LEFT_LC</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_P1SS_AND_P2SD_MORE %1$s %2$d</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">PLURAL_OTHER_CLD_OPT_PD_EVENTS_LEFT_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_CLD_OPT_PD_EVENTS_LEFT_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_CLD_OPT_PD_EVENTS_LEFT_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_CLD_OPT_PD_EVENTS_LEFT_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_CLD_OPT_PD_EVENTS_LEFT_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_CLD_OPT_PD_EVENTS_LEFT_ABB %d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/popup_add_to_bookmark" android:title="@string/webviewlibrary_add_to_bookmark" />
+    <item android:id="@id/popup_add_shortcut_on_home_screen" android:title="@string/webviewlibrary_add_shortcut_to_homescreen" />
+    <item android:id="@id/popup_open_in_browser" android:title="@string/webviewlibrary_open_in_browser" />
+</menu>

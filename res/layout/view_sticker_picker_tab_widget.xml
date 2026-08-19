@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sticker_tab_layout" android:background="@drawable/common_main_tab_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/sticker_picker_tab_widget_width" android:layout_height="@dimen/sticker_picker_tab_widget_height" android:stateListAnimator="?seslSmallTouchAnimator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:gravity="center_vertical" android:id="@id/sticker_tab_image" android:layout_width="@dimen/sticker_picker_tab_widget_image_size" android:layout_height="@dimen/sticker_picker_tab_widget_image_size" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:id="@id/sticker_tab_indicator" android:background="@color/sticker_picker_tab_enable_color" android:visibility="invisible" android:layout_width="@dimen/sticker_picker_tab_widget_indicator_width" android:layout_height="@dimen/sticker_picker_tab_widget_indicator_height" />
+</LinearLayout>

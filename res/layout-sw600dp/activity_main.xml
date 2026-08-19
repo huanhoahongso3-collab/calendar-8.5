@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.app.calendar.view.calendardrawer.CalendarSlidingPaneLayout android:id="@id/sliding_pane_layout" android:paddingTop="@dimen/drawer_container_margin_top" android:layout_width="fill_parent" android:layout_height="fill_parent" app:seslDrawRoundedCornerColor="@color/theme_content_area_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/left_drawer" android:background="@drawable/calendar_drawer_background_tablet" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/navigation_rail_margin_start" layout="@layout/layout_main_frame" />
+</com.samsung.android.app.calendar.view.calendardrawer.CalendarSlidingPaneLayout>

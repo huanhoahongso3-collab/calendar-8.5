@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="vertical" android:minHeight="@dimen/edit_card_title_container_min_height" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_card_task_title_container_start_margin" android:layout_marginEnd="@dimen/edit_card_common_content_padding_end">
+        <CheckBox android:id="@id/task_info_complete" android:background="@drawable/common_actionbar_ripple" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/animated_check_box" android:layout_marginEnd="@dimen/edit_card_task_title_checkbox_margin_end" />
+        <com.samsung.android.libcalendar.platform.hypertext.LinkAutoCompleteTextView android:textSize="@dimen/edit_card_title_text_size" android:id="@id/detail_item_task_title" android:focusable="true" android:nextFocusRight="@id/task_color_button" android:layout_width="0.0dip" android:minHeight="@dimen/edit_card_title_min_height" android:hint="@string/label_title" android:maxLength="1000" android:layout_weight="1.0" android:inputType="textCapSentences|textAutoCorrect|textMultiLine" android:imeOptions="flagNoFullscreen" android:layout_marginStart="@dimen/edit_card_task_title_margin_start" android:transitionName="edit_title" android:fontFeatureSettings="tnum" style="@style/EditEventTitleTextFieldStyle" />
+        <ImageButton android:id="@id/task_color_button" android:nextFocusLeft="@id/ed_subject" style="@style/EditColorButtonStyle" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/edit_card_common_content_text_button_padding_end">
+        <com.samsung.android.libcalendar.platform.hypertext.CallButtonView android:id="@id/call_button_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:layout_marginTop="@dimen/edit_card_title_container_padding_bottom" style="@style/EditDividerStyle" />
+</LinearLayout>

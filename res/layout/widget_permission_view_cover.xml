@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/permission_view_cover" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/widget_today_cover_permission_text_title_size" android:textColor="@color/widget_today_cover_permission_title_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/permission_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_today_cover_permission_text_title_margin_top" android:layout_marginBottom="@dimen/widget_today_cover_permission_text_title_bottom_margin" android:maxWidth="@dimen/widget_today_cover_permission_text_max_width" android:minHeight="@dimen/widget_today_cover_permission_text_title_min_height" android:includeFontPadding="false" style="@style/RobotoRegularFontStyle" />
+        <TextView android:textSize="@dimen/widget_today_cover_permission_text_body_size" android:textColor="@color/widget_today_cover_permission_content_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/permission_view_content_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/widget_today_cover_permission_text_max_width" android:minHeight="@dimen/widget_today_cover_permission_text_body_min_height" android:includeFontPadding="false" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/reminder_pre_notify_container" android:background="@drawable/common_list_item_background" android:focusable="true" android:clickable="true" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_card_common_content_padding_start" android:layout_marginEnd="@dimen/edit_card_common_content_padding_end" android:stateListAnimator="?seslLargeTouchAnimator">
+        <ImageView android:id="@id/reminder_pre_notify_icon" android:src="@drawable/ic_pre_reminder_bell_clock" android:tint="@color/edit_card_icon_on_tint_color" android:contentDescription="@null" style="@style/EditCardIconStyle" />
+        <TextView android:id="@id/reminder_pre_notify_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:text="@string/string_no_early_alert" style="@style/EditEventTextFieldStyle" />
+    </LinearLayout>
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

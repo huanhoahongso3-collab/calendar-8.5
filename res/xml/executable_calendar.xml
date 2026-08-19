@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <command android:label="@string/add_event" android:icon="@drawable/shortcut_tasks_add_event" android:enabled="true" android:tag="\ 1687857898" android:smallIcon="@drawable/shortcut_tasks_add_event">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="action" android:value="com.sec.android.calendar.ADD_EVENT" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.calendar" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.app.calendar.activity.DetailProxyActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|clearTop" />
+        <extras-attr android:name="category" android:value="10@calendar" />
+    </command>
+    <command android:label="@string/search_event_shortcut" android:icon="@drawable/shortcut_tasks_search" android:enabled="true" android:tag="\ 3575745771" android:smallIcon="@drawable/shortcut_tasks_search">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="action" android:value="com.sec.android.calendar.SEARCH_EVENT" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.calendar" />
+        <extras-attr android:name="componentName" android:value="com.samsung.android.app.calendar.activity.LaunchSearchActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|singleTop|clearTop" />
+    </command>
+    <command android:label="@string/pen_drawing_calendar" android:icon="@mipmap/ic_write_on_calendar" android:enabled="true" android:smallIcon="@mipmap/ic_write_on_calendar">
+        <extras-attr android:name="type" android:value="activity" />
+        <extras-attr android:name="category" android:value="spen" />
+        <extras-attr android:name="action" android:value="com.sec.android.calendar.EDIT_PEN_DRAWING" />
+        <extras-attr android:name="packageName" android:value="com.samsung.android.calendar" />
+        <extras-attr android:name="componentName" android:value="com.android.calendar.WriteOnCalendarActivity" />
+        <extras-attr android:name="launchMode" android:value="newTask|singleTop|clearTop" />
+    </command>
+</executable>

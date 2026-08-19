@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="widget_countdown_large_day_count_text_size">55</integer>
+    <integer name="widget_countdown_large_label_padding_bottom">11</integer>
+    <integer name="widget_countdown_large_label_text_size">17</integer>
+    <integer name="widget_countdown_large_padding_bottom">16</integer>
+    <integer name="widget_countdown_large_padding_start">22</integer>
+    <integer name="widget_countdown_large_padding_top">22</integer>
+    <integer name="widget_countdown_large_title_text_size">21</integer>
+    <integer name="widget_countdown_large_today_padding_bottom">20</integer>
+    <integer name="widget_countdown_large_today_text_size">55</integer>
+    <integer name="widget_countdown_medium_date_text_size">17</integer>
+    <integer name="widget_countdown_medium_day_count_padding_bottom">11</integer>
+    <integer name="widget_countdown_medium_day_count_text_size">55</integer>
+    <integer name="widget_countdown_medium_label_text_size">17</integer>
+    <integer name="widget_countdown_medium_padding_bottom">20</integer>
+    <integer name="widget_countdown_medium_padding_end">12</integer>
+    <integer name="widget_countdown_medium_padding_start">22</integer>
+    <integer name="widget_countdown_medium_padding_top">22</integer>
+    <integer name="widget_countdown_medium_sticker_size">32</integer>
+    <integer name="widget_countdown_medium_title_text_size">21</integer>
+    <integer name="widget_countdown_medium_today_text_size">55</integer>
+    <integer name="widget_countdown_small_padding_end">21</integer>
+    <integer name="widget_countdown_small_padding_start">30</integer>
+    <integer name="widget_countdown_small_title_text_size">17</integer>
+</resources>

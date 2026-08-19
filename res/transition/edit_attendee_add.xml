@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade android:fadingMode="fade_out" />
+    <changeBounds android:startDelay="200">
+        <targets>
+            <target android:excludeId="@id/add_button" />
+        </targets>
+    </changeBounds>
+    <fade android:fadingMode="fade_in" />
+</transitionSet>

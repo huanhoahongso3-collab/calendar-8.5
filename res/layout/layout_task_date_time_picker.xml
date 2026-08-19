@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:picker="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/picker_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_date_picker_margin_top" android:layout_marginBottom="@dimen/edit_date_picker_margin_bottom">
+        <com.samsung.android.libcalendar.platform.view.CalendarDatePicker android:theme="@style/DatePickerTheme" android:id="@id/date_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:startYear="1902" />
+        <androidx.picker.widget.SeslTimePicker android:theme="@style/TimePickerTheme" android:id="@id/time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" picker:timeLayoutMode="phoneMode" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/header_height" layout="@layout/view_common_ns_toolbar" />
+    <com.samsung.android.app.calendar.view.month.MonthTopParentLayout android:orientation="vertical" android:id="@id/container" android:background="@color/theme_content_area_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/month_phone_landscape_container_horizontal_padding" android:paddingEnd="@dimen/month_phone_landscape_container_horizontal_padding">
+        <LinearLayout android:orientation="horizontal" android:id="@id/month_top_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <LinearLayout android:orientation="vertical" android:id="@id/month_first_view" android:paddingBottom="@dimen/month_phone_landscape_first_part_vertical_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:orientation="vertical" android:id="@id/pager_container" android:background="@drawable/common_window_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.samsung.android.app.calendar.view.month.MonthDayOfWeekView android:id="@id/month_day_of_week_view" android:layout_width="fill_parent" android:layout_height="@dimen/month_header_height_small" android:layout_marginTop="@dimen/month_view_top_margin" />
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <com.samsung.android.app.calendar.view.month.TriStateLayout android:orientation="vertical" android:id="@id/tri_state_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <com.samsung.android.app.calendar.view.month.ReminderSixWeeksViewPager android:id="@id/reminder_view_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                            <ViewStub android:id="@id/reminder_one_week_view_pager_stub" android:layout="@layout/layout_reminder_one_week_view_pager_substance" android:layout_width="fill_parent" android:layout_height="@dimen/one_week_month_view_height" />
+                        </com.samsung.android.app.calendar.view.month.TriStateLayout>
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <ViewStub android:id="@id/reminder_list_stub" android:layout="@layout/layout_reminder_list_substance" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/month_event_list_horizontal_padding" />
+        </LinearLayout>
+    </com.samsung.android.app.calendar.view.month.MonthTopParentLayout>
+</LinearLayout>

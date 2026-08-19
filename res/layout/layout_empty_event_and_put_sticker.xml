@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/month_agenda_no_events_sticker_container" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/quick_add_area_height_with_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/empty_list_add_sticker_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_list_add_sticker_click_area_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/empty_list_add_sticker_icon" android:background="@drawable/common_button_ripple" android:layout_width="@dimen/list_day_sticker_empty_view_icon_size" android:layout_height="@dimen/list_day_sticker_empty_view_icon_size" android:src="@drawable/ic_calendar_add_sticker" android:scaleType="fitXY" android:tint="@color/common_no_item_sub_text_color" android:importantForAccessibility="no" />
+            <TextView android:textSize="@dimen/list_day_sticker_empty_view_text_size" android:textColor="@color/common_no_item_sub_text_color" android:gravity="center" android:id="@id/empty_list_add_sticker_text" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/event_list_tap_above_to_add_sticker_for_this_day" android:importantForAccessibility="no" android:layout_marginHorizontal="@dimen/list_day_sticker_empty_view_text_side_margin" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/empty_list_day_sticker_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:layout_gravity="center" android:id="@id/empty_list_day_sticker_icon" android:background="@drawable/event_list_day_sticker_ripple" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerInside" android:tooltipText="@string/sticker" />
+            <TextView android:layout_gravity="center" android:id="@id/empty_list_day_emoji_sticker_icon" android:background="@drawable/event_list_day_sticker_ripple" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:textAlignment="center" android:autoSizeTextType="uniform" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/empty_list_day_sticker_container2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/list_day_sticker_empty_view_text_side_margin">
+            <ImageButton android:layout_gravity="center" android:id="@id/empty_list_day_sticker_icon2" android:background="@drawable/event_list_day_sticker_ripple" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerInside" android:tooltipText="@string/sticker" />
+            <TextView android:layout_gravity="center" android:id="@id/empty_list_day_emoji_sticker_icon2" android:background="@drawable/event_list_day_sticker_ripple" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitXY" android:textAlignment="center" android:autoSizeTextType="uniform" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/touch_margin_view" android:layout_width="fill_parent" android:layout_height="@dimen/list_day_sticker_empty_view_touch_margin" />
+</FrameLayout>

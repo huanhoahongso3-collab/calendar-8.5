@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/widget_month_preview_week_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/widget_month_sunday_number_text_color" android:text="@string/m_sunday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/m_monday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/m_tuesday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/m_wednesday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/m_thursday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/m_friday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+    <TextView android:textColor="@color/widget_month_preview_saturday_color" android:text="@string/m_saturday_widget" style="@style/WidgetPreviewDayOfWeekText" />
+</LinearLayout>

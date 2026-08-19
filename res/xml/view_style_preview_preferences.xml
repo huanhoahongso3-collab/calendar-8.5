@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:key="preferences_view_style_preview_category">
+        <com.samsung.android.app.calendar.view.settings.CalendarStylePreference android:layout="@layout/layout_setting_month_preview_1_week" android:selectable="false" android:key="preferences_month_preview" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

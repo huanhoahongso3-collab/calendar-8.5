@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/sticker_container" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="132.0dip" app:layout_constraintBottom_toTopOf="@id/alarm_alert_date_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/anniversary_sticker" android:visibility="gone" android:layout_width="@dimen/full_screen_alarm_sticker_size" android:layout_height="@dimen/full_screen_alarm_sticker_size" android:layout_marginBottom="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <TextView android:id="@id/anniversary_emoji" android:visibility="gone" android:layout_width="@dimen/full_screen_alarm_sticker_size" android:layout_height="@dimen/full_screen_alarm_sticker_size" android:layout_marginBottom="12.0dip" android:scaleType="fitXY" android:textAlignment="center" android:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/sticker_particle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:tint="@android:color/transparent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="false" app:lottie_colorFilter="@android:color/transparent" app:lottie_fileName="calendar_celebration_sticker_particle.json" app:lottie_loop="false" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

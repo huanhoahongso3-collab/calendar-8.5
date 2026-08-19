@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/widget_today_cover_last_item_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/list_cover_last_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_last_item_height" />
+    <FrameLayout android:id="@id/list_cover_full_screen_last_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_full_screen_last_item_height" />
+    <FrameLayout android:id="@id/list_cover_last_item_empty" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="full_screen_alarm_title_font_size">48.0dip</dimen>
+    <item type="dimen" name="sesl_glance_combine_primary_small_circle_padding">@dimen/circle_padding_30</item>
+    <dimen name="sesl_glance_combine_primary_small_circle_size">30.0dip</dimen>
+    <dimen name="sesl_glance_combine_primary_with_text_tiny_icon_size">12.0dip</dimen>
+    <dimen name="widget_setting_background_shape_padding_start">24.0dip</dimen>
+</resources>

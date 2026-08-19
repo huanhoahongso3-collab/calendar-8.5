@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/item_switch_container" android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/reminder_on_off_container_height" android:stateListAnimator="?seslLargeTouchAnimator" android:paddingHorizontal="@dimen/reminder_on_off_side_padding" android:paddingVertical="@dimen/reminder_on_off_switch_top_bottom_padding">
+        <TextView android:textSize="@dimen/winset_list_item_one_line_text_size" android:textColor="@color/common_list_text_color_selector" android:ellipsize="end" android:id="@id/item_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:textDirection="locale" style="@style/RobotoRegularFontStyle" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/common_switch" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/account_list_item_account_text_margin_start" />
+    </LinearLayout>
+    <View android:id="@id/item_divider" style="@style/Winset_List_Item_Divider" />
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

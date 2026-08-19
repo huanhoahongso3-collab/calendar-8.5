@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Cities">
+        <item>በመሃል</item>
+        <item>ሆኖሉሉ</item>
+        <item>ሃዋይ</item>
+        <item>አላስካ</item>
+        <item>አንኮሬጅ</item>
+        <item>ሳን ፍራንሲስኮ</item>
+        <item>Vancouver</item>
+        <item>ሲያትል</item>
+        <item>ሎስ አንጀለስ</item>
+        <item>ቲጁአና</item>
+        <item>ካልጋሪ</item>
+        <item>ፊኒክስ</item>
+        <item>ማዛትላን</item>
+        <item>ዴኒቨር</item>
+        <item>Mexico City</item>
+        <item>ዊኒፔግ</item>
+        <item>ዲዬጎ ጋርሲያ</item>
+        <item>ዳላስ</item>
+        <item>ቺካጎ</item>
+        <item>Toronto</item>
+        <item>ማያሚ</item>
+        <item>Lima</item>
+        <item>ኪቶ</item>
+        <item>ዋሽንግተን ዲሲ</item>
+        <item>ኦታዋ</item>
+        <item>ኒው ዮርክ</item>
+        <item>ቦጎታ</item>
+        <item>ሳንቲያጎ</item>
+        <item>ላ ፓዝ</item>
+        <item>ካራካስ</item>
+        <item>ቦነስ አይረስ</item>
+        <item>ኒውፋውንድላንድ</item>
+        <item>የቅዱስ ዮሐንስ</item>
+        <item>ሳኦ ፓውሎ</item>
+        <item>ብራዚሊያ</item>
+        <item>ሪዮ ዴ ጄኔሮ</item>
+        <item>Fernando de Noronha</item>
+        <item>አዞሬስ</item>
+        <item>ሊዝበን</item>
+        <item>ካሳብላንካ</item>
+        <item>ደብሊን</item>
+        <item>ራባት</item>
+        <item>ማድሪድ</item>
+        <item>ሰፈራው</item>
+        <item>ሎንዶን</item>
+        <item>ኪንግስተን</item>
+        <item>ባርሴሎና</item>
+        <item>ፓሪስ</item>
+        <item>አልጀርስ</item>
+        <item>ቱኒዝ</item>
+        <item>ትሪፖሊ</item>
+        <item>በርሊን</item>
+        <item>ሮም</item>
+        <item>Prague</item>
+        <item>ኪንሻሳ</item>
+        <item>ስቶክሆልም</item>
+        <item>ብራቲስላቫ</item>
+        <item>ኬፕታውን</item>
+        <item>ቡዳፔስት</item>
+        <item>ዋርሶው</item>
+        <item>ካሊኒንግራድ</item>
+        <item>ሶፊያ</item>
+        <item>አቴንስ</item>
+        <item>Lviv</item>
+        <item>ሄልሲንኪ</item>
+        <item>ሪጋ</item>
+        <item>ታሊን</item>
+        <item>ቡካሬስት</item>
+        <item>ቪልኒየስ</item>
+        <item>ሉቡምባሺ</item>
+        <item>ሚንስክ</item>
+        <item>ሴንት ፒተርስበርግ</item>
+        <item>ኢስታንቡል</item>
+        <item>ካምቻትካ</item>
+        <item>ኪየቭ</item>
+        <item>እየሩሳሌም</item>
+        <item>ሞስኮ</item>
+        <item>ካርኪቭ</item>
+        <item>ናይሮቢ</item>
+        <item>ጄዳህ</item>
+        <item>ቮልጎግራድ</item>
+        <item>ዬሬቫን</item>
+        <item>ትብሊሲ</item>
+        <item>ባኩ</item>
+        <item>ቺታ</item>
+        <item>ሰማራ</item>
+        <item>የቴህራን</item>
+        <item>ኢዝሄቭስክ</item>
+        <item>አቡ ዳቢ</item>
+        <item>ዱባይ</item>
+        <item>ኡፋ</item>
+        <item>ዬካተሪንበርግ</item>
+        <item>ቼልያቢንስክ</item>
+        <item>ካራቺ</item>
+        <item>ካቡል</item>
+        <item>ታሽከንት</item>
+        <item>ኢስላማባድ</item>
+        <item>ሙምባይ</item>
+        <item>ኦምስክ</item>
+        <item>አልማቲ</item>
+        <item>Bangalore</item>
+        <item>ሃይድራባድ</item>
+        <item>ኒው ዴልሂ</item>
+        <item>ኮሎምቦ</item>
+        <item>ቼናይ</item>
+        <item>ኖቮሲቢርስክ</item>
+        <item>ካትማንዱ</item>
+        <item>ኖቮኩዝኔትስክ</item>
+        <item>ኮልካታ</item>
+        <item>ዳካ</item>
+        <item>Khovd</item>
+        <item>ክራስኖያርስክ</item>
+        <item>ባንኮክ</item>
+        <item>ኩዋላ ላምፑር</item>
+        <item>ሲንጋፖር</item>
+        <item>ኢርኩትስክ</item>
+        <item>ፕኖም ፔን</item>
+        <item>ሃኖይ</item>
+        <item>ጃካርታ</item>
+        <item>Ulaanbaatar</item>
+        <item>Hong Kong</item>
+        <item>ፐርዝ</item>
+        <item>ቤጂንግ</item>
+        <item>ማኒላ</item>
+        <item>ታይፔ</item>
+        <item>ሲዮል</item>
+        <item>አምቦን</item>
+        <item>ቭላዲቮስቶክ</item>
+        <item>ያኩትስክ</item>
+        <item>ካባሮቭስክ</item>
+        <item>አዴላይዳ</item>
+        <item>ቶኪዮ</item>
+        <item>Yuzhno-Sakhalinsk</item>
+        <item>ሃሊፋክስ</item>
+        <item>ጉአሜ</item>
+        <item>ካንቤራ</item>
+        <item>ማጋዳን</item>
+        <item>ሲዲኒ</item>
+        <item>ፔትሮፓቭሎቭስክ-ካምቻትስኪ</item>
+        <item>ታራዋ</item>
+        <item>ኦክላንድ</item>
+        <item>ዌሊንግተን</item>
+        <item>Pago Pago</item>
+        <item>Denpasar</item>
+        <item>በርን</item>
+        <item>ዙሪክ</item>
+        <item>ካይሮ</item>
+        <item>Abidjan</item>
+        <item>Accra</item>
+        <item>አዲስ አበባ</item>
+        <item>አማን</item>
+        <item>አምስተርዳም</item>
+        <item>Anadyr</item>
+        <item>አንካራ</item>
+        <item>አንታናናሪቮ</item>
+        <item>አሽጋባት</item>
+        <item>አስመራ</item>
+        <item>አስታና</item>
+        <item>አሱንሲዮን</item>
+        <item>Austin</item>
+        <item>ባግዳድ</item>
+        <item>Baltimore</item>
+        <item>Bamako</item>
+        <item>ባንጊ</item>
+        <item>Bari</item>
+        <item>Basse-Terre</item>
+        <item>ቤሩት</item>
+        <item>ቤልግሬድ</item>
+        <item>ቤሊዝ ከተማ</item>
+        <item>ቢሽኬክ</item>
+        <item>ቢሳው</item>
+        <item>ቦሎኛ</item>
+        <item>ቦስተን</item>
+        <item>ብሪጅታውን</item>
+        <item>ብሪስቤን</item>
+        <item>ብራሰልስ</item>
+        <item>የካናሪ ደሴቶች</item>
+        <item>ካታንዛሮ</item>
+        <item>Cayenne</item>
+        <item>Charlotte</item>
+        <item>ቺሲናዉ</item>
+        <item>Cleveland</item>
+        <item>Columbus</item>
+        <item>ኮናክሪ</item>
+        <item>ኮፐንሃገን</item>
+        <item>Cork</item>
+        <item>ክሮቶን</item>
+        <item>Dakar</item>
+        <item>ደማስቆ</item>
+        <item>Dar es Salaam</item>
+        <item>ዳርዊን</item>
+        <item>Detroit</item>
+        <item>ጅቡቲ</item>
+        <item>ዶሃ</item>
+        <item>ዱዋላ</item>
+        <item>Dushanbe</item>
+        <item>ምስራቃዊ ደሴት</item>
+        <item>ኤድንበርግ</item>
+        <item>El Paso</item>
+        <item>Florence</item>
+        <item>ፎርት-ደ-ፈረንሳይ</item>
+        <item>Freetown</item>
+        <item>Gaborone</item>
+        <item>የጋላፓጎስ ደሴቶች</item>
+        <item>ጄኔቫ</item>
+        <item>ጄኖዋ</item>
+        <item>Georgetown</item>
+        <item>ግሬትቪከን</item>
+        <item>የጓቲማላ ከተማ</item>
+        <item>Gustavia</item>
+        <item>ሃምበርግ</item>
+        <item>ሀራሬ</item>
+        <item>ሃቫና</item>
+        <item>ሆባርት</item>
+        <item>ሂዩስተን</item>
+        <item>Indianapolis</item>
+        <item>Johannesburg</item>
+        <item>ካምፓላ</item>
+        <item>ካርቱም</item>
+        <item>ኪንግስተን</item>
+        <item>ኩዌት ከተማ</item>
+        <item>ሌጎስ</item>
+        <item>Las Vegas</item>
+        <item>Ljubljana</item>
+        <item>Haikou</item>
+        <item>Louisville</item>
+        <item>ሉዋንዳ</item>
+        <item>Lusaka</item>
+        <item>Luxembourg</item>
+        <item>Macau</item>
+        <item>Malabo</item>
+        <item>Male</item>
+        <item>ማናጓ</item>
+        <item>ማናማ</item>
+        <item>Maputo</item>
+        <item>Marigot</item>
+        <item>Mecca</item>
+        <item>ሜልቦርን</item>
+        <item>Memphis</item>
+        <item>መሲና</item>
+        <item>Milano</item>
+        <item>Milwaukee</item>
+        <item>ሞቃዲሾ</item>
+        <item>ሞንሮቪያ</item>
+        <item>ሞንቴቪዲዮ</item>
+        <item>ሞንትሪያል</item>
+        <item>ሙኒክ</item>
+        <item>ሙስካት</item>
+        <item>Napoli</item>
+        <item>ናተርስ</item>
+        <item>ኢንጃሜና</item>
+        <item>Niamey</item>
+        <item>Nouakchott</item>
+        <item>ኑሜአ</item>
+        <item>ንኩኣሎፋ</item>
+        <item>ኑክ</item>
+        <item>ኦሳካ</item>
+        <item>Ouagadougou</item>
+        <item>ፓሌርሞ</item>
+        <item>Panama City</item>
+        <item>ፓራማሪቦ</item>
+        <item>Perm</item>
+        <item>Philadelphia</item>
+        <item>ፖድጎሪካ</item>
+        <item>ፖንታ ዴልጋዳ</item>
+        <item>ፖርት ሉዊስ</item>
+        <item>ፖርት-ኦ-ፕሪንስ</item>
+        <item>ፖርትላንድ</item>
+        <item>ፒዮንግያንግ</item>
+        <item>Yangon</item>
+        <item>ሪሲፍ</item>
+        <item>Reykjavik</item>
+        <item>ሪያድ</item>
+        <item>Saint-Denis</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>ሳን ሆሴ</item>
+        <item>San Jose</item>
+        <item>ሳን ሁዋን</item>
+        <item>San Marino</item>
+        <item>ሳን ሳልቫዶር</item>
+        <item>ሰነዓ</item>
+        <item>ሳንቶ ዶሚንጎ</item>
+        <item>ሻንጋይ</item>
+        <item>Shenzhen</item>
+        <item>ስኮፕዬ</item>
+        <item>የቅዱስ ዮሐንስ</item>
+        <item>ሱቫ</item>
+        <item>ታሂቲ</item>
+        <item>ተጉሲጋልፓ</item>
+        <item>Ho Chi Minh City</item>
+        <item>ቲያንጂን</item>
+        <item>ቶሪኖ</item>
+        <item>ቫዱዝ</item>
+        <item>ቫሌታ</item>
+        <item>ቬሮና</item>
+        <item>ቪክቶሪያ</item>
+        <item>ቪየና</item>
+        <item>ያሙሱክሮ</item>
+        <item>Yaounde</item>
+        <item>ዛግሬብ</item>
+        <item>Guangzhou</item>
+        <item>ካርዲፍ</item>
+        <item>Regina</item>
+        <item>ሻርሎት አማሊ</item>
+        <item>አትላንታ</item>
+        <item>Mayotte</item>
+        <item>ሴንት ፒየር እና ሚኬሎን</item>
+        <item>Oslo</item>
+        <item>ስሬድኔከሌምስክ</item>
+        <item>ሴቬሮ-ኩሪልስክ</item>
+        <item>ዉሃን</item>
+        <item>ሻንዱ</item>
+        <item>ዢያን</item>
+        <item>ወደብ Moresby</item>
+        <item>ዳቫዎ ከተማ</item>
+        <item>ቾንግኪንግ</item>
+        <item>ሼንያንግ</item>
+        <item>ናንጂንግ</item>
+        <item>ሃርቢን</item>
+        <item>ጂናን</item>
+        <item>ዠንግዡ</item>
+        <item>ኩሚንግ</item>
+        <item>ቻንግቹን</item>
+        <item>ፊውዣው</item>
+        <item>ኩቺንግ</item>
+        <item>ማካሳር</item>
+        <item>ሃንግዙ</item>
+        <item>ቺንዳው</item>
+        <item>ናንኒንግ</item>
+        <item>ኡሩምኪ</item>
+        <item>ናሶ</item>
+        <item>ኒኮሲያ</item>
+        <item>ዲሊ</item>
+        <item>የመንገድ ከተማ</item>
+        <item>ሎም</item>
+        <item>Roseau</item>
+        <item>ሊብሬቪል</item>
+        <item>ማርሴሊ</item>
+        <item>ማሴሩ</item>
+        <item>ማጁሮ</item>
+        <item>ሞናኮ</item>
+        <item>ባንዳር ሴሪ ቤጋዋን</item>
+        <item>ባንጁል</item>
+        <item>ቡሳን</item>
+        <item>ቡጁምቡራ</item>
+        <item>ብራዛቪል</item>
+        <item>ቪየንቲያን</item>
+        <item>ዊንድሆክ</item>
+        <item>ሳራጄቮ</item>
+        <item>ሳይፓን</item>
+        <item>ሳኦ ቶሜ</item>
+        <item>ሴንት ጂዮርጅ</item>
+        <item>ስታንሊ</item>
+        <item>አደን</item>
+        <item>አፒያ</item>
+        <item>አንዶራ ላ ቬላ</item>
+        <item>ላአዮኔ</item>
+        <item>ዊልምስታድ</item>
+        <item>ምባፔ</item>
+        <item>ካስትሪስ</item>
+        <item>ኮሮር</item>
+        <item>ካንኩን</item>
+        <item>ኪጋሊ</item>
+        <item>ኪንግስታውን</item>
+        <item>ቴል አቪቭ</item>
+        <item>ቶርሻቭን</item>
+        <item>ቲራና</item>
+        <item>ቲምፉ</item>
+        <item>ፖርቶ-ኖቮ</item>
+        <item>ፕራያ</item>
+        <item>ፍራንክፈርት</item>
+        <item>ፕሪስቲና</item>
+        <item>ሃሚልተን</item>
+        <item>ሆኒያራ</item>
+        <item>ኩይአባ</item>
+    </string-array>
+    <string-array name="Countries">
+        <item>አፍጋኒስታን</item>
+        <item>አልጄሪያ</item>
+        <item>ሳሞአ</item>
+        <item>አንቲጓ እና ባርቡዳ</item>
+        <item>አርጀንቲና</item>
+        <item>አርሜኒያ</item>
+        <item>አውስትራሊያ</item>
+        <item>አዘርባጃን</item>
+        <item>Bangladesh</item>
+        <item>Republic of Bashkortostan</item>
+        <item>Belarus</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>ቡልጋሪያ</item>
+        <item>ካምቦዲያ</item>
+        <item>Canada</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Czech Republic</item>
+        <item>የኮንጎ ሪፐብሊክ</item>
+        <item>ኢኳዶር</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>ፈረንሳይ</item>
+        <item>Georgia</item>
+        <item>ጀርመን</item>
+        <item>ግሪክ</item>
+        <item>ሃንጋሪ</item>
+        <item>ህንድ</item>
+        <item>ኢንዶኔዥያ</item>
+        <item>ኢራን</item>
+        <item>አይርላድ</item>
+        <item>እስራኤል</item>
+        <item>ጣሊያን</item>
+        <item>Japan</item>
+        <item>Kazakhstan</item>
+        <item>Kenya</item>
+        <item>ኪሪባቲ</item>
+        <item>ላቲቪያ</item>
+        <item>ሊቱዌንያ</item>
+        <item>ማሌዢያ</item>
+        <item>ሜክስኮ</item>
+        <item>ሞንጎሊያ</item>
+        <item>ሞሮኮ</item>
+        <item>Nepal</item>
+        <item>New Zealand</item>
+        <item>ፓኪስታን</item>
+        <item>Peru</item>
+        <item>ፊሊፒንስ</item>
+        <item>ፖላንድ</item>
+        <item>ፖርቹጋል</item>
+        <item>ካርታ</item>
+        <item>ደቡብ ኮሪያ</item>
+        <item>የሲንጋፖር ሪፐብሊክ</item>
+        <item>ሊቢያ</item>
+        <item>ሮማኒያ</item>
+        <item>Russia</item>
+        <item>ሳውዲ አረቢያ</item>
+        <item>ስሎቫኪያ</item>
+        <item>ደቡብ አፍሪካ</item>
+        <item>ስፔን</item>
+        <item>ሲሪላንካ</item>
+        <item>ስዊዲን</item>
+        <item>Taiwan</item>
+        <item>ታይላንድ</item>
+        <item>ቱንዝያ</item>
+        <item>Türkiye</item>
+        <item>የተባበሩት አረብ ኤመሬትስ</item>
+        <item>UK</item>
+        <item>ዩክሬን</item>
+        <item>ዩኤስሴ</item>
+        <item>Uzbekistan</item>
+        <item>ቬንዙዌላ</item>
+        <item>Vietnam</item>
+        <item>GB Vrgn Islds</item>
+        <item>Switzerland</item>
+        <item>ግብጽ</item>
+        <item>"Cote d'Ivoire"</item>
+        <item>Ghana</item>
+        <item>ኢትዮጵያ</item>
+        <item>ዮርዳኖስ</item>
+        <item>ኔዜሪላንድ</item>
+        <item>Madagascar</item>
+        <item>ቱርክሜኒስታን</item>
+        <item>ኤርትራ</item>
+        <item>Paraguay</item>
+        <item>ኢራቅ</item>
+        <item>Mali</item>
+        <item>ማዕከላዊ የአፍሪካ ሪፐብሊክ</item>
+        <item>ጓዴሎፕ</item>
+        <item>ሊባኖስ</item>
+        <item>ሰርቢያ</item>
+        <item>ቤሊዜ</item>
+        <item>ኪርጊዝስታን</item>
+        <item>ጊኒ-ቢሳው</item>
+        <item>ባርቤዶስ</item>
+        <item>ቤልጄም</item>
+        <item>ፍሬንች ጉያና</item>
+        <item>ሞልዶቫ</item>
+        <item>Guinea</item>
+        <item>Denmark</item>
+        <item>Senegal</item>
+        <item>ሶሪያ</item>
+        <item>Tanzania</item>
+        <item>ጅቡቲ</item>
+        <item>ካታር</item>
+        <item>ካሜሩን</item>
+        <item>ታጂኪስታን</item>
+        <item>ስኮትላንድ</item>
+        <item>ማርቲኒክ</item>
+        <item>ሰራሊዮን</item>
+        <item>ቦትስዋና</item>
+        <item>Guyana</item>
+        <item>ደቡብ ጆርጂያ</item>
+        <item>ጓቴማላ</item>
+        <item>Saint Barthelemy</item>
+        <item>ዚምባቡዌ</item>
+        <item>Cuba</item>
+        <item>Uganda</item>
+        <item>Sudan</item>
+        <item>Jamaica</item>
+        <item>ኩዌት</item>
+        <item>ናይጄሪያ</item>
+        <item>አንጎላ</item>
+        <item>Zambia</item>
+        <item>ሉግዘምበርግ</item>
+        <item>ኢኳሪያል ጊኒ</item>
+        <item>Maldives</item>
+        <item>ኒካራጉአ</item>
+        <item>ባህሬን</item>
+        <item>Mozambique</item>
+        <item>ቅዱስ ማርቲን</item>
+        <item>Somalia</item>
+        <item>ላይቤሪያ</item>
+        <item>Uruguay</item>
+        <item>ኦማን</item>
+        <item>ቻድ</item>
+        <item>Niger</item>
+        <item>Mauritania</item>
+        <item>ኒው ካሌዶኒያ</item>
+        <item>ቶንጋ</item>
+        <item>ግሪንላንድ</item>
+        <item>ቡርኪናፋሶ</item>
+        <item>ፓናማ</item>
+        <item>ሱሪኔም</item>
+        <item>ሞንቴኔግሮ</item>
+        <item>Mauritius</item>
+        <item>ሓይቲ</item>
+        <item>የኮሪያ ዲሞክራቲክ የህዝቦች ሩፑብሊክ</item>
+        <item>ማይንማር</item>
+        <item>Iceland</item>
+        <item>Reunion Island</item>
+        <item>Costa Rica</item>
+        <item>ፑዌርቶ ሪኮ</item>
+        <item>El Salvador</item>
+        <item>የመን</item>
+        <item>ዶሚኒካን ሪፑብሊክ</item>
+        <item>Macedonia</item>
+        <item>ፊጂ</item>
+        <item>የፈረንሳይ ፖሊኔዥያ</item>
+        <item>Honduras</item>
+        <item>ላይክቴንስቴይን</item>
+        <item>ማልታ</item>
+        <item>ሲሼልስ</item>
+        <item>Austria</item>
+        <item>Croatia</item>
+        <item>Wales</item>
+        <item>US Vrgn Is.</item>
+        <item>ስሎቬንያ</item>
+        <item>ሳን ማሪኖ</item>
+        <item>ኖርዌይ</item>
+        <item>Papua New Guinea</item>
+        <item>ባሐማስ</item>
+        <item>ቆጵሮስ</item>
+        <item>ቲሞር-ሌስቴ</item>
+        <item>ቶጎ</item>
+        <item>ዶሚኒካ</item>
+        <item>ጋቦን</item>
+        <item>ሌስቶ</item>
+        <item>ማርሻል አይስላንድ</item>
+        <item>ሞናኮ</item>
+        <item>ብሩኔይ</item>
+        <item>ጋምቢያ</item>
+        <item>ቡሩንዲ</item>
+        <item>የኮንጎ ዲሞክራቲክ ሪፐብሊክ</item>
+        <item>ላኦስ</item>
+        <item>ናምቢያ</item>
+        <item>ቦስኒያ እና ሔርዞጎቪያ</item>
+        <item>ሳይፓን</item>
+        <item>ሳኦ ቶሜ እና ፕሪንቺፔ</item>
+        <item>ግሪንዳዳ</item>
+        <item>የፎክላንድ ደሴቶች</item>
+        <item>የአሜሪካ ሳሞኦ</item>
+        <item>አንዶራ</item>
+        <item>ሳህራዊ ሪፐብሊክ</item>
+        <item>ኩራካዎ</item>
+        <item>Eswatini</item>
+        <item>ሴንት ሉቺያ</item>
+        <item>ፓላኡ</item>
+        <item>ሩዋንዳ</item>
+        <item>ሰይንት ቪንሴንት እና ጀሬናዲኔስ</item>
+        <item>የፋሮ ደሴቶች</item>
+        <item>አልባኒያ</item>
+        <item>በሓቱን</item>
+        <item>ቤኒን</item>
+        <item>ኬፕ ቨርዴ</item>
+        <item>ኮሶቮ</item>
+        <item>ቤርሙዳ</item>
+        <item>የሰሎሞን ደሴቶች</item>
+        <item></item>
+    </string-array>
+    <string-array name="availability">
+        <item>የተጨናነቀ</item>
+        <item>ጥቅም ላይ አይደለም</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>የአካባቢ ነባሪ</item>
+        <item>ቅዳሜ</item>
+        <item>እሁድ</item>
+        <item>ሰኞ</item>
+    </string-array>
+    <string-array name="status">
+        <item>ጥቅም ላይ አይደለም</item>
+        <item>ምን አልባት</item>
+        <item>የተጨናነቀ</item>
+        <item>ከቢሮ ውጪ</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>ማርሻል ደሴቶች</item>
+        <item>ሚድዌይ ደሴት</item>
+        <item>ሃዋይ</item>
+        <item>አላስካ</item>
+        <item>የፓሲፊክ ሰዓት</item>
+        <item>ቲጁአና</item>
+        <item>አሪዞና</item>
+        <item>ቺዋዋ</item>
+        <item>የተራራ ጊዜ</item>
+        <item>መካከለኛ አሜሪካ</item>
+        <item>ማዕከላዊ ሰዓት</item>
+        <item>ሜክሲኮ ከተማ</item>
+        <item>ሳስካቼዋን</item>
+        <item>ቦጎታ</item>
+        <item>የምስራቅ ሰዓት</item>
+        <item>ቬንዙዌላ</item>
+        <item>አትላንቲክ ሰዓት (ባርቤዶስ)</item>
+        <item>ማኑስ</item>
+        <item>ሳንቲያጎ</item>
+        <item>አትላንቲክ ሰዓት (ካናዳ)</item>
+        <item>ኒውፋውንድላንድ</item>
+        <item>ብራዚሊያ</item>
+        <item>ቦነስ አይረስ</item>
+        <item>ግሪንላንድ</item>
+        <item>ሞንቴቪዲዮ</item>
+        <item>ግሬትቪከን</item>
+        <item>አዞሬስ</item>
+        <item>የኬፕ ቨርዴ ደሴቶች</item>
+        <item>ካሳብላንካ</item>
+        <item>ለንደን፣ ደብሊን</item>
+        <item>አምስተርዳም፣ በርሊን</item>
+        <item>ቤልግሬድ</item>
+        <item>ብራሰልስ</item>
+        <item>ብላዙጅ፣ ሳራዬቮ</item>
+        <item>ዊንድሆክ</item>
+        <item>W፣ አፍሪካ ሰዓት</item>
+        <item>አማን፣ ዮርዳኖስ</item>
+        <item>አቴንስ፣ ኢስታንቡል</item>
+        <item>ቤሩት፣ ሊባኖስ</item>
+        <item>ካይሮ</item>
+        <item>ሄልሲንኪ</item>
+        <item>እየሩሳሌም</item>
+        <item>ሚንስክ</item>
+        <item>ሀራሬ</item>
+        <item>ባግዳድ</item>
+        <item>ሞስኮ</item>
+        <item>ኩዌት</item>
+        <item>ናይሮቢ</item>
+        <item>ቴህራን</item>
+        <item>ባኩ</item>
+        <item>ትብሊሲ</item>
+        <item>ዬሬቫን</item>
+        <item>ዱባይ</item>
+        <item>ካቡል</item>
+        <item>ኢስላማባድ፣ ካራቺ</item>
+        <item>ኡራልስክ</item>
+        <item>ዬካተሪንበርግ</item>
+        <item>ኮልካታ</item>
+        <item>ሲሪላንካ</item>
+        <item>ካትማንዱ</item>
+        <item>አስታና</item>
+        <item>Yangon</item>
+        <item>ክራስኖያርስክ</item>
+        <item>ባንኮክ</item>
+        <item>ቤጂንግ</item>
+        <item>Hong Kong</item>
+        <item>ኢርኩትስክ</item>
+        <item>ኩዋላ ላምፑር</item>
+        <item>ፐርዝ</item>
+        <item>ታይፔ</item>
+        <item>ሲዮል</item>
+        <item>ቶኪዮ፣ ኦሳካ</item>
+        <item>ያኩትስክ</item>
+        <item>አዴላይዳ</item>
+        <item>ዳርዊን</item>
+        <item>ብሪስቤን</item>
+        <item>ሆባርት</item>
+        <item>ካንቤራ፣ ሲድኒ</item>
+        <item>ቭላዲቮስቶክ</item>
+        <item>ጉአሜ</item>
+        <item>ማጋዳን</item>
+        <item>ኦክላንድ</item>
+        <item>ፊጂ</item>
+        <item>ቶንጋ</item>
+        <item>ሲንጋፖር</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>ነባሪ የእይታ ግልጽነት</item>
+        <item>የግል</item>
+        <item>የህዝብ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/ripple_color_common"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/chunk_background">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <solid android:color="@color/common_window_background_color" />
+            <corners android:radius="@dimen/rounded_rect_radius" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

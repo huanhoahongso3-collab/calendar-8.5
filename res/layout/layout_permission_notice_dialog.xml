@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/permission_notice_dialog_margin_top" android:paddingBottom="@dimen/permission_notice_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/permission_notice_margin_start_end" android:paddingEnd="@dimen/permission_notice_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/fragment_extended_toolbar_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/permission_notice_margin_start_end" android:layout_marginEnd="@dimen/permission_notice_margin_start_end">
+                    <TextView android:id="@id/permission_notice_required" android:text="@string/permission_notice_required_description" style="@style/PermissionNoticeDescription" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" android:src="@drawable/ic_icon_calendar" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginVertical="14.0dip">
+                            <TextView android:textSize="18.0sp" android:textColor="@color/permission_notice_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_calendar" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_calendar_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" android:src="@drawable/ic_icon_contacts" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginVertical="14.0dip">
+                            <TextView android:textSize="18.0sp" android:textColor="@color/permission_notice_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_contact" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_contact_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:id="@id/permission_notice_optional" android:text="@string/permission_notice_optional_description" style="@style/PermissionNoticeDescription" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" android:src="@drawable/ic_icon_location" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginVertical="14.0dip">
+                            <TextView android:textSize="18.0sp" android:textColor="@color/permission_notice_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_location" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_location_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" android:src="@drawable/ic_icon_storage" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginVertical="14.0dip">
+                            <TextView android:textSize="18.0sp" android:textColor="@color/permission_notice_default_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_storage" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_storage_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>
+</LinearLayout>

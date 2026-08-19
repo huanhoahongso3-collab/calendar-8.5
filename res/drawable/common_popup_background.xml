@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/common_dropdown_list_stroke_margin" android:bottom="@dimen/common_dropdown_list_stroke_margin">
+        <shape android:shape="rectangle">
+            <padding android:top="@dimen/common_dropdown_list_stroke_padding" android:bottom="@dimen/common_dropdown_list_stroke_padding" />
+            <corners android:radius="@dimen/winset_dropdown_list_radius" />
+            <solid android:color="@color/common_dropdown_list_background_color" />
+        </shape>
+    </item>
+</layer-list>

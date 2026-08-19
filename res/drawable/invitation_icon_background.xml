@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/invitation_item_icon_background_size" android:width="@dimen/invitation_item_icon_background_size">
+        <shape android:shape="oval">
+            <corners android:radius="@dimen/invitation_item_radius" />
+            <solid android:color="@color/invitation_item_icon_color" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/ic_shared_view_invitation_empty" />
+</layer-list>

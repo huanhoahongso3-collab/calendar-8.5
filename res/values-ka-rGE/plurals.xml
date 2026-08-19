@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">კიდევ +%d ღონისძიება</item>
+        <item quantity="one">კიდევ +1 ღონისძიება</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">კიდევ +%d დავალება</item>
+        <item quantity="one">კიდევ +1 დავალება</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d მოვლენა</item>
+        <item quantity="one">1 მოვლენა</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d დავალება</item>
+        <item quantity="one">1 დავალება</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">იწყება %d წუთში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">იწყება %d წუთში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d დღით ადრე, %2$s საათზე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d დღით ადრე, %2$s საათზე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">მხოლოდ წასაკითხი %d ელემენტის წაშლა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მხოლოდ წასაკითხი %d ელემენტის წაშლა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">სამუდამოდ წაიშალოს %d მოვლენა?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სამუდამოდ წაიშალოს %d მოვლენა?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">წაიშალოს %d ღონისძიება, მათ შორის 1 განმეორებადი?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაიშალოს %d ღონისძიება, მათ შორის 1 განმეორებადი?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">წაიშალოს %d ელემენტი?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაიშალოს %d ელემენტი?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">%d დანართზე მეტის დამატება შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d დანართზე მეტის დამატება შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d ელემენტი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ელემენტი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%1$s-ში წაშლის დღეა %2$s. %3$d დღე დარჩა ამ მოვლენის სამუდამოდ წაშლამდე.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s-ში წაშლის დღეა %2$s. %3$d დღე დარჩა ამ მოვლენის სამუდამოდ წაშლამდე.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">წაშლამდე დარჩა %d დღე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაშლამდე დარჩა %d დღე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d დუბლირებული მოვლენა</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d დუბლირებული მოვლენა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d წუთი თვლემა</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთი თვლემა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">%d გაფრთხილებაზე მეტის დაყენება შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d გაფრთხილებაზე მეტის დაყენება შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">ყოველ %d დღეში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ყოველ %d დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">ყოველ %d საათში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ყოველ %d საათში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">ყოველ %d წუთში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ყოველ %d წუთში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">ყოველ %d თვეში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ყოველ %d თვეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">ყოველ %d კვირაში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ყოველ %d კვირაში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">ყოველ %d წელში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ყოველ %d წელში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">%d-ზე მეტი რამის არჩევა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი რამის არჩევა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">კიდევ %d მოვლენა</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">კიდევ %d მოვლენა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">დანართები (%,d ელემენტი)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დანართები (%,d ელემენტი)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">გადავიდეს 1 ღონისძიება ურნაში და წაიშალოს %d სხვა რამ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს 1 ღონისძიება ურნაში და წაიშალოს %d სხვა რამ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">გადავიდეს 1 ღონისძიება ურნაში და წაიშალოს %d შეხსენება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს 1 ღონისძიება ურნაში და წაიშალოს %d შეხსენება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">გადავიდეს 1 შეხსენება ურნაში და წაიშალოს %d ღონისძიება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს 1 შეხსენება ურნაში და წაიშალოს %d ღონისძიება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">გადავიდეს 1 შეხსენება ურნაში და წაიშალოს %d სხვა რამ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს 1 შეხსენება ურნაში და წაიშალოს %d სხვა რამ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">გადავიდეს 1 შეხსენება ურნაში და წაიშალოს %d დავალება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს 1 შეხსენება ურნაში და წაიშალოს %d დავალება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d მოვლენა გადავიდეს ურნაში?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d მოვლენა გადავიდეს ურნაში?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">გადავიდეს %d ღონისძიება ურნაში და წაიშალოს 1 შეხსენება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს %d ღონისძიება ურნაში და წაიშალოს 1 შეხსენება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d რამ გადავიდეს ურნაში?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d რამ გადავიდეს ურნაში?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">გადავიდეს %d რამ ურნაში და წაიშალოს 1 დავალება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს %d რამ ურნაში და წაიშალოს 1 დავალება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d შეხსენება გადავიდეს ურნაში?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d შეხსენება გადავიდეს ურნაში?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">გადავიდეს %d შეხსენება ურნაში და წაიშალოს 1 ღონისძიება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს %d შეხსენება ურნაში და წაიშალოს 1 ღონისძიება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">გადავიდეს %d შეხსენება ურნაში და წაიშალოს 1 დავალება?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გადავიდეს %d შეხსენება ურნაში და წაიშალოს 1 დავალება?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">მთელი %d დღის მოვლენა</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მთელი %d დღის მოვლენა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">მთელი დღის %1$d ღონისძიების დაწყების დროა %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მთელი დღის %1$d ღონისძიების დაწყების დროა %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">მთელი დღის %1$d შეხსენების დაწყების დროა %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მთელი დღის %1$d შეხსენების დაწყების დროა %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">მთელი დღის %1$d დავალების დაწყების დროა %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მთელი დღის %1$d დავალების დაწყების დროა %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">დაგეგმილია %1$d ღონისძიება, რომლის დროა %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დაგეგმილია %1$d ღონისძიება, რომლის დროა %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">დაგეგმილია %1$d შეხსენება, რომლის დროა %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დაგეგმილია %1$d შეხსენება, რომლის დროა %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">დაგეგმილია %1$d დავალება, რომლის დროა %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დაგეგმილია %1$d დავალება, რომლის დროა %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d მილი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d მილი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">მოწვეულია %d ადამიანი</item>
+        <item quantity="one">მოწვეულია %d პიროვნება</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d დღით ადრე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d დღით ადრე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d საათით ადრე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათით ადრე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d წუთით ადრე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთით ადრე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">ამ მომენტიდან %d დღეში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ მომენტიდან %d დღეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">ამ მომენტიდან %d საათში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ მომენტიდან %d საათში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">ამ მომენტიდან %d წუთში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ მომენტიდან %d წუთში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">ამ მომენტიდან %d თვეში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ მომენტიდან %d თვეში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">ამ მომენტიდან %d კვირაში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ მომენტიდან %d კვირაში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">ამ მომენტიდან %d წელში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ამ მომენტიდან %d წელში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">სათაური შემოკლდა ღონისძიების სათაურებისთვის გამოყოფილი სიგრძის შესაბამისად (%,d სიმბოლო).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სათაური შემოკლდა ღონისძიების სათაურებისთვის გამოყოფილი სიგრძის შესაბამისად (%,d სიმბოლო).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d კვირით ადრე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d კვირით ადრე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d-ზე მეტი ფერის გამოჩენა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d-ზე მეტი ფერის გამოჩენა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d დღეში.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d დღეში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d საათში.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d საათში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d წუთში.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d წუთში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის ბოლო დღეს.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის ბოლო დღეს.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის ბოლო %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის ბოლო %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის %3$s რიცხვში.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის %3$s რიცხვში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის რიგით %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d თვეში, თვის რიგით %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d კვირაში, %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d კვირაში, %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d წელში, %3$s, ბოლო დღე.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d წელში, %3$s, ბოლო დღე.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d წელში, ბოლო %3$s, %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d წელში, ბოლო %3$s, %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d წელში, %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d წელში, %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">ეს %1$s გამეორდება ყოველ %2$d წელში, რიგით %3$s %4$s, %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ეს %1$s გამეორდება ყოველ %2$d წელში, რიგით %3$s %4$s, %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">ჯამში %d-ჯერ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ჯამში %d-ხელ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">გაზიარებულია %d ადამიანთან</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">გაზიარებულია %d ადამიანთან</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">ღონისძიების, რომლის სახელია „%1$s“, თარიღია %2$s და კიდევ გაქვთ %3$d სხვა ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ღონისძიების, რომლის სახელია „%1$s“, თარიღია %2$s და კიდევ გაქვთ %3$d სხვა ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">თქვენ გაქვთ %1$d ღონისძიება გაქვთ, რომელთა თარიღია %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენ გაქვთ %1$d ღონისძიება გაქვთ, რომლის თარიღია %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ დღეს და კიდევ გაქვთ %2$d სხვა ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ დღეს და კიდევ გაქვთ %2$d სხვა ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">დღეს თქვენ გაქვთ %d ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დღეს თქვენ გაქვთ %d ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ ხვალ და კიდევ გაქვთ %2$d სხვა ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ ხვალ და კიდევ გაქვთ %2$d სხვა ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">ხვალ თქვენ გაქვთ %d ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ხვალ თქვენ გაქვთ %d ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">ღონისძიების დრო, რომლის სახელია „%1$s“, არის %2$s, %3$s და კიდევ გაქვთ %4$d სხვა ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ღონისძიების დრო, რომლის სახელია „%1$s“, არის %2$s, %3$s და კიდევ გაქვთ %4$d სხვა ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="zero">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="one">You have an event on %1$s at %2$s plus %3$d other event.</item>
+        <item quantity="two">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="few">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="many">You have an event on %1$s at %2$s plus %3$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ დღეს, %2$s საათზე და კიდევ გაქვთ %3$d სხვა ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ დღეს, %2$s საათზე და კიდევ გაქვთ %3$d სხვა ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event today at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event today at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ ხვალ, %2$s საათზე და კიდევ გაქვთ %3$d სხვა ღონისძიება.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ღონისძიება, რომლის სახელია „%1$s“, გაქვთ ხვალ, %2$s საათზე და კიდევ გაქვთ %3$d სხვა ღონისძიება.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event tomorrow at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event tomorrow at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">მინუს %d წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინუს %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">პლუს %d წუთი</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">პლუს %d წუთი</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s იწყება %2$d საათში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s იწყება %2$d საათში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s იწყება 1 საათსა და %2$d წუთში.</item>
+        <item quantity="one">%s იწყება 1 საათსა და 1 წუთში.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s იწყება %2$d წუთში.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s იწყება %2$d წუთში.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">ისინი წაიშლება სტიკერების ლანგარზე.</item>
+        <item quantity="one">ის წაიშლება სტიკერების ლანგარზე.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">წაიშალოს სტიკერების %d ნაკრები?</item>
+        <item quantity="one">წაიშალოს სტიკერების 1 ნაკრები?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">იხილეთ კიდევ %d მოვლენა</item>
+        <item quantity="one">იხილეთ კიდევ %d მოვლენა</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d კვირით ადრე, %2$s საათზე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d კვირით ადრე, %2$s საათზე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">დღე</item>
+        <item quantity="one">დღე</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">დღის წინ</item>
+        <item quantity="one">დღის წინ</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">დღე დარჩა</item>
+        <item quantity="one">დღე დარჩა</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s და კიდევ %2$d სხვა</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და კიდევ %2$d სხვა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">დარჩა %d მოვლენა</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დარჩა %d მოვლენა</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

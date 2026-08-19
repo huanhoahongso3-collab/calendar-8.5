@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/switch_frame" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/settings_divider" android:background="@color/setting_switch_divider" android:layout_width="2.0px" android:layout_height="@dimen/setting_divider_height" android:layout_marginStart="@dimen/setting_divider_margin_start" android:layout_marginEnd="@dimen/setting_divider_margin_end" />
+    <include layout="@layout/sesl_preference_widget_switch" />
+</LinearLayout>

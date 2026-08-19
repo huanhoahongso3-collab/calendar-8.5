@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:paddingTop="@dimen/allow_app_permission_scroll_indicator_padding" android:paddingBottom="@dimen/allow_app_permission_scroll_indicator_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/allow_app_permission_padding" android:paddingEnd="@dimen/allow_app_permission_padding" android:scrollIndicators="top|bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/allow_app_permission_confirm_message_text_size" android:textColor="@color/common_dialog_body_text_color" android:id="@id/allow_app_permissions_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/allow_app_permission_inner_text_view_top_bottom_padding" android:layout_marginStart="@dimen/allow_app_permission_inner_text_view_start_end_padding" android:layout_marginEnd="@dimen/allow_app_permission_inner_text_view_start_end_padding" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+</ScrollView>

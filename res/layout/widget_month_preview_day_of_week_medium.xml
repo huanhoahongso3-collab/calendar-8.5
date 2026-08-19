@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/widget_month_preview_week_height_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/widget_month_sunday_number_text_color" android:text="@string/su_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/mo_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/tu_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/we_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/th_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+    <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/fr_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+    <TextView android:textColor="@color/widget_month_preview_saturday_color" android:text="@string/sa_short_widget" style="@style/WidgetPreviewDayOfWeekTextMediumView" />
+</LinearLayout>

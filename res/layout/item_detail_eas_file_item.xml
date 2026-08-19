@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/common_list_item_background" android:paddingTop="@dimen/edit_card_add_file_eas_margin_top" android:paddingBottom="@dimen/edit_card_add_file_eas_margin_bottom" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/edit_card_add_file_eas_icon_size" android:layout_height="@dimen/edit_card_add_file_eas_icon_size" android:layout_marginEnd="@dimen/edit_card_add_file_eas_icon_margin_end">
+        <ImageView android:id="@id/eas_file_icon" android:layout_width="@dimen/edit_card_add_file_eas_icon_size" android:layout_height="@dimen/edit_card_add_file_eas_icon_size" android:src="@drawable/file_type_etc_thumbnail" android:contentDescription="@null" />
+        <ProgressBar android:id="@id/eas_file_progress" android:visibility="gone" android:layout_width="@dimen/edit_card_add_file_eas_icon_size" android:layout_height="@dimen/edit_card_add_file_eas_icon_size" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/edit_card_common_label_secondary_text_size" android:ellipsize="end" android:id="@id/eas_file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextAppearance.EditEvent_Label_basic" />
+        <TextView android:ellipsize="end" android:id="@id/eas_file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0 B" style="@style/TextAppearance.EditEvent_basic_secondary_text" />
+    </LinearLayout>
+</LinearLayout>

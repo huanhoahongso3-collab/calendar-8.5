@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d viðburðir í viðbót</item>
+        <item quantity="one">+1 viðburður í viðbót</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d verkefni í viðbót</item>
+        <item quantity="one">+1 verkefni í viðbót</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d tilvik</item>
+        <item quantity="one">1 atburður</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d verkefni</item>
+        <item quantity="one">Eitt verkefni</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Byrjar eftir %d mín.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Byrjar eftir %d mín.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d dögum áður kl. %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d degi áður kl. %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Ekki er hægt að eyða %d skrifvörðum atriðum.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að eyða %d skrifvörðu atriði.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Eyða %d viðburðum varanlega?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eyða %d viðburði varanlega?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Viltu eyða %d viðburðum, þ. á m. 1 endurt. viðb.?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eyða %d viðburði, þ. á m. 1 endurteknum viðburði?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Viltu eyða %d atriðum?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu eyða %d atriði?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Ekki er hægt að bæta við meira en %d viðhengjum.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að bæta við meira en %d viðhengi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d atriði</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d atriði</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Eytt úr %1$s þann %2$s. Þessum viðburði verður eytt varanlega eftir %3$d daga.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Eytt úr %1$s þann %2$s. Þessum viðburði verður eytt varanlega eftir %3$d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d dagar fram að eyðingu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dagur fram að eyðingu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d tvíteknir viðburðir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tvítekinn viðburður</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Þagga í %d mín.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þagga í %d mín.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Ekki er hægt að stilla fleiri en %d áminningar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að stilla fleiri en %d áminningu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Ekki er hægt að slá inn fleiri en %d stafi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að slá inn fleiri en %d staf.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Ekki er hægt að slá inn fleiri en %d stafi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að slá inn fleiri en %d staf.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Á %d daga fresti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Á %d dags fresti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Á %d klukkustunda fresti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Á %d klukkustundar fresti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Á %d mínútna fresti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Á %d mínútu fresti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Á %d mánaða fresti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Á %d mánaðar fresti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Á %d vikna fresti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Á %d viku fresti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Á %d ára fresti</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Á %d árs fresti</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Ekki er hægt að velja fleiri en %d atriði.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að velja fleiri en %d atriði.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d viðburðir í viðbót</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d viðburður í viðbót</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Viðhengi (%,d atriði)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viðhengi (%,d atriði)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Viltu færa 1 viðburð í ruslið og eyða %d atriðum í viðbót?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa 1 viðburð í ruslið og eyða %d atriði í viðbót?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Viltu færa 1 viðburð í ruslið og eyða %d áminningum?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa 1 viðburð í ruslið og eyða %d áminningu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Viltu færa 1 áminningu í ruslið og eyða %d viðburðum?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa 1 áminningu í ruslið og eyða %d viðburði?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Viltu færa 1 áminningu í ruslið og eyða %d atriðum í viðbót?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa 1 áminningu í ruslið og eyða %d atriði í viðbót?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Viltu færa 1 áminningu í ruslið og eyða %d verkefnum?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa 1 áminningu í ruslið og eyða %d verkefni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Viltu færa %d viðburði í ruslið?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d viðburð í ruslið?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Viltu færa %d viðburði í ruslið og eyða 1 áminningu?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d viðburð í ruslið og eyða 1 áminningu?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Viltu færa %d atriði í ruslið?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d atriði í ruslið?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Viltu færa %d atriði í ruslið og eyða 1 verkefni?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d atriði í ruslið og eyða 1 verkefni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Viltu færa %d áminningar í ruslið?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d áminningu í ruslið?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Viltu færa %d áminningar í ruslið og eyða 1 viðburði?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d áminningu í ruslið og eyða 1 viðburði?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Viltu færa %d áminningar í ruslið og eyða 1 verkefni?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viltu færa %d áminningu í ruslið og eyða 1 verkefni?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d heilsdagsviðburðir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d heilsdagsviðburður</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d heilsdagsviðburðir sem hefjast klukkan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d heilsdagsviðburður sem hefst klukkan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d heilsdagsáminningar sem hefjast klukkan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d heilsdagsáminning sem hefst klukkan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d heilsdagsverkefni sem hefjast klukkan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d heilsdagsverkefni sem hefst klukkan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d viðburðir á dagskrá klukkan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d viðburður á dagskrá klukkan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d tímasettar áminningar klukkan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tímasett áminning klukkan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d tímasett verkefni klukkan %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d tímasett verkefni klukkan %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d míl.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d míl.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d aðilum boðið</item>
+        <item quantity="one">%d aðila boðið</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d dögum áður</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d degi áður</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d klukkustundum áður</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d klukkustund áður</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d mínútum áður</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mínútu áður</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">eftir %d daga</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">eftir %d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">eftir %d klukkustundir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">eftir %d klukkustund</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">eftir %d mínútur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">eftir %d mínútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">eftir %d mánuði</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">eftir %d mánuð</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">eftir %d vikur</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">eftir %d viku</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">eftir %d ár</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">eftir %d ár</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Titill styttur í studda lengd fyrir titla viðburða (%,d stafir).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Titill styttur í studda lengd fyrir titla viðburða (%,d stafur).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d vikum áður</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d viku áður</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ekki er hægt að sýna meira en %d liti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ekki er hægt að sýna meira en %d lit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Þessi %1$s verður endurtekin á %2$d daga fresti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin á %2$d dags fresti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Þessi %1$s verður endurtekin á %2$d klukkustunda fresti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin á %2$d klukkustundar fresti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Þessi %1$s verður endurtekin á %2$d mínútna fresti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin á %2$d mínútu fresti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d mánaða fresti á síðasta degi mánaðarins.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d mánaðar fresti á síðasta degi mánaðarins.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d mánaða fresti síðasta %3$s þess mánaðar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d mánaðar fresti síðasta %3$s þess mánaðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d mánaða fresti á %3$s degi viðkomandi mánaðar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d mánaðar fresti á %3$s degi viðkomandi mánaðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d mánaða fresti, %3$s %4$s viðkomandi mánaðar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d mánaðar fresti, %3$s %4$s viðkomandi mánaðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d vikna fresti á %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d viku fresti á %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d ára fresti síðasta daginn í %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d árs fresti síðasta daginn í %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d ára fresti síðasta %3$s í %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d árs fresti síðasta %3$s í %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) %4$s %3$s á %2$d ára fresti.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) %4$s %3$s á %2$d árs fresti.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Þessi %1$s verður endurtekin(n) á %2$d ára fresti %3$s %4$s í %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þessi %1$s verður endurtekin(n) á %2$d árs fresti %3$s %4$s í %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d sinnum alls</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sinni alls</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Deilt með %d aðilum</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Deilt með %d aðila</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Þú ert að fara á viðburð sem heitir „%1$s“ %2$s, auk %3$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð sem heitir „%1$s“ %2$s, auk %3$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Þú ert að fara á %1$d viðburði %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á %1$d viðburð %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Þú ert að fara á viðburð sem heitir „%1$s“ í dag, auk %2$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð sem heitir „%1$s“ í dag, auk %2$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Þú ert að fara á %d viðburði í dag.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á %d viðburð í dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Þú ert að fara á viðburð sem heitir „%1$s“ á morgun, auk %2$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð sem heitir „%1$s“ á morgun, auk %2$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Þú ert að fara á %d viðburði á morgun.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á %d viðburð á morgun.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Þú ert að fara á viðburð sem heitir „%1$s“ %2$s kl. %3$s, auk %4$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð sem heitir „%1$s“ %2$s kl. %3$s auk %4$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Þú ert að fara á viðburð %1$s kl. %2$s, auk %3$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð %1$s kl. %2$s, auk %3$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Þú ert að fara á viðburð sem heitir „%1$s“ í dag kl. %2$s, auk %3$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð sem heitir „%1$s“ í dag kl. %2$s, auk %3$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Þú ert að fara á viðburð í dag kl. %1$s, auk %2$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð í dag kl. %1$s, auk %2$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Þú ert að fara á viðburð sem heitir „%1$s“ á morgun kl. %2$s, auk %3$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð sem heitir „%1$s“ á morgun kl. %2$s, auk %3$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Þú ert að fara á viðburð á morgun kl. %1$s, auk %2$d annarra viðburða.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Þú ert að fara á viðburð á morgun kl. %1$s, auk %2$d annars viðburðar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Mínus %d mín.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mínus %d mín.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plús %d mín.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plús %d mín.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">„%1$s“ hefst e. %2$d klst.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">„%1$s“ hefst e. %2$d klst.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">„%1$s“ byrjar eftir 1 klukkustund og %2$d mínútur.</item>
+        <item quantity="one">„%s“ byrjar eftir 1 klukkustund og 1 mínútu.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">„%1$s“ hefst eftir %2$d mínútur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">„%1$s“ hefst eftir %2$d mínútu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Þeir verða fjarlægðir úr límmiðabakkanum.</item>
+        <item quantity="one">Hann verður fjarlægður úr límmiðabakkanum.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Viltu eyða %d límmiðasettum?</item>
+        <item quantity="one">Viltu eyða 1 límmiðasetti?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Skoða %d aðra viðburði</item>
+        <item quantity="one">Skoða %d annan viðburð</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d vikum áður kl. %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d viku áður kl. %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">dagar</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">dagar síðan</item>
+        <item quantity="one">dagur síðan</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">dagar eftir</item>
+        <item quantity="one">dagur eftir</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s og %2$d í viðbót</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s og %2$d í viðbót</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d viðb. eftir</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d viðb. eftir</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

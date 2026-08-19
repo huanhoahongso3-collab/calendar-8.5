@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/detail_container" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.app.calendar.view.detail.DetailScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/detail_scroll_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:transitionGroup="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/detail_status_bar_space" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/detail_toolbar_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:actionBarSize" />
+            <LinearLayout android:id="@id/detail_fragment_tab_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/detail_tab_layout_margin_horizontal">
+                <com.google.android.material.tabs.TabLayout android:id="@id/detail_fragment_tab_layout" android:background="@drawable/tab_layout_background" android:layout_width="fill_parent" android:layout_height="@dimen/detail_add_tab_min_height" android:layout_marginTop="@dimen/detail_tab_layout_margin_top" android:layout_marginBottom="@dimen/detail_tab_layout_margin_bottom" app:tabGravity="fill" style="@style/DetailTabLayoutStyle" />
+            </LinearLayout>
+            <include layout="@layout/layout_detail_android_personalization_tip_card" />
+            <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/rounded_list_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/view_empty_toolbar" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.samsung.android.app.calendar.view.detail.DetailListView android:orientation="vertical" android:id="@id/detail_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <include android:layout_gravity="bottom" android:id="@id/bottom_bar_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/design_bottom_navigation_height" layout="@layout/view_detail_bottom" />
+            </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+        </LinearLayout>
+    </com.samsung.android.app.calendar.view.detail.DetailScrollView>
+    <com.samsung.android.libcalendar.common.sesl.view.CustomFloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:seslShowToolbarItemBackground="false">
+        <include layout="@layout/view_detail_toolbar" />
+    </com.samsung.android.libcalendar.common.sesl.view.CustomFloatingToolbarLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="center|bottom" android:id="@id/detail_floating_import_bottom" android:paddingBottom="@dimen/common_bottom_bar_padding_bottom" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.oneui.dividerbuttonlayout.DividerButtonLayout android:layout_gravity="center" android:id="@id/import_bottom_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoMediumFontStyle" app:itemTextAppearanceInactive="@style/RobotoMediumFontStyle" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="center|bottom" android:id="@id/detail_floating_add_bottom" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.oneui.dividerbuttonlayout.DividerButtonLayout android:layout_gravity="center" android:id="@id/add_bottom_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoMediumFontStyle" app:itemTextAppearanceInactive="@style/RobotoMediumFontStyle" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/detail_floating_bottom" android:paddingBottom="@dimen/common_bottom_bar_padding_bottom" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/detail_bottom_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoRegularFontStyle" app:itemTextAppearanceInactive="@style/RobotoRegularFontStyle" app:menu="@menu/detail_app_bar_menu" style="@style/Style.BottomNavigationView.Floating.IconText" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/widget_container" android:layout_width="@dimen/widget_today_cover_4x2_min_width" android:layout_height="@dimen/widget_today_cover_2x2_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_cover_bg" android:contentDescription="@null" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/widget_today_cover_4x2_margin_horizontal">
+        <LinearLayout android:orientation="vertical" android:id="@id/month_grid" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_4x2_month_grid_margin_top" android:layout_weight="1.0">
+            <include android:theme="@style/WidgetTodayCoverSmallDayOfWeekPreview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+            <include android:theme="@style/WidgetTodayCoverSmallWeek1Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+            <include android:theme="@style/WidgetTodayCoverSmallWeek2Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+            <include android:theme="@style/WidgetTodayCoverSmallWeek3Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+            <include android:theme="@style/WidgetTodayCoverSmallWeek4Preview" layout="@layout/widget_today_cover_2x2_today_week_preview" />
+            <include android:theme="@style/WidgetTodayCoverSmallWeek5Preview" layout="@layout/widget_today_cover_2x2_one_week_preview" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/widget_today_cover_4x2_list_event_margin_start">
+            <TextView android:textSize="@dimen/widget_today_cover_4x2_no_event_text_size" android:textColor="@color/widget_today_cover_2x2_month_header_text_color" android:gravity="center_vertical" android:id="@id/no_events" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_4x2_no_event_margin_top" android:text="@string/no_events_today_widget" android:layout_marginStart="@dimen/widget_today_cover_4x2_no_event_margin_start" android:layout_marginEnd="@dimen/widget_today_cover_4x2_no_event_margin_end" style="@style/RobotoRegularFontStyle" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="@dimen/widget_today_cover_4x2_month_header_text_margin_top" android:layout_marginEnd="@dimen/widget_today_cover_4x2_margin_horizontal">
+                    <TextView android:textSize="@dimen/widget_today_cover_4x2_month_header_text_size" android:textColor="@color/widget_today_cover_2x2_month_header_text_color" android:layout_gravity="center_vertical" android:id="@id/widget_month_header_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="5.0dip" style="@style/RobotoBoldFontStyle" />
+                    <FrameLayout android:id="@id/add_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/create_event">
+                        <ImageView android:layout_gravity="center" android:id="@id/add_button" android:focusable="false" android:clickable="false" android:layout_width="@dimen/widget_today_cover_4x2_button_size" android:layout_height="@dimen/widget_today_cover_4x2_button_size" android:src="@drawable/menu_icon_150" />
+                    </FrameLayout>
+                </LinearLayout>
+                <ListView android:theme="@style/widgetListViewStyle" android:scrollbarThumbVertical="@drawable/scrollbar_widget_cover" android:scrollbarStyle="outsideInset" android:orientation="vertical" android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_4x2_list_view_margin_top" android:layout_marginBottom="@dimen/widget_today_cover_4x2_list_view_margin_bottom" android:divider="@null" android:paddingEnd="@dimen/widget_today_cover_4x2_list_view_margin_end" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_widget_day_label_text_size">9.0dip</dimen>
+    <dimen name="today_widget_large_button_add_event_size">17.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">45.0dip</dimen>
+    <dimen name="today_widget_setting_large_header_text_size">12.0dip</dimen>
+    <dimen name="widget_day_cover_month_container_padding_top">0.0dip</dimen>
+    <dimen name="widget_day_cover_month_day_text_box_size">30.0dip</dimen>
+    <dimen name="widget_day_cover_month_day_text_size">14.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_bottom">0.0dip</dimen>
+    <dimen name="widget_month_medium_title_padding_top">0.0dip</dimen>
+    <dimen name="widget_month_medium_today_size">12.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_date_text_size">8.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_day_of_week_margin_top">0.75dip</dimen>
+    <dimen name="widget_today_cover_2x2_day_of_week_margin_top_6w">0.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_month_header_text_margin_top_5w">5.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_month_header_text_margin_top_6w">4.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_month_header_text_size">10.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_one_week_height">16.0dip</dimen>
+    <dimen name="widget_today_cover_2x2_one_week_height_6w">15.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_date_text_size">9.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_month_grid_margin_top">7.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_month_header_text_margin_top">6.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_month_header_text_size">12.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_no_event_margin_top">18.0dip</dimen>
+    <dimen name="widget_today_cover_4x2_no_event_text_size">10.5dip</dimen>
+    <dimen name="widget_today_cover_4x2_one_week_height_6w">17.0dip</dimen>
+    <dimen name="widget_today_cover_day_of_week_item_size">24.0dip</dimen>
+    <dimen name="widget_today_cover_day_of_week_text">11.5dip</dimen>
+    <dimen name="widget_today_cover_day_text">9.0dip</dimen>
+    <dimen name="widget_today_cover_header_month_height">24.0dip</dimen>
+    <dimen name="widget_today_cover_header_month_text_size">12.0dip</dimen>
+    <dimen name="widget_today_cover_preview_title_day_text">35.0dip</dimen>
+    <dimen name="widget_today_cover_title_day_text">35.0dip</dimen>
+</resources>

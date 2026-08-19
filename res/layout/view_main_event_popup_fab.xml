@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.platform.winset.CalendarFloatingActionButton android:layout_gravity="end|center" android:id="@id/floating_action_button" android:focusable="true" android:clickable="true" android:longClickable="true" android:layout_width="@dimen/floating_action_button_width" android:layout_height="@dimen/floating_action_button_height" android:contentDescription="@string/add_event" style="@style/Style.FAB"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

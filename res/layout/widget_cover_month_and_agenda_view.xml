@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper android:id="@id/month_and_agenda_container" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/cover_widget_name"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/widget_cover_today_view" />
+    <include layout="@layout/widget_list_task_cover_view" />
+</ViewFlipper>

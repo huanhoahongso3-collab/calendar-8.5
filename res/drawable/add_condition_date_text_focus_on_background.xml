@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/detail_condition_date_time_picker_focus_on_background_color" />
+    <corners android:radius="18.0dip" />
+</shape>

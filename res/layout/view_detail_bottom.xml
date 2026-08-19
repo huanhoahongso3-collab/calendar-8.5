@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/bottom_layout" android:background="@color/theme_color" android:paddingBottom="@dimen/detail_bottom_soft_button_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatButton android:theme="@style/Style.Button.Basic" android:textSize="@dimen/detail_bottom_soft_button_text_size" android:textColor="@color/theme_text_color" android:layout_gravity="bottom" android:id="@id/detail_bottom_soft_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingHorizontal="@dimen/detail_bottom_samsung_wallet_side_padding" android:paddingVertical="@dimen/detail_bottom_samsung_wallet_top_bottom_padding" app:backgroundTint="@null" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/anniversary_effect_view_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:tint="@android:color/transparent" app:lottie_autoPlay="true" app:lottie_colorFilter="@android:color/transparent" app:lottie_fileName="calendar_celebration_center.json" app:lottie_loop="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/anniversary_effect_view_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:tint="@android:color/transparent" app:lottie_autoPlay="true" app:lottie_colorFilter="@android:color/transparent" app:lottie_fileName="calendar_celebration_left.json" app:lottie_loop="true" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/anniversary_effect_view_right" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitEnd" android:tint="@android:color/transparent" app:lottie_autoPlay="true" app:lottie_colorFilter="@android:color/transparent" app:lottie_fileName="calendar_celebration_right.json" app:lottie_loop="true" />
+</merge>

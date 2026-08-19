@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/common_list_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <solid android:color="@color/common_window_background_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item>
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <solid android:color="@color/common_list_selected_background_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+    <item android:id="@android:id/mask">
+        <androidx.appcompat.util.SeslShapeDrawable android:shape="rectangle">
+            <solid android:color="@color/common_list_selected_background_color" />
+        </androidx.appcompat.util.SeslShapeDrawable>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

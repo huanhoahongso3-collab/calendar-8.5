@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/popup_content_view" android:background="@drawable/event_popup_content_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.calendar.view.common.EventPopupHeaderView android:id="@id/popup_header_view" android:layout_width="fill_parent" android:layout_height="@dimen/event_popup_header_container_height" android:paddingStart="@dimen/event_popup_list_item_padding_start" android:paddingEnd="@dimen/event_popup_list_item_padding_end" />
+    <FrameLayout android:id="@id/popup_body_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/mode_part" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/event_popup_content_bottom_margin" />
+        <include layout="@layout/layout_empty_event_and_put_sticker" />
+    </FrameLayout>
+</LinearLayout>

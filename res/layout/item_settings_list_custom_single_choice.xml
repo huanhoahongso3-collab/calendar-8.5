@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/container" android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/item_container" android:focusable="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/winset_list_item_min_height">
+        <RadioButton android:layout_gravity="center" android:id="@id/item_radio_button" android:background="@null" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/winset_list_single_choice_item_start_padding" android:layout_marginEnd="@dimen/winset_single_choice_dialog_radio_button_margin_end" />
+        <TextView android:textColor="@color/common_list_text_color_selector" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Style.SingleChoiceTextView" />
+    </LinearLayout>
+    <TextView android:id="@id/item_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/last_modified_description" android:paddingStart="68.0dip" android:paddingEnd="22.0dip" style="@style/DefaultCalendarSummaryStyle" />
+    <View android:id="@id/divider" android:layout_marginStart="@dimen/account_list_divider_margin_start" style="@style/Winset_List_Item_Divider" />
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

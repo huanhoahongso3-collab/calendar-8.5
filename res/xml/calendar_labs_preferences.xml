@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/layout_calendar_labs_description" android:selectable="false" android:key="preferences_labs_description" />
+    <androidx.preference.PreferenceCategory android:key="preferences_calendar_labs_category">
+        <com.samsung.android.app.calendar.view.settings.calendarlabs.HandwritingSwitchPreference android:title="@string/preferences_labs_calibrate_handwriting_ratio" android:key="preferences_labs_scale_writing_to_calendar_size" android:summary="@string/preferences_labs_calibrate_handwriting_ratio_summary" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

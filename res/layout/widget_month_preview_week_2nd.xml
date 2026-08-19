@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/widget_month_preview_week_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/widget_month_line_height" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/widget_month_preview_week_height">
+        <TextView android:textColor="@color/widget_month_sunday_number_text_color" android:text="@string/number_5" style="@style/WidgetMonthExtraLargePreviewDateText" />
+        <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/number_6" style="@style/WidgetMonthExtraLargePreviewDateText" />
+        <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/number_7" style="@style/WidgetMonthExtraLargePreviewDateText" />
+        <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/number_8" style="@style/WidgetMonthExtraLargePreviewDateText" />
+        <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/number_9" style="@style/WidgetMonthExtraLargePreviewDateText" />
+        <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/number_10" style="@style/WidgetMonthExtraLargePreviewDateText" />
+        <TextView android:textColor="@color/widget_month_preview_normal_day_color" android:text="@string/number_11" style="@style/WidgetMonthExtraLargePreviewDateText" />
+    </LinearLayout>
+</LinearLayout>

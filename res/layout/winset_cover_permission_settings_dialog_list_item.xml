@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/winset_dialog_permission_single_text_list_item_height_cover"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/winset_dialog_permission_list_item_icon_min_size_cover">
+        <ImageView android:id="@id/permission_icon" android:layout_width="@dimen/winset_dialog_permission_list_item_icon_size" android:layout_height="@dimen/winset_dialog_permission_list_item_icon_size" android:tint="@color/permission_dialog_body_image_background_color" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/winset_dialog_permission_list_item_primary_text_size_cover" android:textColor="@color/common_dialog_body_text_color" android:id="@id/permission_label" android:paddingTop="@dimen/winset_list_item_default_top_bottom_margin" android:paddingBottom="@dimen/winset_list_item_default_top_bottom_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_dialog_permission_list_item_primary_text_start_padding_cover" />
+</LinearLayout>

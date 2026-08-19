@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_common_extended_dummy_toolbar" />
+    <FrameLayout android:id="@id/fragment_extended_toolbar_content" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/Style.Toolbar" android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:importantForAccessibility="no" app:background="@android:color/transparent" app:layout_collapseMode="pin" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

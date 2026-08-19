@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/repeat_on_years_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/repeat_sub_option_container_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:gravity="center_horizontal" android:id="@id/repeat_on_years_button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:paddingHorizontal="@dimen/repeat_rounded_container_padding_horizontal">
+        <RadioButton android:id="@id/repeat_yearly_day" android:checked="true" style="@style/repeatOnButtonStyle" />
+        <RadioButton android:id="@id/repeat_yearly_day_of_week" style="@style/repeatOnButtonStyle" />
+        <RadioButton android:id="@id/repeat_yearly_day_of_week_on_last_week" android:visibility="gone" style="@style/repeatOnButtonStyle" />
+        <RadioButton android:id="@id/repeat_yearly_last_day" android:visibility="gone" style="@style/repeatOnButtonStyle" />
+        <RadioButton android:id="@id/repeat_yearly_select_month" android:text="@string/repeat_options_select_months_to_repeat" style="@style/repeatOnButtonStyle" />
+        <RadioButton android:id="@id/repeat_yearly_lunar_day" style="@style/repeatOnButtonStyle" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/repeat_yearly_month_picker_container" android:paddingBottom="@dimen/repeat_month_selection_picker_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/repeat_on_years_button_group" />
+</RelativeLayout>

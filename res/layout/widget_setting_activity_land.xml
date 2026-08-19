@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/widget_setting_activity" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/widget_setting_padding_display_cutout" android:background="@color/theme_color" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <View android:id="@id/widget_setting_padding_top" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <include layout="@layout/view_widget_setting_action_bar" />
+        <View android:id="@id/widget_setting_preview_empty" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:id="@id/widget_setting_padding_start" android:background="@color/theme_color" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/widget_setting_body" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/widget_setting_padding_end" app:layout_constraintStart_toEndOf="@id/widget_setting_padding_start" app:layout_constraintTop_toTopOf="parent" style="@style/WidgetSettingBodyStyle">
+                <LinearLayout android:orientation="horizontal" android:id="@id/widget_preview_container_parent" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/widget_bottom_layout_container" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="@integer/widget_setting_preview_container_percent">
+                    <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout android:gravity="center" android:id="@id/widget_preview_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <ImageView android:id="@id/cover_background_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+                        <ImageView android:id="@id/cover_background_image_blur" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/preview_container" android:layout_width="@dimen/match_parent" android:layout_height="fill_parent">
+                            <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <androidx.compose.ui.platform.ComposeView android:gravity="center" android:layout_gravity="center" android:id="@id/widget_preview_compose" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout>
+                    <View android:id="@id/widget_setting_bottom_layout_land_margin_start" android:background="@color/theme_color" android:layout_width="@dimen/widget_setting_bottom_layout_land_margin_start" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/widget_bottom_layout_container" android:background="@color/theme_color" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/widget_preview_container_parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="@integer/widget_setting_layout_bottom_container_percent">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <include android:id="@id/widget_bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/widget_setting_bottom_layout" />
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:id="@id/widget_setting_padding_end" android:background="@color/theme_color" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:id="@id/widget_setting_padding_bottom" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="@dimen/widget_setting_padding_bottom_land" />
+    </LinearLayout>
+    <View android:id="@id/widget_setting_padding_navigation_bar" android:background="@color/theme_color" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

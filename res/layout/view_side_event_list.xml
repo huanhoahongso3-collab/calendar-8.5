@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.calendar.view.sidepane.SidePaneListViewPager android:gravity="center" android:layout_gravity="center" android:id="@id/list_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.samsung.android.app.calendar.view.timeline.main.TimelineDragSuperPaneView android:id="@id/timeline_dragpane" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/event_popup_view_date_margintop" android:layout_marginStart="@dimen/event_popup_view_date_view_start_margin" />
+    <com.samsung.android.app.calendar.view.month.dragdrop.DragSuperPaneView android:id="@id/list_dragpane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

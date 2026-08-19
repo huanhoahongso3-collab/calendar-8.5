@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/item_cover_event_container" android:background="@drawable/sesl_glance_dim_effect" android:paddingTop="@dimen/widget_cover_item_margin_top" android:paddingBottom="@dimen/widget_cover_item_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/list_widget_cover_event_item_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/list_widget_cover_event_item_start_time_margin_start">
+            <FrameLayout android:gravity="center_horizontal" android:layout_width="@dimen/list_widget_cover_start_time_width" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/all_day_icon" android:visibility="gone" android:layout_width="@dimen/list_widget_cover_event_item_icon_size" android:layout_height="@dimen/list_widget_cover_event_item_icon_size" android:src="@drawable/agenda_allday" />
+                <ImageView android:layout_gravity="center" android:id="@id/reminder_all_day_icon" android:visibility="gone" android:layout_width="@dimen/list_widget_cover_event_item_icon_size" android:layout_height="@dimen/list_widget_cover_event_item_icon_size" android:src="@drawable/calendar_list_ic_reminder" />
+                <TextView android:textSize="@dimen/list_widget_cover_event_item_start_time_text_size" android:textColor="@color/list_widget_cover_title_color_dark_theme" android:id="@id/start_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:textAlignment="center" style="@style/RobotoMediumFontStyle" />
+            </FrameLayout>
+            <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/color_bar" android:layout_width="@dimen/widget_cover_item_color_bar_size_width" android:layout_height="@dimen/widget_cover_item_color_bar_height" android:src="@drawable/event_list_color_bar_background" android:layout_marginStart="@dimen/list_widget_cover_icon_bar_padding_start" android:layout_marginEnd="@dimen/list_widget_cover_icon_bar_padding_end" />
+                <ImageView android:layout_gravity="center" android:id="@id/reminder_icon" android:visibility="gone" android:layout_width="@dimen/agenda_list_item_reminder_icon_size" android:layout_height="@dimen/agenda_list_item_reminder_icon_size" android:src="@drawable/calendar_list_ic_reminder" />
+                <TextView android:textSize="@dimen/list_widget_cover_title_item_text_size" android:textColor="@color/common_list_main_text_color" android:ellipsize="end" android:gravity="start" android:layout_gravity="start" android:id="@id/widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/RobotoRegularFontStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_widget_cover_time_and_location_margin_start">
+            <FrameLayout android:id="@id/widget_time_end_and_location_margin_start" android:visibility="gone" android:layout_width="@dimen/list_widget_cover_time_margin_start" android:layout_height="fill_parent" />
+            <TextView android:textSize="@dimen/list_widget_cover_event_location_text_size" android:ellipsize="end" android:id="@id/widget_time_end_and_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="1" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/widget_attach_icon" android:visibility="gone" android:layout_width="@dimen/list_widget_cover_icon_attach_size" android:layout_height="@dimen/list_widget_cover_icon_attach_size" android:foreground="@drawable/ic_attach_paperclip_agenda_cover_widget" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center" android:id="@id/widget_icon" android:visibility="gone" android:layout_width="@dimen/list_widget_cover_icon_size" android:layout_height="@dimen/list_widget_cover_icon_size" android:src="@drawable/ic_calendar_ic_group" android:contentDescription="@null" />
+</LinearLayout>

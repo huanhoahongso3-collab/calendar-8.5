@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/view_common_ns_toolbar" />
+    <com.samsung.android.app.calendar.view.timeline.main.DayAndDetailLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="@integer/split_view_weight_sum">
+        <FrameLayout android:id="@id/day_pane_container" android:layout_width="0.0dip" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/day_pane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include layout="@layout/view_main_activity_fab" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/detail_pane_container" android:background="@drawable/detail_pane_background" android:clipChildren="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_vertical_padding" android:layout_marginBottom="@dimen/detail_pane_bottom_margin" android:foreground="@drawable/detail_pane_foreground" android:layout_marginStart="@dimen/day_and_detail_view_vertical_divider_width" android:layout_marginEnd="@dimen/detail_pane_elevation" android:elevation="@dimen/detail_pane_elevation">
+            <FrameLayout android:id="@id/detail_pane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/no_selected_event_pane" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/day_and_detail_no_selected_event_text_size" android:textColor="@color/day_and_detail_no_selected_event_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_event_selected" android:textAlignment="center" style="@style/RobotoRegularFontStyle" />
+            </FrameLayout>
+        </FrameLayout>
+    </com.samsung.android.app.calendar.view.timeline.main.DayAndDetailLayout>
+</LinearLayout>

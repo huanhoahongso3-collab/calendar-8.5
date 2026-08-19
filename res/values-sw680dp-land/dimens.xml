@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_large_button_add_event_size">22.0dip</dimen>
+    <dimen name="today_widget_large_list_event_padding_top">11.0dip</dimen>
+    <dimen name="today_widget_large_title_container_height">23.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_month_text_size">55.0dip</dimen>
+    <dimen name="today_widget_medium_setting_day_of_week_text_size">14.0dip</dimen>
+    <dimen name="today_widget_setting_large_header_text_size">16.0dip</dimen>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sticker_picker_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sticker_picker_empty_space" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/sticker_prediction_empty" android:paddingLeft="@dimen/sticker_prediction_margin_horizontal" android:paddingRight="@dimen/sticker_prediction_margin_horizontal" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sticker_prediction_margin_bottom">
+        <LinearLayout android:layout_gravity="center|bottom" android:orientation="vertical" android:id="@id/sticker_prediction_container" android:background="@drawable/sticker_prediction_popup_background" android:paddingTop="@dimen/sticker_prediction_padding_top" android:paddingBottom="@dimen/sticker_prediction_padding_bottom" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/sticker_prediction_padding_horizontal">
+            <TextView android:textSize="@dimen/sticker_prediction_title_text_size" android:textColor="@color/sticker_prediction_title_text_color" android:id="@id/prediction_categories_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/sticker_prediction_title_margin_bottom" android:scrollHorizontally="true" style="@style/RobotoMediumFontStyle" />
+            <com.samsung.android.app.calendar.view.detail.StickerHoverRecyclerView android:layout_gravity="center" android:id="@id/prediction_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/sticker_prediction_item_size" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sticker_preview_empty" android:background="@color/transparent_white" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.samsung.android.app.calendar.view.sticker.CustomLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/sticker_preview_container" android:background="@color/sticker_picker_background_color" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/first_sticker_preview_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/first_sticker_preview_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/first_emoji_preview_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:autoSizeTextType="uniform" />
+                <ImageView android:layout_gravity="end|bottom" android:id="@id/first_sticker_remove_button" android:background="@drawable/sticker_delete_icon_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/sticker_picker_preview_remove_icon_size" android:layout_height="@dimen/sticker_picker_preview_remove_icon_size" android:src="@drawable/tw_list_icon_delete_mtrl" android:scaleType="fitCenter" />
+            </FrameLayout>
+            <View android:id="@id/sticker_preview_space" android:layout_width="@dimen/sticker_picker_preview_first_second_sticker_gap" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/second_sticker_preview_image_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/second_sticker_preview_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:id="@id/second_emoji_preview_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" android:autoSizeTextType="uniform" />
+                <ImageView android:layout_gravity="end|bottom" android:id="@id/second_sticker_remove_button" android:background="@drawable/sticker_delete_icon_background" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/sticker_picker_preview_remove_icon_size" android:layout_height="@dimen/sticker_picker_preview_remove_icon_size" android:src="@drawable/tw_list_icon_delete_mtrl" android:scaleType="fitCenter" />
+            </FrameLayout>
+        </com.samsung.android.app.calendar.view.sticker.CustomLinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sticker_preview_content_divider" android:background="@color/sticker_picker_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/top_sticker_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/sticker_picker_content_divider_height" />
+    </LinearLayout>
+    <TabHost android:gravity="center_vertical" android:id="@id/sticker_tab" android:background="@color/sticker_picker_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+        <LinearLayout android:orientation="vertical" android:id="@id/sticker_picker_view" android:background="@color/sticker_picker_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.app.calendar.view.sticker.CustomRelativeLayout android:layout_gravity="bottom" android:id="@id/tab_widget_container" android:background="@color/common_main_tab_background_color" android:layout_width="fill_parent" android:layout_height="@dimen/sticker_picker_tab_widget_height" android:paddingStart="@dimen/sticker_picker_tab_widget_margin_start">
+                <HorizontalScrollView android:id="@id/tab_horizontal_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/top_sticker_divider">
+                    <TabWidget android:id="@android:id/tabs" android:background="@color/common_main_tab_background_color" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </HorizontalScrollView>
+                <View android:id="@id/top_sticker_divider" android:background="@color/top_sticker_divider_color" android:visibility="gone" android:layout_width="@dimen/top_sticker_divider_width" android:layout_height="@dimen/top_sticker_divider_height" android:layout_marginTop="@dimen/top_sticker_divider_margin_top" android:layout_marginBottom="@dimen/top_sticker_divider_margin_bottom" android:layout_marginEnd="@dimen/top_sticker_divider_margin_end" android:layout_alignParentEnd="true" />
+                <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" layout="@layout/view_sticker_picker_tab_widget" />
+            </com.samsung.android.app.calendar.view.sticker.CustomRelativeLayout>
+            <View android:background="@color/top_sticker_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/sticker_picker_content_divider_height" />
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="0.0" />
+            <FrameLayout android:id="@id/sticker_grid_layout" android:layout_width="fill_parent" android:layout_height="@dimen/sticker_picker_content_height" android:layout_weight="1.0">
+                <com.samsung.android.app.calendar.view.sticker.StickerViewPager android:id="@id/sticker_grid_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include layout="@layout/layout_top_sticker" />
+            </FrameLayout>
+            <View android:id="@id/dummy_navigation_bar" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

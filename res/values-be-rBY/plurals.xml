@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d іншых падзей</item>
+        <item quantity="one">+1 іншая падзея</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d іншых заданняў</item>
+        <item quantity="one">+1 іншае заданне</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d падзеі(-й)</item>
+        <item quantity="one">1 падзея</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">Заданні (%d шт.)</item>
+        <item quantity="one">Выканана 100%.</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Пач. праз %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Пач. праз %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Пач. праз %d хвіліны</item>
+        <item quantity="many">Пач. праз %d хвілін</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">За %1$d дзён у %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %1$d дзень у %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %1$d дні ў %2$s</item>
+        <item quantity="many">За %1$d дзён у %2$s</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Немагчыма выдаліць %d элементаў толькі для чытання.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выдаліць %d элемент толькі для чытання.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выдаліць %d элементы толькі для чытання.</item>
+        <item quantity="many">Немагчыма выдаліць %d элементаў толькі для чытання.</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Выдаліць назаўсёды %d падзей?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць назаўсёды %d падзею?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць назаўсёды %d падзеі?</item>
+        <item quantity="many">Выдаліць назаўсёды %d падзей?</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Выдаліць %d падзей, у тым ліку1 падзею, якая паўт?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d падзею, у тым ліку1 падзею, якая паўт?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d падзеі, у тым ліку1 падзею, якая паўт?</item>
+        <item quantity="many">Выдаліць %d падзей, у тым ліку1 падзею, якая паўт?</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Выдаліць элементы (%d)?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d элемент?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць элементы (%d)?</item>
+        <item quantity="many">Выдаліць элементы (%d)?</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Немагчыма дадаць больш за %d далучэнняў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма дадаць больш за %d далучэнне.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма дадаць больш за %d далучэнні.</item>
+        <item quantity="many">Немагчыма дадаць больш за %d далучэнняў.</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d элементаў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d элемент</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d элементы</item>
+        <item quantity="many">%d элементаў</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Выдалена з %1$s %2$s. %3$d дзён да выдалення гэтай падзеі назаўсёды.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдалена з %1$s %2$s. %3$d дзень да выдалення гэтай падзеі назаўсёды.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдалена з %1$s %2$s. %3$d дні да выдалення гэтай падзеі назаўсёды.</item>
+        <item quantity="many">Выдалена з %1$s %2$s. %3$d дзён да выдалення гэтай падзеі назаўсёды.</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d дзён да выдалення</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень да выдалення</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні да выдалення</item>
+        <item quantity="many">%d дзён да выдалення</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d дубляваных падзей</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дубляваная падзея</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дубляваныя падзеі</item>
+        <item quantity="many">%d дубляваных падзей</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Адкласці на %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Адкласці на %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Адкласці на %d хвіліны</item>
+        <item quantity="many">Адкласці на %d хвілін</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Немагчыма наладзіць больш за %d будзільнікаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма наладзіць больш за %d будзільнік.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма наладзіць больш за %d будзільнікі.</item>
+        <item quantity="many">Немагчыма наладзіць больш за %d будзільнікаў.</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Немагчыма ўвесці больш за %d сімвалаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш за %d сімвал.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш за %d сімвалы.</item>
+        <item quantity="many">Немагчыма ўвесці больш за %d сімвалаў.</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Немагчыма ўвесці больш за %d сімвалаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш за %d сімвал.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш за %d сімвалы.</item>
+        <item quantity="many">Немагчыма ўвесці больш за %d сімвалаў.</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Кожныя %d дзён</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Раз на %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожныя %d дні</item>
+        <item quantity="many">Кожныя %d дзён</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Кожныя %d гадзін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Раз на %d гадзіну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожныя %d гадзіны</item>
+        <item quantity="many">Кожныя %d гадзін</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Кожныя %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Кожную %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожныя %d хвіліны</item>
+        <item quantity="many">Кожныя %d хвілін</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Кожныя %d месяцаў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Кожны %d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожныя %d месяцы</item>
+        <item quantity="many">Кожныя %d месяцаў</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Кожныя %d тыдняў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Раз на %d тыдзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожныя %d тыдні</item>
+        <item quantity="many">Кожныя %d тыдняў</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Кожныя %d гадоў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Кожны %d год</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Кожныя %d гады</item>
+        <item quantity="many">Кожныя %d гадоў</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Немагчыма выбраць больш за %d элементаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма выбраць больш за %d элемент.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма выбраць больш за %d элементы.</item>
+        <item quantity="many">Немагчыма выбраць больш за %d элементаў.</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d іншых падзей</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d іншая падзея</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d іншыя падзеі</item>
+        <item quantity="many">%d іншых падзей</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Далучэнні (%,d элементаў)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Далучэнні (%,d элемент)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Далучэнні (%,d элементы)</item>
+        <item quantity="many">Далучэнні (%,d элементаў)</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Перамясціць 1 падзею ў сметніцу і выдаліць %d іншых элементаў?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць 1 падзею ў сметніцу і выдаліць %d іншы элемент?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць 1 падзею ў сметніцу і выдаліць %d іншыя элементы?</item>
+        <item quantity="many">Перамясціць 1 падзею ў сметніцу і выдаліць %d іншых элементаў?</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Перамясціць 1 падзею ў сметніцу і выдаліць %d напамінаў?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць 1 падзею ў сметніцу і выдаліць %d напамін?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць 1 падзею ў сметніцу і выдаліць %d напаміны?</item>
+        <item quantity="many">Перамясціць 1 падзею ў сметніцу і выдаліць %d напамінаў?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Перамясціць 1 напамін у сметніцу і выдаліць %d падзей?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць 1 напамін у сметніцу і выдаліць %d падзею?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць 1 напамін у сметніцу і выдаліць %d падзеі?</item>
+        <item quantity="many">Перамясціць 1 напамін у сметніцу і выдаліць %d падзей?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Перамясціць 1 напамін у сметніцу і выдаліць %d іншых элементаў?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць 1 напамін у сметніцу і выдаліць %d іншы элемент?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць 1 напамін у сметніцу і выдаліць %d іншыя элементы?</item>
+        <item quantity="many">Перамясціць 1 напамін у сметніцу і выдаліць %d іншых элементаў?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Перамясціць 1 напамін у сметніцу і выдаліць %d заданняў?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць 1 напамін у сметніцу і выдаліць %d заданне?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць 1 напамін у сметніцу і выдаліць %d заданні?</item>
+        <item quantity="many">Перамясціць 1 напамін у сметніцу і выдаліць %d заданняў?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Перамясціць %d падзей у Сметніцу?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d падзею ў Сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d падзеі ў Сметніцу?</item>
+        <item quantity="many">Перамясціць %d падзей у Сметніцу?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Перамясціць %d падзей у сметніцу і выдаліць 1 напамін?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d падзею ў сметніцу і выдаліць 1 напамін?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d падзеі ў сметніцу і выдаліць 1 напамін?</item>
+        <item quantity="many">Перамясціць %d падзей у сметніцу і выдаліць 1 напамін?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Перамясціць %d элементаў у сметніцу?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d элемент у сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d элементы ў сметніцу?</item>
+        <item quantity="many">Перамясціць %d элементаў у сметніцу?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Перамясціць %d элементаў у сметніцу і выдаліць 1 заданне?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d элемент у сметніцу і выдаліць 1 заданне?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d элементы ў сметніцу і выдаліць 1 заданне?</item>
+        <item quantity="many">Перамясціць %d элементаў у сметніцу і выдаліць 1 заданне?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Перамясціць %d напамінаў у Сметніцу?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d напамін у Сметніцу?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d напаміны ў Сметніцу?</item>
+        <item quantity="many">Перамясціць %d напамінаў у Сметніцу?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Перамясціць %d напамінаў у сметніцу і выдаліць 1 падзею?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d напамін у сметніцу і выдаліць 1 падзею?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d напаміны ў сметніцу і выдаліць 1 падзею?</item>
+        <item quantity="many">Перамясціць %d напамінаў у сметніцу і выдаліць 1 падзею?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Перамясціць %d напамінаў у сметніцу і выдаліць 1 заданне?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Перамясціць %d напамін у сметніцу і выдаліць 1 заданне?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Перамясціць %d напаміны ў сметніцу і выдаліць 1 заданне?</item>
+        <item quantity="many">Перамясціць %d напамінаў у сметніцу і выдаліць 1 заданне?</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d падзей на ўвесь дзень</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d падзея на ўвесь дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d падзеі на ўвесь дзень</item>
+        <item quantity="many">%d падзей на ўвесь дзень</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d падзей на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d падзея на ўвесь дзень, якая пачынаецца ў %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d падзеі на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+        <item quantity="many">%1$d падзей на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d напамінаў на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d напамін на ўвесь дзень, які пачынаецца ў %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d напаміны на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+        <item quantity="many">%1$d напамінаў на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d заданняў на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d заданне на ўвесь дзень, якое пачынаецца ў %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d заданні на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+        <item quantity="many">%1$d заданняў на ўвесь дзень, якія пачынаюцца ў %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d запланаваных падзей у %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d запланаваная падзея ў %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d запланаваныя падзеі ў %2$s</item>
+        <item quantity="many">%1$d запланаваных падзей у %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d запланаваных напамінаў у %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d запланаваны напамін у %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d запланаваныя напаміны ў %2$s</item>
+        <item quantity="many">%1$d запланаваных напамінаў у %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d запланаваных заданняў у %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d запланаванае заданне ў %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d запланаваныя заданні ў %2$s</item>
+        <item quantity="many">%1$d запланаваных заданняў у %2$s</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d міль</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d міля</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d мілі</item>
+        <item quantity="many">%d міль</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d чалавек запрошана</item>
+        <item quantity="one">%d чалавек запрошаны</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">За %d дзён</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %d дні</item>
+        <item quantity="many">За %d дзён</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">За %d гадзін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %d гадзіну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %d гадзіны</item>
+        <item quantity="many">За %d гадзін</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">За %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %d хвіліны</item>
+        <item quantity="many">За %d хвілін</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d дзён з гэтага моманту</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень з гэтага моманту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні з гэтага моманту</item>
+        <item quantity="many">%d дзён з гэтага моманту</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d гадзін з гэтага моманту</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіна з гэтага моманту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны з гэтага моманту</item>
+        <item quantity="many">%d гадзін з гэтага моманту</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d хвілін з гэтага моманту</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліна з гэтага моманту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны з гэтага моманту</item>
+        <item quantity="many">%d хвілін з гэтага моманту</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d месяцаў з гэтага моманту</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d месяц з гэтага моманту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d месяцы з гэтага моманту</item>
+        <item quantity="many">%d месяцаў з гэтага моманту</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d тыдняў з гэтага моманту</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тыдзень з гэтага моманту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d тыдні з гэтага моманту</item>
+        <item quantity="many">%d тыдняў з гэтага моманту</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d гадоў з гэтага моманту</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d год з гэтага моманту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гады з гэтага моманту</item>
+        <item quantity="many">%d гадоў з гэтага моманту</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Назва скарочана да даўжыні назваў падзей, якая падтрымліваецца (%,d сімвалаў).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Назва скарочана да даўжыні назваў падзей, якая падтрымліваецца (%,d сімвал).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Назва скарочана да даўжыні назваў падзей, якая падтрымліваецца (%,d сімвалы).</item>
+        <item quantity="many">Назва скарочана да даўжыні назваў падзей, якая падтрымліваецца (%,d сімвалаў).</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">За %d тыдняў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %d тыдзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %d тыдні</item>
+        <item quantity="many">За %d тыдняў</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Немагчыма паказаць больш за %d колераў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма паказаць больш за %d колер.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма паказаць больш за %d колеры.</item>
+        <item quantity="many">Немагчыма паказаць больш за %d колераў.</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Гэта %1$s будзе паўтарацца кожныя %2$d дзён.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэта %1$s будзе паўтарацца кожны %2$d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэта %1$s будзе паўтарацца кожныя %2$d дні.</item>
+        <item quantity="many">Гэта %1$s будзе паўтарацца кожныя %2$d дзён.</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Гэты %1$s будзе паўтарацца кожныя %2$d гадзін.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты %1$s будзе паўтарацца кожную %2$d гадзіну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты %1$s будзе паўтарацца кожныя %2$d гадзіны.</item>
+        <item quantity="many">Гэты %1$s будзе паўтарацца кожныя %2$d гадзін.</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Гэты %1$s будзе паўтарацца кожныя %2$d хвілін.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты %1$s будзе паўтарацца кожную %2$d хвіліну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты %1$s будзе паўтарацца кожныя %2$d хвіліны.</item>
+        <item quantity="many">Гэты %1$s будзе паўтарацца кожныя %2$d хвілін.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у апошні дзень месяца.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d месяц у апошні дзень месяца.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцы ў апошні дзень месяца.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у апошні дзень месяца.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у апошні(юю) %3$s месяца.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d месяц у апошні(юю) %3$s месяца.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцы ў апошні(юю) %3$s месяца.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у апошні(юю) %3$s месяца.</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у %3$s дзень месяца.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d месяц у %3$s дзень месяца.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцы ў %3$s дзень месяца.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у %3$s дзень месяца.</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у %3$s %4$s месяца.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d месяц у %3$s %4$s месяца.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцы ў %3$s %4$s месяца.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d месяцаў у %3$s %4$s месяца.</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d тыдняў у %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d тыдзень у %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d тыдні ў %3$s.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d тыдняў у %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў у апошні дзень %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d год у апошні дзень %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гады ў апошні дзень %3$s.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў у апошні дзень %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў у апошні(юю) %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d год у апошні(юю) %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гады ў апошні(юю) %3$s %4$s.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў у апошні(юю) %3$s %4$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d год %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гады %4$s %3$s.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў %4$s %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў у %3$s %4$s %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Гэты(ая) %1$s будзе паўтарацца раз у %2$d год у %3$s %4$s %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гады ў %3$s %4$s %5$s.</item>
+        <item quantity="many">Гэты(ая) %1$s будзе паўтарацца кожныя %2$d гадоў у %3$s %4$s %5$s.</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">У агульным %d разоў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">У агульным %d раз</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">У агульным %d разы</item>
+        <item quantity="many">У агульным %d разоў</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Абагулена з %d людзьмі</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Абагулена з %d чалавекам</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Абагулена з %d людзьмі</item>
+        <item quantity="many">Абагулена з %d людзьмі</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%2$s у вас адбудзецца падзея пад назвай «%1$s» плюс %3$d іншых падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s у вас адбудзецца падзея пад назвай «%1$s» плюс %3$d іншая падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%2$s у вас адбудзецца падзея пад назвай «%1$s» плюс %3$d іншыя падзеі.</item>
+        <item quantity="many">%2$s у вас адбудзецца падзея пад назвай «%1$s» плюс %3$d іншых падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%2$s у вас адбудзецца %1$d падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s у вас адбудзецца %1$d падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%2$s у вас адбудуцца %1$d падзеі.</item>
+        <item quantity="many">%2$s у вас адбудзецца %1$d падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Сёння ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншых падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншая падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншыя падзеі.</item>
+        <item quantity="many">Сёння ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншых падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Сёння ў вас адбудзецца %d падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння ў вас адбудзецца %d падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння ў вас адбудуцца %d падзеі.</item>
+        <item quantity="many">Сёння ў вас адбудзецца %d падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншых падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншая падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншыя падзеі.</item>
+        <item quantity="many">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» плюс %2$d іншых падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Заўтра ў вас адбудзецца %d падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заўтра ў вас адбудзецца %d падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заўтра ў вас адбудуцца %d падзеі.</item>
+        <item quantity="many">Заўтра ў вас адбудзецца %d падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">У %2$s у вас адбудзецца падзея пад назвай «%1$s» у %3$s і яшчэ %4$d падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">У %2$s у вас адбудзецца падзея пад назвай «%1$s» у %3$s і яшчэ %4$d падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">У %2$s у вас адбудзецца падзея пад назвай «%1$s» у %3$s і яшчэ %4$d падзеі.</item>
+        <item quantity="many">У %2$s у вас адбудзецца падзея пад назвай «%1$s» у %3$s і яшчэ %4$d падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="zero">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="one">You have an event on %1$s at %2$s plus %3$d other event.</item>
+        <item quantity="two">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="few">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="many">You have an event on %1$s at %2$s plus %3$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Сёння ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Сёння ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Сёння ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзеі.</item>
+        <item quantity="many">Сёння ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event today at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event today at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзей.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзея.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзеі.</item>
+        <item quantity="many">Заўтра ў вас адбудзецца падзея пад назвай «%1$s» у %2$s і яшчэ %3$d падзей.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event tomorrow at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event tomorrow at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Мінус %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Мінус %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Мінус %d хвіліны</item>
+        <item quantity="many">Мінус %d хвілін</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Плюс %d хвілін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Плюс %d хвіліна</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Плюс %d хвіліны</item>
+        <item quantity="many">Плюс %d хвілін</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s пачын. праз %2$d гадзін</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s пачын. праз %2$d гадзіну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s пачын. праз %2$d гадзіны</item>
+        <item quantity="many">%1$s пачын. праз %2$d гадзін</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s пачынаецца праз 1 гадз %2$d хв.</item>
+        <item quantity="one">%s пачынаецца праз 1 гадз 1 хв.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s пачынаецца праз %2$d хвілін.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s пачынаецца праз %2$d хвіліну.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s пачынаецца праз %2$d хвіліны.</item>
+        <item quantity="many">%1$s пачынаецца праз %2$d хвілін.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Яны будуць выдалены з вобласці налепак.</item>
+        <item quantity="one">Ён будзе выдалены з вобласці налепак.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Выдаліць наборы стыкераў (%d)?</item>
+        <item quantity="one">Выдаліць 1 набор стыкераў?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Прагляд яшчэ %d падз.</item>
+        <item quantity="one">Прагляд яшчэ %d падзею</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">За %1$d тыдняў у %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">За %1$d тыдзень у %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">За %1$d тыдні ў %2$s</item>
+        <item quantity="many">За %1$d тыдняў у %2$s</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">дзён</item>
+        <item quantity="one">дзень</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">дзён таму</item>
+        <item quantity="one">дзень таму</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">дзён засталося</item>
+        <item quantity="one">дзень застаўся</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s і %2$d іншых</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і %2$d іншая</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і %2$d іншыя</item>
+        <item quantity="many">%1$s і %2$d іншых</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">Заст. %d падзей</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Заст. %d падзея</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Заст. %d падзеі</item>
+        <item quantity="many">Заст. %d падзей</item>
+    </plurals>
+</resources>

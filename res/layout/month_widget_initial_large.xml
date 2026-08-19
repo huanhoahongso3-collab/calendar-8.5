@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/widget_initial_bg_color" android:paddingTop="@dimen/widget_month_medium_title_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/widget_month_large_padding_horizontal_preview"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/widget_month_large_content_padding_horizontal">
+        <FrameLayout android:layout_gravity="center" android:background="@drawable/widget_initial_background" android:layout_width="30.0dip" android:layout_height="18.0dip" android:layout_marginBottom="@dimen/widget_month_medium_title_padding_bottom" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginBottom="6.0dip" />
+        <FrameLayout android:layout_gravity="end" android:background="@drawable/widget_initial_background" android:layout_width="90.0dip" android:layout_height="11.0dip" android:layout_marginBottom="6.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="6.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="6.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="6.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="72.42999dip" android:layout_height="11.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/widget_month_large_content_padding_horizontal">
+        <FrameLayout android:layout_gravity="center" android:background="@drawable/widget_initial_background" android:layout_width="64.0dip" android:layout_height="18.0dip" android:layout_marginBottom="@dimen/widget_month_medium_title_padding_bottom" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginBottom="3.0dip" />
+        <FrameLayout android:layout_gravity="end" android:background="@drawable/widget_initial_background" android:layout_width="18.0dip" android:layout_height="11.0dip" android:layout_marginBottom="3.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="3.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="3.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="3.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="fill_parent" android:layout_height="11.0dip" android:layout_marginBottom="3.0dip" />
+        <FrameLayout android:background="@drawable/widget_initial_background" android:layout_width="36.0dip" android:layout_height="11.0dip" />
+    </LinearLayout>
+</LinearLayout>

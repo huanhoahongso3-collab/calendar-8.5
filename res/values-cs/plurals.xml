@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d dalších událostí</item>
+        <item quantity="one">+1 další událost</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d dalších úkolů</item>
+        <item quantity="one">+1 další úkol</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d událostí</item>
+        <item quantity="one">1 událost</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d úkolů</item>
+        <item quantity="one">1 úkol</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Začíná za %d min</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Začíná za %d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Začíná za %d min</item>
+        <item quantity="many">Začíná za %d min</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d dnů před připomenutím v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d den před připomenutím v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d dny před připomenutím v %2$s</item>
+        <item quantity="many">%1$d dnů před připomenutím v %2$s</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">%d položek jen pro čtení nelze odstranit.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d položku jen pro čtení nelze odstranit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d položky jen pro čtení nelze odstranit.</item>
+        <item quantity="many">%d položek jen pro čtení nelze odstranit.</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Odstranit trvale %d událostí?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit trvale %d událost?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit trvale %d události?</item>
+        <item quantity="many">Odstranit trvale %d událostí?</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Odstranit %d událostí, včetně 1 opak. události?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d událost, včetně 1 opakované události?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d události, včetně 1 opak. události?</item>
+        <item quantity="many">Odstranit %d událostí, včetně 1 opak. události?</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Odstranit %d položek?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d položku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d položky?</item>
+        <item quantity="many">Odstranit %d položek?</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Nelze přidat více než %d příloh.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze přidat více než %d přílohu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze přidat více než %d přílohy.</item>
+        <item quantity="many">Nelze přidat více než %d příloh.</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d položek</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d položka</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d položky</item>
+        <item quantity="many">%d položek</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Odstraněno z %1$s %2$s. Zbývá %3$d dnů do trvalého odstranění události.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstraněno z %1$s %2$s. Zbývá %3$d den do trvalého odstranění události.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstraněno z %1$s %2$s. Zbývají %3$d dny do trvalého odstranění události.</item>
+        <item quantity="many">Odstraněno z %1$s %2$s. Zbývá %3$d dnů do trvalého odstranění události.</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d dnů do odstranění</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d den do odstranění</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dny do odstranění</item>
+        <item quantity="many">%d dnů do odstranění</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d duplicitních událostí</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d duplicitní událost</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d duplicitní události</item>
+        <item quantity="many">%d duplicitních událostí</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Odložit o %d min</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odložit o %d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odložit o %d min</item>
+        <item quantity="many">Odložit o %d min</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Nelze nastavit více než %d upozornění.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze nastavit více než %d upozornění.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze nastavit více než %d upozornění.</item>
+        <item quantity="many">Nelze nastavit více než %d upozornění.</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Každých %d dnů</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Každý %d den</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Každé %d dny</item>
+        <item quantity="many">Každých %d dnů</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Každých %d hodin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Každou %d hodinu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Každé %d hodiny</item>
+        <item quantity="many">Každých %d hodin</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Každých %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Každou %d minutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Každé %d minuty</item>
+        <item quantity="many">Každých %d minut</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Každých %d měsíců</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Každý %d měsíc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Každé %d měsíce</item>
+        <item quantity="many">Každých %d měsíců</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Každých %d týdnů</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Každý %d týden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Každé %d týdny</item>
+        <item quantity="many">Každých %d týdnů</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Každých %d let</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Každý %d rok</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Každé %d roky</item>
+        <item quantity="many">Každých %d let</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Nelze vybrat více než %d položek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze vybrat více než %d položku.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze vybrat více než %d položky.</item>
+        <item quantity="many">Nelze vybrat více než %d položek.</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d dalších událostí</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d další událost</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d další události</item>
+        <item quantity="many">%d dalších událostí</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Přílohy (%,d položek)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přílohy (%,d položka)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přílohy (%,d položky)</item>
+        <item quantity="many">Přílohy (%,d položek)</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Přesunout 1 událost do Koše a odstranit %d dalších položek?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout 1 událost do Koše a odstranit %d další položku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout 1 událost do Koše a odstranit %d další položky?</item>
+        <item quantity="many">Přesunout 1 událost do Koše a odstranit %d dalších položek?</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Přesunout 1 událost do Koše a odstranit %d připomenutí?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout 1 událost do Koše a odstranit %d připomenutí?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout 1 událost do Koše a odstranit %d připomenutí?</item>
+        <item quantity="many">Přesunout 1 událost do Koše a odstranit %d připomenutí?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Přesunout 1 připomenutí do Koše a odstranit %d událostí?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout 1 připomenutí do Koše a odstranit %d událost?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout 1 připomenutí do Koše a odstranit %d události?</item>
+        <item quantity="many">Přesunout 1 připomenutí do Koše a odstranit %d událostí?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Přesunout 1 připomenutí do Koše a odstranit %d dalších položek?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout 1 připomenutí do Koše a odstranit %d další položku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout 1 připomenutí do Koše a odstranit %d další položky?</item>
+        <item quantity="many">Přesunout 1 připomenutí do Koše a odstranit %d dalších položek?</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Přesunout 1 připomenutí do Koše a odstranit %d úkolů?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout 1 připomenutí do Koše a odstranit %d úkol?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout 1 připomenutí do Koše a odstranit %d úkoly?</item>
+        <item quantity="many">Přesunout 1 připomenutí do Koše a odstranit %d úkolů?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Přesunout %d událostí do Koše?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d událost do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d události do Koše?</item>
+        <item quantity="many">Přesunout %d událostí do Koše?</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Přesunout %d událostí do Koše a odstranit 1 připomenutí?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d událost do Koše a odstranit 1 připomenutí?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d události do Koše a odstranit 1 připomenutí?</item>
+        <item quantity="many">Přesunout %d událostí do Koše a odstranit 1 připomenutí?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Přesunout %d položek do Koše?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d položku do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d položky do Koše?</item>
+        <item quantity="many">Přesunout %d položek do Koše?</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Přesunout %d položek do Koše a odstranit 1 úkol?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d položku do Koše a odstranit 1 úkol?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d položky do Koše a odstranit 1 úkol?</item>
+        <item quantity="many">Přesunout %d položek do Koše a odstranit 1 úkol?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Přesunout %d připomenutí do Koše?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d připomenutí do Koše?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d připomenutí do Koše?</item>
+        <item quantity="many">Přesunout %d připomenutí do Koše?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Přesunout %d připomenutí do Koše a odstranit 1 událost?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d připomenutí do Koše a odstranit 1 událost?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d připomenutí do Koše a odstranit 1 událost?</item>
+        <item quantity="many">Přesunout %d připomenutí do Koše a odstranit 1 událost?</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Přesunout %d připomenutí do Koše a odstranit 1 úkol?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Přesunout %d připomenutí do Koše a odstranit 1 úkol?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Přesunout %d připomenutí do Koše a odstranit 1 úkol?</item>
+        <item quantity="many">Přesunout %d připomenutí do Koše a odstranit 1 úkol?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d celodenních událostí</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d celodenní událost</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d celodenní události</item>
+        <item quantity="many">%d celodenních událostí</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d celodenních událostí začíná v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d celodenní událost začíná v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d celodenní události začínají v %2$s</item>
+        <item quantity="many">%1$d celodenních událostí začíná v %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d celodenních připomenutí začíná v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d celodenní připomenutí začíná v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d celodenní připomenutí začínají v %2$s</item>
+        <item quantity="many">%1$d celodenních připomenutí začíná v %2$s</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d celodenních úkolů začíná v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d celodenní úkol začíná v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d celodenní úkoly začínají v %2$s</item>
+        <item quantity="many">%1$d celodenních úkolů začíná v %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d plánovaných událostí v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d plánovaná událost v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d plánované události v %2$s</item>
+        <item quantity="many">%1$d plánovaných událostí v %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d naplánovaných připomenutí v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d naplánované připomenutí v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d naplánovaná připomenutí v %2$s</item>
+        <item quantity="many">%1$d naplánovaných připomenutí v %2$s</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d naplánovaných úkolů v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d naplánovaný úkol v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d naplánované úkoly v %2$s</item>
+        <item quantity="many">%1$d naplánovaných úkolů v %2$s</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d mi</item>
+        <item quantity="many">%d mi</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">Pozváno %d lidí</item>
+        <item quantity="one">Pozvána %d osoba</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d dnů před</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d den před</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dny před</item>
+        <item quantity="many">%d dnů před</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d hodin před</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hodinu před</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d hodiny před</item>
+        <item quantity="many">%d hodin před</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d minut před</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minutu před</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty před</item>
+        <item quantity="many">%d minut před</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">Za %d dnů odteď</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d den odteď</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d dny odteď</item>
+        <item quantity="many">Za %d dnů odteď</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">Za %d hodin odteď</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d hodinu odteď</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d hodiny odteď</item>
+        <item quantity="many">Za %d hodin odteď</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">Za %d minut odteď</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d minutu odteď</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d minuty odteď</item>
+        <item quantity="many">Za %d minut odteď</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">Za %d měsíců odteď</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d měsíc odteď</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d měsíce odteď</item>
+        <item quantity="many">Za %d měsíců odteď</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">Za %d týdnů odteď</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d týden odteď</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d týdny odteď</item>
+        <item quantity="many">Za %d týdnů odteď</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">Za %d let odteď</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Za %d rok odteď</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Za %d roky odteď</item>
+        <item quantity="many">Za %d let odteď</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Název musí být zkrácen na podporovanou délku pro názvy událostí (%,d znaků).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Název musí být zkrácen na podporovanou délku pro názvy událostí (%,d znak).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Název musí být zkrácen na podporovanou délku pro názvy událostí (%,d znaky).</item>
+        <item quantity="many">Název musí být zkrácen na podporovanou délku pro názvy událostí (%,d znaků).</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d týdnů před</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d týden před</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d týdny před</item>
+        <item quantity="many">%d týdnů před</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Nelze zobrazit více než %d barev.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zobrazit více než %d barvu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zobrazit více než %d barvy.</item>
+        <item quantity="many">Nelze zobrazit více než %d barev.</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">%1$s se bude opakovat každých %2$d dní.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d dny.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d dní.</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">%1$s se bude opakovat každých %2$d hodin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každou %2$d hodinu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d hodiny.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d hodin.</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">%1$s se bude opakovat každých %2$d minut.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každou %2$d minutu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d minuty.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d minut.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">%1$s se bude opakovat každých %2$d měsíců, poslední den v měsíci.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d měsíc, poslední den v měsíci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d měsíce, poslední den v měsíci.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d měsíců, poslední den v měsíci.</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">%1$s se bude opakovat každých %2$d měsíců, poslední %3$s v měsíci.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d měsíc, poslední %3$s v měsíci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d měsíce, poslední %3$s v měsíci.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d měsíců, poslední %3$s v měsíci.</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">%1$s se bude opakovat každých %2$d měsíců, %3$s den v měsíci.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d měsíc, %3$s den v měsíci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d měsíce, %3$s den v měsíci.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d měsíců, %3$s den v měsíci.</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">%1$s se bude opakovat každých %2$d měsíců, %3$s %4$s v měsíci.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d měsíc, %3$s %4$s v měsíci.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d měsíce, %3$s %4$s v měsíci.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d měsíců, %3$s %4$s v měsíci.</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">%1$s se bude opakovat každých %2$d týdnů ve %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d týden ve %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d týdny ve %3$s.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d týdnů ve %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">%1$s se bude opakovat každých %2$d let, poslední den měsíce %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d rok, poslední den měsíce %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d roky, poslední den měsíce %3$s.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d let, poslední den měsíce %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">%1$s se bude opakovat každých %2$d let, poslední %3$s měsíce %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d rok, poslední %3$s měsíce %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d roky, poslední %3$s měsíce %4$s.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d let, poslední %3$s měsíce %4$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">%1$s se bude opakovat každých %2$d let, %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d rok, %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d roky, %4$s %3$s.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d let, %4$s %3$s.</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">%1$s se bude opakovat každých %2$d let, %3$s %4$s měsíce %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s se bude opakovat každý %2$d rok, %3$s %4$s měsíce %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s se bude opakovat každé %2$d roky, %3$s %4$s měsíce %5$s.</item>
+        <item quantity="many">%1$s se bude opakovat každých %2$d let, %3$s %4$s měsíce %5$s.</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Celkem %dkrát</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Celkem %dkrát</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Celkem %dkrát</item>
+        <item quantity="many">Celkem %dkrát</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Sdíleno s %d uživateli</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sdíleno s %d uživatelem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Sdíleno se %d uživateli</item>
+        <item quantity="many">Sdíleno s %d uživateli</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%2$s máte událost nazvanou %1$s plus %3$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s máte událost nazvanou %1$s plus %3$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%2$s máte událost nazvanou %1$s plus %3$d další události.</item>
+        <item quantity="many">%2$s máte událost nazvanou %1$s plus %3$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%2$s máte %1$d událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s máte %1$d událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%2$s máte %1$d události.</item>
+        <item quantity="many">%2$s máte %1$d událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Dnes máte událost nazvanou %1$s plus %2$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes máte událost nazvanou %1$s plus %2$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes máte událost nazvanou %1$s plus %2$d další události.</item>
+        <item quantity="many">Dnes máte událost nazvanou %1$s plus %2$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Dnes máte %d událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes máte %d událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes máte %d události.</item>
+        <item quantity="many">Dnes máte %d událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Zítra máte událost nazvanou %1$s plus %2$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zítra máte událost nazvanou %1$s plus %2$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zítra máte událost nazvanou %1$s plus %2$d další události.</item>
+        <item quantity="many">Zítra máte událost nazvanou %1$s plus %2$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Zítra máte %d událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zítra máte %d událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zítra máte %d události.</item>
+        <item quantity="many">Zítra máte %d událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Máte událost nazvanou %1$s, %2$s v %3$s, plus %4$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Máte událost nazvanou %1$s, %2$s v %3$s, plus %4$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Máte událost nazvanou %1$s, %2$s v %3$s, plus %4$d další události.</item>
+        <item quantity="many">Máte událost nazvanou %1$s, %2$s v %3$s, plus %4$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Máte událost %1$s v %2$s, plus %3$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Máte událost %1$s v %2$s, plus %3$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Máte událost %1$s v %2$s, plus %3$d další události.</item>
+        <item quantity="many">Máte událost %1$s v %2$s, plus %3$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Máte událost nazvanou %1$s, dnes v %2$s, plus %3$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Máte událost nazvanou %1$s, dnes v %2$s, plus %3$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Máte událost nazvanou %1$s, dnes v %2$s, plus %3$d další události.</item>
+        <item quantity="many">Máte událost nazvanou %1$s, dnes v %2$s, plus %3$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Dnes máte událost v %1$s, plus %2$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dnes máte událost v %1$s, plus %2$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Dnes máte událost v %1$s, plus %2$d další události.</item>
+        <item quantity="many">Dnes máte událost v %1$s, plus %2$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Máte událost nazvanou %1$s, zítra v %2$s, plus %3$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Máte událost nazvanou %1$s, zítra v %2$s, plus %3$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Máte událost nazvanou %1$s, zítra v %2$s, plus %3$d další události.</item>
+        <item quantity="many">Máte událost nazvanou %1$s, zítra v %2$s, plus %3$d dalších událostí.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Zítra máte událost v %1$s, plus %2$d dalších událostí.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zítra máte událost v %1$s, plus %2$d další událost.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zítra máte událost v %1$s, plus %2$d další události.</item>
+        <item quantity="many">Zítra máte událost v %1$s, plus %2$d dalších událostí.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Minus %d minuty</item>
+        <item quantity="many">Minus %d minut</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plus %d minut</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plus %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Plus %d minuty</item>
+        <item quantity="many">Plus %d minut</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s začíná za %2$d hodin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s začíná za %2$d hodinu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s začíná za %2$d hodiny</item>
+        <item quantity="many">%1$s začíná za %2$d hodin</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s začne za 1 hodinu a %2$d minut.</item>
+        <item quantity="one">%s začne za 1 hodinu a 1 minutu.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s začíná za %2$d minut.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s začíná za %2$d minutu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s začíná za %2$d minuty.</item>
+        <item quantity="many">%1$s začíná za %2$d minut.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Budou odebrány z panelu nálepek.</item>
+        <item quantity="one">Nálepka bude odebrána z panelu nálepek.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Odstranit %d sad nálepek?</item>
+        <item quantity="one">Odstranit 1 sadu nálepek?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Zobr. %d dal. událostí</item>
+        <item quantity="one">Zobr. %d další událost</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d týdnů před připomenutím v %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d týden před připomenutím v %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$d týdny před připomenutím v %2$s</item>
+        <item quantity="many">%1$d týdnů před připomenutím v %2$s</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">dny</item>
+        <item quantity="one">den</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">dnů nazpět</item>
+        <item quantity="one">den nazpět</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">dnů zbývá</item>
+        <item quantity="one">den zbývá</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s a %2$d dalších</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s a %2$d další</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s a %2$d další</item>
+        <item quantity="many">%1$s a %2$d dalších</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">Zbývá %d udál.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zbývá %d událost</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zbývají %d udál.</item>
+        <item quantity="many">Zbývá %d udál.</item>
+    </plurals>
+</resources>

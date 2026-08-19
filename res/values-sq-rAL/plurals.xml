@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d ngjarje të tjera</item>
+        <item quantity="one">+1 ngjarje tjetër</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d detyra të tjera</item>
+        <item quantity="one">+1 detyrë tjetër</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d ngjar.</item>
+        <item quantity="one">1 ngjarje</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d detyra</item>
+        <item quantity="one">1 detyrë</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Fillon për %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Fillon për %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d ditë më parë në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ditë më parë në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Nuk mund të hiqen %d objekte lexim-vetëm.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nuk mund të hiqet %d objekt lexim-vetëm.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Të hiqen përgjithnjë %d ngjarje?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet përgjithnjë %d ngjarje?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Të hiqen %d ngjarje, përfshi 1 ngjarje përsëritëse?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të hiqet %d ngjarje, përfshi 1 ngjarje përsëritëse?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Do të heqësh %d objekte?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Do të heqësh %d objekt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">S‘mund të shtohen më shumë se %d bashkëngjitje.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S‘mund të shtohet më shumë se %d bashkëngjitje.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d objekte</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d objekt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Hequr nga %1$s më %2$s. Duhen edhe %3$d ditë deri sa kjo ngjarje të hiqet përgjithnjë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hequr nga %1$s më %2$s. Duhet edhe %3$d ditë deri sa kjo ngjarje të hiqet përgjithnjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d ditë deri sa të hiqet</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ditë deri sa të hiqet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d ngjarje të dyzuara</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ngjarje e dyzuar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Shtyje %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Shtyje %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">S’mund të cilësohen më shumë se %d sinjalizime.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të cilësohet më shumë se %d sinjalizim.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">S’mund të futësh më shumë se %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të futësh më shumë se %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">S’mund të futësh më shumë se %d shenja.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të futësh më shumë se %d shenjë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Çdo %d ditë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Çdo %d ditë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Çdo %d orë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Çdo %d orë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Çdo %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Çdo %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Çdo %d muaj</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Çdo %d muaj</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Çdo %d javë</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Çdo %d javë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Çdo %d vjet</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Çdo %d vit</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">S’mund të përzgjedhësh më shumë se %d artikuj.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të përzgjedhësh më shumë se %d artikull.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">Edhe %d ngjarje të tjera</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Edhe %d ngjarje tjetër</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Bashkëngjitjet (%,d artikuj)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bashkëngjitjet (%,d artikull)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Të çohet 1 ngjarje në Koshin e mbeturinave dhe të hiqen %d gjëra të tjera?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet 1 ngjarje në Koshin e mbeturinave dhe të hiqet %d gjë tjetër?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Të çohet 1 ngjarje në Koshin e mbeturinave dhe të hiqen %d përkujtesa?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet 1 ngjarje në Koshin e mbeturinave dhe të hiqet %d përkujtesë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Të çohet 1 përkujtesë në Koshin e mbeturinave dhe të hiqen %d ngjarje?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet 1 përkujtesë në Koshin e mbeturinave dhe të hiqet %d ngjarje?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Të çohet 1 përkujtesë te Koshi i mbeturinave dhe të hiqen %d gjëra të tjera?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet 1 përkujtesë te Koshi i mbeturinave dhe të hiqet %d gjë tjetër?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Të çohet 1 përkujtesë në Koshin e mbeturinave dhe të hiqen %d detyra?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet 1 përkujtesë në Koshin e mbeturinave dhe të hiqet %d detyrë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Të çohen %d ngjarje te Koshi i mbeturinave?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d ngjarje te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Të çohen %d ngjarje në Koshin e mbeturinave dhe të hiqet 1 përkujtesë?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d ngjarje në Koshin e mbeturinave dhe të hiqet 1 përkujtesë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Të çohen %d objekte te Koshi i mbeturinave?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d objekt te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Të çohen %d gjëra në Koshin e mbeturinave dhe të hiqet 1 detyrë?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d gjë në Koshin e mbeturinave dhe të hiqet 1 detyrë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Të çohen %d përkujtesa te Koshi i mbeturinave?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d përkujtesë te Koshi i mbeturinave?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Të çohen %d përkujtesa në Koshin e mbeturinave dhe të hiqet 1 ngjarje?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d përkujtesë në Koshin e mbeturinave dhe të hiqet 1 ngjarje?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Të çohen %d përkujtesa në Koshin e mbeturinave dhe të hiqet 1 detyrë?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Të çohet %d përkujtesë në Koshin e mbeturinave dhe të hiqet 1 detyrë?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d ngjarje gjithë ditën</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ngjarje gjithë ditën</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d ngjarje gjithë ditën fillojnë në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ngjarje gjithë ditën fillon në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d përkujtesa gjithë ditën fillojnë në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d përkujtesë gjithë ditën fillon në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d detyra gjithë ditën fillojnë në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d detyrë gjithë ditën fillon në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d ngjarje të planëzuara në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ngjarje e planëzuar në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d përkujtesa të planëzuara në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d përkujtesë e planëzuar në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d detyra të planëzuara në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d detyrë e planëzuar në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d njerëz janë ftuar</item>
+        <item quantity="one">%d person është ftuar</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">Para %d ditësh</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para %d dite</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">Para %d orësh</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para %d ore</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">Para %d minutash</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para %d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d ditë që nga tani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ditë që nga tani</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d orë që nga tani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d orë që nga tani</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minuta që nga tani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minutë që nga tani</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d muaj që nga tani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d muaj që nga tani</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d javë që nga tani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d javë që nga tani</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d vjet që nga tani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vit që nga tani</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Titulli u shkurtua në gjatësinë e mbështetur për tituj ngjarjesh (%,d shenja).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Titulli u shkurtua në gjatësinë e mbështetur për tituj ngjarjesh (%,d shenjë).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">Para %d javësh</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Para %d jave</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">S’mund të tregohen më shumë se %d ngjyra.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S’mund të tregohet më shumë se %d ngjyrë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d ditë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d ditë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d orë.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d orë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d minuta.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d minutë.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d muaj, ditën e fundit të muajit.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d muaj, ditën e fundit të muajit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d muaj, %3$s e fundit të muajit.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d muaj, %3$s e fundit të muajit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d muaj, ditën %3$s të muajit.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d muaj, ditën %3$s të muajit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d muaj, ditën %4$s %3$s të muajit.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d muaj, ditën %4$s %3$s të muajit.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d javë më %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d javë më %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d vjet, ditën e fundit të %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d vit, ditën e fundit të %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d vjet, %3$s e fundit në %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d vit, %3$s e fundit në %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d vjet më %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d vit më %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Kjo %1$s do të përsëritet çdo %2$d vjet %4$s %3$s të %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kjo %1$s do të përsëritet çdo %2$d vit %4$s %3$s të %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d herë gjithsej</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d herë gjithsej</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Bashkëndarë me %d persona</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bashkëndarë me %d person</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Ke një ngjarje të quajtur %1$s më %2$s plus %3$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje të quajtur %1$s më %2$s plus %3$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Ke %1$d ngjarje më %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke %1$d ngjarje më %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Ke një ngjarje të quajtur %1$s sot plus %2$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje të quajtur %1$s sot plus %2$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Ke %d ngjarje sot.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke %d ngjarje sot.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Ke një ngjarje të quajtur %1$s nesër plus %2$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje të quajtur %1$s nesër plus %2$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Ke %d ngjarje nesër.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke %d ngjarje nesër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Ke një ngjarje të quajtur %1$s më %2$s në %3$s plus %4$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje të quajtur %1$s më %2$s në %3$s plus %4$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Ke një ngjarje më %1$s në %2$s plus %3$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje më %1$s në %2$s plus %3$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Ke një ngjarje të quajtur %1$s sot në %2$s plus %3$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje të quajtur %1$s sot në %2$s plus %3$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Ke një ngjarje sot në %1$s plus %2$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje sot në %1$s plus %2$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Ke një ngjarje të quajtur %1$s nesër në %2$s plus %3$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje të quajtur %1$s nesër në %2$s plus %3$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Ke një ngjarje nesër në %1$s plus %2$d ngjarje të tjera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ke një ngjarje nesër në %1$s plus %2$d ngjarje tjetër.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plus %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plus %d minutë</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s fillon pas %2$d orësh</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s fillon pas %2$d ore</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s fillon për 1 orë dhe %2$d minuta.</item>
+        <item quantity="one">%s fillon për 1 orë dhe 1 minutë.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s fillon pas %2$d minutash.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s fillon pas %2$d minute.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Ato do të hiqen nga tabakaja e adezivëve.</item>
+        <item quantity="one">Do të hiqet nga tabakaja e adezivëve.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Do të heqësh %d grupe adezivësh?</item>
+        <item quantity="one">Do ta heqësh 1 grup adezivësh?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Shih edhe %d ngjarje</item>
+        <item quantity="one">Shih edhe %d ngjarje</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d javë më parë në %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d javë më parë në %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">ditë</item>
+        <item quantity="one">ditë</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">ditë më parë</item>
+        <item quantity="one">ditë më parë</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">ditë mbetur</item>
+        <item quantity="one">ditë mbetur</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s dhe %2$d të tjera</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s dhe %2$d tjetër</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d ngjarje mbeten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ngjarje mbetet</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

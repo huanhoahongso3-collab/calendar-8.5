@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="sesl_glance_combine_primary_medium_circle_padding">@dimen/circle_padding_52</item>
+    <dimen name="sesl_glance_combine_primary_medium_circle_size">52.0dip</dimen>
+    <dimen name="sesl_glance_combine_primary_with_2texts_tiny_icon_size">16.0dip</dimen>
+    <dimen name="sesl_glance_combine_primary_with_text_tiny_icon_size">26.0dip</dimen>
+</resources>

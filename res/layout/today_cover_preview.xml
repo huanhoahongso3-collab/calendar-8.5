@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/today_widget_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/today_widget_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:id="@id/today_widget_sub_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/widget_cover_month_header_preview" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_today_cover_preview_bottom_view_margin_top" android:paddingStart="@dimen/widget_today_cover_preview_padding_start" android:paddingEnd="@dimen/widget_today_cover_preview_padding_end">
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/left_move_month_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="42.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/left_move_month_button" android:clickable="false" android:src="@drawable/calendar_cover_previous_icon" android:tint="@color/widget_today_cover_preview_icon_tint_color" android:contentDescription="@string/accessibility_previous_month_button" android:alpha="0.7" style="@style/WidgetCoverNextPreviousStyle" />
+            </FrameLayout>
+            <TextView android:textSize="@dimen/widget_today_cover_header_month_text_size" android:textColor="@color/widget_today_cover_preview_text_color" android:id="@id/header_month_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/month_january" android:maxLines="1" android:includeFontPadding="false" style="@style/RobotoMediumFontStyle" />
+            <FrameLayout android:layout_gravity="center_vertical" android:id="@id/right_move_month_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/right_move_month_button" android:clickable="false" android:src="@drawable/calendar_cover_previous_icon" android:tint="@color/widget_today_cover_preview_icon_tint_color" android:contentDescription="@string/accessibility_next_month_button" android:alpha="0.7" android:rotation="180.0" style="@style/WidgetCoverNextPreviousStyle" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:paddingStart="@dimen/widget_today_cover_preview_padding_start" android:paddingEnd="@dimen/widget_today_cover_preview_padding_end">
+            <LinearLayout android:orientation="vertical" android:layout_width="188.0dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                <include android:theme="@style/WidgetTodayCoverPreviewMonth.Week" layout="@layout/widget_today_cover_day_of_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverPreviewMonth.Week1" layout="@layout/widget_today_cover_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverPreviewMonth.Week2" layout="@layout/widget_today_cover_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverPreviewMonth.Week3" layout="@layout/widget_today_cover_one_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverPreviewMonth.Week4" layout="@layout/widget_today_cover_today_week_preview" />
+                <include android:theme="@style/WidgetTodayCoverPreviewMonth.Week5" layout="@layout/widget_today_cover_one_week_preview" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/widget_today_cover_preview_right_side_margin_start">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/widget_today_cover_preview_title_day_text" android:textColor="@color/widget_today_cover_preview_text_color" android:gravity="center" android:id="@id/day_text" android:layout_width="wrap_content" android:layout_height="@dimen/widget_today_cover_day_label_height" android:layout_marginTop="4.0dip" android:text="@string/number_24" android:fontFamily="@string/font_sec_num" android:textFontWeight="400" />
+                    <TextView android:textColor="@color/widget_today_cover_preview_week_day_text_color" android:layout_gravity="end|bottom" android:id="@id/week_day_text" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_title_week_day_height" android:layout_marginBottom="4.0dip" android:text="@string/thursday_thu" android:layout_marginStart="5.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/widget_today_cover_title_week_day_text_min_size" android:autoSizeMaxTextSize="@dimen/widget_today_cover_title_week_day_text_max_size" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/today_event_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/widget_today_cover_preview_selected_day_event_list_margin_top">
+                    <include android:theme="@style/WidgetTodayCoverPreviewList.Item1" layout="@layout/widget_cover_today_event_item_preview" />
+                    <include android:theme="@style/WidgetTodayCoverPreviewList.Item2" layout="@layout/widget_cover_today_event_item_preview" />
+                    <include android:theme="@style/WidgetTodayCoverPreviewList.Item3" layout="@layout/widget_cover_today_event_item_preview" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

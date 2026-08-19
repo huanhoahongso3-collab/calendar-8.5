@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/add_condition_date_time_divider" />
+    <corners android:radius="@dimen/add_viewholder_condition_set_date_time_divider_radius" />
+</shape>

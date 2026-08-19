@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d muud sündmust</item>
+        <item quantity="one">+1 muu sündmus</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d muud ülesannet</item>
+        <item quantity="one">+1 muu ülesanne</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d sündmust</item>
+        <item quantity="one">1 sündmus</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d ülesannet</item>
+        <item quantity="one">1 ülesanne</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Algab %d min pärast</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Algab %d min pärast</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d päeva enne kell %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d päev enne kell %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">%d kirjutuskaitstud üksust ei saa kustutada.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kirjutuskaitstud üksust ei saa kustutada.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Kas kustutada jäädavalt %d sündmust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas kustutada jäädavalt %d sündmus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Kas kustutada %d sündmust, sh 1 korduv sündmus?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas kustutada %d sündmus, sh 1 korduv sündmus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Kas kustutada %d üksust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas kustutada %d üksus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Ei saa lisada üle %d manuse.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa lisada üle %d manuse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d üksust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d üksus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Kustutatud asukohast %1$s %2$s. %3$d päeva pärast kustutatakse see sündmus jäädavalt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kustutatud asukohast %1$s %2$s. %3$d päeva pärast kustutatakse see sündmus jäädavalt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d päeva kustutamiseni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev kustutamiseni</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d dubleeritud sündmust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dubleeritud sündmus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Kordus %d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kordus %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Ei saa määrata üle %d märguande.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa määrata üle %d märguande.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa sisestada üle %d märgi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Iga %d päeva järel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iga %d päeva järel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Iga %d tunni järel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iga %d tunni järel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Iga %d minuti järel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iga %d minuti järel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Iga %d kuu tagant</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iga %d kuu tagant</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Iga %d nädala järel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iga %d nädala järel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Iga %d aasta tagant</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Iga %d aasta tagant</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Ei saa valida üle %d üksuse.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa valida üle %d üksuse.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">Veel %d sündmust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Veel %d sündmus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Manused (%,d üksust)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Manused (%,d üksus)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Kas teisaldada 1 sündmus prügikasti ja kustutada veel %d üksust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada 1 sündmus prügikasti ja kustutada veel %d üksus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Kas teisaldada 1 sündmus prügikasti ja kustutada %d meeldetuletust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada 1 sündmus prügikasti ja kustutada %d meeldetuletus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Kas teisaldada 1 meeldetuletus prügikasti ja kustutada %d sündmust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada 1 meeldetuletus prügikasti ja kustutada %d sündmus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Kas teisaldada 1 meeldetuletus prügikasti ja kustutada veel %d üksust?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada 1 meeldetuletus prügikasti ja kustutada veel %d üksus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Kas teisaldada 1 meeldetuletus prügikasti ja kustutada %d ülesannet?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada 1 meeldetuletus prügikasti ja kustutada %d ülesanne?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Kas teisaldada %d sündmust prügikasti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d sündmus prügikasti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Kas teisaldada %d sündmust prügikasti ja kustutada 1 meeldetuletus?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d sündmus prügikasti ja kustutada 1 meeldetuletus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Kas teisaldada %d üksust prügikasti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d üksus prügikasti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Kas teisaldada %d üksust prügikasti ja kustutada 1 ülesanne?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d üksus prügikasti ja kustutada 1 ülesanne?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Kas teisaldada %d meeldetuletust prügikasti?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d meeldetuletus prügikasti?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Kas teisaldada %d meeldetuletust prügikasti ja kustutada 1 sündmus?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d meeldetuletus prügikasti ja kustutada 1 sündmus?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Kas teisaldada %d meeldetuletust prügikasti ja kustutada 1 ülesanne?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas teisaldada %d meeldetuletus prügikasti ja kustutada 1 ülesanne?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d kogupäeva sündmust</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kogupäeva sündmus</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d kogu päeva kestvat üritust algusega %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d kogu päeva kestev üritus algusega %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d kogu päeva kestvat meeldetuletust algusega %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d kogu päeva kestev meeldetuletus algusega %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d kogu päeva kestvat ülesannet algusega %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d kogu päeva kestev ülesanne algusega %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d ajastatud sündmust kell %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ajastatud sündmus kell %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d ajastatud meeldetuletust kell %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ajastatud meeldetuletus kell %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d ajastatud ülesannet kell %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ajastatud ülesanne kell %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d miili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d miili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d inimest kutsutud</item>
+        <item quantity="one">%d isik kutsutud</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d päeva varem</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev varem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d tundi varem</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund varem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d minutit varem</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min varem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d päeva alates praegusest</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev alates praegusest</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d tundi alates praegusest</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund alates praegusest</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minutit alates praegusest</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut alates praegusest</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d kuud alates praegusest</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kuu alates praegusest</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d nädalat alates praegusest</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nädal alates praegusest</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d aastat alates praegusest</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aasta alates praegusest</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Pealkiri on lühendatud sündmuste pealkirjade toetatud pikkuseni (%,d tähemärki).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pealkiri on lühendatud sündmuste pealkirjade toetatud pikkuseni (%,d tähemärk).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d nädalat varem</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nädal varem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Ei saa kuvada üle %d värvi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa kuvada üle %d värvi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">See %1$s kordub iga %2$d päeva tagant.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d päeva tagant.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">See %1$s kordub iga %2$d tunni tagant.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d tunni tagant.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">See %1$s kordub iga %2$d minuti tagant.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d minuti tagant.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu viimane päev.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu viimane päev.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu viimane %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu viimane %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu %3$s päev.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu %3$s päev.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d kuu tagant, kui käes on kuu %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">See %1$s kordub iga %2$d nädala tagant, kui käes on %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d nädala tagant, kui käes on %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">See %1$s kordub iga %2$d aasta tagant, kui käes on kuu %3$s viimane päev.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d aasta tagant, kui käes on kuu %3$s viimane päev.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">See %1$s kordub iga %2$d aasta tagant, kui käes on kuu %4$s viimane %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d aasta tagant, kui käes on kuu %4$s viimane %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">See %1$s kordub iga %2$d aasta tagant, kui käes on %4$s %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d aasta tagant, kui käes on %4$s %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">See %1$s kordub iga %2$d aasta tagant, kui käes on kuu %5$s %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">See %1$s kordub iga %2$d aasta tagant, kui käes on kuu %5$s %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Kokku %d korda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kokku %d kord</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Jagatud %d inimesega</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jagatud %d inimesega</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Teil on %2$s sündmus %1$s ja veel %3$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on %2$s sündmus %1$s ja veel %3$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Teil on %2$s %1$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on %2$s %1$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Teil on täna sündmus %1$s ja veel %2$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on täna sündmus %1$s ja veel %2$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Teil on täna %d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on täna %d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Teil on homme sündmus %1$s ja veel %2$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on homme sündmus %1$s ja veel %2$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Teil on homme %d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on homme %d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Teil on %2$s kell %3$s sündmus %1$s ja veel %4$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on %2$s kell %3$s sündmus %1$s ja veel %4$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="zero">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="one">You have an event on %1$s at %2$s plus %3$d other event.</item>
+        <item quantity="two">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="few">You have an event on %1$s at %2$s plus %3$d other events.</item>
+        <item quantity="many">You have an event on %1$s at %2$s plus %3$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Teil on täna kell %2$s sündmus %1$s ja veel %3$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on täna kell %2$s sündmus %1$s ja veel %3$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event today at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event today at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event today at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Teil on homme kell %2$s sündmus %1$s ja veel %3$d sündmust.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teil on homme kell %2$s sündmus %1$s ja veel %3$d sündmus.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="zero">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="one">You have an event tomorrow at %1$s plus %2$d other event.</item>
+        <item quantity="two">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="few">You have an event tomorrow at %1$s plus %2$d other events.</item>
+        <item quantity="many">You have an event tomorrow at %1$s plus %2$d other events.</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Miinus %d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Miinus %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Pluss %d minutit</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pluss %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s algab %2$d tunni pärast</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s algab %2$d tunni pärast</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s algab 1 tunni ja %2$d minuti pärast.</item>
+        <item quantity="one">%s algab 1 tunni ja 1 minuti pärast.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s algab %2$d minuti pärast.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s algab %2$d minuti pärast.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Need eemaldatakse kleebiste salvest.</item>
+        <item quantity="one">See eemaldatakse kleebiste salvest.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Kas kustutada %d kleebiste komplekti?</item>
+        <item quantity="one">Kas kustutada 1 kleebiste komplekt?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Kuva veel %d sündmust</item>
+        <item quantity="one">Kuva veel %d sündmus</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d nädalat enne kell %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d nädal enne kell %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">päeva</item>
+        <item quantity="one">päev</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">päeva tagasi</item>
+        <item quantity="one">päev tagasi</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">päeva jäänud</item>
+        <item quantity="one">päev jäänud</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s ja veel %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ja veel %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d sündmust jäänud</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sündmus jäänud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d iba pang kaganapan</item>
+        <item quantity="one">+1 iba pang kaganapan</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d iba pang gawain</item>
+        <item quantity="one">+1 iba pang gawain</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d (na) kaganapan</item>
+        <item quantity="one">1 kaganapan</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d gawain</item>
+        <item quantity="one">1 gawain</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Magsisimula sa loob ng %d min</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magsisimula sa loob ng %d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d araw bago sa ganap na %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d araw bago sa ganap na %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Hindi matanggal ang %d read-only na item.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi matanggal ang %d read-only na item.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Permanenteng tanggalin ang %d kaganapan?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Permanenteng tanggalin ang %d kaganapan?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Tanggalin ang %d kaganapan, kabilang ang 1 umuulit na kaganapan?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d kaganapan, kabilang ang 1 umuulit na kaganapan?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Tanggalin ang %d item?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d item?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Hindi makadaragdag ng higit sa %d attachment.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makadaragdag ng higit sa %d attachment.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d item</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d item</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Tinanggal mula sa %1$s noong %2$s. %3$d araw ang nalalabi bago permanenteng tanggalin ang kaganapan na ito.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tinanggal mula sa %1$s noong %2$s. %3$d araw ang nalalabi bago permanenteng tanggalin ang kaganapan na ito.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d araw bago tanggalin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw bago tanggalin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d magkatulad na kaganapan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d magkatulad na kaganapan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">I-snooze nang %d min</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">I-snooze nang %d min</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Hindi makaka-set ng higit sa %d alerto.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makaka-set ng higit sa %d alerto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Bawat %d araw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d araw</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Bawat %d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Bawat %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Bawat %d buwan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d buwan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Bawat %d linggo</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d linggo</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Tuwing %d taon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bawat %d taon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Hindi makapili ng higit sa %d item.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapili ng higit sa %d item.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d pang kaganapan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d pang kaganapan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Mga attachment (%,d items)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mga attachment (%,d items)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Ilipat ang 1 kaganapan papuntang Trash at tanggalin ang %d pang ibang item?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang 1 kaganapan papuntang Trash at tanggalin ang %d pang ibang item?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Ilipat ang 1 kaganapan papuntang Trash at tanggalin ang %d paalala?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang 1 kaganapan papuntang Trash at tanggalin ang %d paalala?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Ilipat ang 1 paalala papuntang Trash at tanggalin ang %d kaganapan?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang 1 paalala papuntang Trash at tanggalin ang %d kaganapan?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Ilipat ang 1 paalala papuntang Trash at tanggalin ang %d pang ibang item?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang 1 paalala papuntang Trash at tanggalin ang %d pang ibang item?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Ilipat ang 1 paalala papuntang Trash at tanggalin ang %d gawain?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang 1 paalala papuntang Trash at tanggalin ang %d gawain?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Ilipat ang %d kaganapan sa Trash?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d kaganapan sa Trash?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Ilipat ang %d kaganapan papuntang Trash at tanggalin ang 1 paalala?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d kaganapan papuntang Trash at tanggalin ang 1 paalala?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Ilipat ang %d item sa Trash?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d item sa Trash?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Ilipat ang %d item papuntang Trash at tanggalin ang 1 gawain?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d item papuntang Trash at tanggalin ang 1 gawain?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Ilipat ang %d paalala sa Trash?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d paalala sa Trash?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Ilipat ang %d paalala papuntang Trash at tanggalin ang 1 kaganapan?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d paalala papuntang Trash at tanggalin ang 1 kaganapan?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Ilipat ang %d paalala papuntang Trash at tanggalin ang 1 gawain?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ilipat ang %d paalala papuntang Trash at tanggalin ang 1 gawain?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d buong araw na kaganapan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d buong araw na kaganapan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%1$d buong-araw na kaganapang magsisimula sa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d buong-araw na kaganapang magsisimula sa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%1$d buong-araw na paalala na magsisimula sa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d buong-araw na paalala na magsisimula sa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%1$d buong-araw na gawaing magsisimula sa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d buong-araw na gawaing magsisimula sa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%1$d naka-schedule na kaganapan sa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d naka-schedule na kaganapan sa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%1$d naka-schedule na paalala sa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d naka-schedule na paalala sa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%1$d naka-schedule na gawain sa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d naka-schedule na gawain sa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d tao ang inimbita</item>
+        <item quantity="one">%d tao ang inimbita</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d araw bago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw bago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d oras bago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras bago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d min bago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d min bago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d araw mula ngayon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw mula ngayon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">%d oras mula ngayon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras mula ngayon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">%d minuto mula ngayon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto mula ngayon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">%d buwan mula ngayon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d buwan mula ngayon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">%d linggo mula ngayon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d linggo mula ngayon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">%d taon mula ngayon</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taon mula ngayon</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Pinaikli ang pamagat sa suportadong haba ng mga pamagat ng kaganapan (%,d character).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pinaikli ang pamagat sa suportadong haba ng mga pamagat ng kaganapan (%,d character).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d linggo bago</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d linggo bago</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Hindi maipakita ang higit sa %d kulay.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi maipakita ang higit sa %d kulay.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Uulit itong %1$s bawat %2$d araw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d araw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Uulit itong %1$s bawat %2$d oras.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d oras.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Uulit itong %1$s bawat %2$d minuto.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d minuto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Uulit itong %1$s bawat %2$d buwan sa huling araw ng buwan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d buwan sa huling araw ng buwan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Uulit itong %1$s bawat %2$d buwan sa huling %3$s ng buwan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d buwan sa huling %3$s ng buwan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Uulit itong %1$s bawat %2$d buwan sa %3$s araw ng buwan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d buwan sa %3$s araw ng buwan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Uulit itong %1$s bawat %2$d buwan sa %3$s %4$s ng buwan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d buwan sa %3$s %4$s ng buwan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Uulit itong %1$s bawat %2$d linggo sa %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d linggo sa %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Uulit itong %1$s bawat %2$d taon sa huling araw ng %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d taon sa huling araw ng %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Uulit itong %1$s bawat %2$d taon sa huling %3$s sa %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d taon sa huling %3$s sa %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Uulit itong %1$s bawat %2$d taon sa %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d taon sa %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Uulit itong %1$s bawat %2$d taon sa %3$s %4$s ng %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uulit itong %1$s bawat %2$d taon sa %3$s %4$s ng %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d beses na kabuuan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d beses na kabuuan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Ibinahagi sa %d tao</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ibinahagi sa %d tao</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">May kaganapan kang tinatawag na %1$s sa %2$s at %3$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan kang tinatawag na %1$s sa %2$s at %3$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Mayroon kang %1$d kaganapan sa %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mayroon kang %1$d kaganapan sa %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">May kaganapan kang tinatawag na %1$s ngayong araw at %2$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan kang tinatawag na %1$s ngayong araw at %2$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Mayroon kang %d kaganapan ngayong araw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mayroon kang %d kaganapan ngayong araw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">May kaganapan kang tinatawag na %1$s bukas at %2$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan kang tinatawag na %1$s bukas at %2$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Mayroon kang %d kaganapan bukas.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mayroon kang %d kaganapan bukas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">May kaganapan kang tinatawag na %1$s sa %2$s sa ganap na %3$s at %4$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan kang tinatawag na %1$s sa %2$s sa ganap na %3$s at %4$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">May kaganapan ka bukas sa %1$s sa %2$s at %3$d iba pang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan ka bukas sa %1$s sa %2$s at %3$d iba pang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">May kaganapan kang tinatawag na %1$s ngayong araw sa ganap na %2$s at %3$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan kang tinatawag na %1$s ngayong araw sa ganap na %2$s at %3$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">May kaganapan ka ngayong araw sa ganap na %1$s at %2$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan ka ngayong araw sa ganap na %1$s at %2$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">May kaganapan kang tinatawag na %1$s bukas sa ganap na %2$s at %3$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan kang tinatawag na %1$s bukas sa ganap na %2$s at %3$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">May kaganapan ka bukas sa ganap na %1$s at %2$d pang ibang kaganapan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">May kaganapan ka bukas sa ganap na %1$s at %2$d pang ibang kaganapan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Minus %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Minus %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Plus %d minuto</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Plus %d minuto</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">Magsisimula ang %1$s sa loob ng %2$d oras</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magsisimula ang %1$s sa loob ng %2$d oras</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">Magsisimula ang %1$s sa loob ng 1 oras at %2$d minuto.</item>
+        <item quantity="one">Magsisimula ang %s sa loob ng 1 oras at 1 minuto.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">Magsisimula ang %1$s sa loob ng %2$d minuto.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Magsisimula ang %1$s sa loob ng %2$d minuto.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Aalisin ang mga ito mula sa sticker tray.</item>
+        <item quantity="one">Aalisin ito mula sa sticker tray.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Tanggalin ang %d sticker set?</item>
+        <item quantity="one">Tanggalin ang 1 sticker set?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Tingnan ang %d pang kaganapan</item>
+        <item quantity="one">Tingnan ang %d pang kaganapan</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d linggo bago sa ganap na %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d linggo bago sa ganap na %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">araw</item>
+        <item quantity="one">araw</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">araw ang nakalipas</item>
+        <item quantity="one">araw ang nakalipas</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">araw ang nalalabi</item>
+        <item quantity="one">araw ang nalalabi</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s at %2$d pa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s at %2$d pa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d kaganapan ang nalalabi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kaganapan ang nalalabi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

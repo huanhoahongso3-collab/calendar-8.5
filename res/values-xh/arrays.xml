@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Cities">
+        <item>iMidway</item>
+        <item>E-Honolulu</item>
+        <item>I-Hawaii</item>
+        <item>EAlaska</item>
+        <item>I-Anchorage</item>
+        <item>I-San Francisco</item>
+        <item>I-Vancouver</item>
+        <item>I-Seattle</item>
+        <item>iLos Angeles</item>
+        <item>Itijuana</item>
+        <item>Ikhaligari</item>
+        <item>I-Phoenix</item>
+        <item>Mazatlan</item>
+        <item>E-Denver</item>
+        <item>IMexico City</item>
+        <item>I-Winnipeg</item>
+        <item>I-Diego Garcia</item>
+        <item>I-Dallas</item>
+        <item>E-Chicago</item>
+        <item>iToronto</item>
+        <item>I-Miami</item>
+        <item>iLima</item>
+        <item>E­QUITO</item>
+        <item>I-Washington DC</item>
+        <item>I-Ottawa</item>
+        <item>ENew York</item>
+        <item>E­Bogota</item>
+        <item>ESantiago</item>
+        <item>ELa Paz</item>
+        <item>ECaracas</item>
+        <item>EBuenos Aires</item>
+        <item>ENewfoundland</item>
+        <item>"ESt. John's"</item>
+        <item>ESao Paulo</item>
+        <item>I-Brasilia</item>
+        <item>ERio de Janeiro</item>
+        <item>I-Fernando de Noronha</item>
+        <item>i-Azores</item>
+        <item>ELisbon</item>
+        <item>iCasablanca</item>
+        <item>EDublin</item>
+        <item>Rabat</item>
+        <item>Madrid</item>
+        <item>Ukuma</item>
+        <item>iLondon</item>
+        <item>I-Kingston</item>
+        <item>E­Barcelona</item>
+        <item>E-Paris</item>
+        <item>EAlgiers</item>
+        <item>I-Tunis</item>
+        <item>ETripoli</item>
+        <item>EBerlin</item>
+        <item>iRome</item>
+        <item>E­Prague</item>
+        <item>EKinshasa</item>
+        <item>EStockholm</item>
+        <item>EBratislava</item>
+        <item>IKapa</item>
+        <item>EBudapest</item>
+        <item>iWarsaw</item>
+        <item>EKaliningrad</item>
+        <item>ESofia</item>
+        <item>i-Athenes (e-Atene)</item>
+        <item>Lviv</item>
+        <item>I-Helsinki</item>
+        <item>ERiga</item>
+        <item>I-Tallinn</item>
+        <item>EBucharest</item>
+        <item>Vilnius</item>
+        <item>I-Lubumbashi</item>
+        <item>EMinsk</item>
+        <item>I-St. ePetersburg</item>
+        <item>EIstanbul</item>
+        <item>EKamchatka</item>
+        <item>Ikyiv</item>
+        <item>EYerusalem</item>
+        <item>EMoscow</item>
+        <item>I-Kharkiv</item>
+        <item>ENairobi</item>
+        <item>Jeddah</item>
+        <item>EVolgograd</item>
+        <item>Yerevan</item>
+        <item>ETbilisi</item>
+        <item>EBaku</item>
+        <item>I-Chita</item>
+        <item>ESamara</item>
+        <item>iTehran</item>
+        <item>I-Izhevsk</item>
+        <item>i-Abu Dhabi</item>
+        <item>EDubai</item>
+        <item>Ufa</item>
+        <item>I-Yekaterinburg</item>
+        <item>EChelyabinsk</item>
+        <item>I-Karachi</item>
+        <item>EKabul</item>
+        <item>ETashkent</item>
+        <item>EIslamabad</item>
+        <item>iMumbai</item>
+        <item>EOmsk</item>
+        <item>I-Almaty</item>
+        <item>E­Bangalore</item>
+        <item>iHyderabad</item>
+        <item>iNew Delhi</item>
+        <item>iColombo</item>
+        <item>Chennai</item>
+        <item>ENovosibirsk</item>
+        <item>I-Kathmandu</item>
+        <item>I-Novokuznetsk</item>
+        <item>EKolkata</item>
+        <item>EDhaka</item>
+        <item>Hovd</item>
+        <item>EKrasnoyarsk</item>
+        <item>EBangkok</item>
+        <item>EKuala Lumpur</item>
+        <item>ESingapore</item>
+        <item>EIrkutsk</item>
+        <item>Phnom Penh</item>
+        <item>iHanoi</item>
+        <item>I-Jakarta</item>
+        <item>Ulan Bator</item>
+        <item>EHong Kong</item>
+        <item>I-Perth</item>
+        <item>Beijing</item>
+        <item>I-Manila</item>
+        <item>ETaipei</item>
+        <item>iSeoul</item>
+        <item>E­Ambon</item>
+        <item>I-Vladivostok</item>
+        <item>I-Yakutsk</item>
+        <item>EKhabarovsk</item>
+        <item>I-Adelaide</item>
+        <item>I-Tokyo</item>
+        <item>E­Yuzhno-Sakhalinsk</item>
+        <item>I-Halifax</item>
+        <item>EGuam</item>
+        <item>I-Canberra</item>
+        <item>EMagadan</item>
+        <item>E-Sydney</item>
+        <item>I-Petropavlovsk-Kamchatskiy</item>
+        <item>Itarawa</item>
+        <item>EAuckland</item>
+        <item>EWellington</item>
+        <item>I-Pago Pago</item>
+        <item>I-Denpasar</item>
+        <item>iBern</item>
+        <item>EZurich</item>
+        <item>ECairo</item>
+        <item>E­Abidjan</item>
+        <item>E­Accra</item>
+        <item>E­Addis Ababa</item>
+        <item>EAmman</item>
+        <item>E­Amsterdam</item>
+        <item>EAnadyr</item>
+        <item>EAnkara</item>
+        <item>EAntananarivo</item>
+        <item>EAshgabat</item>
+        <item>EAsmara</item>
+        <item>I-Astana</item>
+        <item>E­Asuncion</item>
+        <item>E­Austin</item>
+        <item>EBaghdad</item>
+        <item>EBaltimore</item>
+        <item>E­Bamako</item>
+        <item>EBangui</item>
+        <item>E­Bari</item>
+        <item>EBasse-Terre</item>
+        <item>iBeirut</item>
+        <item>EBelgrade</item>
+        <item>EBelize City</item>
+        <item>EBishkek</item>
+        <item>EBissau</item>
+        <item>E­Bologna</item>
+        <item>EBoston</item>
+        <item>EBridgetown</item>
+        <item>I-Brisbane</item>
+        <item>I-Brussels</item>
+        <item>ECanary Islands</item>
+        <item>ECatanzaro</item>
+        <item>ECayenne</item>
+        <item>E­Charlotte</item>
+        <item>EChisinau</item>
+        <item>E­Cleveland</item>
+        <item>E­Columbus</item>
+        <item>E­Conakry</item>
+        <item>E­Copenhagen</item>
+        <item>E­Cork</item>
+        <item>ECrotone</item>
+        <item>E­Dakar</item>
+        <item>iDamascus</item>
+        <item>E­Dar es Salaam</item>
+        <item>U-Darwin</item>
+        <item>E­Detroit</item>
+        <item>EDjibouti</item>
+        <item>EDoha</item>
+        <item>E­Douala</item>
+        <item>EDushanbe</item>
+        <item>E-Easter Island</item>
+        <item>E-Edinburgh</item>
+        <item>E­El Paso</item>
+        <item>E­Florence</item>
+        <item>EFort-de-France</item>
+        <item>EFreetown</item>
+        <item>E­Gaborone</item>
+        <item>EGalapagos Islands</item>
+        <item>E­Geneva</item>
+        <item>E­Genoa</item>
+        <item>I-Georgetown</item>
+        <item>EGrytviken</item>
+        <item>EGuatemala City</item>
+        <item>EGustavia</item>
+        <item>E­Hamburg</item>
+        <item>EHarare</item>
+        <item>EHavana</item>
+        <item>I-Hobart</item>
+        <item>I-Houston</item>
+        <item>E­Indianapolis</item>
+        <item>ERhawutini</item>
+        <item>EKampala</item>
+        <item>EKhartoum</item>
+        <item>I-Kingston</item>
+        <item>iKuwait City</item>
+        <item>ELagos</item>
+        <item>E­Las Vegas</item>
+        <item>E­Ljubljana</item>
+        <item>E­Haikou</item>
+        <item>E­Louisville</item>
+        <item>ELuanda</item>
+        <item>ELusaka</item>
+        <item>E­Luxembourg</item>
+        <item>E­Macau</item>
+        <item>E­Malabo</item>
+        <item>EMale</item>
+        <item>EManagua</item>
+        <item>EManama</item>
+        <item>EMaputo</item>
+        <item>EMarigot</item>
+        <item>I-Mecca</item>
+        <item>I-Melbourne</item>
+        <item>E­Memphis</item>
+        <item>EMessina</item>
+        <item>E­Milan</item>
+        <item>E­Milwaukee</item>
+        <item>Mogadishu</item>
+        <item>E­Monrovia</item>
+        <item>E­Montevideo</item>
+        <item>I-Montreal</item>
+        <item>E­Munich</item>
+        <item>EMuscat</item>
+        <item>E­Naples</item>
+        <item>ENaters</item>
+        <item>E­N’Djamena</item>
+        <item>E­Niamey</item>
+        <item>E­Nouakchott</item>
+        <item>ENoumea</item>
+        <item>"ENuku'alofa"</item>
+        <item>ENuuk</item>
+        <item>E­Osaka</item>
+        <item>E­Ouagadougou</item>
+        <item>E­Palermo</item>
+        <item>E­Panama City</item>
+        <item>E­Paramaribo</item>
+        <item>E­Perm</item>
+        <item>E­Philadelphia</item>
+        <item>EPodgorica</item>
+        <item>E­Ponta Delgada</item>
+        <item>EPort Louis</item>
+        <item>EPort-au-Prince</item>
+        <item>E­Portland</item>
+        <item>I-Pyongyang</item>
+        <item>E­Yangon</item>
+        <item>Irecife</item>
+        <item>E­Reykjavik</item>
+        <item>ERiyadh</item>
+        <item>ESaint-Denis</item>
+        <item>E­San Antonio</item>
+        <item>ESan Diego</item>
+        <item>ESan Jose</item>
+        <item>E­San Jose</item>
+        <item>ESan Juan</item>
+        <item>ESan Marino</item>
+        <item>ESan Salvador</item>
+        <item>E­Sana’a</item>
+        <item>ESanto Domingo</item>
+        <item>iShanghai</item>
+        <item>E­Shenzhen</item>
+        <item>E­Skopje</item>
+        <item>"ESt. John's"</item>
+        <item>ESuva</item>
+        <item>ETahiti</item>
+        <item>E­Tegucigalpa</item>
+        <item>E­Ho Chi Minh City</item>
+        <item>E­Tianjin</item>
+        <item>E­Turin</item>
+        <item>EVaduz</item>
+        <item>EValletta</item>
+        <item>E­Verona</item>
+        <item>EVictoria</item>
+        <item>EVienna</item>
+        <item>EYamoussoukro</item>
+        <item>E­Yaounde</item>
+        <item>EZagreb</item>
+        <item>E­Guangzhou</item>
+        <item>ECardiff</item>
+        <item>ERegina</item>
+        <item>ECharlotte Amalie</item>
+        <item>I-Atlanta</item>
+        <item>I-Mayotte</item>
+        <item>I-St Pierre neMiquelon</item>
+        <item>E­Oslo</item>
+        <item>Srednekolymsk</item>
+        <item>Severo-Kurilsk</item>
+        <item>I-Wuhan</item>
+        <item>I-Chengdu</item>
+        <item>"I-Xi'an"</item>
+        <item>Port Moresby</item>
+        <item>I-Davao City</item>
+        <item>I-Chongqing</item>
+        <item>I-Shenyang</item>
+        <item>I-Nanjing</item>
+        <item>Harbin</item>
+        <item>Ii-Jinan</item>
+        <item>I-Zhengzhou</item>
+        <item>I-Kunming</item>
+        <item>I-Changchun</item>
+        <item>I-Fuzhou</item>
+        <item>I-Kuching</item>
+        <item>Makassar</item>
+        <item>I-Hangzhou</item>
+        <item>I-Qingdao</item>
+        <item>I-Nanning</item>
+        <item>Urumqi</item>
+    </string-array>
+    <string-array name="Countries">
+        <item>I-Afghanistan</item>
+        <item>I-Algeria</item>
+        <item>E­American Samoa</item>
+        <item>EAntigua naseBarbuda</item>
+        <item>EArgentina</item>
+        <item>EArmenia</item>
+        <item>E­Australia</item>
+        <item>EAzerbaijan</item>
+        <item>EBangladesh</item>
+        <item>IRiphabliki yaseBashkortostan</item>
+        <item>EBelarus</item>
+        <item>EBolivia</item>
+        <item>EBrazil</item>
+        <item>EBulgaria</item>
+        <item>ECambodia</item>
+        <item>EKhanada</item>
+        <item>EChile</item>
+        <item>ETshayina</item>
+        <item>EColombia</item>
+        <item>I-Czech Republic</item>
+        <item>E­D.R. Congo</item>
+        <item>E-Ecuador</item>
+        <item>E-Estonia</item>
+        <item>EFinland</item>
+        <item>EFransi</item>
+        <item>EGeorgia</item>
+        <item>EJamani</item>
+        <item>Greece</item>
+        <item>EHungary</item>
+        <item>I-Indiya</item>
+        <item>EIndonesia</item>
+        <item>I-Iran</item>
+        <item>EIreland</item>
+        <item>KwaSirayeli</item>
+        <item>EItaly</item>
+        <item>EJapan</item>
+        <item>EKazakhstan</item>
+        <item>EKenya</item>
+        <item>EKiribati</item>
+        <item>ELatvia</item>
+        <item>ELithuania</item>
+        <item>EMalaysia</item>
+        <item>EMexico</item>
+        <item>EMongolia</item>
+        <item>I-Morocco</item>
+        <item>ENepal</item>
+        <item>ENew Zealand</item>
+        <item>I-Pakistan</item>
+        <item>EPeru</item>
+        <item>EPhilippines</item>
+        <item>EPoland</item>
+        <item>Portugal</item>
+        <item>Imephu</item>
+        <item>E­Republic of Korea</item>
+        <item>IRiphabliki yaseSingapore</item>
+        <item>I-Libya</item>
+        <item>ERomania</item>
+        <item>E­Russia</item>
+        <item>I-Saudi Arabia</item>
+        <item>ESlovakia</item>
+        <item>EMzantsi Afrika</item>
+        <item>E-Spain</item>
+        <item>E­Sri Lanka</item>
+        <item>ESweden</item>
+        <item>ETaiwan</item>
+        <item>EThailand</item>
+        <item>iTunisia</item>
+        <item>iTurkey</item>
+        <item>i-Uae</item>
+        <item>EUK</item>
+        <item>EUkraine</item>
+        <item>E-USA</item>
+        <item>EUzbekistan</item>
+        <item>EVenezuela</item>
+        <item>E­Vietnam</item>
+        <item>E-GB Vrgn Islds</item>
+        <item>ESwitzerland</item>
+        <item>iJiphutha</item>
+        <item>E­Côte d’Ivoire</item>
+        <item>E­Ghana</item>
+        <item>Etopiya</item>
+        <item>iJordan</item>
+        <item>E­Netherlands</item>
+        <item>EMadagascar</item>
+        <item>ETurkmenistan</item>
+        <item>E­Eritrea</item>
+        <item>EParaguay</item>
+        <item>i-Iraq</item>
+        <item>E­Mali</item>
+        <item>EMbindini weRiphabliki yaseAfrika</item>
+        <item>EGuadeloupe</item>
+        <item>E­Lebanon</item>
+        <item>E­Serbia</item>
+        <item>EBelize</item>
+        <item>EKyrgyzstan</item>
+        <item>EGuinea Bissau</item>
+        <item>EBarbados</item>
+        <item>I-Belgium</item>
+        <item>E­French Guiana</item>
+        <item>E­Moldova</item>
+        <item>E­Guinea</item>
+        <item>E­Denmark</item>
+        <item>E­Senegal</item>
+        <item>E­Syria</item>
+        <item>E­Tanzania</item>
+        <item>EDjibouti</item>
+        <item>iQatar</item>
+        <item>E­Cameroon</item>
+        <item>ETajikistan</item>
+        <item>EScotland</item>
+        <item>E­Martinique</item>
+        <item>ESierra Leone</item>
+        <item>E­Botswana</item>
+        <item>EGuyana</item>
+        <item>ESouth Georgia</item>
+        <item>EGuatemala</item>
+        <item>ESaint Barthelemy</item>
+        <item>EZimbabwe</item>
+        <item>E­Cuba</item>
+        <item>E­Uganda</item>
+        <item>E­Sudan</item>
+        <item>E­Jamaica</item>
+        <item>iKuwait</item>
+        <item>iNigeria</item>
+        <item>E­Angola</item>
+        <item>E­Zambia</item>
+        <item>ELuxembourg</item>
+        <item>E-Equaorial Guinea</item>
+        <item>E­Maldives</item>
+        <item>ENicaragua</item>
+        <item>iBahrain</item>
+        <item>E­Mozambique</item>
+        <item>ESaint Martin</item>
+        <item>E­Somalia</item>
+        <item>E­Liberia</item>
+        <item>EUruguay</item>
+        <item>i-Oman</item>
+        <item>EChad</item>
+        <item>E­NIGER</item>
+        <item>EMauritania</item>
+        <item>ENew Caledonia</item>
+        <item>E­Tonga</item>
+        <item>E­Greenland</item>
+        <item>E­Burkina Faso</item>
+        <item>EPanama</item>
+        <item>E­Suriname</item>
+        <item>EMontenegro</item>
+        <item>EMauritius</item>
+        <item>EHaiti</item>
+        <item>IRiphabhliki yoLuntu yeDemokhrasi yaseKorea</item>
+        <item>E­Myanmar</item>
+        <item>E­Iceland</item>
+        <item>EReunion Island</item>
+        <item>E­Costa Rica</item>
+        <item>E­Puerto Rico</item>
+        <item>E­El Salvador</item>
+        <item>iYemen</item>
+        <item>EDominican Republic</item>
+        <item>E­MACEDONIA</item>
+        <item>I-Fiji</item>
+        <item>EFrench Polynesia</item>
+        <item>E­Honduras</item>
+        <item>ELiechtenstein</item>
+        <item>EMalta</item>
+        <item>ESeychelles</item>
+        <item>EOstriya</item>
+        <item>E­Croatia</item>
+        <item>EWales</item>
+        <item>E-US Vrgn Is.</item>
+        <item>ESlovenia</item>
+        <item>ESan Marino</item>
+        <item>E­Norway</item>
+        <item>E­Papua New Guinea</item>
+        <item></item>
+    </string-array>
+    <string-array name="availability">
+        <item>Ixakekile</item>
+        <item>Available</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>Local default</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="status">
+        <item>Simahla</item>
+        <item>Ibambisile</item>
+        <item>Ixakekile</item>
+        <item>Akekho seofisini</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Iziqithi zase­Marshall</item>
+        <item>E­Midway Island</item>
+        <item>Hawaii</item>
+        <item>EAlaska</item>
+        <item>Ixesha lasePacific</item>
+        <item>Itijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Ixesha laseziNtabeni</item>
+        <item>EMelika eseMbindini</item>
+        <item>Ixesha laseMbindini</item>
+        <item>IMexico City</item>
+        <item>Saskatchewan</item>
+        <item>E­Bogota</item>
+        <item>Ixesha laseMpuma</item>
+        <item>EVenezuela</item>
+        <item>Atlantic Time (Barbados)</item>
+        <item>E­Manaus</item>
+        <item>ESantiago</item>
+        <item>Atlantic Time (Canada)</item>
+        <item>ENewfoundland</item>
+        <item>I-Brasilia</item>
+        <item>EBuenos Aires</item>
+        <item>E­Greenland</item>
+        <item>E­Montevideo</item>
+        <item>EGrytviken</item>
+        <item>i-Azores</item>
+        <item>KwiziQithi zase­Cape Verde</item>
+        <item>iCasablanca</item>
+        <item>E­London, e­Dublin</item>
+        <item>E­Amsterdam, e­Berlin</item>
+        <item>EBelgrade</item>
+        <item>Brussels</item>
+        <item>i-Blazuj, Sarajevo</item>
+        <item>E­Windhoek</item>
+        <item>Ixesha laseNtshona Afrika</item>
+        <item>E­Amman, e­Jordan</item>
+        <item>E­Athens, e­Istanbul</item>
+        <item>E­Beirut, e­Lebanon</item>
+        <item>ECairo</item>
+        <item>I-Helsinki</item>
+        <item>EYerusalem</item>
+        <item>EMinsk</item>
+        <item>EHarare</item>
+        <item>EBaghdad</item>
+        <item>EMoscow</item>
+        <item>iKuwait</item>
+        <item>ENairobi</item>
+        <item>iTeheran</item>
+        <item>EBaku</item>
+        <item>ETbilisi</item>
+        <item>Yerevan</item>
+        <item>EDubai</item>
+        <item>EKabul</item>
+        <item>E­Islamabad, e­Karachi</item>
+        <item>Uralsk</item>
+        <item>I-Yekaterinburg</item>
+        <item>EKolkata</item>
+        <item>E­Sri Lanka</item>
+        <item>I-Kathmandu</item>
+        <item>I-Astana</item>
+        <item>E­Yangon</item>
+        <item>EKrasnoyarsk</item>
+        <item>EBangkok</item>
+        <item>Beijing</item>
+        <item>EHong Kong</item>
+        <item>EIrkutsk</item>
+        <item>EKuala Lumpur</item>
+        <item>I-Perth</item>
+        <item>ETaipei</item>
+        <item>iSeoul</item>
+        <item>E­Tokyo, e­Osaka</item>
+        <item>I-Yakutsk</item>
+        <item>I-Adelaide</item>
+        <item>U-Darwin</item>
+        <item>I-Brisbane</item>
+        <item>I-Hobart</item>
+        <item>E­Canberra, e­Sydney</item>
+        <item>I-Vladivostok</item>
+        <item>EGuam</item>
+        <item>EMagadan</item>
+        <item>EAuckland</item>
+        <item>I-Fiji</item>
+        <item>E­Tonga</item>
+        <item>ESingapore</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Calendar default</item>
+        <item>Ngasese</item>
+        <item>Public</item>
+    </string-array>
+</resources>

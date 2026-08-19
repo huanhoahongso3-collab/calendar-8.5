@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat android:title="@string/preferences_show_recent_searches" android:key="preferences_show_recent_search" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/preferences_show_stickers" android:key="preferences_show_stickers" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/preferences_show_colors" android:key="preferences_show_colors" android:defaultValue="true" />
+    <SwitchPreferenceCompat android:title="@string/preferences_show_calendars" android:key="preferences_show_calendars" android:defaultValue="true" />
+</PreferenceScreen>

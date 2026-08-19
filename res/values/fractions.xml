@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="about_page_update_button_width_max">75.0%</fraction>
+    <fraction name="about_page_update_button_width_min">60.000004%</fraction>
+    <fraction name="common_dim_color_opacity">39.999996%</fraction>
+    <fraction name="event_popup_view_pager_height_ratio">65.125%</fraction>
+    <fraction name="letter_to_tile_ratio">62.5%</fraction>
+    <fraction name="timeline_popup_view_height">64.0%</fraction>
+    <fraction name="timeline_popup_view_width">85.0%</fraction>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/alternate_calendar_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+    <View android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <LinearLayout android:id="@id/always_show_lunar_dates_container" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/common_horizontal_space">
+        <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/always_show_lunar_dates_roundedcorner_linearlayout" android:background="@drawable/widget_setting_item_background" android:layout_width="fill_parent" android:layout_height="@dimen/winset_list_item_min_height" android:layout_marginBottom="20.0dip" android:stateListAnimator="?seslLargeTouchAnimator" android:paddingHorizontal="@dimen/main_switch_margin_start">
+            <TextView android:id="@id/always_show_lunar_dates_label" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/preferences_always_show_lunar_dates" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/AlwayShowLunarDatesStyle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/always_show_lunar_dates_switch" android:background="@null" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+    </LinearLayout>
+    <View android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="133" android:valueFrom="-196.633" android:valueTo="-196.633" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__813" android:duration="216" android:pathData="M -196.633,-473.701 C-128.966,-510.034 -12.338,-553.22 -34.633,-577.701" android:propertyXName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__814" android:duration="2783" android:pathData="M -34.633,-577.701 C-45.272,-589.384 -6.633,-394.701 -44.633,154.299" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="133" android:valueFrom="-473.701" android:valueTo="-473.701" android:propertyName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__815" android:duration="216" android:pathData="M -196.633,-473.701 C-128.966,-510.034 -12.338,-553.22 -34.633,-577.701" android:propertyYName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_4x2_adv__816" android:duration="2783" android:pathData="M -34.633,-577.701 C-45.272,-589.384 -6.633,-394.701 -44.633,154.299" android:propertyYName="translateY" />
+    </set>
+</set>

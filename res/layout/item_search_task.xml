@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout android:id="@id/container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/background_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingHorizontal="@dimen/search_list_item_background_container_margin_horizontal">
+        <LinearLayout android:orientation="horizontal" android:id="@id/slide_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/selection_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/agenda_item_checkbox_margin_start" android:layout_marginEnd="@dimen/agenda_item_checkbox_margin_end" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/main_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@id/timeTextView_container" android:layout_width="@dimen/event_list_start_time_width" android:layout_height="wrap_content">
+                    <CheckBox android:gravity="center" android:layout_gravity="center" android:id="@id/done_checkbox" android:background="@drawable/animated_check_box" android:focusable="false" android:layout_width="@dimen/task_list_checkbox_size" android:layout_height="@dimen/task_list_checkbox_size" android:button="@null" />
+                </FrameLayout>
+                <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/event_popup_view_list_first_line_text_size" android:textColor="@color/common_list_main_text_color" android:ellipsize="end" android:gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/RobotoRegularFontStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/agenda_priority" android:visibility="gone" android:layout_width="@dimen/task_list_item_icon_size_width" android:layout_height="@dimen/task_list_item_icon_size_width" android:contentDescription="@null" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/agenda_item_separator" android:layout_alignParentBottom="true" style="@style/Winset_List_Item_Divider" />
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout>

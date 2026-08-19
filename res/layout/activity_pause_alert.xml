@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="0.0dip" app:expanded="false" app:seslUseFloatingToolbar="false" style="@style/Widget.Design.AppBarLayout"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/Style.CollapsingToolbar">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/Style.Toolbar" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:importantForAccessibility="no" app:layout_collapseMode="pin" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:id="@id/pause_alert_switch_container" android:background="@drawable/recoil_list_main_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/reminder_on_off_container_height" android:stateListAnimator="?seslLargeTouchAnimator" android:paddingHorizontal="@dimen/reminder_on_off_side_padding" android:paddingVertical="@dimen/reminder_on_off_switch_top_bottom_padding">
+                <TextView android:textSize="@dimen/reminder_on_off_label_text_size" android:textColor="@color/common_main_switch_on_text_color" android:id="@id/pause_alert_switch_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_reminder_label_set_days_to_pause_alert" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/RobotoMediumFontStyle" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/pause_alert_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/pause_alert_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/repeat_container_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:paddingStart="@dimen/settings_description_horizontal_padding" android:paddingEnd="@dimen/settings_description_horizontal_padding">
+                    <TextView android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_event_reminder_label_set_days_to_pause_alert_description" style="@style/CalendarLabsDescriptionText" />
+                </LinearLayout>
+                <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/pause_alert_content_layout" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/pause_alert_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+                </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+            </LinearLayout>
+        </com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

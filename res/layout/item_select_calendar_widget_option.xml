@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/option_layout_id" android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/winset_list_item_two_lines_min_height" android:paddingHorizontal="@dimen/winset_list_item_start_end_padding" android:paddingVertical="@dimen/winset_list_item_top_padding">
+        <RadioGroup android:orientation="vertical" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/radio_same_as_app" android:text="@string/widget_setting_same_as_app" style="@style/WidgetRadioButtonTextStyle" />
+            <RadioButton android:id="@id/radio_custom" android:text="@string/widget_setting_custom_select_calendars" style="@style/WidgetRadioButtonTextStyle" />
+        </RadioGroup>
+    </LinearLayout>
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

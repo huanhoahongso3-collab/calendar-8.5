@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d matukio mengine</item>
+        <item quantity="one">+1 tukio lingine</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d shughuli nyingine</item>
+        <item quantity="one">+ 1 shughuli nyingine</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">Matukio ya %d</item>
+        <item quantity="one">Tukio 1</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d shughuli</item>
+        <item quantity="one">Shughuli 1</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">Inaanza baada ya dak %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Inaanza baada ya dak %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">Siku %1$d kabla saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siku %1$d kabla saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">Haiwezi kufuta vipengee %d vya kusoma pekee.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kufuta kipengee %d cha kusoma pekee.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">Futa matukio %d kabisa?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Futa tukio %d kabisa?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">Futa matukio %d, yakijumuisha tukio 1 linalojirudia?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Futa tukio %d, ikijumuisha tukio 1 linalojirudia?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">Ungependa kufuta vipengee %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kufuta kipengee %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">Huwezi kuongeza zaidi ya picha %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Huwezi kuongeza zaidi ya kiambatisho %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">Vipengee %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kipengee %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">Imefutwa kutoka %1$s katika %2$s. Siku %3$d hadi matukio haya yatakapofutwa kabisa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Imefutwa kutoka %1$s katika %2$s. Siku %3$d hadi tukio hili litakapofutwa kabisa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">Siku %d kabla ya kufutwa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siku %d kabla ya kufutwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">Nakala %d za matukio</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tukio %d lililorudiwa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">Sinzia kwa dak %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sinzia kwa dak %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">Haiwezi kuweka zaidi ya arifa %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuweka zaidi ya arifa %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuingiza zaidi ya herufi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">Kila siku %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kila siku %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">Kila saa %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kila saa %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">Kila dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kila dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">Kila miezi %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kila mwezi %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">Kila wiki %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kila wiki %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">Kila miaka %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kila mwaka %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">Huwezi kuchagua zaidi ya vipengee %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Haiwezi kuchagua zaidi ya kipengee %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">Matukio %d zaidi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tukio %d zaidi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">Viambatisho (vipengee %,d)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viambatisho (kipengee %,d)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">Hamishia tukio 1 kwenye Tupio na ufute vipengee %d vingine?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia tukio 1 kwenye Tupio na kufuta kipengee %d kingine?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">Hamishia tukio 1 kwenye Tupio na ufute vikumbusho %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia tukio 1 hadi kwenye Tupio na kikumbusho %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">Hamishia kikumbusho 1 kwenye Tupio na ufute matukio %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia kikumbusho 1 kwenye Tupio na kufuta tukio %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">Hamishia kikumbusho 1 kwenye Tupio na ufute vipengee %d vingine?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hamishia kikumbusho 1 kwenye Tupio na futa kipengee %d kingine?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">Hamishia kikumbusho 1 kwenye Tupio na ufute shughuli %d?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia kikumbusho 1 kwenye Tupio na kufuta shughuli %d?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">Hamishia matukio %d kwenye Tupio?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamisha tukio %d hadi kwenye Tupio?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">Hamishia matukio %d kwenye Tupio na ufute kikumbusho 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamisha tukio %d kwenye Tupio na kufuta kikumbusho 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">Hamishia vipengee %d kwenye Tupio?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamisha kipengee %d hadi kwenye Tupio?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">Hamishia vipengee %d kwenye Tupio na ufute shughuli 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia kipengee %d kwenye Tupio na kufuta shughuli 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">Hamishia vikumbusho %d kwenye Tupio?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hamishia kikumbusho %d kwenye Tupio?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">Hamishia vikumbusho %d kwenye Tupio na ufute tukio 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia kikumbusho %d kwenye Tupio na kufuta tukio 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">Hamishia vikumbusho %d kwenye Tupio na ufute shughuli 1?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ungependa kuhamishia kikumbusho %d kwenye Tupio na kufuta shughuli 1?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d matukio ya siku nzima</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tukio la siku nzima</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">Matukio %1$d ya siku nzima kuanzia saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tukio %1$d la siku nzima kuanzia saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">Vikumbusho %1$d vya siku nzima kuanzia saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kikumbusho %1$d cha siku nzima kuanzia saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">Shughuli %1$d za siku nzima kuanzia saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Shughuli %1$d ya siku nzima kuanzia saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">Matukio %1$d yaliyoratibiwa saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tukio %1$d lililoratibiwa saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">Vikumbusho %1$d vilivyoratibiwa saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kikumbusho %1$d kilichoratibiwa saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">Shughuli %1$d zilizoratibiwa saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Shughuli %1$d iliyoratibiwa saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">%d mi</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">%d mi</item>
+        <item quantity="few">%d mi</item>
+        <item quantity="many">%d mi</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">Watu %d wamealikwa</item>
+        <item quantity="one">Mtu %d amealikwa</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">Siku %d kabla</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siku %d kabla</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">Saa %d kabla</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d kabla</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">Dakika %d kabla</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika %d kabla</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">Siku %d kuanzia sasa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siku %d kuanzia sasa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">Saa %d kutoka sasa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Saa %d kutoka sasa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">Dakika %d kutoka sasa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dakika %d kutoka sasa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">Miezi %d kutoka sasa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mwezi %d kutoka sasa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">Wiki %d kutoka sasa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wiki %d kutoka sasa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">Miaka %d kuanzia sasa</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Mwaka %d kuanzia sasa</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">Kichwa kimefupishwa hadi urefu unaotumika kwa vichwa vya matukio (herufi %,d).</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kichwa kimefupishwa hadi urefu unaotumika kwa vichwa vya matukio (herufi %,d).</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">Wiki %d kabla</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wiki %d kabla</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">Huwezi kuongeza zaidi ya rangi %d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Huwezi kuongeza zaidi ya rangi %d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">Hii %1$s itajirudia kila baada ya siku %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila baada ya siku %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">Hii %1$s itajirudia kila baada ya saa %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila baada ya saa %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">Hii %1$s itajirudia kila baada ya dakika %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila baada ya dakika %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">Hii %1$s itajirudia kila miezi %2$d katika siku ya mwisho ya mwezi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwezi %2$d katika siku ya mwisho ya mwezi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">Hii %1$s itajirudia kila miezi %2$d katika %3$s ya mwisho ya mwezi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwezi %2$d katika %3$s ya mwiso ya mwezi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">Hii %1$s itajirudia kila miezi %2$d katika siku %3$s ya mwezi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwezi %2$d katika siku %3$s ya mwezi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">Hii %1$s itajirudia baada ya kila mwezi %2$d katika %3$s %4$s ya mwezi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia baada ya kila mwezi %2$d katika %3$s %4$s ya mwezi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">Hii %1$s itajirudia kila wiki %2$d mnamo %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila wiki %2$d mnamo %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">Hii %1$s itajirudia kila miaka %2$d mnamo siku ya mwisho ya %3$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwaka %2$d mnamo siku ya mwisho ya %3$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">Hii %1$s itajirudia kila miaka %2$d mnamo %3$s ya mwisho katika %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwaka %2$d mnamo %3$s ya mwisho katika %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">Hii %1$s itajirudia kila miaka %2$d mnamo %3$s %4$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwaka %2$d mnamo %3$s %4$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">Hii %1$s itajirudia kila miaka %2$d mnamo %3$s %4$s ya %5$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hii %1$s itajirudia kila mwaka %2$d mnamo %3$s %4$s ya %5$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">Jumla mara %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jumla mara %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">Imeshiriki na watu %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Imeshirikiwa na mtu %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">Una tukio linaloitwa %1$s mnamo %2$s pamoja na matukio mengine %3$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio linaloitwa %1$s mnamo %2$s pamoja na tukio lingine %3$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">Una matukio %1$d mnamo %2$s.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio %1$d mnamo %2$s.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">Una tukio linaloitwa %1$s leo pamoja na matukio mengine %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio linaloitwa %1$s leo pamoja na tukio lingine %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">Una matukio %d leo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio %d leo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">Una tukio linaloitwa %1$s kesho pamoja na matukio mengine %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio linaloitwa %1$s kesho pamoja na tukio lingine %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">Una matukio %d kesho.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio %d kesho.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">Una tukio linaloitwa %1$s kwenye %2$s katika %3$s pamoja na matukio mengine %4$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio linaloitwa %1$s kwenye %2$s katika %3$s pamoja na tukio lingine %4$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">Una tukio %1$s mnamo %2$s pamoja na matukio mengine %3$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio %1$s mnamo %2$s pamoja na tukio lingine %3$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">Una tukio linaloitwa %1$s leo mnamo %2$s pamoja na matukio mengine %3$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio linaloitwa %1$s leo mnamo %2$s pamoja na tukio lingine %3$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">Una tukio leo mnamo %1$s pamoja na matukio mengine %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio leo mnamo %1$s pamoja na tukio lingine %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">Una tukio linaloitwa %1$s kesho mnamo %2$s pamoja na matukio mengine %3$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio linaloitwa %1$s kesho mnamo %2$s pamoja na tukio lingine %3$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">Una tukio kesho mnamo %1$s pamoja na matukio mengine %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Una tukio kesho mnamo %1$s pamoja na tukio lingine %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">Ondoa dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ondoa dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">Ongeza dakika %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ongeza dakika %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s huanza ndani ya saa %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s huanza ndani ya saa %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s itaanza baada ya saa 1 na dakika %2$d.</item>
+        <item quantity="one">%s itaanza baada ya saa 1 na dakika 1.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s kitaanza ndani ya dakika %2$d.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s kitaanza ndani ya dakika %2$d.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">Zitaondolewa kwenye trei ya vibandiko.</item>
+        <item quantity="one">Itaondolewa kwenye trei ya vibandiko.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">Futa seti %d za vibandiko?</item>
+        <item quantity="one">Futa seti 1 ya vibandiko?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">Angalia matukio %d zaidi</item>
+        <item quantity="one">Angalia tukio %d zaidi</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">Wiki %1$d kabla saa %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wiki %1$d kabla saa %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">siku</item>
+        <item quantity="one">siku</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">siku zilizopita</item>
+        <item quantity="one">siku iliyopita</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">zimesalia siku</item>
+        <item quantity="one">imesalia siku</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s na %2$d zaidi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s na %2$d zaidi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">Matukio %d yamesalia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tukio %d limesalia</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_common_extended_toolbar" />
+    <com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/fragment_extended_toolbar_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/Style.Toolbar" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:importantForAccessibility="no" app:layout_collapseMode="pin" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/sesl_floating_bottom_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/settings_bottom_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoRegularFontStyle" app:itemTextAppearanceInactive="@style/RobotoRegularFontStyle" style="@style/Style.BottomNavigationView.Floating.IconText" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

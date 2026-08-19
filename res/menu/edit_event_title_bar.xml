@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_save_to_calendar" android:visible="false" android:title="@string/save" android:alphabeticShortcut="s" app:showAsAction="always" />
+    <item android:id="@id/action_copy" android:visible="false" android:title="@string/event_info_menu_duplicate" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_edit" android:visible="false" android:title="@string/edit" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_share" android:visible="false" android:title="@string/share" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_restore" android:visible="false" android:title="@string/restore" app:showAsAction="always" />
+    <item android:id="@id/action_delete" android:visible="false" android:title="@string/delete" android:alphabeticShortcut="d" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_cancel" android:visible="false" android:title="@string/discard_label" android:alphabeticShortcut="q" app:showAsAction="always" />
+    <item android:id="@id/action_done" android:visible="false" android:title="@string/save" android:alphabeticShortcut="s" app:showAsAction="always" />
+    <item android:id="@id/action_add_countdown_widget" android:visible="false" android:title="@string/widget_add_countdown_widget_label" app:showAsAction="never" />
+</menu>

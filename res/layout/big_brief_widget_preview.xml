@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/complication_glance_preview_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/brief_preview_icon_size_tiny" android:layout_height="@dimen/brief_preview_icon_size_tiny" android:src="@drawable/event_solid" />
+        <TextView android:textSize="@dimen/brief_widget_text_size_2x1" android:textColor="@color/sesl_glance_preview_monotone_color_inverse_on_surface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brief_widget_preview_event_time_1_PM" style="@style/RobotoMediumFontStyle" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/brief_widget_text_size_2x1" android:textColor="@color/sesl_glance_preview_monotone_color_inverse_on_surface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/exercise" style="@style/RobotoMediumFontStyle" />
+</LinearLayout>

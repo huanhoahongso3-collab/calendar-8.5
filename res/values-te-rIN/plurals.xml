@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">మరో +%d ఈవెంట్‌లు</item>
+        <item quantity="one">మరో +1 ఈవెంట్</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d ఇతర విధులు</item>
+        <item quantity="one">+1 ఇతర విధులు</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d ఈవెంట్లు</item>
+        <item quantity="one">1 ఈవెంట్</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d విధులు</item>
+        <item quantity="one">1 విధి</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">%d నిమిషాల్లో ప్రారంభమవుతుంది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషంలో ప్రారంభమవుతుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%2$sకు %1$d రోజుల ముందు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d రోజు ముందు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">%d చదవడానికి మాత్రమే అంశాలను తొలగించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d చదవడానికి మాత్రమే అంశాన్ని తొలగించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">%d ఈవెంట్‌లను శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఈవెంట్‌ని శాశ్వతంగా తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">1 పునరావృత ఈవెంట్‌తో సహా %d ఈవెంట్‌లను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 పునరావృత ఈవెంట్‌తో సహా %d ఈవెంట్‌ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d అంశాలను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">%d కంటే ఎక్కువ జోడింపులను జోడించలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ జోడింపుని జోడించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d అంశాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%2$sన %1$s నుండి తొలగించబడింది. ఈ ఈవెంట్‌ను శాశ్వతంగా తొలగించడానికి %3$d రోజులు మిగిలి ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sన %1$s నుండి తొలగించబడింది. ఈ ఈవెంట్ శాశ్వతంగా తొలగించడానికి %3$d రోజు మిగిలి ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">తొలగించడానికి %d రోజులు ఉన్నాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">తొలగించడానికి %d రోజు ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d నకిలీ ఈవెంట్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నకిలీ ఈవెంట్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d నిమిషాలు స్నూజ్ చేయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషం స్నూజ్ చేయి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">%d కంటే ఎక్కువ హెచ్చరికలను సెట్ చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ హెచ్చరికను సెట్ చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">%d కంటే ఎక్కువ అక్షరాలను నమోదు చేయలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అక్షరాన్ని నమోదు చేయలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">ప్రతి %d రోజులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d రోజు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">ప్రతి %d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">ప్రతి %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">ప్రతి %d నెలలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d నెల</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">ప్రతి %d వారాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d వారం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">ప్రతి %d సంవత్సరాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్రతి %d సంవత్సరం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">%d కంటే ఎక్కువ అంశాలను ఎంచుకోలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ అంశాన్ని ఎంచుకోలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d ఎక్కువ ఈవెంట్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మరో %d ఈవెంట్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">జోడింపులు (%,d అంశాలు)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">జోడింపులు (%,d అంశం)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">1 ఈవెంట్‌ని ట్రాష్‌కు తరలించి, మరో %d అంశాలను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ఈవెంట్‌ని ట్రాష్‌కు తరలించి, మరో %d అంశాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">1 ఈవెంట్‌ని ట్రాష్‌కు తరలించి, %d రిమైండర్‌లను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ఈవెంట్‌ని ట్రాష్‌కు తరలించి, %d రిమైండర్‌ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">1 రిమైండర్‌ని ట్రాష్‌కు తరలించి, %d ఈవెంట్‌లను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 రిమైండర్‌ని ట్రాష్‌కు తరలించి, %d ఈవెంట్‌ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">1 రిమైండర్‌ని ట్రాష్‌కు తరలించి, మరో %d అంశాలను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 రిమైండర్‌ని ట్రాష్‌కు తరలించి, మరో %d అంశాన్ని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">1 రిమైండర్‌ని ట్రాష్‌కు తరలించి, %d విధులను తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 రిమైండర్‌ని ట్రాష్‌కు తరలించి, %d విధిని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d ఈవెంట్‌లను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఈవెంట్‌ను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">%d ఈవెంట్‌లను ట్రాష్‌కు తరలించి, 1 రిమైండర్‌ని తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఈవెంట్‌ను ట్రాష్‌కు తరలించి, 1 రిమైండర్‌ను తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d అంశాలను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశాన్ని ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">%d అంశాలను ట్రాష్‌కు తరలించి, 1 విధిని తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d అంశాన్ని ట్రాష్‌కు తరలించి, 1 విధిని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d రిమైండర్‌లను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రిమైండర్‌ను ట్రాష్‌కు తరలించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">%d రిమైండర్‌లను ట్రాష్‌కు తరలించి, 1 ఈవెంట్‌ని తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రిమైండర్‌ని ట్రాష్‌కు తరలించి, 1 ఈవెంట్‌ను తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">%d రిమైండర్‌లను ట్రాష్‌కు తరలించి, 1 విధిని తొలగించాలా?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రిమైండర్‌ని ట్రాష్‌కు తరలించి, 1 విధిని తొలగించాలా?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d రోజు-మొత్తం ఈవెంట్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రోజు-మొత్తం ఈవెంట్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%2$sకు %1$d మొత్తం-రోజు ఈవెంట్‌లు ప్రారంభం అవుతాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d మొత్తం-రోజు ఈవెంట్ ప్రారంభం అవుతుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%2$sకు %1$d మొత్తం-రోజు రిమైండర్‌లు ప్రారంభం అవుతాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d మొత్తం-రోజు రిమైండర్ ప్రారంభం అవుతుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%2$sకు %1$d మొత్తం-రోజు విధులు ప్రారంభం అవుతాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d మొత్తం-రోజు విధి ప్రారంభం అవుతుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%2$sకు %1$d షెడ్యూల్ చేయబడిన ఈవెంట్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d షెడ్యూల్ చేయబడిన ఈవెంట్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%2$sకు %1$d షెడ్యూల్ చేయబడిన రిమైండర్‌లు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d షెడ్యూల్ చేయబడిన రిమైండర్</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%2$sకు %1$d షెడ్యూల్ చేయబడిన విధులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d షెడ్యూల్ చేయబడిన విధి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d వ్యక్తులు ఆహ్వానించబడ్డారు</item>
+        <item quantity="one">%d వ్యక్తి ఆహ్వానించబడ్డారు</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d రోజుల ముందు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d రోజు ముందు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d గంటల ముందు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట ముందు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d నిమిషాల ముందు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమి ముందు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">ఇప్పటి నుండి %d రోజులు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి %d రోజు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">ఇప్పటి నుండి %d గంటలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి %d గంట</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">ఇప్పటి నుండి %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">ఇప్పటి నుండి %d నెలలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి %d నెల</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">ఇప్పటి నుండి %d వారాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి %d వారం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">ఇప్పటి నుండి %d సంవత్సరాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఇప్పటి నుండి %d సంవత్సరం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">ఈవెంట్ శీర్షికల (%,d అక్షరాలు) కోసం మద్దతు ఉన్న పొడవుకు శీర్షిక కుదించబడింది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈవెంట్ శీర్షికల (%,d అక్షరం) కోసం మద్దతు ఉన్న పొడవుకు శీర్షిక కుదించబడింది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d వారాల ముందు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వారం ముందు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">%d కంటే ఎక్కువ రంగులను చూపలేరు.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d కంటే ఎక్కువ రంగుని చూపించలేరు.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">ఈ %1$s ప్రతి %2$d రోజులలో పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s ప్రతి %2$d రోజులో పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">ఈ %1$s ప్రతి %2$d గంటలలో పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s ప్రతి %2$d గంటలో పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">ఈ %1$s ప్రతి %2$d నిమిషాలలో పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s ప్రతి %2$d నిమిషంలో పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">ఈ %1$s నెలలో చివరి రోజున ప్రతి %2$d నెలలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s నెలలో చివరి రోజున ప్రతి %2$d నెల పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">ఈ %1$s నెలలో చివరి %3$sన ప్రతి %2$d నెలలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s నెలలో చివరి %3$sన ప్రతి %2$d నెల పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">ఈ %1$s నెలలో %3$s రోజున ప్రతి %2$d నెలలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s నెలలో %3$s రోజున ప్రతి %2$d నెల పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">ఈ %1$s నెలలో %3$s %4$sన ప్రతి %2$d నెలలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s నెలలో %3$s %4$sన ప్రతి %2$d నెల పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">ఈ %1$s %3$s నాడు ప్రతి %2$d వారాలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s %3$sన ప్రతి %2$d వారం పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">ఈ %1$s %3$s చివరి రోజన ప్రతి %2$d సంవత్సాలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s %3$s చివరి రోజన ప్రతి %2$d సంవత్సరం పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">ఈ %1$s %4$sలో చివరి %3$sన ప్రతి %2$d సంవత్సరాలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s %4$sలో చివరి %3$sన ప్రతి %2$d సంవత్సరం పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">ఈ %1$s %3$s %4$sన ప్రతి %2$d సంవత్సరాలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s %3$s %4$sన ప్రతి %2$d సంవత్సరం పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">ఈ %1$s %5$sలో %3$s %4$sన ప్రతి %2$d సంవత్సరాలు పునరావృతం అవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ఈ %1$s %5$sలో %3$s %4$sన ప్రతి %2$d సంవత్సరం పునరావృతం అవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d సార్లు మొత్తం</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d సారి మొత్తం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">%d మంది వ్యక్తులతో భాగస్వామ్యం చేయబడింది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d వ్యక్తితో భాగస్వామ్యం చేయబడింది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">మీకు %2$sన %1$s అనే ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు %2$sన %1$s అనే ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">మీకు %2$sన %1$d ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు %2$sన %1$d ఈవెంట్ ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">మీకు ఈరోజు %1$s అనే ఈవెంట్ మరియు %2$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు ఈరోజు %1$s అనే ఈవెంట్ మరియు %2$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">మీకు ఈ రోజు %d ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు ఈ రోజు %d ఈవెంట్‌లు ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">మీకు రేపు %1$s అనే ఈవెంట్ మరియు %2$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు రేపు %1$s అనే ఈవెంట్ మరియు %2$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">రేపు మీకు %d ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">రేపు మీకు %d ఈవెంట్ ఉంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">మీకు %2$sన %3$sకు %1$s అని పిలువబడే ఈవెంట్ మరియు %4$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు %2$sన %3$sకు %1$s అని పిలువబడే ఈవెంట్ మరియు %4$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">మీకు ఈరోజు %1$sన %2$sకు ఒక ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు %1$sన %2$sకు ఒక ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">మీకు ఈరోజు %2$sకు %1$s అని పిలువబడే ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు ఈరోజు %2$sకు %1$s అని పిలువబడే ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">మీకు ఈరోజు %1$sకు ఒక ఈవెంట్ మరియు %2$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు ఈరోజు %1$sకు ఒక ఈవెంట్ మరియ్ %2$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">మీకు రేపు %2$sకు %1$s అని పిలువబడే ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు రేపు %2$sకు %1$s అని పిలువబడే ఈవెంట్ మరియు %3$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">మీకు రేపు %2$dకు ఒక ఈవెంట్ మరియు %1$s ఇతర ఈవెంట్‌లు ఉన్నాయి.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మీకు రేపు %1$sకు ఒక ఈవెంట్ మరియు %2$d ఇతర ఈవెంట్ ఉన్నాయి.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">మైనస్ %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">మైనస్ %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">ప్లస్ %d నిమిషాలు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ప్లస్ %d నిమిషం</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s %2$d గంటల్లో ప్రారంభమవుతుంది</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d గంటలో ప్రారంభమవుతుంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s 1గంట మరియు %2$d నిమిషాలలో ప్రారంభమవుతుంది.</item>
+        <item quantity="one">%s 1 గంట మరియు 1 నిమిషంలో ప్రారంభమవుతుంది.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s %2$d నిమిషాల్లో ప్రారంభమవుతుంది.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$d నిమిషంలో ప్రారంభమవుతుంది.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">అవి స్టిక్కర్ ట్రే నుండి తీసివేయబడతాయి.</item>
+        <item quantity="one">ఇది స్టిక్కర్ ట్రే నుండి తీసివేయబడుతుంది.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">%d స్టిక్కర్‌ సెట్‌లను తొలగించాలా?</item>
+        <item quantity="one">1 స్టిక్కర్ సెట్‌ని తొలగించాలా?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">మరో %d ఈవెంట్‌లను వీక్షించు</item>
+        <item quantity="one">%d మరో ఈవెంట్‌ను వీక్షించండి</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%2$sకు %1$d వారాల ముందు</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$sకు %1$d వారం ముందు</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">రోజులు</item>
+        <item quantity="one">రోజు</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">రోజుల క్రితం</item>
+        <item quantity="one">రోజు క్రితం</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">మిగిలి ఉన్న రోజులు</item>
+        <item quantity="one">మిగిలి ఉన్న రోజు</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s మరియు మరో %2$d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s మరియు మరో %2$d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d ఈవెంట్‌లు మిగిలి ఉన్నాయి</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ఈవెంట్ మిగిలి ఉంది</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_select_all_container" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/action_button_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/action_bar_select_all_abb_width_margin_start" app:layout_constraintEnd_toEndOf="parent">
+        <FrameLayout android:id="@id/menu_cancel_text_container" android:background="@drawable/common_actionbar_ripple" android:layout_width="wrap_content" android:layout_height="@dimen/common_action_bar_ripple_height" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/header_pen_text_size" android:textColor="@color/common_actionbar_today_number_text_color" android:layout_gravity="center" android:id="@id/menu_cancel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:contentDescription="@string/cancel" android:textAlignment="center" android:layout_marginHorizontal="@dimen/header_menu_horizontal_padding" android:paddingHorizontal="@dimen/header_menu_horizontal_padding" style="@style/RobotoMediumFontStyle" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/menu_delete_btn" android:layout_width="wrap_content" android:layout_height="@dimen/common_action_bar_ripple_height" android:layout_centerVertical="true" android:contentDescription="@string/menu_string_delete" android:layout_marginEnd="@dimen/main_action_bar_last_button_padding_end" android:layout_toEndOf="@id/menu_cancel_text_container">
+            <androidx.appcompat.widget.AppCompatButton android:textColor="@color/common_actionbar_today_number_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/menu_delete_text" android:background="@drawable/main_actionbar_button_ripple" android:layout_width="@dimen/header_today_button_size" android:layout_height="@dimen/header_today_button_size" android:foreground="@drawable/calendar_bottom_bar_ic_delete" android:foregroundTint="@color/common_actionbar_today_number_text_color" style="@style/RobotoMediumFontStyle" />
+        </FrameLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

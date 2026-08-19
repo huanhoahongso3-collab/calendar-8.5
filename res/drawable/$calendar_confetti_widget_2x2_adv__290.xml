@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="66" android:valueFrom="-274.548" android:valueTo="-274.548" android:propertyName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__291" android:duration="216" android:pathData="M -274.548,2018.429 C181.118,1930.095 369.452,1506.429 369.452,1506.429" android:propertyXName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__292" android:duration="283" android:pathData="M 369.452,1506.429 C369.452,1506.429 386.544,1468.08 374.774,1483.62" android:propertyXName="translateX" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__293" android:duration="2333" android:pathData="M 374.774,1483.62 C632.793,1660.007 709.146,2107.618 455.452,2804.429" android:propertyXName="translateX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:duration="66" android:valueFrom="2018.429" android:valueTo="2018.429" android:propertyName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__294" android:duration="216" android:pathData="M -274.548,2018.429 C181.118,1930.095 369.452,1506.429 369.452,1506.429" android:propertyYName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__295" android:duration="283" android:pathData="M 369.452,1506.429 C369.452,1506.429 386.544,1468.08 374.774,1483.62" android:propertyYName="translateY" />
+        <objectAnimator android:interpolator="@drawable/$calendar_confetti_widget_2x2_adv__296" android:duration="2333" android:pathData="M 374.774,1483.62 C632.793,1660.007 709.146,2107.618 455.452,2804.429" android:propertyYName="translateY" />
+    </set>
+</set>

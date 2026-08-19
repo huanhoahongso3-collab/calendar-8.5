@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/color_bar" android:layout_width="@dimen/event_list_color_bar_width" android:layout_height="@dimen/event_list_color_bar_height" android:src="@drawable/event_list_color_bar_background" android:tint="?eventColor" android:layout_marginEnd="@dimen/list_widget_medium_start_time_horizontal_padding" />
+            <TextView android:textSize="@dimen/list_widget_start_time_text_size" android:textColor="@color/widget_preview_text_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/widget_time" android:visibility="?isAllDay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="?endTime" android:maxLines="1" android:layout_marginEnd="@dimen/list_widget_medium_start_time_horizontal_padding" style="@style/RobotoMediumFontStyle" />
+            <TextView android:textSize="@dimen/list_widget_title_text_size" android:textColor="@color/widget_preview_text_color" android:layout_gravity="start" android:id="@id/widget_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="?eventTitle" android:singleLine="true" style="@style/RobotoRegularFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/widget_icon" android:visibility="?haveSticker" android:layout_width="@dimen/list_widget_icon_size" android:layout_height="@dimen/list_widget_icon_size" android:src="?eventSticker" android:contentDescription="@null" android:layout_marginStart="@dimen/list_widget_event_icon_margin_start" />
+</LinearLayout>

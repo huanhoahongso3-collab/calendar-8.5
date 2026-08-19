@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:theme="@style/Style.Button" android:textSize="@dimen/drawer_manage_calendar_button_text_size" android:textColor="@color/drawer_manage_calendar_button_text_color_selector" android:layout_gravity="center" android:id="@id/manage_calendars_button" android:background="@drawable/drawer_button_recoil_background" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/drawer_manage_calendar_button_margin_top" android:layout_marginBottom="@dimen/drawer_manage_calendar_button_margin_bottom" android:minWidth="@dimen/drawer_manage_calendar_button_width" android:minHeight="@dimen/drawer_manage_calendar_button_height" android:text="@string/manage_calendars" android:maxLines="1" />
+</LinearLayout>

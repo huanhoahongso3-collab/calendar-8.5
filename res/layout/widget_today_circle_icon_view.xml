@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/today_widget_event_divider_top_port" android:layout_height="@dimen/today_widget_event_divider_top_height_port" style="@style/TodayWidgetAccountDividerStyle" />
+    <ImageView android:layout_gravity="center" android:id="@id/today_widget_circle_icon" android:layout_width="@dimen/today_widget_event_item_account_color_size_port" android:layout_height="@dimen/today_widget_event_item_account_color_size_port" android:src="@drawable/event_list_oval_shape" android:tint="@color/widget_today_more_event_icon_color" />
+</LinearLayout>

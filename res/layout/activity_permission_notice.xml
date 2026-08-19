@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/view_common_extended_toolbar" />
+    <com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView android:id="@id/activity_permission_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/fragment_extended_toolbar_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/permission_notice_margin_start_end" android:layout_marginEnd="@dimen/permission_notice_margin_start_end">
+                    <TextView android:id="@id/permission_notice_required" android:text="@string/permission_notice_required" style="@style/PermissionNoticeDescription" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_calendar_icon" android:padding="@dimen/permission_page_icon_padding" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" app:tint="@color/permission_notice_icon_color" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/permission_name_margin_start">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/permission_notice_default_text_color" android:id="@id/permission_calendar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_calendar_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/permission_name_margin_top">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_notifications_icon" android:padding="@dimen/permission_page_icon_padding" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" app:tint="@color/permission_notice_icon_color" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/permission_name_margin_start">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/permission_notice_default_text_color" android:id="@id/permission_notifications_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_notifications_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:id="@id/permission_notice_optional" android:layout_marginTop="@dimen/permission_notice_optional_margin_top" android:text="@string/permission_notice_optional" style="@style/PermissionNoticeDescription" />
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_location_icon" android:padding="@dimen/permission_page_icon_padding" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" app:tint="@color/permission_notice_icon_color" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/permission_name_margin_start">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/permission_notice_default_text_color" android:id="@id/permission_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_location_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/permission_name_margin_top">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_storage_icon" android:padding="@dimen/permission_page_icon_padding" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" app:tint="@color/permission_notice_icon_color" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/permission_name_margin_start">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/permission_notice_default_text_color" android:id="@id/permission_storage_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_storage_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/permission_name_margin_top">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/permission_contacts_icon" android:padding="@dimen/permission_page_icon_padding" android:layout_width="@dimen/permission_page_icon_size" android:layout_height="@dimen/permission_page_icon_size" app:tint="@color/permission_notice_icon_color" />
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/permission_name_margin_start">
+                            <TextView android:textSize="16.0sp" android:textColor="@color/permission_notice_default_text_color" android:id="@id/permission_contacts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/RobotoRegularFontStyle" />
+                            <TextView android:textSize="13.0sp" android:textColor="@color/permission_notice_detail_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_notice_contact_description" style="@style/RobotoRegularFontStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <TextView android:id="@id/permission_notice_optional_kr" android:layout_marginTop="@dimen/permission_notice_optional_margin_top" android:text="@string/permissions_notice_optional_description_kor" style="@style/PermissionNoticeDescription" />
+                </LinearLayout>
+                <View android:id="@id/dummy_space" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="@dimen/common_navigation_bar_height" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.samsung.android.libcalendar.common.sesl.view.CalendarNestedScrollView>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout android:id="@id/sesl_floating_toolbar_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clipToOutline="false" app:layout_anchor="@id/app_bar">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/Style.Toolbar" android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:importantForAccessibility="no" app:layout_collapseMode="pin" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingToolbarLayout>
+    <com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout android:layout_gravity="bottom" android:id="@id/sesl_floating_bottom_layout" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_bottom_navigation_view_bottom_margin">
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="center_horizontal" android:id="@id/settings_bottom_navigation" android:layout_width="wrap_content" android:layout_height="wrap_content" app:itemTextAppearanceActive="@style/RobotoRegularFontStyle" app:itemTextAppearanceInactive="@style/RobotoRegularFontStyle" style="@style/Style.BottomNavigationView.Floating.IconText" />
+    </com.google.android.material.oneui.floatingactioncontainer.FloatingBottomLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

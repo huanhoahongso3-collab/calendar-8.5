@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/detail_app_bar_group">
+        <item android:icon="@drawable/calendar_event_detail_bottom_ic_reply" android:id="@id/reply" android:title="@string/reply" android:contentDescription="@string/reply" app:showAsAction="always" />
+        <item android:icon="@drawable/calendar_event_detail_bottom_ic_reply_all" android:id="@id/reply_all" android:title="@string/reply_all" android:contentDescription="@string/reply_all" app:showAsAction="always" />
+        <item android:icon="@drawable/calendar_event_detail_bottom_ic_forward" android:id="@id/forward" android:title="@string/forward" android:contentDescription="@string/forward" app:showAsAction="always" />
+    </group>
+</menu>

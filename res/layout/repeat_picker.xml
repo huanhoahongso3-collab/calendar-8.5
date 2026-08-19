@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/repeat_picker_top_divider" android:background="@color/common_list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/repeat_line_height" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/repeat_picker_internal_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/repeat_picker_padding_vertical" android:paddingHorizontal="@dimen/repeat_picker_padding_horizontal">
+        <androidx.picker.widget.SeslNumberPicker android:id="@id/repeat_picker_number" android:focusable="true" android:nextFocusRight="@id/repeat_picker_unit" android:nextFocusDown="@id/repeat_picker_unit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="@dimen/repeat_alert_number_picker_width" android:minHeight="@dimen/repeat_alert_picker_height" android:layout_weight="1.0" android:focusedByDefault="true" />
+        <androidx.picker.widget.SeslNumberPicker android:id="@id/repeat_picker_unit" android:focusable="true" android:nextFocusLeft="@id/repeat_picker_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="@dimen/repeat_alert_duration_picker_width" android:minHeight="@dimen/repeat_alert_picker_height" />
+    </LinearLayout>
+    <View android:id="@id/repeat_picker_bottom_divider" android:background="@color/common_list_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/repeat_line_height" />
+</LinearLayout>

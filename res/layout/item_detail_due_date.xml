@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/due_date_container" android:background="@drawable/common_list_item_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/edit_card_common_content_padding_start" android:paddingEnd="@dimen/edit_card_common_content_padding_end">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stateListAnimator="?seslLargeTouchAnimator">
+            <ImageView android:layout_gravity="top" android:id="@id/due_date_icon" android:layout_marginTop="@dimen/edit_card_icon_margin_top" android:src="@drawable/ic_calendar_add_time" android:layout_marginEnd="@dimen/edit_card_icon_margin_end" app:tint="@color/edit_card_icon_on_tint_color" style="@style/EditCardIconStyle" />
+            <TextView android:ellipsize="end" android:id="@id/due_date" android:focusable="false" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:text="@string/add_due_date" android:maxLines="2" android:layout_weight="1.0" android:layout_marginEnd="@dimen/edit_card_common_clickable_text_padding_start_end" style="@style/TextAppearance.EditEvent_Label_basic" />
+            <ImageButton android:layout_gravity="center_vertical" android:id="@id/task_due_date_remove" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:longClickable="true" android:layout_width="@dimen/edit_card_task_remove_button_size" android:layout_height="@dimen/edit_card_task_remove_button_size" android:src="@drawable/ic_task_item_close" android:scaleType="center" android:contentDescription="@string/remove_due_date" android:tooltipText="@string/remove_due_date" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/top_divider" android:visibility="gone" style="@style/EditDividerStyle" />
+    <com.samsung.android.libcalendar.platform.view.CalendarDatePicker android:theme="@style/DatePickerTheme" android:id="@id/due_date_picker" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_card_date_picker_content_margin_top" android:layout_marginBottom="@dimen/edit_card_date_picker_content_margin_bottom" android:startYear="1902" />
+    <View style="@style/EditDividerStyle" />
+</LinearLayout>

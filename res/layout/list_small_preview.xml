@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@color/widget_preview_outside_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/list_widget_small_preview_color_bar_margin_start">
+        <ImageView android:id="@id/color_bar" android:layout_width="@dimen/list_widget_small_color_bar_width" android:layout_height="@dimen/list_widget_small_color_bar_height" android:src="@drawable/event_list_color_bar_background" android:tint="@color/preview_event_2_color" android:layout_marginEnd="@dimen/list_widget_small_color_bar_margin_end" />
+        <TextView android:textSize="@dimen/list_widget_small_time_text_size" android:textColor="@color/widget_preview_text_color" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brief_widget_preview_event_time_1_PM" android:singleLine="true" style="@style/RobotoMediumFontStyle" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/list_widget_small_title_text_size" android:textColor="@color/widget_preview_text_color" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_preview_event_2nd_title" android:singleLine="true" android:layout_marginStart="@dimen/list_widget_small_preview_title_margin_start" style="@style/RobotoRegularFontStyle" />
+</LinearLayout>

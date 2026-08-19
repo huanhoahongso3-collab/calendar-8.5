@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@android:id/background" android:background="@color/widget_today_preview_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/today_widget_large_month_padding_start" android:layout_marginEnd="@dimen/today_widget_large_list_view_container_padding_end">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/today_widget_large_month_padding_top" android:layout_marginBottom="@dimen/today_widget_large_month_padding_bottom" android:layout_weight="@integer/widget_today_preview_month_weight" android:layout_marginEnd="@dimen/today_widget_large_month_padding_end">
+            <include layout="@layout/today_widget_large_preview_day_of_week" />
+            <include layout="@layout/today_widget_large_preview_empty_week" />
+            <include layout="@layout/today_widget_large_preview_week_1st" />
+            <include layout="@layout/today_widget_large_preview_week_2nd" />
+            <include layout="@layout/today_widget_large_preview_week_3rd" />
+            <include layout="@layout/today_widget_large_preview_week_4th" />
+            <include layout="@layout/today_widget_large_preview_week_5th" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/today_widget_large_list_view_container_padding_top" android:paddingBottom="@dimen/today_widget_large_list_view_container_padding_bottom" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/widget_today_preview_list_weight">
+            <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/today_widget_large_title_container_height">
+                <TextView android:textSize="@dimen/today_widget_setting_large_header_text_size" android:textStyle="bold" android:textColor="@color/widget_preview_button_color" android:layout_gravity="start|bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/may_21" style="@style/WidgetPreviewLabel" />
+                <ImageView android:layout_gravity="end|center" android:background="@drawable/widget_today_background_color_button_add" android:padding="@dimen/today_widget_large_button_add_event_padding" android:layout_width="@dimen/today_widget_large_button_add_event_size" android:layout_height="@dimen/today_widget_large_button_add_event_size" android:src="@drawable/calendar_ic_add" android:tint="@color/widget_preview_add_icon_color" android:importantForAccessibility="no" />
+            </FrameLayout>
+            <include layout="@layout/today_widget_large_preview_list_event" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

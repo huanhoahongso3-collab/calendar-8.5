@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/update_card" android:background="@color/update_card_background_color" android:paddingTop="@dimen/update_card_margin_top" android:paddingBottom="@dimen/update_card_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/update_card_margin_start" android:paddingEnd="@dimen/update_card_margin_end">
+        <TextView android:textSize="@dimen/update_card_description_text_size" android:textColor="@color/update_card_text_color" android:ellipsize="end" android:id="@id/update_card_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/update_card_description_text_bottom_margin" android:text="@string/update_card_description" android:maxLines="4" style="@style/RobotoRegularFontStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/update_card_description" android:layout_alignParentEnd="true">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/update_card_later_button" android:text="@string/button_not_now" style="@style/TipCardButtonStyle" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/update_card_button" android:text="@string/update" style="@style/TipCardButtonStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

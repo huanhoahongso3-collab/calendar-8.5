@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/priority_container" android:background="@drawable/common_list_item_background" android:focusable="true" android:clickable="true" style="@style/EditCardLinearGuideNoPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_card_common_content_padding_start" android:layout_marginEnd="@dimen/edit_card_common_content_padding_end" android:stateListAnimator="?seslLargeTouchAnimator">
+        <ImageView android:id="@id/priority_icon" android:tint="@color/edit_card_icon_on_tint_color" android:contentDescription="@null" style="@style/EditCardIconStyle" />
+        <androidx.appcompat.widget.AppCompatSpinner android:id="@id/priority_textview" android:minHeight="@dimen/edit_card_common_content_min_height" android:prompt="@string/priorityMedium" android:dropDownWidth="wrap_content" android:importantForAccessibility="no" style="@style/EditEventSpinnerFieldStyle" />
+    </LinearLayout>
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

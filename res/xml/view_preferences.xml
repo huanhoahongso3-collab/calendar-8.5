@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/layout_setting_month_preview_2_week" android:selectable="false" android:key="preferences_month_preview" />
+    <androidx.preference.PreferenceCategory android:key="preferences_view_category">
+        <com.samsung.android.app.calendar.view.settings.EventTitleFontSizePreference android:layout="@layout/layout_setting_event_title_font_size_preference" android:title="@string/preferences_event_title_font_size" android:selectable="false" android:key="preferences_event_title_font_size" />
+        <com.samsung.android.app.calendar.view.settings.EventColorPreference android:layout="@layout/layout_setting_event_color_preference" android:title="@string/preferences_event_color" android:selectable="false" android:key="preferences_event_color" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_highlight_events_title" android:key="preferences_highlight_event_background" android:summary="@string/preferences_highlight_events_description" />
+        <androidx.preference.SwitchPreferenceCompat android:layout="@layout/layout_setting_switch_preference" android:title="@string/preferences_let_event_titles_wrap_title" android:key="preferences_show_event_title_in_2_lines" android:defaultValue="true" />
+        <com.samsung.android.app.calendar.view.settings.DarkModePreference android:title="@string/preferences_dark_mode_title" android:key="preferences_dark_mode" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="" />
+</androidx.preference.PreferenceScreen>

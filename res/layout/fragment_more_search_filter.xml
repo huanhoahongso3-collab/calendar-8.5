@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/agenda_list_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout android:id="@id/more_search_filter_list_container" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/more_search_filter_container_margin_top">
+        <com.samsung.android.app.calendar.view.agenda.MoreSearchFilterRecyclerView android:id="@id/more_search_filter_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false" android:layout_marginHorizontal="@dimen/more_search_filter_list_margin_horizontal" android:layout_marginVertical="@dimen/more_search_filter_list_margin_vertical" />
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/more_search_calendar_list_scroll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/more_search_filter_list_margin_horizontal" android:paddingVertical="@dimen/more_search_filter_list_margin_vertical">
+            <com.samsung.android.app.calendar.view.agenda.SearchFilterCalendarGroupView android:id="@id/more_search_calendar_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+        <include android:visibility="gone" layout="@layout/view_more_search_filter_list_empty" />
+    </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerFrameLayout>
+</LinearLayout>

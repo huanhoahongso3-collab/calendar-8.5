@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/empty_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/empty_list_icon_text_size" android:textColor="@color/common_no_results_text_color" android:gravity="center" android:id="@id/empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_events" style="@style/RobotoRegularFontStyle" />
+        <TextView android:textSize="@dimen/agenda_list_period_text_size" android:textColor="@color/common_list_secondary_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/period_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/agenda_empty_view_no_result_margin_bottom" android:layout_marginBottom="@dimen/agenda_empty_view_period_margin_bottom" style="@style/RobotoRegularFontStyle" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/month_event_list_location_text_size" android:textColor="@color/common_list_secondary_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enjoy_your_day" style="@style/RobotoRegularFontStyle" />
+</LinearLayout>

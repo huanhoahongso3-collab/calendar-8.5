@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/background_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/title_container" android:paddingTop="@dimen/event_popup_view_date_view_top_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/event_popup_view_title_height" android:layout_marginTop="@dimen/event_popup_view_date_margintop">
+            <com.samsung.android.app.calendar.view.month.eventpopup.PopupDateView android:layout_gravity="center_vertical" android:id="@id/date_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/event_popup_view_date_view_start_margin" />
+            <androidx.appcompat.widget.AppCompatButton android:theme="@style/Style.Button" android:textSize="@dimen/reminder_button_text_size" android:textColor="@color/reminder_button_text_color" android:layout_gravity="end|center" android:id="@id/view_in_reminder_button" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/reminder_button_width" android:minHeight="@dimen/reminder_button_height" android:text="@string/all_reminders" android:maxLines="1" android:layout_marginEnd="@dimen/reminder_button_margin_end" android:backgroundTint="@color/reminder_button_background_color" style="@style/RobotoMediumFontStyle" />
+            <FrameLayout android:layout_gravity="end|center" android:id="@id/mode_change_button_container" android:layout_width="@dimen/event_popup_view_mode_change_button_container_width" android:layout_height="fill_parent">
+                <ImageButton android:layout_gravity="start|center" android:id="@id/mode_change_button" android:background="@drawable/main_actionbar_button_ripple" android:paddingBottom="@dimen/event_popup_view_date_view_change_button_padding_bottom" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/event_popup_view_mode_change_button_size" android:layout_height="@dimen/event_popup_view_mode_change_button_size" android:src="@drawable/event_popup_mode_toggle_button" android:scaleType="center" android:tint="@color/event_popup_mode_toggle_button_color" android:importantForAccessibility="no" android:layout_marginStart="@dimen/event_popup_view_button_margin_start" />
+            </FrameLayout>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content_container_inner" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.samsung.android.app.calendar.view.common.EventPopupHeaderView android:id="@id/popup_header_view" android:layout_width="fill_parent" android:layout_height="@dimen/event_popup_header_container_height" android:paddingStart="@dimen/event_popup_list_item_padding_start" android:paddingEnd="@dimen/event_popup_list_item_padding_end" />
+            <FrameLayout android:id="@id/popup_body_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/mode_part" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/event_popup_content_bottom_margin" />
+                <include layout="@layout/layout_empty_event_and_put_sticker" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_background" android:background="@drawable/event_popup_content_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/quick_add_edit_text_height" android:layout_marginBottom="@dimen/event_popup_quick_add_container_background_margin_bottom" android:layout_marginHorizontal="@dimen/event_popup_content_padding">
+        <FrameLayout android:id="@id/popup_quick_add_container_render" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/popup_quick_add_container" android:background="@drawable/quick_add_button_background" android:layout_width="fill_parent" android:layout_height="@dimen/event_popup_quick_add_container_height" android:paddingStart="0.0dip" android:layout_marginStart="@dimen/event_popup_quick_add_start_margin" android:layout_marginEnd="@dimen/event_popup_quick_add_end_margin" android:elevation="4.0dip">
+                <com.samsung.android.app.calendar.view.quickadd.QuickAddEditText android:enabled="false" android:id="@id/popup_quick_add_edittext" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:editable="false" android:importantForAccessibility="no" style="@style/QuickAddEditTextStyle" />
+                <View android:id="@id/popup_quick_add_button" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="end|bottom" android:id="@id/fab_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="4.0dip" android:outlineProvider="none">
+            <include layout="@layout/view_main_event_popup_fab" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.samsung.android.app.calendar.view.timeline.main.TimelineDragSuperPaneView android:id="@id/timeline_dragpane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.samsung.android.app.calendar.view.month.dragdrop.DragSuperPaneView android:id="@id/list_dragpane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

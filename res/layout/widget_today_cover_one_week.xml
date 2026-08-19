@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/widget_day_container" android:layout_width="fill_parent" android:layout_height="@dimen/widget_today_cover_day_of_week_item_size" android:layout_marginBottom="@dimen/widget_today_cover_day_of_week_item_margin_bottom" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_1st" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_2nd" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_3rd" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_4th" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_5th" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_6th" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+    <FrameLayout android:background="@color/cover_widget_number_focus_color" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/day_7th" style="@style/TodayCoverWidgetWeekTextStyle" />
+    </FrameLayout>
+</LinearLayout>

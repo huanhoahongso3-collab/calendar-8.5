@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/timezone_row" android:background="@drawable/common_list_item_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edit_card_common_content_min_height" android:stateListAnimator="?seslLargeTouchAnimator" android:paddingHorizontal="@dimen/edit_card_common_content_padding_start">
+        <ImageView android:id="@id/timezone_icon" android:src="@drawable/ic_calendar_add_timezone" android:tint="@color/edit_card_icon_on_tint_color" android:contentDescription="@null" style="@style/EditCardIconStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/timezone_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_card_common_content_margin_top_bottom" android:layout_marginBottom="@dimen/edit_card_common_content_margin_top_bottom">
+            <TextView android:id="@id/timezone_main_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" style="@style/EditEventTextFieldStyle" />
+            <TextView android:textColor="@color/common_text_input_text_color_selector" android:id="@id/timezone_sub_text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EditEventTimezoneSubTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view_holder_divider" style="@style/EditDividerStyle" />
+</LinearLayout>

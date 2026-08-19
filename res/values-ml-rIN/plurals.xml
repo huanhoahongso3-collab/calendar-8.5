@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">+%d മറ്റ് ഇവന്‍റുകൾ</item>
+        <item quantity="one">+1 മറ്റ് ഇവന്‍റ്</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">+%d ചുമതലകൾ കൂടി</item>
+        <item quantity="one">+1 ചുമതല കൂടി</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d സംഭവങ്ങൾ</item>
+        <item quantity="one">1 ഇവന്‍റ്</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d ടാസ്ക്കുകള്‍</item>
+        <item quantity="one">1 ചുമതല</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">%d മിനിറ്റിന് ശേഷം ആരംഭിക്കുന്നു</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിനിറ്റിന് ശേഷം ആരംഭിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d ദിവസം മുമ്പ് %2$s-ന്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ദിവസം മുമ്പ് %2$s-ന്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">%d വായന-മാത്രം ഇനങ്ങൾ ഇല്ലാതാക്കാൻ കഴിയില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വായന-മാത്രം ഇനം ഇല്ലാതാക്കാൻ കഴിയില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">%d ഇവന്‍റുകളെ ശാശ്വതമായി ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇവന്‍റിനെ ശാശ്വതമായി ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">1 ആവർത്തിത ഇവന്റ് ഉൾപ്പെടെ %d ഇവന്റുകൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ആവർത്തിത ഇവന്റ് ഉൾപ്പെടെ %d ഇവന്റ് ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d ഇനങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനം ഇല്ലാതാക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">%d ൽ കൂടുതൽ അറ്റാച്ചുമെന്റുകൾ ചേർക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ൽ കൂടുതൽ അറ്റാച്ചുമെന്റ് ചേർക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d ഇനങ്ങൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">%2$s-ന് %1$s-ൽ നിന്ന് ഇല്ലാതാക്കപ്പെട്ടു. ഈ ഇവന്‍റ് എന്നന്നേയ്ക്കും ഇല്ലാതാക്കപ്പെടുന്നതിന് ശേഷിക്കുന്നത് %3$d ദിവസം.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$s-ൽ നിന്ന് ഇല്ലാതാക്കപ്പെട്ടു. ഈ ഇവന്‍റ് എന്നന്നേയ്ക്കും ഇല്ലാതാക്കപ്പെടുന്നതിന് ശേഷിക്കുന്നത് %3$d ദിവസം.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">ഇല്ലാതാക്കലിന് ഇനി %d ദിവസം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇല്ലാതാക്കലിന് ഇനി %d ദിവസം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d ഡ്യൂപ്ലിക്കേറ്റ് ഇവന്‍റുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഡ്യൂപ്ലിക്കേറ്റ് ഇവന്‍റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d മിനിറ്റ് ലഘുനിദ്രയിലാക്കുക</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിനിറ്റ് ലഘുനിദ്രയിലാക്കുക</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">സൂചനകൾ %d-ൽ കൂടുതൽ ക്രമീകരിക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">സൂചന %d-ൽ കൂടുതൽ ക്രമീകരിക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">അക്ഷരങ്ങൾ %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അക്ഷരം %d-ൽ കൂടുതൽ നൽകാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">ഓരോ %d ദിവസത്തിലും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d ദിവസത്തിലും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">ഓരോ %d മണിക്കൂറിലും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d മണിക്കൂറിലും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">ഓരോ %d മിനിറ്റിലും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d മിനിറ്റിലും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">ഓരോ %d മാസത്തിലും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d മാസവും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">ഓരോ %d ആഴ്ചയിലും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d ആഴ്ചയിലും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">ഓരോ %d വർഷത്തിലും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഓരോ %d വർഷവും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">ഇനങ്ങൾ %d-ൽ കൂടുതൽ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇനം %d-ൽ കൂടുതൽ തിരഞ്ഞെടുക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d ഇവന്‍റുകൾ കൂടി</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇവന്‍റ് കൂടി</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">അറ്റാച്ച്‌മെന്റുകൾ (%,d ഇനങ്ങൾ)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">അറ്റാച്ച്‌മെന്റുകൾ (%,d ഇനം)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">1 ഇവന്റിനെ ട്രാഷിലേക്ക് നീക്കുകയും മറ്റ് %d ഇനങ്ങളെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ഇവന്റിനെ ട്രാഷിലേക്ക് നീക്കുകയും മറ്റ് %d ഇനത്തെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">1 ഇവന്‍റിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d ഓർമ്മപ്പെടുത്തലുകളെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ഇവന്റിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d ഓർമ്മപ്പെടുത്തലിനെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">1 ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d ഇവന്റുകളെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d ഇവന്റിനെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">1 ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും മറ്റ് %d ഇനങ്ങളെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും മറ്റ് %d ഇനത്തെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">1 ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d ചുമതലകളെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും %d ചുമതലയെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d ഇവന്‍റുകളെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇവന്‍റിനെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">%d ഇവന്‍റുകളെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ഓർമ്മപ്പെടുത്തലിനെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇവന്റിനെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ഓർമ്മപ്പെടുത്തലിനെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d ഇനങ്ങളെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനത്തെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">%d ഇനങ്ങളെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ചുമതലയെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇനത്തെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ചുമതലയെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d ഓർമ്മപ്പെടുത്തലുകളെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">%d ഓർമ്മപ്പെടുത്തലുകളെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ഇവന്റിനെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ഇവന്റിനെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">%d ഓർമ്മപ്പെടുത്തലുകളെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ചുമതലയെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഓർമ്മപ്പെടുത്തലിനെ ട്രാഷിലേക്ക് നീക്കുകയും 1 ചുമതലയെ ഇല്ലാതാക്കുകയും ചെയ്യണോ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d മുഴുവൻ ദിവസ ഇവന്‍റുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മുഴുവൻ ദിവസ ഇവന്‍റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">%2$s-ന് ആരംഭിക്കുന്ന %1$d മുഴുവൻ-ദിന ഇവന്റുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് ആരംഭിക്കുന്ന %1$d മുഴുവൻ-ദിന ഇവന്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">%2$s-ന് ആരംഭിക്കുന്ന %1$d മുഴുവൻ-ദിന ഓർമ്മപ്പെടുത്തലുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് ആരംഭിക്കുന്ന %1$d മുഴുവൻ-ദിന ഓർമ്മപ്പെടുത്തൽ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">%2$s-ന് ആരംഭിക്കുന്ന %1$d മുഴുവൻ-ദിന ചുമതലകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് ആരംഭിക്കുന്ന %1$d മുഴുവൻ-ദിന ചുമതല</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">%2$s-ന് %1$d ഷെഡ്യൂൾ ചെയ്ത ഇവന്റുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$d ഷെഡ്യൂൾ ചെയ്ത ഇവന്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">%2$s-ന് %1$d ഷെഡ്യൂൾ ചെയ്ത ഓർമ്മപ്പെടുത്തലുകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$d ഷെഡ്യൂൾ ചെയ്ത ഓർമ്മപ്പെടുത്തൽ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">%2$s-ന് %1$d ഷെഡ്യൂൾ ചെയ്ത ചുമതലകൾ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$d ഷെഡ്യൂൾ ചെയ്ത ചുമതല</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d mi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d ആളുകളെ ക്ഷണിച്ചു</item>
+        <item quantity="one">%d പേരെ ക്ഷണിച്ചു</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">%d ദിവസം മുമ്പ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ദിവസം മുമ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">%d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മണിക്കൂർ മുമ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">%d മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">ഇപ്പോൾ മുതൽ %d ദിവസത്തിന് ശേഷം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇപ്പോൾ മുതൽ %d ദിവസത്തിന് ശേഷം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">ഇപ്പോൾ മുതൽ %d മണിക്കൂറിന് ശേഷം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇപ്പോൾ മുതൽ %d മണിക്കൂറിന് ശേഷം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">ഇപ്പോൾ മുതൽ %d മിനിറ്റിന് ശേഷം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇപ്പോൾ മുതൽ %d മിനിറ്റിന് ശേഷം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">ഇപ്പോൾ മുതൽ %d മാസത്തിന് ശേഷം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇപ്പോൾ മുതൽ %d മാസത്തിന് ശേഷം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">ഇപ്പോൾ മുതൽ %d ആഴ്ചയ്ക്ക് ശേഷം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇപ്പോൾ മുതൽ %d ആഴ്ചയ്ക്ക് ശേഷം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">ഇപ്പോൾ മുതൽ %d വർഷത്തിന് ശേഷം</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇപ്പോൾ മുതൽ %d വർഷത്തിന് ശേഷം</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">ഇവന്റ് ശീർഷകങ്ങൾക്കായി പിന്തുണയ്ക്കുന്ന നീളത്തിലേക്ക് (%,d അക്ഷരങ്ങൾ) ശീർഷകം ചുരുക്കി.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇവന്റ് ശീർഷകങ്ങൾക്കായി പിന്തുണയ്ക്കുന്ന നീളത്തിലേക്ക് (%,d അക്ഷരം) ശീർഷകം ചുരുക്കി.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">%d ആഴ്ച മുമ്പ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ആഴ്ച മുമ്പ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">നിറങ്ങൾ %d-ൽ കൂടുതൽ കാണിക്കാനാവില്ല.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നിറം %d-ൽ കൂടുതൽ കാണിക്കാനാവില്ല.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d ദിവസത്തിലും ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d ദിവസത്തിലും ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d മണിക്കൂറിലും ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d മണിക്കൂറിലും ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d മിനിറ്റിലും ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d മിനിറ്റിലും ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ അവസാന ദിവസം ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ അവസാന ദിവസം ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ അവസാന %3$s ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ അവസാന %3$s ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ %3$s-ആമത്തെ ദിവസം ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ %3$s-ആമത്തെ ദിവസം ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ %3$s %4$s ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d മാസത്തിലും മാസത്തിലെ %3$s %4$s ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d ആഴ്ചയിലെയും %3$s ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d ആഴ്ചയിലെയും %3$s ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %3$s മാസത്തിലെ അവസാന ദിവസം ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %3$s മാസത്തിലെ അവസാന ദിവസം ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %4$s മാസത്തിലെ അവസാന %3$s ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %4$s മാസത്തിലെ അവസാന %3$s ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %3$s %4$s-ന് ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %3$s %4$s-ന് ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %5$s മാസത്തിലെ %3$s %4$s ആവർത്തിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഈ %1$s ഓരോ %2$d വർഷത്തിലും %5$s മാസത്തിലെ %3$s %4$s ആവർത്തിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">മൊത്തം %d തവണ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">മൊത്തം %d തവണ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">%d ആളുകളുമായി പങ്കിട്ടു</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d വ്യക്തിയുമായി പങ്കിട്ടു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">%2$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">%2$s-ന് %1$d ഇവന്‍റുകൾ നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s-ന് %1$d ഇവന്‍റ് നിങ്ങള്‍ക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">ഇന്ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇന്ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">ഇന്ന് %d ഇവന്‍റുകൾ നിങ്ങള്‍ക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇന്ന് %d ഇവന്‍റ് നിങ്ങള്‍ക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">നാളെ %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നാളെ %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">നാളെ %d ഇവന്‍റുകൾ നിങ്ങള്‍ക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നാളെ %d ഇവന്‍റ് നിങ്ങള്‍ക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">%2$s %3$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %4$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$s %3$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %4$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">%1$s %2$s-ന് ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s %2$s-ന് ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">ഇന്ന് %2$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇന്ന് %2$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">ഇന്ന് %1$s-ന് ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ഇന്ന് %1$s-ന് ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">നാളെ %2$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നാളെ %2$s-ന് %1$s എന്ന പേരുള്ള ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %3$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">നാളെ %1$s-ന് ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റുകളും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">നാളെ %1$s-ന് ഒരു ഇവന്‍റും കൂടാതെ മറ്റ് %2$d ഇവന്‍റും നിങ്ങൾക്കുണ്ട്.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">മൈനസ് %d മിനിറ്റ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">മൈനസ് %d മിനിറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">പ്ലസ് %d മിനിറ്റ്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">പ്ലസ് %d മിനിറ്റ്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%2$d മണിക്കൂറിന് ശേഷം %1$s ആരംഭിക്കും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d മണിക്കൂറിന് ശേഷം %1$s ആരംഭിക്കും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">1 മണിക്കൂർ %2$d മിനിറ്റിൽ %1$s ആരംഭിക്കും.</item>
+        <item quantity="one">1 മണിക്കൂർ 1 മിനിറ്റിൽ %s ആരംഭിക്കും.</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%2$d മിനിറ്റിന് ശേഷം %1$s ആരംഭിക്കും.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%2$d മിനിറ്റിന് ശേഷം %1$s ആരംഭിക്കും.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">സ്റ്റിക്കർ ട്രേയിൽ നിന്നും അവ നീക്കംചെയ്യപ്പെടും.</item>
+        <item quantity="one">ഇത് സ്റ്റിക്കർ ട്രേയിൽ നിന്നും നീക്കംചെയ്യും.</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">%d സ്റ്റിക്കർ കൂട്ടങ്ങൾ ഇല്ലാതാക്കണോ?</item>
+        <item quantity="one">1 സ്റ്റിക്കർ കൂട്ടം ഇല്ലാതാക്കണോ?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">%d ഇവന്‍റുകൾ കൂടി കാണുക</item>
+        <item quantity="one">%d ഇവന്‍റ് കൂടി കാണുക</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d ആഴ്ച മുമ്പ് %2$s-ന്</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ആഴ്ച മുമ്പ് %2$s-ന്</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">ദിവസങ്ങൾ</item>
+        <item quantity="one">ദിവസം</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">ദിവസങ്ങൾക്ക് മുമ്പ്</item>
+        <item quantity="one">ദിവസം മുമ്പ്</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">ശേഷിക്കുന്ന ദിവസങ്ങൾ</item>
+        <item quantity="one">ശേഷിക്കുന്ന ദിവസം</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s, കൂടാതെ %2$d എണ്ണവും</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s, കൂടാതെ %2$d എണ്ണവും</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d ഇവന്റുകൾ ശേഷിക്കുന്നു</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ഇവന്റ് ശേഷിക്കുന്നു</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

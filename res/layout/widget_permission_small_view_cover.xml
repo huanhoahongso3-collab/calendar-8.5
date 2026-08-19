@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/permission_view_cover" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/widget_cover_bg" android:tint="@color/widget_cover_bg_color" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/widget_small_today_cover_permission_text_title_size" android:textColor="@color/widget_small_today_cover_permission_title_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/permission_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginHorizontal="@dimen/widget_small_permission_view_content_margin_horizontal" style="@style/RobotoRegularFontStyle" />
+</FrameLayout>

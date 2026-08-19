@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout android:id="@id/container" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/background_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingHorizontal="@dimen/search_list_item_background_container_margin_horizontal">
+        <LinearLayout android:orientation="horizontal" android:id="@id/slide_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/selection_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/agenda_item_checkbox_margin_start" android:layout_marginEnd="@dimen/agenda_item_checkbox_margin_end" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/main_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:gravity="center_horizontal" android:id="@id/timeTextView_container" android:layout_width="@dimen/event_list_start_time_width" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:id="@id/reminder_all_day_icon" android:layout_width="@dimen/agenda_list_item_reminder_icon_size" android:layout_height="@dimen/agenda_list_item_reminder_icon_size" android:src="@drawable/calendar_list_ic_reminder" />
+                        <TextView android:textSize="@dimen/month_event_list_time_text_size" android:textColor="@color/common_list_main_text_color" android:id="@id/timeTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:textAlignment="center" android:paddingVertical="@dimen/event_list_start_time_vertical_padding" style="@style/RobotoMediumFontStyle" />
+                    </FrameLayout>
+                    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageView android:layout_gravity="center" android:id="@id/reminder_icon" android:layout_width="@dimen/agenda_list_item_reminder_icon_size" android:layout_height="@dimen/agenda_list_item_reminder_icon_size" android:src="@drawable/calendar_list_ic_reminder" android:layout_marginEnd="1.0dip" />
+                        <TextView android:textSize="@dimen/event_popup_view_list_first_line_text_size" android:textColor="@color/common_list_main_text_color" android:ellipsize="end" android:gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" style="@style/RobotoRegularFontStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <View android:layout_gravity="center" android:id="@id/space" android:layout_width="@dimen/agenda_list_item_reminder_icon_size" android:layout_height="@dimen/agenda_list_item_reminder_icon_size" android:src="@drawable/calendar_list_ic_reminder" android:layout_marginEnd="1.0dip" />
+                    <TextView android:textSize="@dimen/month_event_list_location_text_size" android:textColor="@color/common_list_secondary_text_color" android:id="@id/location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" android:layout_marginStart="@dimen/search_list_item_reminder_location_margin_start" style="@style/RobotoRegularFontStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/divider_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@id/agenda_item_separator" style="@style/Winset_List_Item_Divider" />
+    </FrameLayout>
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerRelativeLayout>

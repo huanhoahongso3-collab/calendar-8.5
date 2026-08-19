@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/section_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityHeading="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_marginBottom="@dimen/search_list_item_section_margin_bottom" android:layout_marginHorizontal="@dimen/search_list_item_section_margin_horizontal" android:accessibilityHeading="true" style="@style/Winset_List_Sub_Header">
+        <LinearLayout android:orientation="horizontal" android:id="@id/slide_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <CheckBox android:layout_gravity="center_vertical" android:id="@id/selection_checkbox" android:background="@null" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/search_list_item_check_box_margin_start" android:layout_marginEnd="@dimen/search_list_item_check_box_margin_end" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/winset_list_subheader_text_size" android:textColor="@color/common_today_number_text_color" android:layout_gravity="start|center" android:id="@id/today" android:background="@drawable/agenda_item_section_today_background" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/today" android:layout_marginEnd="@dimen/search_list_item_section_today_margin_end" android:paddingHorizontal="@dimen/agenda_list_item_section_today_padding_horizontal" android:paddingVertical="@dimen/agenda_list_item_section_today_padding_vertical" style="@style/RobotoMediumFontStyle" />
+                    <TextView android:layout_gravity="start|center" android:id="@id/date" android:clickable="false" android:layout_width="wrap_content" android:paddingStart="0.0dip" style="@style/Winset_List_Sub_Header_Text" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/one_line_sub_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/agenda_item_lunar_date_text_size" android:layout_gravity="start|center" android:id="@id/one_line_lunar_date" android:layout_width="wrap_content" android:paddingStart="@dimen/agenda_item_lunar_date_padding_start" android:paddingEnd="@dimen/agenda_item_lunar_date_padding_end" style="@style/Winset_List_Sub_Text_Style" />
+                        <ImageView android:layout_gravity="start|center" android:id="@id/one_line_weather" android:layout_width="@dimen/month_weather_icon_width" android:layout_height="@dimen/month_weather_icon_width" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/two_line_sub_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/winset_list_subheader_start_padding">
+                    <TextView android:textSize="@dimen/agenda_item_lunar_date_text_size" android:layout_gravity="start|center" android:id="@id/two_line_lunar_date" android:layout_width="wrap_content" android:paddingEnd="@dimen/agenda_item_lunar_date_padding_end" style="@style/Winset_List_Sub_Text_Style" />
+                    <ImageView android:layout_gravity="start|center" android:id="@id/two_line_weather" android:layout_width="@dimen/month_weather_icon_width" android:layout_height="@dimen/month_weather_icon_width" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/sticker" android:visibility="gone" android:layout_width="@dimen/month_event_list_item_icon_size" android:layout_height="@dimen/month_event_list_item_icon_size" />
+            <ImageView android:layout_gravity="center" android:id="@id/sticker2" android:visibility="gone" android:layout_width="@dimen/month_event_list_item_icon_size" android:layout_height="@dimen/month_event_list_item_icon_size" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

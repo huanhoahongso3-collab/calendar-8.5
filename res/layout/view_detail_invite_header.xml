@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/response_header_container" android:focusable="true" style="@style/Winset_List_Sub_Header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/text_response" style="@style/Winset_List_Sub_Header_Text" />
+</LinearLayout>

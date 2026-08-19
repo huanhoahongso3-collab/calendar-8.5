@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="?android:colorPrimaryDark" android:alpha="@dimen/basic_interaction_selected_color_alpha" />
+    <item android:color="@color/common_window_background_color" />
+</selector>

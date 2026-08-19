@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.graphics.drawable.SeslRecoilDrawable app:seslRecoilColor="@color/common_controller_ripple_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/sticker_picker_background_color" />
+            <corners android:radius="@dimen/sticker_picker_item_check_background_corner" />
+        </shape>
+    </item>
+</androidx.appcompat.graphics.drawable.SeslRecoilDrawable>

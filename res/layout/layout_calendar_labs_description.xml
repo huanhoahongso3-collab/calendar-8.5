@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/description_text_container" android:background="@color/calendar_labs_description_round_and_bgcolor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/settings_description_horizontal_padding" android:paddingEnd="@dimen/settings_description_horizontal_padding">
+        <TextView android:id="@id/help_description_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preferences_labs_try_out_experimental_features" style="@style/CalendarLabsDescriptionText" />
+    </LinearLayout>
+</LinearLayout>

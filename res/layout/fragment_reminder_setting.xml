@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/reminder_setting_container" android:background="@color/theme_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/reminder_switch_container" android:background="@drawable/recoil_list_main_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/reminder_on_off_container_height" android:stateListAnimator="?seslLargeTouchAnimator" android:paddingHorizontal="@dimen/reminder_on_off_side_padding" android:paddingVertical="@dimen/reminder_on_off_switch_top_bottom_padding">
+                <TextView android:textSize="@dimen/reminder_on_off_label_text_size" android:textColor="@color/common_main_switch_on_text_color" android:id="@id/reminder_switch_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_on" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/RobotoMediumFontStyle" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/reminder_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/alert_content_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:paddingStart="@dimen/settings_description_horizontal_padding" android:paddingEnd="@dimen/settings_description_horizontal_padding">
+            <TextView android:id="@id/help_description_text" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CalendarLabsDescriptionText" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/alert_content_layout" android:background="@color/common_window_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/alert_item_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:splitMotionEvents="false" />
+                <LinearLayout android:orientation="vertical" android:id="@id/alert_picker_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.samsung.android.libcalendar.picker.repeat.view.common.RepeatPicker android:id="@id/alert_custom_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" app:dividerMargin="@dimen/repeat_picker_divider_margin" app:pickerMargin="@dimen/repeat_picker_margin_horizontal" />
+                    <androidx.picker.widget.SeslTimePicker android:id="@id/alert_time_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/container_margin_horizontal" android:layout_marginVertical="@dimen/repeat_picker_padding_vertical" />
+                </LinearLayout>
+            </com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/alert_content_layout_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:orientation="vertical" android:id="@id/mask_view" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:id="@id/mask_empty_view" android:background="@color/theme_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+        <include layout="@layout/view_setting_list_empty_footer" />
+    </LinearLayout>
+</LinearLayout>

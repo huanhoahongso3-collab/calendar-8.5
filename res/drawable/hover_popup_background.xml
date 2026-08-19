@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/event_popup_background_radius" />
+    <solid android:color="@color/theme_content_area_color" />
+    <stroke android:width="@dimen/hover_popup_stroke_width" android:color="@color/hover_popup_stroke_color" />
+</shape>

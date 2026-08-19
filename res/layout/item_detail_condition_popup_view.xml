@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/popup_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/add_condition_duration_type_margin" android:paddingVertical="@dimen/add_condition_popup_view_text_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/popup_view_item" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/add_condition_popup_view_primary_text_size" android:textColor="@color/add_popup_window_text_color" android:id="@id/item_text_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_type_alert_light" />
+        <TextView android:textSize="@dimen/add_condition_popup_view_secondary_text_size" android:textColor="@color/add_popup_window_sub_text_color" android:id="@id/item_text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/string_type_alert_light_description" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/item_check_icon" android:layout_width="@dimen/day_picker_image_size" android:layout_height="@dimen/day_picker_image_size" android:src="@drawable/opentheme_selected_mark_icon_image" android:layout_marginStart="@dimen/day_picker_image_margin_end" />
+</LinearLayout>

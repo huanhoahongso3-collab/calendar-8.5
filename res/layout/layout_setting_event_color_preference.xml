@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/common_window_background_color" android:paddingTop="@dimen/winset_list_item_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItem" android:ellipsize="end" android:id="@id/event_color_title" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/preferences_event_color" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_event_color_layout_margin_top" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_event_color_layout_margin_bottom" android:layout_marginHorizontal="@dimen/settings_event_color_layout_margin_horizontal">
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/event_color_very_muted_container" android:focusable="true" android:layout_alignParentStart="true" style="@style/EventColorTitleParent">
+                <ImageView android:id="@id/event_color_very_muted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_event_color_image_margin_bottom" android:src="@drawable/event_color_very_muted" android:layout_alignParentStart="true" />
+                <TextView android:id="@id/event_color_very_muted_title" android:text="@string/preferences_event_color_very_muted" style="@style/EventColorTitle" />
+                <RadioButton android:layout_gravity="center_horizontal" android:id="@id/event_color_very_muted_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/preferences_event_color_very_muted" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/event_color_muted_container" android:focusable="true" android:layout_centerInParent="true" style="@style/EventColorTitleParent">
+                <ImageView android:id="@id/event_color_muted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_event_color_image_margin_bottom" android:src="@drawable/event_color_muted" android:layout_centerInParent="true" />
+                <TextView android:id="@id/event_color_muted_title" android:text="@string/preferences_event_color_muted" style="@style/EventColorTitle" />
+                <RadioButton android:layout_gravity="center_horizontal" android:id="@id/event_color_muted_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/preferences_event_color_muted" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/event_color_bright_container" android:focusable="true" android:layout_alignParentEnd="true" style="@style/EventColorTitleParent">
+                <ImageView android:id="@id/event_color_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_event_color_image_margin_bottom" android:src="@drawable/event_color_bright" android:layout_alignParentEnd="true" />
+                <TextView android:id="@id/event_color_bright_title" android:text="@string/preferences_event_color_bright" style="@style/EventColorTitle" />
+                <RadioButton android:layout_gravity="center_horizontal" android:id="@id/event_color_bright_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/preferences_event_color_bright" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/event_color_very_bright_container" android:focusable="true" android:layout_alignParentEnd="true" style="@style/EventColorTitleParent">
+                <ImageView android:id="@id/event_color_very_bright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_event_color_image_margin_bottom" android:src="@drawable/event_color_very_bright" android:layout_alignParentEnd="true" />
+                <TextView android:id="@id/event_color_very_bright_title" android:text="@string/preferences_event_color_very_bright" style="@style/EventColorTitle" />
+                <RadioButton android:layout_gravity="center_horizontal" android:id="@id/event_color_very_bright_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/preferences_event_color_very_bright" android:importantForAccessibility="no" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.samsung.android.libcalendar.common.sesl.view.roundedcorner.RoundedCornerLinearLayout>

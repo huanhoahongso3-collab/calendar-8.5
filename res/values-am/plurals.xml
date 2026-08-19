@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="N_remaining_events">
+        <item quantity="other">%d ሌሎች ዝግጅቶች</item>
+        <item quantity="one">+1 ሌላ ዝግጅት</item>
+    </plurals>
+    <plurals name="N_remaining_tasks">
+        <item quantity="other">%d ሌሎች ተግባራት</item>
+        <item quantity="one">+1 ሌላ ተግባር</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d ዝግጅቶች</item>
+        <item quantity="one">1 ዝግጅት</item>
+    </plurals>
+    <plurals name="Ntasks">
+        <item quantity="other">%d ተግባራት</item>
+        <item quantity="one">1 ተግባር</item>
+    </plurals>
+    <plurals name="alert_starts_in_minutes">
+        <item quantity="other">በ%d ደቂቃዎች ውስጥ ይጀምራል</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ%d ደቂቃ ውስጥ ይጀምራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="day_before_at">
+        <item quantity="other">%1$d ቀናት በፊት በ %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ቀን በፊት በ %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_msg_cannot_delete_n_read_only_item">
+        <item quantity="other">%d ተነባቢ-ብቻ ንጥሎችን መሰረዝ አልተቻለም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተነባቢ-ብቻ ንጥልን መሰረዝ አልተቻለም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_permanent_event_title">
+        <item quantity="other">%d ክስተቶችን እስከመጨረሻው ይሰርዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ%d ክስተት እስከመጨረሻው ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_some_events_include_one_recur_event_notice">
+        <item quantity="other">1 ተደጋጋሚ ክስተት ጨምሮ %d ክስተቶች ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ተደጋጋሚ ክስተት ጨምሮ %d ክስተት ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="delete_these_items">
+        <item quantity="other">%d ዝርዝር ነገሮች ሰርዝ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_cant_add_more_than_attachments">
+        <item quantity="other">ከ%d በላይ አባሪዎችን ማከል አይቻልም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d በላይ አባሪ ማከል አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_file_items_count">
+        <item quantity="other">%d ዝርዝር ነገሮች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_permanent_info_text">
+        <item quantity="other">ከ%1$s በ%2$s ላይ ተሰርዟል። ይህ ክስተት እስከመጨረሻው እስኪሰረዝ ድረስ %3$d ቀናት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%1$s በ%2$s ላይ ተሰርዟል። ይህ ክስተት እስከመጨረሻው እስኪሰረዝ ድረስ %3$d ቀን።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detete_remaining_day">
+        <item quantity="other">%d ቀናት እስኪሰረዝ ድረስ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ቀን እስኪሰረዝ ድረስ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="duplicate_events_count">
+        <item quantity="other">%d የተባዙ ክስተቶች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የተባዛ ዝግጅት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="dynamic_snooze">
+        <item quantity="other">%d ደቂቃዎች አሸልብ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ደቂቃ አሸልብ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_event_reminder_cant_set_more_than_alerts">
+        <item quantity="other">ከ%d በላይ ማንቂያዎችን ማዘጋጀት አይቻልም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ማንቂያ ማዘጋጀት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_character_limit">
+        <item quantity="other">ከ%d በላይ ቁምፊዎችን ማስገባት አይቻልም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቁምፊ ማስገባት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="edit_text_more_than_limit">
+        <item quantity="other">ከ%d በላይ ቁምፊዎችን ማስገባት አይቻልም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቁምፊ ማስገባት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_days">
+        <item quantity="other">በየ %d ቀናት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ቀን</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_hours">
+        <item quantity="other">በየ %d ሰዓታት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ሰዓት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_minutes">
+        <item quantity="other">በየ %d ደቂቃዎች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_months">
+        <item quantity="other">በየ %d ወሩ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ወር</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_weeks">
+        <item quantity="other">በየ %d ሳምንታት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ሳምንት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="every_n_years">
+        <item quantity="other">በየ %d ዓመታት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በየ %d ዓመት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="maximum_participants_reached">
+        <item quantity="other">ከ%d በላይ ዝርዝር ነገሮችን መምረጥ አይቻልም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ዝርዝር ነገር በላይ መምረጥ አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="month_more_events">
+        <item quantity="other">+%d</item>
+        <item quantity="one">+1</item>
+    </plurals>
+    <plurals name="more_events">
+        <item quantity="other">%d ተጨማሪ ክስተቶች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ተጨማሪ ክስተት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_events_attachments_items">
+        <item quantity="other">ዓባሪዎች (%,d ዝርዝር ነገሮች)</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዓባሪዎች (%,d ዝርዝር ነገር)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_other_items">
+        <item quantity="other">1 ክስተት ወደ መጣያ ውሰድ እና %d ሌሎች ንጥሎችን ይሰረዝ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ዝግጅት ወደ መጣያ ወስደው %d ሌላ ዝርዝር ነገር ይሰርዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_event_to_trash_and_delete_these_reminders">
+        <item quantity="other">1 ክስተት ወደ መጣያ ይወሰድ እና %d አስታዋሾች ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ዝግጅት ወደ መጣያ ወሰድው %d ማስታወሻ ይሰረዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_events">
+        <item quantity="other">1 አስታዋሽ ወደ መጣያ ይወሰድ እና %d ክስተቶች ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ማስታወሻ ወደ መጣያ ወሰድው %d ዝግጅት ይሰረዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_items">
+        <item quantity="other">1 አስታዋሽ ወደ መጣያ ይወሰድ እና %d ሌሎች ንጥሎች ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ማስታወሻ ወደ መጣያ ይወሰድ እና %d ሌላ ዝርዝር ነገር ይሰረዝ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_one_reminder_to_trash_and_delete_these_tasks">
+        <item quantity="other">1 አስታዋሽ ወደ መጣያ ይወሰድ እና %d ተግባራት ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ማስታወሻ ወደ መጣያ ወሰድው %d ተግባር ይሰረዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash">
+        <item quantity="other">%d ክስተቶች ወደ መጣያ ይወሰዱ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝግጅት ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_events_to_trash_and_delete_one_reminder">
+        <item quantity="other">%d ክስተቶች ወደ መጣያ ይወሰዱ እና 1 አስታዋሽ ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝግጅት ወደ መጣያ ይውሰዱ እና 1 ማስታወሻ ይሰረዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash">
+        <item quantity="other">%d ዝርዝር ነገሮች ወደ መጣያ ይወሰድ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_items_to_trash_and_delete_one_task">
+        <item quantity="other">%d ንጥሎች ወደ መጣያ ይወሰዱ እና 1 ተግባር ይሰርዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝርዝር ነገር ወደ መጣያ ወስደው እና 1 ተግባር ይሰርዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash">
+        <item quantity="other">%d አስታዋሾች ወደ መጣያ ይወሰዱ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d አስታዋሽ ወደ መጣያ ይወሰድ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_event">
+        <item quantity="other">%d አስታዋሾች ወደ መጣያ ይወሰዱ እና 1 ክስተት ይሰረዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ወደ መጣያ ወሰድው 1 ዝግጅት ይሰረዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="move_these_reminders_to_trash_and_delete_one_task">
+        <item quantity="other">%d አስታዋሾች ወደ መጣያ ይወሰዱ እና 1 ተግባር ይሰርዙ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማስታወሻ ወደ መጣያ ወሰድው 1 ተግባር ይሰረዛሉ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="number_all_day_events">
+        <item quantity="other">%d የሙሉ ቀን ክስተቶች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d የሙሉ ቀን ክስተት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_events_start">
+        <item quantity="other">የ %1$d የሙሉ ቀን ዝግጅቶች በ %2$s ይጀምራሉ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$d የሙሉ ቀን ዝግጅት በ %2$s ይጀምራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_reminders_start">
+        <item quantity="other">የ %1$d የሙሉ ቀን ማስታወሻዎች በ %2$s ይጀምራሉ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$d የሙሉ ቀን ማስታወሻ በ %2$s ይጀምራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_all_day_task_start">
+        <item quantity="other">የ %1$d የሙሉ ቀን ተግባሮች በ %2$s ይጀምራሉ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$d የሙሉ ቀን ተግባር በ %2$s ይጀምራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_events">
+        <item quantity="other">የ %1$d ቀጠሮ የተያዘላቸው ዝግጅቶች በ %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$d ቀጠሮ የተያዘለት ዝግጅት በ %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_reminders">
+        <item quantity="other">የ %1$d ቀጠሮ የተያዘላቸው ማስታወሻዎች በ %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$d ቀጠሮ የተያዘለት ማስታወሻ በ %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_of_scheduled_tasks">
+        <item quantity="other">የ %1$d ቀጠሮ የተያዘላቸው ተግባሮች በ %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">የ %1$d ቀጠሮ የተያዘለት ተግባር በ %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="pd_mi">
+        <item quantity="other">%d ማይል</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ማይል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="person_invited_text">
+        <item quantity="other">%d ሰዎች ተጋብዘዋል</item>
+        <item quantity="one">%d ሰው ተጋብዟል</item>
+    </plurals>
+    <plurals name="plural_day_before">
+        <item quantity="other">ከ %d ቀናት በፊት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ቀን በፊት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_hour_before">
+        <item quantity="other">ከ %d ሰዓታት በፊት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ሰዓት በፊት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_min_before">
+        <item quantity="other">ከ %d ደቂቃዎች በፊት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ደቂቃ በፊት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_day">
+        <item quantity="other">%d ከቀናት በኋላ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ከቀን በኋላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_hour">
+        <item quantity="other">ከ%d ሰዓታት በኋላ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ሰዓት በኋላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_minute">
+        <item quantity="other">ከ%d ደቂቃዎች በኋላ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ደቂቃ በኋላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_month">
+        <item quantity="other">ከ%d ወራት በኋላ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ወር በኋላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_week">
+        <item quantity="other">ከ%d ሳምንታት በኋላ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ሳምንት በኋላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_time_preset_relative_time_year">
+        <item quantity="other">ከ%d ዓመታት በኋላ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ዓመት በኋላ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_title_shortened_to_supported_length_for_event_titles">
+        <item quantity="other">ርዕስ ለዝግጅት ርዕሶች ወደ የሚደገፍ ርዝመት አጥሯል (%,d ባህሪያት)።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ርዕስ ለዝግጅት ርዕሶች ወደ የሚደገፍ ርዝመት አጥሯል (%,d ባህሪ)።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plural_week_before">
+        <item quantity="other">ከ %d ሳምንታት በፊት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ %d ሳምንት በፊት</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="plurals_count_show_colors">
+        <item quantity="other">ከ%d በላይ ቀለሞችን ማሳየት አይቻልም።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d በላይ ቀለም ማሳየት አይቻልም።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_days">
+        <item quantity="other">ይህ %1$s በየ %2$d ቀናት ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ቀን ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_hours">
+        <item quantity="other">ይህ %1$s በየ %2$d ሰዓታት ይደግማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ሰዓት ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_minutes">
+        <item quantity="other">ይህ %1$s በየ %2$d ደቂቃዎች ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ደቂቃ ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day">
+        <item quantity="other">ይህ %1$s በየ %2$d ወራት በወሩ የመጨረሻ ቀን ይደግማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ወር በወሩ የመጨረሻ ቀን ይደግማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_monthly_last_day_of_week">
+        <item quantity="other">ይህ %1$s በየ %2$d ወሩ በመጨረሻው %3$s ላይ ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ወር በመጨረሻው %3$s ይደግማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months">
+        <item quantity="other">ይህ %1$s በየ %2$d ወሩ በ%3$s ቀን ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ወር በ%3$s ቀን ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_months_with_day">
+        <item quantity="other">ይህ %1$s በየ %2$d ወራት በ%3$s %4$s ላይ ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ወር በ%3$s %4$s ላይ ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_weeks_on">
+        <item quantity="other">ይህ %1$s በየ %2$d ሳምንታቱ በ%3$s ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d ሳምንቱ በ%3$s ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day">
+        <item quantity="other">ይህ %1$s በየ %2$d አመታት በ%3$s የመጨረሻ ቀን ይደግማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d አመት በ%3$s የመጨረሻ ቀን ይደግማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_yearly_last_day_of_week">
+        <item quantity="other">ይህ %1$s በየ %2$d አመታት በ%3$s መጨረሻ በ%4$s ውስጥ ይደግማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d አመቱ በ%3$s መጨረሻ በ%4$s ውስጥ ይደግማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years">
+        <item quantity="other">ይህ %1$s በየ %2$d አመታት በ%3$s %4$s ላይ ይደገማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d አመቱ በ%3$s %4$s ላይ ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_description_years_with_day">
+        <item quantity="other">ይህ %1$s በየ %2$d ከ%5$s በ%3$s %4$s ላይ ይደግማል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ይህ %1$s በየ %2$d አመቱ ከ%5$s በ%3$s %4$s ላይ ይደገማል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="repeat_duration_times">
+        <item quantity="other">%d ጠቅላላ ጊዜያት</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ጠቅላላ ጊዜ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="shared_with_n_people">
+        <item quantity="other">ከ%d ሰዎች ጋር ተጋርቷል</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ከ%d ሰው ጋር ተጋርቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus">
+        <item quantity="other">በ%1$s እና %2$sሌሎች ክስተቶች ላይ%3$d የሚባል ክስተት አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ%1$s እና%2$s ሌላ ክስተት ላይ%3$d የሚባል ክስተት አለህ።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_plus_for_voice">
+        <item quantity="other">በ%1$d ላይ ክስተቶች አሎት%2$s።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ%1$d ላይ ክስተት አሎት%2$s።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus">
+        <item quantity="other">ዛሬ %1$s እና %2$d የሚባል ክስተቶች አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ %1$s እና %2$d የሚባል ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_today_plus_for_voice">
+        <item quantity="other">ዛሬ %d ክስተቶች አሉዎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ %d ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus">
+        <item quantity="other">ነገ %1$s እና %2$d የሚባል ክስተቶች አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ነገ %1$s እና %2$d የሚባል ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_all_day_tomorrow_plus_for_voice">
+        <item quantity="other">ነገ %d ክስተቶች አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ነገ %d ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus">
+        <item quantity="other">በ%1$s ላይ በ%2$s እና ላይ%3$s የሚባል ሌላ ክስተት%4$d አለህ።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ%1$s በ%2$s ላይ ሲደመር%3$s የሚባል ክስተት %4$dአሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_plus_for_voice">
+        <item quantity="other">በ%1$s በ%2$s እና %3$d ሌሎች ክስተቶች ላይ አንድ ክስተት አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">በ%1$s በ%2$s እና %3$d ሌላ ክስተት ላይ አንድ ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus">
+        <item quantity="other">ዛሬ በ%1$s እና ሌሎች ክስተቶች ላይ%2$s የሚባል ክስተት %3$dአሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ በ%1$s እና%2$s ሌላ ክስተት ላይ%3$d የሚባል ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_today_plus_for_voice">
+        <item quantity="other">ዛሬ በ%1$s እና %2$d ሌሎች ክስተቶች ላይ አንድ ክስተት አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ዛሬ በ%1$s እና %2$d ሌላ ክስተት ላይ አንድ ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus">
+        <item quantity="other">ነገ በ%1$s እና%2$s ሌሎች ክስተቶች ላይ%3$d የሚባል ክስተት አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ነገ %1$s የሚባል ክስተት በ%2$s እና %3$d ሌላ ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="smartthings_event_is_at_tomorrow_plus_for_voice">
+        <item quantity="other">ነገ በ%1$s እና %2$d ሌሎች ክስተቶች ላይ አንድ ክስተት አሎት።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ነገ በ%1$s እና %2$d ሌላ ክስተት ላይ አንድ ክስተት አሎት።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_minus_min">
+        <item quantity="other">ሲቀነስ %d ደቂቃዎች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ሲቀነስ %d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="snooze_plus_min">
+        <item quantity="other">ተጨማሪ %d ደቂቃዎች</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ተጨማሪ %d ደቂቃ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour">
+        <item quantity="other">%1$s በ%2$d ሰዓቶች ውስጥ ይጀምራል</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s በ%2$d ሰዓት ውስጥ ይጀምራል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="starts_in_hour_and_minute">
+        <item quantity="other">%1$s በ 1 ሰዓት ከ %2$d ደቂቃዎች ውስጥ ይጀምራል።</item>
+        <item quantity="one">%s በ 1 ሰዓት ከ 1 ደቂቃ ውስጥ ይጀምራል።</item>
+    </plurals>
+    <plurals name="starts_in_minute">
+        <item quantity="other">%1$s በ%2$d ደቂቃዎች ውስጥ ይጀምራል።</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s በ%2$d ደቂቃ ውስጥ ይጀምራል።</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_content">
+        <item quantity="other">የተለጣፊ ትሬይ ላይ ይወገዳሉ።</item>
+        <item quantity="one">የተለጣፊ ትሬይ ላይ ይወገዳል።</item>
+    </plurals>
+    <plurals name="sticker_setting_dialog_title">
+        <item quantity="other">%d ተለጣፊ ስብስቦች ይሰረዙ?</item>
+        <item quantity="one">1 ተለጣፊ ስብስብ ይሰረዝ?</item>
+    </plurals>
+    <plurals name="view_more_event">
+        <item quantity="other">%d ተጨማሪ ዝግጅቶችን ይመልከቱ</item>
+        <item quantity="one">%d ተጨማሪ ዝግጅት ይመልከቱ</item>
+    </plurals>
+    <plurals name="week_before_at">
+        <item quantity="other">%1$d ሳምንታት በፊት በ %2$s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$d ሳምንት በፊት በ %2$s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">ቀናት</item>
+        <item quantity="one">ቀን</item>
+    </plurals>
+    <plurals name="widget_countdown_day_ago">
+        <item quantity="other">ከ ቀናት በፊት</item>
+        <item quantity="one">ከቀን በፊት</item>
+    </plurals>
+    <plurals name="widget_countdown_day_left">
+        <item quantity="other">ቀናቶች ቀርተዋል</item>
+        <item quantity="one">የቀረዎት ቀን</item>
+    </plurals>
+    <plurals name="widget_setting_selected_calendars_name">
+        <item quantity="other">%1$s እና %2$d ተጨማሪ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s እና %2$d ተጨማሪ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="widget_today_number_events_left">
+        <item quantity="other">%d ዝግጅቶች ቀርተዋል</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ዝግጅት ቀርቷል</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

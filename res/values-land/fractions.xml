@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="about_page_update_button_width_max">37.5%</fraction>
+    <fraction name="about_page_update_button_width_min">29.999996%</fraction>
+    <fraction name="timeline_popup_view_width">85.0%</fraction>
+</resources>

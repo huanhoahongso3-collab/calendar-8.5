@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.app.calendar.view.settings.UpdateCardPreference android:layout="@layout/layout_setting_update_card_preference" android:key="preferences_update_card" />
+</androidx.preference.PreferenceScreen>

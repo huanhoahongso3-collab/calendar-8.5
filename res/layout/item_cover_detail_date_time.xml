@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/item_cover_detail_date_time_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_detail_cover_date_time_bottom_margin_bottom" android:layout_marginStart="@dimen/widget_detail_cover_date_time_bottom_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/date" style="@style/DetailCoverWidgetDateTimeTextStyle" />
+    <TextView android:id="@id/time" style="@style/DetailCoverWidgetDateTimeTextStyle" />
+</LinearLayout>

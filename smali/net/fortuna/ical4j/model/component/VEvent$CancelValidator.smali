@@ -1,0 +1,141 @@
+.class Lnet/fortuna/ical4j/model/component/VEvent$CancelValidator;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lnet/fortuna/ical4j/model/Validator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lnet/fortuna/ical4j/model/component/VEvent;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "CancelValidator"
+.end annotation
+
+
+# instance fields
+.field public final synthetic m:Lnet/fortuna/ical4j/model/component/VEvent;
+
+
+# direct methods
+.method public constructor <init>(Lnet/fortuna/ical4j/model/component/VEvent;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lnet/fortuna/ical4j/model/component/VEvent$CancelValidator;->m:Lnet/fortuna/ical4j/model/component/VEvent;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final r()V
+    .locals 3
+
+    iget-object p0, p0, Lnet/fortuna/ical4j/model/component/VEvent$CancelValidator;->m:Lnet/fortuna/ical4j/model/component/VEvent;
+
+    iget-object v0, p0, Lnet/fortuna/ical4j/model/Component;->n:Lnet/fortuna/ical4j/model/PropertyList;
+
+    const-string v1, "DTSTAMP"
+
+    invoke-static {v1, v0}, Lm2/q;->f(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "DTSTART"
+
+    invoke-static {v1, v0}, Lm2/q;->f(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "ORGANIZER"
+
+    invoke-static {v2, v0}, Lm2/q;->f(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "SEQUENCE"
+
+    invoke-static {v2, v0}, Lm2/q;->f(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "UID"
+
+    invoke-static {v2, v0}, Lm2/q;->f(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "CATEGORIES"
+
+    invoke-static {v2, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "CLASS"
+
+    invoke-static {v2, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "CREATED"
+
+    invoke-static {v2, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "DESCRIPTION"
+
+    invoke-static {v2, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v2, "DTEND"
+
+    invoke-static {v2, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "DURATION"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "GEO"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "LAST-MODIFIED"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "LOCATION"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "PRIORITY"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "RECURRENCE-ID"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "RESOURCES"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "STATUS"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "SUMMARY"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "TRANSP"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "URL"
+
+    invoke-static {v1, v0}, Lm2/q;->g(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v1, "REQUEST-STATUS"
+
+    invoke-static {v1, v0}, Lm2/q;->e(Ljava/lang/String;Lnet/fortuna/ical4j/model/PropertyList;)V
+
+    const-string v0, "VALARM"
+
+    iget-object p0, p0, Lnet/fortuna/ical4j/model/component/VEvent;->q:Lnet/fortuna/ical4j/model/ComponentList;
+
+    invoke-static {v0, p0}, Ll2/i;->e(Ljava/lang/String;Lnet/fortuna/ical4j/model/ComponentList;)V
+
+    return-void
+.end method

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="today_widget_time_text">11.0dip</dimen>
+    <dimen name="today_widget_title_text">14.0dip</dimen>
+    <dimen name="widget_countdown_large_day_count_margin_bottom">6.0dip</dimen>
+    <dimen name="widget_countdown_large_padding_top">8.0dip</dimen>
+    <dimen name="widget_countdown_medium_padding_bottom">6.0dip</dimen>
+    <dimen name="widget_countdown_medium_padding_top">6.0dip</dimen>
+    <dimen name="widget_countdown_medium_sticker_size">24.0dip</dimen>
+    <dimen name="widget_countdown_preview_2x2_event_date_text_size">12.0dip</dimen>
+    <dimen name="widget_countdown_preview_2x2_title_text_size">15.0dip</dimen>
+    <dimen name="widget_countdown_small_circle_size">38.0dip</dimen>
+    <dimen name="widget_permission_view_large_widget_margin_bottom">16.0dip</dimen>
+    <dimen name="widget_permission_view_large_widget_margin_top">14.0dip</dimen>
+    <dimen name="widget_permission_view_medium_widget_margin_bottom">16.0dip</dimen>
+    <dimen name="widget_permission_view_medium_widget_margin_top">14.0dip</dimen>
+    <item type="dimen" name="widget_permission_view_sub_title_text_size">12.0</item>
+    <item type="dimen" name="widget_permission_view_text_size">14.0</item>
+</resources>

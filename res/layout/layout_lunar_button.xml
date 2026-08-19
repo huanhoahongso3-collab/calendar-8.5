@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/lunar_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/date_time_picker_lunar_button" android:minWidth="@dimen/date_time_picker_lunar_button_container_width" android:minHeight="@dimen/date_time_picker_lunar_button_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/date_time_picker_lunar_button_text_size" android:id="@id/solar_button" android:background="@drawable/common_button_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/date_time_picker_lunar_button_width" android:minHeight="@dimen/date_time_picker_lunar_button_height" android:textAlignment="center" />
+    <Button android:textSize="@dimen/date_time_picker_lunar_button_text_size" android:id="@id/lunar_button" android:background="@drawable/common_button_ripple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/date_time_picker_lunar_button_width" android:minHeight="@dimen/date_time_picker_lunar_button_height" android:textAlignment="center" />
+</LinearLayout>
