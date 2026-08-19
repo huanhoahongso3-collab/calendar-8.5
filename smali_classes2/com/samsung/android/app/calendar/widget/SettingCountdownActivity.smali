@@ -1595,7 +1595,7 @@
 
     cmp-long p1, v0, v2
 
-    if-eqz p1, :cond_e
+    nop
 
     iget p1, p0, LTa/G;->N:I
 
