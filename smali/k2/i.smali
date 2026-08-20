@@ -1283,7 +1283,7 @@
 
     invoke-static {v8, v11, v3, v10}, LBb/u;->B(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    if-eqz v2, :cond_1a
+    goto :cond_1a
 
     if-eqz v0, :cond_1a
 
